@@ -7,7 +7,7 @@ title: "Nanosystems"
 $$
 \begin{aligned}
 & \text { K. Eric Drexler } \\
-& \text { NanoSystems } \\
+& \text { Nanosystems } \\
 & \text { Machinery, } \\
 & \text { Manufacturing, } \\
 & \text { and Computation }
@@ -20,41 +20,35 @@ $$
 
 # Nanosystems 
 
-The most talked about technical book of the year.
+> The most talked about technical book of the year.
 
 -Bob Schwabach<br/>United Press International
 
-With this book, Drexler has established the field of molecular nanotechnology. The detailed analyses show quantum chemists and synthetic chemists how to build upon their knowledge of bonds and molecules to develop the manufacturing systems of nanotechnology, and show physicists and engineers how to scale down their concepts of macroscopic systems to the level of molecules.
+> With this book, Drexler has established the field of molecular nanotechnology. The detailed analyses show quantum chemists and synthetic chemists how to build upon their knowledge of bonds and molecules to develop the manufacturing systems of nanotechnology, and show physicists and engineers how to scale down their concepts of macroscopic systems to the level of molecules.
 
 -William A. Goddard III<br/>Professor of Chemistry and Applied Physics<br/>Director, Materials and<br/>Molecular Simulation Center<br/>California Institute of Technology
 
-Devices enormously smaller than before will remodel engineering, chemistry, medicine, and computer technology. How can we understand machines that are so small? Nanosystems covers it all: power and strength, friction and wear, thermal noise and quantum uncertainty. This is the book for starting the next century of engineering.
+> Devices enormously smaller than before will remodel engineering, chemistry, medicine, and computer technology. How can we understand machines that are so small? Nanosystems covers it all: power and strength, friction and wear, thermal noise and quantum uncertainty. This is the book for starting the next century of engineering.
 
 -Marvin Minsky<br/>Professor of Electrical Engineering<br/>and Computer Science<br/>Toshiba Professor of Media Arts and Sciences<br/>Massachusetts Institute of Technology
 
-What the computer revolution did for manipulating data, the nanotechnology revolution will do for manipulating matter, juggling atoms like bits... This multidisciplinary synthesis opens the door to the new field of molecular manufacturing.
+> What the computer revolution did for manipulating data, the nanotechnology revolution will do for manipulating matter, juggling atoms like bits... This multidisciplinary synthesis opens the door to the new field of molecular manufacturing.
 
 -Ralph Merkle<br/>Member of the Research Staff<br/>Computational Nanotechnology Project<br/>Xerox Palo Alto Research Center
 
-This work provides the scientific and technological foundation for the emerging field of molecular systems engineering...It is essential for anyone contemplating research in this area...a milestone in the development of the technologies that will underpin the final industrial revolution.
+> This work provides the scientific and technological foundation for the emerging field of molecular systems engineering...It is essential for anyone contemplating research in this area...a milestone in the development of the technologies that will underpin the final industrial revolution.
 
--John Walker
+-John Walker<br/>Cofounder of Autodesk, Inc.
 
-Cofounder of Autodesk, Inc.
+> It is a scholarly examination of how this technology works, a reference book for the crafters of the future.
 
-It is a scholarly examination of how this technology works, a reference book for the crafters of the future.
+-Byte
 
-$$
-\text { -Byte }
-$$
+> Demonstrates not only that nanotechnology is achievable, but shows how it will happen....takes readers from the fundamental physical principles to advanced designs for molecular components and systems.
 
-Demonstrates not only that nanotechnology is achievable, but shows how it will happen....takes readers from the fundamental physical principles to advanced designs for molecular components and systems.
+-Japan Times
 
-$$
-\text { _Japan Times }
-$$
-
-Winner, 1992 Award for Best Computer Science Book.
+> Winner, 1992 Award for Best Computer Science Book.
 
 -Association of American Publishers
 
@@ -439,9 +433,7 @@ Accordingly, they should be regarded not as portrayals of specific future develo
 
 e. Seldom seeking an optimal design in the conventional sense. In mature fields of technology, competitive pressures encourage a search for designs that are nearly optimal. In the exploratory phase of design, however, the more modest goal of workability suffices. A design can depart from optimality either (1) by being overdesigned and inefficient, or (2) by being underdesigned and unreliable. Here, (1) is acceptable, (2) is not.
 
-## f. Seldom specifying complete detail in complex systems. Given an estab-
-
- lished technology base, a designer can often describe a system at a high level of abstraction (Section 1.4.2) with confidence that compatible sets of components can be specified before placing the unit into production. This is easier if the product can be overdesigned and inefficient, because margins of safety in the initial design can then compensate for uncertainties in component performance. The approach pursued in this volume amounts to the analytical (as distinct from physical) development of a technology base with capabilities known within some error margins. The later chapters describe systems at various levels of abstraction, likewise using margins of safety to compensate for uncertainties in component performance.g. Favoring false-negative over false-positive errors in analysis. In modeling and analyzing proposed designs, one would ideally distinguish workable from unworkable designs with perfect accuracy. But since models are never exact and accurate, errors of some sort are inevitable. These errors can be of two kinds: False-positive evaluations wrongly accept an unworkable design; falsenegative evaluations wrongly reject a workable design. In exploring a new domain of technology, conclusions regarding the feasibility of systems rest on conclusions regarding the feasibility of subsystems, forming a hierarchical structure of analysis that can have several layers. A substantial rate of false-positive assessments at a subsystem level would make false-positive assessments at the system level quite likely: designs that rely on unworkable subsystems will not work, and may be beyond repair. False-negative assessments, in contrast, are relatively benign. Correcting a false-negative assessment of a rejected subsystem cannot invalidate the analysis of a system whose design omits that subsystem; indeed, correcting this error merely expands the list of workable designs. It is desirable to minimize errors of both kinds, but where uncertainties remain, it is better to bias analytical models and criteria toward safe, false-negative conclusions. This strategy guides the following chapters.
+f. Seldom specifying complete detail in complex systems. Given an established technology base, a designer can often describe a system at a high level of abstraction (Section 1.4.2) with confidence that compatible sets of components can be specified before placing the unit into production. This is easier if the product can be overdesigned and inefficient, because margins of safety in the initial design can then compensate for uncertainties in component performance. The approach pursued in this volume amounts to the analytical (as distinct from physical) development of a technology base with capabilities known within some error margins. The later chapters describe systems at various levels of abstraction, likewise using margins of safety to compensate for uncertainties in component performance.g. Favoring false-negative over false-positive errors in analysis. In modeling and analyzing proposed designs, one would ideally distinguish workable from unworkable designs with perfect accuracy. But since models are never exact and accurate, errors of some sort are inevitable. These errors can be of two kinds: False-positive evaluations wrongly accept an unworkable design; falsenegative evaluations wrongly reject a workable design. In exploring a new domain of technology, conclusions regarding the feasibility of systems rest on conclusions regarding the feasibility of subsystems, forming a hierarchical structure of analysis that can have several layers. A substantial rate of false-positive assessments at a subsystem level would make false-positive assessments at the system level quite likely: designs that rely on unworkable subsystems will not work, and may be beyond repair. False-negative assessments, in contrast, are relatively benign. Correcting a false-negative assessment of a rejected subsystem cannot invalidate the analysis of a system whose design omits that subsystem; indeed, correcting this error merely expands the list of workable designs. It is desirable to minimize errors of both kinds, but where uncertainties remain, it is better to bias analytical models and criteria toward safe, false-negative conclusions. This strategy guides the following chapters.
 
 h. Describing technological systems of novel kinds and capabilities. The objective of this volume, then, is to provide an analytical framework adequate for designing nanomechanical systems (Chapters 3 to 10), and to begin to exploit that framework by designing systems capable of processing both information (mechanical nanocomputers) and matter (molecular manufacturing systems). A further objective is to show how these systems can be implemented, starting from our present technology base (Chapters 15 and 16). Achieving these objectives can define fruitful goals for experimentation, simulation, and software development, and can provide a better basis for understanding human capabilities and choices in the coming years.
 
@@ -504,9 +496,7 @@ Appendix B discusses related work by other researchers. It returns to the fields
 
 Many chapters end with a discussion of open problems. These range from developing specific examples and analyses to developing major software systems and laboratory research programs. The discussions are not exhaustive, but are intended to highlight useful directions for research.
 
-Part
-
-## Physical Principles
+## Part I. Physical Principles
 
 ## Classical Magnitudes and Scaling Laws
 
@@ -3129,9 +3119,7 @@ Harmonic oscillators and elastic rods have positional uncertainties described by
 
 Entropic springs have positional uncertainties that scale differently with temperature. Displacement of an entropic spring does no work against elastic restoring forces, but instead does work against a mean-force potential, imposing position-dependent constraints on motions in other degrees of freedom. Descriptions of two systems have been presented.
 
-## Transitions,
-
-## Errors, and Damage
+## Transitions, Errors, and Damage
 
 ### 6.1. Overview
 
@@ -5094,9 +5082,7 @@ permits $F_{\text {compr }} \approx 4 \mathrm{nN}$. A load of this magnitude suf
 
 Unlike forces resulting from hydrostatic pressure, forces applied by mechanochemical devices can be highly anisotropic and inhomogeneous on a molecular scale: large loads (including tension, shear, and torsion) can be applied to specific atoms and bonds in a controlled manner. As noted in Section 6.4.4, these forces can cleave otherwise-stable bonds. Further, steric difficulties can be reduced by molecular compression and deformation in conventional piezochemistry (Jenner, 1985). Under mechanochemical conditions, larger effects can be obtained which can significantly offset steric difficulties posed by the mechanosynthetic requirement for bound reagents [for comparison, at $4 \mathrm{GPa}$ the atomic number density in liquid cyclohexane is increased by a factor of $\sim 1.5$ (Gray, 1972)]. In general, the availability of controlled forces of bond-breaking magnitude permits piezochemical modulation of reactions greatly exceeding that seen in solution-phase chemistry or in the comparatively low-strength, low-stiffness environment of an enzymatic active site. Section 8.5 discusses piezochemical effects in further detail.
 
-## d. Localized electrochemistry, "photochemistry." Mechanochemical sys-
-
- tems can exploit nonmechanical energy sources, for example, through electrochemistry and energy transfer via electronic excitations. Both of these mechanisms can be controlled more precisely in a mechanochemical environment than in solution or solution-surface systems.Electrochemistry finds significant use in organic synthesis (Kyriacou, 1981). Electrostatic potentials and tunneling rates can vary sharply on a molecular scale (Bockris and Reddy, 1970b), permitting molecular-scale localization of electrochemical activity. Accordingly, electrochemical processes are well suited to exploitation in a mechanochemical context; they are also subject to modulation by piezochemical means (Swaddle, 1986). In electrochemical cells, pyridine can withstand an electrode potential of $3.3 \mathrm{~V}$ without reaction and tetrahydrofuran, $-3.2 \mathrm{~V}$, both with respect to a (catalytically active) platinum electrode (Kyriacou, 1981); these potentials correspond to energy differences with a magnitude $>500 \mathrm{maJ}$ per unit charge. In field-ion microscopes (which provide one model for an electrode surface), electric fields can reach $\sim 50 \mathrm{~V} / \mathrm{nm}$ (Nanis, 1984). Chapter 11 will discuss certain aspects of electrical engineering on a nanometer scale, but electrochemical processes, despite their undoubted utility, are not exploited in the following analysis.
+d. Localized electrochemistry, "photochemistry." Mechanochemical systems can exploit nonmechanical energy sources, for example, through electrochemistry and energy transfer via electronic excitations. Both of these mechanisms can be controlled more precisely in a mechanochemical environment than in solution or solution-surface systems.Electrochemistry finds significant use in organic synthesis (Kyriacou, 1981). Electrostatic potentials and tunneling rates can vary sharply on a molecular scale (Bockris and Reddy, 1970b), permitting molecular-scale localization of electrochemical activity. Accordingly, electrochemical processes are well suited to exploitation in a mechanochemical context; they are also subject to modulation by piezochemical means (Swaddle, 1986). In electrochemical cells, pyridine can withstand an electrode potential of $3.3 \mathrm{~V}$ without reaction and tetrahydrofuran, $-3.2 \mathrm{~V}$, both with respect to a (catalytically active) platinum electrode (Kyriacou, 1981); these potentials correspond to energy differences with a magnitude $>500 \mathrm{maJ}$ per unit charge. In field-ion microscopes (which provide one model for an electrode surface), electric fields can reach $\sim 50 \mathrm{~V} / \mathrm{nm}$ (Nanis, 1984). Chapter 11 will discuss certain aspects of electrical engineering on a nanometer scale, but electrochemical processes, despite their undoubted utility, are not exploited in the following analysis.
 
 Direct photochemistry suffers from problems of localization (which do not preclude its use), but photochemical effects can often be achieved by nonphotochemical means. Photochemical processes begin with the electronic excitation of a molecule by a photon, but this energy often can migrate from molecule to molecule as a discrete exciton before inducing a chemical reaction, and this process is highly sensitive to molecular structures and positions. Accordingly, the transfer of excitons can provide a better-controlled means for achieving photochemical ends; potential applications are, however, neglected in this volume.
 e. Broadened options for catalysis. The structural requirements for mechanochemical reagents discussed in Section 8.3.2b are satisfied by many catalytic structures: some are parts of solid surfaces already, and others (e.g., many homogeneous transition metal catalysts) have analogues that can be covalently anchored to a larger structure. The remarks of Section 8.3.2b apply to small catalytic species (e.g., hydrogen and hydroxide ions).
@@ -5907,13 +5893,9 @@ Some open problems. Mechanosynthesis presents numerous open theoretical problems
 
 A long-term objective in this area is to compile a large and well-characterized set of mechanosynthetic reactions suitable for the synthesis of diamondoid structures. This, in turn, can eventually provide the basis for software able to perform retrosynthetic analysis, accepting a component design as an input and (at least in favorable instances) producing a description of a corresponding mechanosynthetic process.
 
-## Part I|
+## Part II. Components and Systems
 
-## Components and Systems
-
-## Nanoscale
-
-## Structural Components
+## Nanoscale Structural Components
 
 ### 9.1. Overview
 
@@ -6900,9 +6882,7 @@ In conventional gearing, teeth are carefully shaped (e.g., in involute curves) t
 
 Small nanomechanical gears of this class use single atoms or rows of atoms as steric teeth; any of the grooved interfaces in Figures 10.15 and 10.16 could serve this role in a strained-shell structure. As with bearings, small special-case structures are also feasible. And again, models based on rigid, circular arrays of atoms reduce computational costs while preserving the essential physics.
 
-## a. A relaxation-free model of meshing gear teeth. Figure 10.24 illustrates a
-
- model of steric gears as rigid, coplanar rings of atoms. The calculations described in this section, like those in the discussion of bearings, assume the MM2 exp-6 nonbonded potential, Eq. (3.8), with $\mathrm{H}$ atoms separated by $d_{\mathrm{a}}=$ $0.3 \mathrm{~nm}$. Again, the general nature of the results is insensitive to the choice of potential, atom type, and interatomic spacing.Figure 10.25 plots barrier heights as a function of the number of teeth $n$ (here, equal for both gears) and the separation $s_{\text {gap }}$ (see Figure 10.24). The lower family of curves shows barriers for corotation at a uniform angular velocity without slippage. The upper family of curves shows barriers for slipping of one ring with respect to another, based on a search for minimum-energy pathways at a range of rotational angles. As can be seen, with small values of $s_{\text {gap }}(<0.12 \mathrm{~nm})$
+a. A relaxation-free model of meshing gear teeth. Figure 10.24 illustrates a model of steric gears as rigid, coplanar rings of atoms. The calculations described in this section, like those in the discussion of bearings, assume the MM2 exp-6 nonbonded potential, Eq. (3.8), with $\mathrm{H}$ atoms separated by $d_{\mathrm{a}}=$ $0.3 \mathrm{~nm}$. Again, the general nature of the results is insensitive to the choice of potential, atom type, and interatomic spacing.Figure 10.25 plots barrier heights as a function of the number of teeth $n$ (here, equal for both gears) and the separation $s_{\text {gap }}$ (see Figure 10.24). The lower family of curves shows barriers for corotation at a uniform angular velocity without slippage. The upper family of curves shows barriers for slipping of one ring with respect to another, based on a search for minimum-energy pathways at a range of rotational angles. As can be seen, with small values of $s_{\text {gap }}(<0.12 \mathrm{~nm})$
 
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-74.jpg?height=417&width=659&top_left_y=182&top_left_x=423)
 
@@ -8643,9 +8623,7 @@ reduction ratio of 50 . Drive system contributions to transverse compliance then
 
 The total arm compliance estimated in Table 13.1 is $0.04 \mathrm{~m} / \mathrm{N}$, corresponding to a stiffness of $25 \mathrm{~N} / \mathrm{m}$. This permits the use of moderately compliant workpieces and reagent moieties $(\sim 0.1 \mathrm{~m} / \mathrm{N})$ while keeping error rates $\leq 10^{-15}$ in directing reactions to chemically equivalent sites separated by a single bond length (Section 8.5.5a). This stiffness also permits the application of $1 \mathrm{nN}$ forces with an elastic deflection in the arm of only $0.04 \mathrm{~nm}$. (Elastic deflection under a planned load need not contribute to positional error.)
 
-## f. Speed, productivity, and magnitude of power dissipation. To estimate
-
- the power dissipation of the manipulator system on a per-operation basis requires a model of a typical motion, which in turn requires consideration of a typical sequence of operations in the synthesis of diamondoid structures. To build such a model, let us assume a synthetic strategy based on the transfer of small moieties to a surface. The characteristic scale length of required motions can be taken as the $0.25 \mathrm{~nm}$ spacing of the bonds perpendicular to a diamond (111) surface. Efficiency favors small motions between operations. Consider an operation at a typical point (a), with subsequent operations required both at a set of $\sim 6$ neighboring points (b) and at a set of more distant points (c). After completing an operation at point (a), a large motion would be required if and only if synthetic constraints somehow demanded that each of the operations in set (b) be delayed until after executing an operation at a point (d) in set (c). Save in rare or contrived circumstances, this somewhat unusual constraint could arise only if the point (d) were adjacent to a point in set (b), thereby permitting a substantial electronic or steric interaction between them. Accordingly, the required motion distance should often be one scale-length $(0.25 \mathrm{~nm})$, occasionally be two $(0.5 \mathrm{~nm})$, and only rarely be greater. Treating $0.5 \mathrm{~nm}$ as a typical displacement distance between operations should yield conservative estimates of energy dissipation.The present arm design, however, causes substantial tip displacement in the course of executing a rotation in joints $\mathrm{J} 3$ and $\mathrm{J} 5$, which are provided chiefly to control tip orientation. Assuming that such motions are commonplace and result in tip displacements of $\sim 10 \mathrm{~nm}$, it is conservative to assume that joints $\mathrm{J} 1$ and $\mathrm{J} 2$ will commonly have to execute motions able to cause comparable but compensating tip displacements. If such motions are performed in $\sim 10^{-6} \mathrm{~s}$, the speed of the fastest sliding motion (that of the $\mathrm{J} 2$ drive ring) is $\sim 1 \mathrm{~m} / \mathrm{s}$. Assuming that phonon drag at sliding interfaces (which scales with speed squared) is the dominant power-dissipation mechanism, motion in this joint can be expected to account for a substantial fraction of the total power dissipated.
+f. Speed, productivity, and magnitude of power dissipation. To estimate the power dissipation of the manipulator system on a per-operation basis requires a model of a typical motion, which in turn requires consideration of a typical sequence of operations in the synthesis of diamondoid structures. To build such a model, let us assume a synthetic strategy based on the transfer of small moieties to a surface. The characteristic scale length of required motions can be taken as the $0.25 \mathrm{~nm}$ spacing of the bonds perpendicular to a diamond (111) surface. Efficiency favors small motions between operations. Consider an operation at a typical point (a), with subsequent operations required both at a set of $\sim 6$ neighboring points (b) and at a set of more distant points (c). After completing an operation at point (a), a large motion would be required if and only if synthetic constraints somehow demanded that each of the operations in set (b) be delayed until after executing an operation at a point (d) in set (c). Save in rare or contrived circumstances, this somewhat unusual constraint could arise only if the point (d) were adjacent to a point in set (b), thereby permitting a substantial electronic or steric interaction between them. Accordingly, the required motion distance should often be one scale-length $(0.25 \mathrm{~nm})$, occasionally be two $(0.5 \mathrm{~nm})$, and only rarely be greater. Treating $0.5 \mathrm{~nm}$ as a typical displacement distance between operations should yield conservative estimates of energy dissipation.The present arm design, however, causes substantial tip displacement in the course of executing a rotation in joints $\mathrm{J} 3$ and $\mathrm{J} 5$, which are provided chiefly to control tip orientation. Assuming that such motions are commonplace and result in tip displacements of $\sim 10 \mathrm{~nm}$, it is conservative to assume that joints $\mathrm{J} 1$ and $\mathrm{J} 2$ will commonly have to execute motions able to cause comparable but compensating tip displacements. If such motions are performed in $\sim 10^{-6} \mathrm{~s}$, the speed of the fastest sliding motion (that of the $\mathrm{J} 2$ drive ring) is $\sim 1 \mathrm{~m} / \mathrm{s}$. Assuming that phonon drag at sliding interfaces (which scales with speed squared) is the dominant power-dissipation mechanism, motion in this joint can be expected to account for a substantial fraction of the total power dissipated.
 
 To limit shear displacements of a threaded drive ring with respect to the triple-threaded torus of the worm drive, an interfacial shear stiffness of $\sim 100 \mathrm{~N} / \mathrm{m}$ is ample; the interfacial compressive stiffness can be several times this value. The corresponding values of the phonon transmission coefficient, $T_{\text {trans }}$ are $\sim 10^{-4}$ [from Eq. (7.41), assuming diamondlike materials]. Applying assumptions like those used in the bearing analyses of Section 10.4.6 to a sliding-interface area of $\sim 200 \mathrm{~nm}^{2}$ yields an estimated energy dissipation per motion of $\sim 10 \mathrm{maJ}$. An estimate of $\sim 100 \mathrm{maJ}$ per motion for the arm as a whole therefore
 
@@ -8710,9 +8688,7 @@ Some open problems. As in the previous three chapters, the task of expanding the
 
 Many of the problems of greatest interest in mill and manipulator design depend on the prior characterization of a compatible set of mechanochemical processes (as discussed at the close of Chapter 8); the discussion in this chapter highlights the interest in identifying sets of nearly thermodynamically reversible processes that can combine fuel and oxygen molecules. Various mechanical components of mill and manipulator systems (providing transport, power supply, alignment, error detection) are independent of the specifics of the mechanochemical process being performed, hence their detailed design can proceed with existing knowledge (subject, as always, to limitations in the accuracy of molecular mechanics methods).
 
-## Molecular
-
-## Manufacturing Systems
+## Molecular Manufacturing Systems
 
 ### 14.1. Overview
 
@@ -9135,7 +9111,7 @@ Molecular mill and manipulator mechanisms can be combined in architectures capab
 
 Some open problems. Far more detailed system-level descriptions of molecular manufacturing could be provided by studies that first attempt to clarify the relationship between (1) the number of distinct building-block types and (2) the range of capabilities that can be delivered by products made from those building blocks. Alternative architectures are worth considering, including architectures that incorporate greater flexibility and more extensive use of generalpurpose mechanisms. Section 14.6 can be regarded as a partial survey of open problems in automating the design of products and the specification of production processes. The literature on analogous macroscale problems is a natural point of departure for work in this area.[^39]
 
-## Implementation Strategies
+## Part III. Implementation Strategies
 
 ## Macromolecular Engineering
 
@@ -9539,9 +9515,7 @@ Each of the three approaches surveyed in this chapter grows out of experimental 
 
 Some open problems. Much of this chapter can be taken as a description of open experimental problems. On the theoretical side, it would be useful to identify sets of compatible building-block molecules for use in solution-phase synthesis or in mechanosynthesis. This is a system design problem with numerous chemical constraints, not a problem of organic synthesis per se; it will not be solved by the traditional research strategy of synthesizing individual molecules having interesting structures or useful interactions with living organisms. Molecular CAD systems for the design of structures and syntheses based on such building blocks would be of great value.
 
-## Paths to
-
-## Molecular Manufacturing
+## Paths to Molecular Manufacturing
 
 ### 16.1. Overview
 
@@ -9863,9 +9837,9 @@ To reach the first stage discussed in this chapter requires the assembly of mole
 
 Each step along this pathway will present great practical challenges, but each step will also bring valuable new capabilities. The long-term rewards, measured in terms of scientific and technological capabilities, appear large.
 
-## Methodological Issues in Theoretical Applied Science
+## Appendix A. Methodological Issues in Theoretical Applied Science
 
-## A.1. The role of theoretical applied science
+### A.1. The role of theoretical applied science
 
 This appendix discusses issues at a higher (but less mathematical) level of abstraction than the rest of this volume. It considers methodological issues associated with efforts to understand technological possibilities, examining how trade-offs in goals and intellectual effort can make possible surprisingly robust and fault-tolerant reasoning. It offers a perspective from which to judge studies of molecular nanotechnology; this perspective may be useful to researchers exploring technological possibilities in other fields.
 
@@ -9889,9 +9863,9 @@ In some instances, the systems under study may be so many steps removed from pre
 As illustrated in this volume, familiar principles of science and engineering can be used to formulate and evaluate technological concepts that are beyond the reach of implementation by present fabrication techniques. In addition to the concrete technical issues raised by molecular nanotechnology, studies of this sort raise basic issues of objective and methodology. To understand the requirements for successful reasoning in theoretical applied science, one must understand what it does and does not attempt to achieve, and how the sacrifice of one set of goals can facilitate the achievement of another. Theoretical applied science operates under stringent constraints stemming from the inability to make and test the objects it studies: It is hardly economical to develop a complex, detailed design if it is known beforehand that a system cannot be built (who
 would fund the work, and why?). More basically, if a system cannot be built, it cannot be tested. In the context of standard engineering, either of these constraints would be fatal to manufacturing and to marketplace success. The following sections show how these and related constraints can be accepted-and exploited-where the objective is knowledge rather than competitive manufactured products.
 
-## A.2. Basic issues
+### A.2. Basic issues
 
-## A.2.1. Establishing upper vs. lower bounds
+### A.2.1. Establishing upper vs. lower bounds
 
 Theoretical applied science, as pursued here, sets lower bounds on the maximum possible performance of devices by establishing the possibility of certain capabilities. Every existing device sets a lower bound on what is possible: it constitutes a proof by example. To go beyond this direct form of proof, one must apply physical theory. A brief examination of some issues associated with the study of upper and lower bounds on possible device performance may clarify the nature of theoretical applied science.
 
@@ -9900,7 +9874,7 @@ The performance of any device for some well-specified purpose is given by some m
 Successful research in theoretical applied science sets lower bounds to possible capabilities. This demands that capabilities be consistent with all relevant physical constraints, not just those needed to illustrate basic consequences of physical law. To show this, one typically engages in a process of design and analysis paralleling that of engineering. Indeed, the tested products of engineering make good points of departure for theoretical applied science: by holding dimensionless numbers constant in a design based on an existing product, a
 complex design process can sometimes be reduced (in part) to a simple scaling analysis (Chapter 2 discusses scaling laws and their limitations).
 
-## A.2.2. Are there objective, physical limits to device performance?
+### A.2.2. Are there objective, physical limits to device performance?
 
 The concept of upper and lower bounds to maximal achievable device performance presumes the existence of a limiting, maximal value. Does this make sense?
 
@@ -9910,16 +9884,16 @@ Given a function on a domain consisting of a finite set of elements, there exist
 
 The only constraints on possibility assumed in the preceding paragraph are those of physical law, excluding limitations on design and fabrication. These have a different character. Design limitations, though real, are never absolute: given a formal device-specification language, the output of a random number generator may correspond to the solution of even the hardest design problem, though typically with a negligible probability. Likewise with fabrication limitations: in the approximation that physical law is time reversible, any structure that could be destroyed can be created, though perhaps with vanishingly small probability (Drexler, 1986a). (More rigorously, given the charge-parity-time invariance of present physical theory, any device can be created with some finite probability so long as a geometrical mirror-image made of antiparticles could be destroyed.) The observation that thermal fluctuations have a finite probability of creating silicon wafers from sand, however, is of no use to semiconductor technology. To describe practical possibilities, theoretical applied science must take account of limitations on design and fabrication, even though these are not absolute in a purely physical sense.
 
-## A.2.3. Certainties, probabilities, and possibilities
+### A.2.3. Certainties, probabilities, and possibilities
 
 Research in theoretical applied science can produce results of differing confidence levels. Statements regarding simple systems can be virtually certain: "A flawless ring of diamond can be spun with a rim speed in excess of two kilometers per second without rupturing" (this follows from elementary mechanics and from the density and tensile strength of diamond). Statements regarding illdefined complex systems can likewise be virtually certain: "A physically-possible
 system of molecular machines can build a copy of itself from simple chemical compounds" (this follows from the existence of bacteria). Less certain propositions can also be of interest; indeed, the theory of rational decisions (Raiffa, 1968) indicates that information of the form "One cannot have confidence $>.95$ that capability $\mathrm{X}$ is impossible" may in some circumstances be valuable information indeed.*
 
 In practice, the nature of theoretical applied science places a premium on establishing results with near certainty, because these results frequently serve as foundations for further design and analysis. In building a complex analysis, one must take care to ensure that each required assumption is reliable, lest the overall analysis prove weak. Relative to engineering, theoretical applied science favors designs with increased safety margins and decreased commitment to a single detailed specification (i.e., retaining redundant options); both differences can make conclusions more reliable (Sections A.4.4 and A.4.6). Likewise, the standards of criticism should be stringent: if weak evidence suggests a failure mechanism, and no strong evidence counters it, then failure should be assumed to occur. Engineering complex, reliable analyses has much in common with engineering complex, reliable systems.
 
-## A.3. Science, engineering, and theoretical applied science
+### A.3. Science, engineering, and theoretical applied science
 
-## A.3.1. Science and engineering
+### A.3.1. Science and engineering
 
 Science and engineering differ in their goals. Science strives to understand how things work; engineering strives to make things work. Science takes an object as given and studies its behavior; engineering takes a behavior as given and studies how to make an object that will exhibit that behavior. Science modifies objects to probe them; engineering modifies objects to improve them. ("Science" in sentences like these can be read as shorthand for a phrase like "scientists, when acting in direct pursuit of purely scientific goals"; "engineering" and other impersonal abstractions treated as grammatical subjects can be read similarly.) This sharp conceptual distinction between science and engineering does not imply a sharp distinction among researchers or among research programs: when designing experimental apparatus, scientists do engineering; when studying novel physical systems, engineers do science. Knowledge guides action, and action yields knowledge.
 
@@ -9931,13 +9905,13 @@ Ideally, theoretical physics produces a set of foundational principles supportin
 
 Engineering produces devices, not theories. Again, experimental testing and thorough specification of physical systems play key roles. Engineering, however, faces requirements of manufacturability and competitive performance that have no parallel in physics. Further, no rigid standard of correctness demands unique answers in engineering, although competitive pressures sometimes force convergence toward a unique optimum.
 
-## A.3.2. Engineering vs. theoretical applied science
+### A.3.2. Engineering vs. theoretical applied science
 
 Like physics, theoretical applied science produces theoretical results, but these describe the capabilities of specific classes of devices rather than universal laws of nature. The following section explores the requirements for sound reasoning in this domain, where experiments are, for the moment, impossible. A major theme will be advantages that can be had during the design process by sacrificing one or more of the usual objectives of engineering, such as precise specification, present-day manufacturability, and competitive performance. Theoretical applied science offers no free lunch, no way to achieve physical engineering objectives without applying standard engineering methods. Instead, it exploits tradeoffs among objectives to achieve a general understanding of what can be made to work. Table A. 1 provides a compact overview of how various issues interact in different domains.
 
-## A.4. Issues in theoretical applied science
+### A.4. Issues in theoretical applied science
 
-## A.4.1. Product manufacturability
+### A.4.1. Product manufacturability
 
 Engineering attempts to produce functional products, usually within a one-toten-year planning horizon. Engineers must accordingly adapt their designs to the limitations of current or near-term manufacturing technologies. If a design cannot be translated into hardware (perhaps after some adjustment), it is a failure.
 
@@ -9961,7 +9935,7 @@ Table A.1. Engineering, theoretical applied science, and theoretical physics.
 
 construct instances of the class with possible tools. Molecular nanotechnology falls within the scope of theoretical applied science because it will require (and provide) manufacturing capabilities that do not yet exist.
 
-## A.4.2. Product performance
+### A.4.2. Product performance
 
 The products of engineering often face competitive tests in markets or battlefields. Competition forces engineers to pursue small advantages, though this may incur considerable expense and development risk. Competitive pressures affect engineering in far-reaching ways.
 
@@ -9974,7 +9948,7 @@ In theoretical applied science, the threat is not that a marginally superior com
 
 These considerations also decrease the value of finding and solving hard problems. By solving hard problems, an engineer is apt to gain an edge in performance, leaving competitors behind precisely because of the problem's difficulty. In theoretical applied science, this advantage disappears: the simplest analysis may still entail solving hard problems, but there is no such systematic reward for seeking them.
 
-## A.4.3. Direct experimentation
+### A.4.3. Direct experimentation
 
 In theoretical applied science, one cannot build systems and hence cannot experiment with them. This presents a key challenge.
 
@@ -9988,7 +9962,7 @@ Almost any attempt to plan and execute a major innovation in engineering will re
 
 This case for the necessity of experimentation does not apply to theoretical applied science: if competitive pressures do not force reliance on phenomena that are poorly understood and characterized, the preceding considerations do not make experimentation a condition of success. In theoretical applied science, it is legitimate and often practical to choose well-understood components that can be combined into well-understood systems. If a device or process is too poorly understood, then it cannot be used in exploratory designs. (A related argument for experimentation-the likelihood of bugs in a design based on wellunderstood components-is addressed in Section A.4.5.)
 
-## A.4.4. Accurate modeling
+### A.4.4. Accurate modeling
 
 Theoretical applied science often relies on mathematical models of physical systems. As suggested previously, the evolution of competitive systems usually requires more than just modeling, because modeling alone is less powerful than modeling combined with experimentation. Competitive pressures forbid engineers the intellectual luxury of staying on well-understood ground.
 
@@ -10007,7 +9981,7 @@ In an unknown environment, uncertainties themselves may be unknown. Accordingly,
 
 As H. Simon discusses in "The Architecture of Complexity" (Simon, 1981), structuring a system as a hierarchy of relatively independent subsystems simplifies design and analysis. One reason is that this architecture places each subsystem in a simpler, better-understood environment, reducing the difficulty of modeling its interactions with adequate accuracy.
 
-## A.4.5. Physical specification
+### A.4.5. Physical specification
 
 Theoretical applied science deals with the feasibility of classes of devices rather than with the implementation of specific designs, hence it need not provide a full and detailed specification for every proposal. In a superficial paradox, sacrificing commitment to a detailed specification can make for a more reliable conclusion.
 
@@ -10020,7 +9994,7 @@ A particular design for a complex system may have a bug, that is, an unanticipat
 
 In considering nanotechnology, there is a temptation to demand atom-byatom specifications of structures. This is necessary for sufficiently small structures, but unnecessary for many others (Section 9.5). In engineering macroscale objects today, one never specifies the positions of all the atoms, even though these objects are subject to the full constraints of engineering practice, including manufacturability and success in a competitive marketplace. In molecular nanotechnology (at least during the theoretical applied science stage), the requirements for detailed specification need not always be more strict.
 
-## A.4.6. Confidence despite reduced detail
+### A.4.6. Confidence despite reduced detail
 
 Several forms of reasoning illustrate how a partial (even nonexistent) physical specification can establish the physical feasibility of certain classes of devices. For example:
 
@@ -10031,7 +10005,7 @@ c. Encompassing options. In this approach, one attempts to establish that a rang
 
 d. Engineering analogy. The possibility of parts that are analogous to those composing a system $\mathrm{X}$ will often make possible a system analogous to $\mathrm{X}$ itself. For example, given mechanical parts analogous to conduction paths, transistors, and so forth, mechanical computers will be possible (Chapter 12). Given parts equivalent to conventional gears, bearings, motors, and so forth (Chapters 10 and 11), robotic arms will be possible (Chapter 13). To reach these conclusions, one need not specify every detail of a particular computer or robotic arm; accordingly, one can postpone enormous efforts in design, analysis, and debugging to the engineering phase. In this mode of reasoning, the chief hazard is an inadequately close analogy between the sets of parts. For example, if one proposes devices intended to be analogous to transistors, then one must consider not only the basic logic operations that each gate performs, but other characteristics important in building systems: noise tolerance, signal fan-out, and logic-level restoration. Shortcomings in these areas have caused the demise of many proposed computer devices (Keyes, 1985; Keyes, 1989). To be reliable, analogies must either be sufficiently exact, or be buttressed by an analysis of the functionally significant differences.
 
-## A.4.7. Unique answers (and confidence from "uncertainty")
+### A.4.7. Unique answers (and confidence from "uncertainty")
 
 As outlined in Section A.3, theoretical applied science is less concerned with uniquely correct answers than is theoretical physics or even engineering. In physics, only one set of theoretical predictions can be completely true; discrepancies between two theories imply that at least one must be false. In engineering, many designs may work, hence there is no uniquely correct answer in any strict sense. If each design differs in performance, however, then in a hypothetical world of idealized competition and unbounded experimentation, engineering development would converge on uniquely optimal designs.
 
@@ -10059,7 +10033,7 @@ Thus, uncertainties in theoretical applied science need not combine adversely, a
 
 Figure A.3. Many paths through an array of many choices: if many choices are likely to be correct at each step, then many (though perhaps a small fraction) of the $10^{5}$ possible paths are likely to be correct.
 
-## A.4.8. Reliable reasoning
+### A.4.8. Reliable reasoning
 
 Different kinds of errors have different effects on an analysis. Errors of optimism regarding performance have no obvious upper bound, but errors of conservatism plainly have a lower bound: present capabilities. Further, errors of optimism place costly intellectual structures at risk, since work built on such assumptions is apt to be undermined by their failure. Errors of conservatism, in contrast, strengthen intellectual structures because they can often provide a margin of safety able to compensate for inadvertently optimistic assumptions made elsewhere. A systematic bias toward errors of conservatism can make analyses more robust.
 
@@ -10069,9 +10043,9 @@ It may be objected that relaxing these constraints sacrifices most of the value 
 
 Theoretical applied science cannot substitute for experimental applied science or for engineering. Even the most reliable reasoning about a system is inferior to a physical example: real products both prove their own feasibility and enable physical accomplishments. The virtue of disciplined research in theoretical applied science is its ability to provide a partial survey of a field before experimentation and engineering become possible, offering some measure of knowledge when the alternative is ignorance.
 
-## A.5. A sketch of some epistemological issues
+### A.5. A sketch of some epistemological issues
 
-## A.5.1. Philosophy of science (i.e., of physics)
+### A.5.1. Philosophy of science (i.e., of physics)
 
 Considerable attention has been given to the problem of knowledge in science; a few notes on the problem of knowledge in engineering and theoretical applied science may be useful here. These amount to no more than a sketch, taking the views of certain philosophers of science as a point of departure.
 
@@ -10080,7 +10054,7 @@ verify such theories; they can at best (provisionally) falsify them (Popper, 196
 
 W. W. Bartley III, Popper's student and biographer, has described a generalization of the Popperian position, termed pancritical rationalism (Bartley, 1987b). This holds that views cannot be proved in any ultimate sense, but that they can be criticized in terms of background assumptions that are for the moment considered nonproblematic. This seems to reflect actual practice in the scientific community, in which theories are themselves criticized in terms of their consistency with experiments and other theories, while experimental results are criticized in the same fashion. Ideally, nothing is taken as dogma, everything is open to criticism, and ideas are winnowed in the resulting Darwinian competition. Science thus is viewed as an evolutionary process.
 
-## A.5.2. Philosophy of engineering
+### A.5.2. Philosophy of engineering
 
 Epistemological issues in engineering appear to have received little attention (though the practicalities of gathering and using knowledge in engineering have received massive attention). These epistemological issues appear to differ from those raised by physical theories.
 
@@ -10088,7 +10062,7 @@ A general physical theory characteristically makes precise statements about all 
 
 This comparison (1) neglects the problem, common to physics and engineering, of defining devices and conditions, including the ceteris paribus problem, (2) treats the notion of experimental observations as nonproblematic, (3) neglects the logical possibility that the laws of the universe might change in any manner at any time, and so forth. Nonetheless, it shows that typical propositions in engineering (e.g., "Device $D$ can accomplish goal $G$ ") can, in an important sense, be better supported by experiment than can typical propositions in physics. This is a direct consequence of their lower precision and lesser generality.
 
-## A.5.3. Philosophy of theoretical applied science
+### A.5.3. Philosophy of theoretical applied science
 
 Theoretical applied science, like engineering, makes assertions of lesser generality than does physics. A typical assertion might be of the form "Some device $D$ can accomplish goal $G$." In engineering, such assertions can be verified by demonstration (in the approximation that the experimental results are nonproblematic), but the conditions of theoretical applied science do not permit this (when demonstrations become possible, theoretical applied science is over). Further, statements of this form cannot be experimentally falsified under any circumstances, since no finite set of experiments can test all possible devices.
 
@@ -10096,11 +10070,11 @@ How can propositions in theoretical applied science be tested against reality, i
 
 To summarize, theoretical applied science takes the body of generally accepted fact and theory amassed by science and engineering as nonproblematic background knowledge. By testing propositions in theoretical applied science for consistency with this body of knowledge, they can be criticized and their likelihood judged, even when they are formally unfalsifiable by direct experimentation.* Propositions in theoretical applied science are falsifiable if one adopts the rule that any conflict with established scientific knowledge constitutes falsification. (Note that ambiguities like those in "established scientific knowledge" also appear in "experimental results": either can be clear or disputed, and both depend on theory and interpretation.) For example, all classes of device that would violate the second law of thermodynamics can immediately be rejected. A more stringent rule, adopted in the present work, rejects propositions if they are inadequately substantiated, for example, rejecting all devices that would require materials stronger than those known or described by accepted physical models. By adopting these rules for falsification and rejection, work in theoretical applied science can be grounded in our best scientific understanding of the physical world.
 
-## A.6. Theoretical applied science as intellectual scaffolding
+### A.6. Theoretical applied science as intellectual scaffolding
 
 Theoretical applied science can provide intellectual scaffolding for further study of a field. A scaffold serves the goals of architecture and must be structurally sound, yet it is judged by criteria different from those used to judge the ultimate architectural product. Like scaffolding, theoretical applied science analyses are adapted for rapid construction, and their parts may all be removed and replaced as work progresses.
 
-## A.6.1. Scaffolding for molecular manufacturing
+### A.6.1. Scaffolding for molecular manufacturing
 
 The case for molecular manufacturing is today an example of theoretical applied science. Like a scaffold, it consists of parts that join to form a structure. These[^47]parts support the physical feasibility of various capabilities. They include reasons for expecting that we can, given suitable tools and effort:
 - Engineer complex molecular objects
@@ -10116,7 +10090,7 @@ These arguments interlock: establishing the feasibility of the whole requires su
 
 As exploratory designs grow more detailed, they come to resemble descriptions of experiments in applied science, or of engineering prototypes. As the tools required for fabrication become available (perhaps speeded by a better understanding of what they can build), engineering practice will encroach on theoretical applied science, and theoretical studies will give way to experiment, production, and use. The scaffolding will then have been replaced with brick.
 
-## A.7. Conclusions
+### A.7. Conclusions
 
 Theoretical applied science draws on the enormous body of knowledge amassed by science and engineering, but exploits that knowledge for different purposes using different methodologies. Its aim is neither to describe nature nor to build devices, but to describe lower bounds to the performance achievable with physically possible classes of devices.
 
@@ -10124,33 +10098,33 @@ Theoretical applied science can achieve its goals only by sacrificing many of th
 
 In an ideal world, theoretical applied science would consume only a tiny fraction of the effort devoted to pure theoretical science, to experimentation, or to engineering. The resulting picture of technological prospects can nonetheless be of considerable value: it can indicate areas of science and technology that are likely to prove especially fruitful, and it can help us understand the opportunities and challenges that technological development is likely to bring.
 
-## Related Research
+## Appendix B. Related Research
 
-## B.1. Overview
+### B.1. Overview
 
 The present volume analyzes the capabilities of nanomechanical systems, including computers and manufacturing systems able to construct additional nanomechanical systems. There has been an enormous amount of relevant work in chemistry, statistical mechanics, solid-state physics, mechanical engineering, and so forth; portions of that work are cited throughout the previous chapters and form their foundation. Nonetheless, despite prior discussions of biologicalstyle mechanisms (i.e., molecules and polymer-based molecular machines interacting in solution), and numerous proposals, efforts, and successes in building microscale, nanoscale, and molecular devices, there has until recently been little published work by other authors that parallels the direction taken here.* Accordingly, much of this appendix discusses adjacent fields.
 
 Section B. 2 describes how these fields have been divided in their methods and objectives. Sections B. 3 to B. 6 survey relevant work in the fields of mechanical engineering, microtechnology, chemistry, molecular biology, and protein engineering. Section B. 7 discusses proximal probe experiments that have demonstrated limited forms of molecular manipulation. Finally, Section B. 8 discusses the remarkably foresighted suggestions made by R. Feynman in 1959.
 
-## B.2. How related fields have been divided
+### B.2. How related fields have been divided
 
-## B.2.1. Scientific goals vs. technological goals
+### B.2.1. Scientific goals vs. technological goals
 
 The construction of molecular manufacturing systems, like the construction of conventional manufacturing systems, is a technological goal. In many countries (e.g., the U.S.), the study of molecules is usually taught as chemistry and defined[^48]as a natural science. As materials science is to integrated circuit design, and as physics is to mechanical engineering, so chemistry is to molecular engineering: a distinct but intimately related discipline. It would be remarkable if materials scientists developed computers, or if physicists developed automobiles; likewise, it is not surprising that chemists have not developed molecular manufacturing systems.
 
-## B.2.2. Top-down vs. bottom-up approaches
+### B.2.2. Top-down vs. bottom-up approaches
 
 Engineering systems today range from macroscopic to microscopic, with active research on building electronic and mechanical systems on ever-smaller scales using microtechnologies. The micron scale, however, is volumetrically $10^{9}$ times larger than the nanometer scale, and existing microtechnologies provide no mechanism for gaining precise, molecular control of the surface and interior of a complex, three-dimensional structure. A wide gap has separated the top-down path of microtechnology (starting with large, complex, and irregular structures) from the bottom-up path of chemistry (starting with small, simple, and exact structures). In microtechnology, the challenge is to make imprecise structures smaller; in chemical synthesis, the challenge is to make precise structures larger. An engineering discipline is only now forming around the latter goal.
 
-## B.2.3. Immediate goals vs. long-term prospects
+### B.2.3. Immediate goals vs. long-term prospects
 
 Science and technology are united by a focus on what can be made or tested within a few years. The molecular sciences are centered around the laboratory, and hence around current capabilities. Engineering is centered around the workshop, again binding creative thought to current capabilities. In most sciences, theoretical work is scarce relative to experimental work (the abundant output of theoretical physics is an outstanding exception). The study of prospects in technology (Appendix A), though based on present scientific knowledge, is a theoretical discipline that falls outside the usual scope of physics, of laboratory science, and of practical engineering.
 
-## B.3. Mechanical engineering and microtechnology
+### B.3. Mechanical engineering and microtechnology
 
 When miniaturization is viewed as an incremental, top-down process, as in mechanical engineering and microtechnology, working at the molecular size scale appears to be a distant goal. Current research in top-down miniaturization (usually termed "microtechnology" but sometimes termed "nanotechnology") offers no obvious way to achieve the goals of molecular manufacturing. Precise control of mechanical structures at the molecular scale has only recently begun to be considered as a goal for mechanical engineering.
 
-## B.4. Chemistry
+### B.4. Chemistry
 
 Chemistry is usually regarded as a laboratory-centered natural science.* Lacking the means to design and synthesize complex molecular machines, and also lacking an engineering tradition urging them in that direction, chemists have yet[^49]to place the design and analysis of systems of molecular machinery high on their research agenda. Chemical research has nonetheless made progress toward complex molecular systems; the following is a highly fragmentary review.
 
@@ -10166,13 +10140,13 @@ Chemists have constructed molecular devices including sophisticated reagents and
 
 Chemistry has traditionally followed a forward-chaining strategy (Section 16.2.1), taking solution-phase phenomena and synthetic capabilities as a point of departure. The concepts in this volume result from a backward-chaining analysis that first explores deterministic molecular machine systems as an objective, and then examines present laboratory capabilities as a means of achieving that objective. Since machine-phase systems are quite unlike molecules undergoing Brownian motion in solution, and since they are not immediately realizable in the laboratory, it is natural that molecular manufacturing has been slow to appear on the research agenda of chemistry.
 
-## B.5. Molecular biology
+### B.5. Molecular biology
 
 Molecular biologists study and modify systems of molecular machines. Genetic engineers reprogram them, sometimes to build novel multinanometer-scale molecular objects with complex functions. Molecular biologists, however, work within the traditions of natural science, and they are seldom system builders. Although observations at the level of "biomolecules might be used as components in some device" appeared sporadically in earlier years, there are apparently no publications that predate Drexler (1981) and argue that devices resembling biomolecular motors, actuators, and structural components could be combined to build molecular machine systems analogous to machine systems in the macroscopic world. (Proposals patterned on living systems, coupling catalytic and regulatory molecules by diffusive transport, while of considerable interest, are in a distinct category of no direct relevance to the goal of molecular manufacturing.)
 
 The chief forms of molecular engineering to emerge from molecular biology have been protein engineering (usually to produce isolated catalysts in solution or immobilized on surfaces), and the engineering of three-dimensional structures from branched DNA (Chen and Seeman, 1991; Seeman, 1982; Seeman, 1991). The use of complementary DNA sequences provides one answer to the question of how to form complex patterns from self-assembling molecular objects, and proposals have been advanced for the application of this work to molecular mechanical and electronic devices (Robinson and Seeman, 1987).
 
-## B.6. Protein engineering
+### B.6. Protein engineering
 
 Protein molecules constitute much of the molecular machinery found in living systems, and protein engineering has in the last decade become a substantial area of research. It has been suggested that protein engineering can provide a path for developing molecular manufacturing (Drexler, 1981), if pursued with the objective of constructing self-assembling systems of molecular machines.
 
@@ -10181,11 +10155,11 @@ function is expressed, and to test these principles in an empirical fashion by i
 
 Considerable progress has been made in engineering novel objects from proteins. Outstanding examples include what is generally regarded as the first $d e$ novo structure (DeGrado et al., 1987), the development of synthetic, branched proteinlike structures that depart substantially from biological models (Mutter et al., 1988), and the engineering of a branched, nonbiological protein with enzymatic activity (Hahn et al., 1990).
 
-## B.7. Proximal probe technologies
+### B.7. Proximal probe technologies
 
 Proximal probe instruments-scanning tunneling microscopes (STMs), atomic force microscopes (AFMs) and their relatives-provide a means for positioning and maneuvering tips near surfaces with atomic precision. The possibility of modifying surfaces with these tips was evident from the earliest years of STM research, since inadvertent contact between tips and surfaces routinely caused such modifications. Suggestions for controlled surface modification have appeared (Farrell and Levinson, 1985), including control based on the precise application of molecular tools (Drexler, 1986a). Experiments have since demonstrated (for example) atomic-scale surface modifications on germanium (Becker et al., 1987), pinning of organic molecules to graphite (Foster et al., 1988), arrangement of 35 xenon atoms to spell "IBM" on a nickel surface (Eigler and Schweizer, 1990) and subsequent positioning of carbon monoxide and platinum atoms on platinum surfaces in the same laboratory. Much of this work has been conducted at IBM, where the objective of developing atomic-scale mechanisms for data storage and processing has been explicitly articulated. Japan's Science and Technology Agency in 1989 initiated the Aono Atomcraft Project to pursue research in this area.
 
-## B.8. Feynman's 1959 talk
+### B.8. Feynman's 1959 talk
 
 The mechanical construction of molecules was suggested by R. Feynman in an after-dinner speech, "There's Plenty of Room at the Bottom," given at the 1959 annual meeting of the West Coast Section of the American Physical Society and later published (Feynman, 1960). Most of the talk focused on miniaturization and microtechnology: this section anticipated capabilities like those that emerged in the microelectronics industry, and then proposed an alternative approach to miniaturization that would use machines to build smaller machines, which would build still smaller machines, and so forth. Toward the close of this discussion are four paragraphs that comprise the clearest prior discussion of molecular manufacturing:
 
@@ -10199,7 +10173,7 @@ But it is interesting that it would be, in principle, possible (I think) for a p
 
 These remarks pointed in the direction explored in this volume. Why was there so little response? Presumably because these long-term goals appeared to lack near-term consequences: they neither defined an accessible scientific problem nor suggested an immediate engineering project. They might have sparked work in theoretical applied science, but the study of long-term technological possibilities has had few serious practitioners.
 
-## B.9. Conclusions
+### B.9. Conclusions
 
 Prior work in physics, chemistry, molecular biology, and engineering forms an adequate and essential foundation for the work presented in the previous chapters. Nonetheless, the pre-1991 literature appears to contain few research reports describing studies of molecular mechanical engineering and molecular manufacturing. Although these ideas are, in a sense, an obvious extrapolation of present knowledge and abilities, several circumstances have discouraged sustained analytical efforts in this area. These include the usual time horizons for research funding, the strong laboratory orientation of the molecular sciences, and the gap between the goals of conventional chemistry and those of theoretical applied science.
 
@@ -10217,7 +10191,7 @@ Reports of errata and inquiries regarding problems for use in courses can be sen
 
 Equations are stated in terms of base units such as meters, kilograms, and seconds. Physical quantities in the text and tables are commonly described using scaled units such as nanometers, femtograms, and nanoseconds.
 
-## A ampere
+A ampere
 
 $A$ amplitude; rate of change of amplitude; preexponential factor
 
@@ -10607,422 +10581,419 @@ $$
 
 This glossary is intended to offer help in crossing disciplinary boundaries, especially for those beginning to explore the terminology-rich field of chemistry. The entries are neither exhaustive in scope nor definitional in quality. A small fraction of the entries define terms introduced in the present work. Crossreferences are marked with a small circle (for example, ${ }^{\circ}$ abstraction reaction); an alphabetical search will occasionally yield a different form of the indicated word.* Some words in the main text are marked in the same way.
 
-Abstraction reaction $\mathrm{A}^{\circ}$ reaction that removes an atom from a structure.
+**Abstraction reaction** $\mathrm{A}^{\circ}$ reaction that removes an atom from a structure.
 
-Acid In the Brønsted definition, an acid is a chemical species that can donate a proton to another species ( $a^{\circ}$ base). In the Lewis definition, an acid is a chemical species that can accept (and share) a pair of electrons from another species. Hydrochloric acid is a Brønsted acid; the proton it donates is a Lewis acid. A neutral Lewis acid and a neutral Lewis base can commonly form $a^{\circ}$ dipolar bond.
+**Acid** In the Brønsted definition, an acid is a chemical species that can donate a proton to another species ( $a^{\circ}$ base). In the Lewis definition, an acid is a chemical species that can accept (and share) a pair of electrons from another species. Hydrochloric acid is a Brønsted acid; the proton it donates is a Lewis acid. A neutral Lewis acid and a neutral Lewis base can commonly form $a^{\circ}$ dipolar bond.
 
-Activation energy Distinct states correspond to minima of $a^{\circ}$ potential energy surface in a ${ }^{\circ}$ configuration space. In this classical picture, the activation energy for transforming state $A$ into state $B$ is the maximum increase in energy (relative to the ${ }^{\circ}$ ground state of $A$ ) encountered on a minimum-energy path from $A$[^50]
+**Activation energy** Distinct states correspond to minima of $a^{\circ}$ potential energy surface in a ${ }^{\circ}$ configuration space. In this classical picture, the activation energy for transforming state $A$ into state $B$ is the maximum increase in energy (relative to the ${ }^{\circ}$ ground state of $A$ ) encountered on a minimum-energy path from $A$[^50] to B. ${ }^{\circ}$ Energy here refers to potential energy; an analogous definition based ${ }^{\circ}{ }^{\circ}$ free energy can be constructed. When tunneling is considered, lower energy paths become possible, but an activation energy can be associated with the ${ }^{\circ}$ reaction (at a given ${ }^{\circ}$ temperature) via the relationship between temperature and reaction rate.
 
-to B. ${ }^{\circ}$ Energy here refers to potential energy; an analogous definition based ${ }^{\circ}{ }^{\circ}$ free energy can be constructed. When tunneling is considered, lower energy paths become possible, but an activation energy can be associated with the ${ }^{\circ}$ reaction (at a given ${ }^{\circ}$ temperature) via the relationship between temperature and reaction rate.
+**Acyclic** Not ${ }^{\circ}$ cyclic.
 
-Acyclic Not ${ }^{\circ}$ cyclic.
+**Affinity constant** The reciprocal of the ${ }^{\circ}$ dissociation constant; a measure of the ${ }^{\circ}$ binding energy of $a^{\circ}$ ligand in $a^{\circ}$ receptor.
 
-Affinity constant The reciprocal of the ${ }^{\circ}$ dissociation constant; a measure of the ${ }^{\circ}$ binding energy of $a^{\circ}$ ligand in $a^{\circ}$ receptor.
+**AFM** $\mathrm{An}^{\circ}{ }^{\circ}$ atomic force microscope.
 
-AFM $\mathrm{An}^{\circ}{ }^{\circ}$ atomic force microscope.
+**Alkane** $\mathrm{A}^{\circ}$ saturated, ${ }^{\circ}$ acyclic hydrocarbon structure; usually quite inert.
 
-Alkane $\mathrm{A}^{\circ}$ saturated, ${ }^{\circ}$ acyclic hydrocarbon structure; usually quite inert.
+**Alkene** $A$ hydrocarbon containing a ${ }^{\circ}$ double bond; often rather reactive.
 
-Alkene $A$ hydrocarbon containing a ${ }^{\circ}$ double bond; often rather reactive.
+**Alkyne** $A^{\circ}$ hydrocarbon containing a ${ }^{\circ}$ triple bond; often rather reactive.
 
-Alkyne $A^{\circ}$ hydrocarbon containing a ${ }^{\circ}$ triple bond; often rather reactive.
+**Amide** A molecule containing an ${ }^{\circ}$ amine bonded to a carboxyl group; the resulting bond has substantial doublebond character. Also termed a ${ }^{\circ}$ peptide; ${ }^{\circ}$ amide bonds link ${ }^{\circ}$ amino acids in ${ }^{\circ}$ proteins.
 
-Amide A molecule containing an ${ }^{\circ}$ amine bonded to a carboxyl group; the resulting bond has substantial doublebond character. Also termed a ${ }^{\circ}$ peptide; ${ }^{\circ}$ amide bonds link ${ }^{\circ}$ amino acids in ${ }^{\circ}$ proteins.
+**Amine** A molecule containing $\mathrm{N}$ with a single bond to $\mathrm{C}$ and two other single bonds to $\mathrm{H}$ or $\mathrm{C}$ (but not an ${ }^{\circ}$ amide); the amine group or moiety.
 
-Amine A molecule containing $\mathrm{N}$ with a single bond to $\mathrm{C}$ and two other single bonds to $\mathrm{H}$ or $\mathrm{C}$ (but not an ${ }^{\circ}$ amide); the amine group or moiety.
-
-Amino acid A molecule containing both an ${ }^{\circ}$ amine and a ${ }^{\circ}$ carboxylic acid group; in the 20 genetically encoded amino acids in biology, both groups are bound to the same $\mathrm{C}$. Amino acids joined by ${ }^{\circ}$ amide bonds form ${ }^{\circ}$ peptides
+**Amino acid** A molecule containing both an ${ }^{\circ}$ amine and a ${ }^{\circ}$ carboxylic acid group; in the 20 genetically encoded amino acids in biology, both groups are bound to the same $\mathrm{C}$. Amino acids joined by ${ }^{\circ}$ amide bonds form ${ }^{\circ}$ peptides
 and ${ }^{\circ}$ proteins; these do not contain amino acids as such, and are instead said to contain amino acid residues.
 
-Anion A negatively charged ${ }^{\circ}$ ion.
+**Anion** A negatively charged ${ }^{\circ}$ ion.
 
-Aromatic A term used to describe ${ }^{\circ}$ cyclic ${ }^{\circ}$ pi-bonded structures of special stability.
+**Aromatic** A term used to describe ${ }^{\circ}$ cyclic ${ }^{\circ}$ pi-bonded structures of special stability.
 
-Assembler In recent popular usage, any ${ }^{\circ}$ nanomachine, usually assumed to offer magical, universal capabilities in an atom-sized package. In the author's usage, any programmable nanomechanical system able to perform a wide range of mechanosynthetic operations. See ${ }^{\circ}$ molecular manipulator, ${ }^{\circ}$ molecular mill.
+**Assembler** In recent popular usage, any ${ }^{\circ}$ nanomachine, usually assumed to offer magical, universal capabilities in an atom-sized package. In the author's usage, any programmable nanomechanical system able to perform a wide range of mechanosynthetic operations. See ${ }^{\circ}$ molecular manipulator, ${ }^{\circ}$ molecular mill.
 
-Atomic force microscope A device in which the deflection of a sharp stylus mounted on a soft spring is monitored as the stylus is moved across a surface. If the deflection is kept constant by moving the surface up and down by measured increments, the result (under favorable conditions) is an atomic-resolution topographic map of the surface. Also termed a scanning force microscope.
+**Atomic force microscope** A device in which the deflection of a sharp stylus mounted on a soft spring is monitored as the stylus is moved across a surface. If the deflection is kept constant by moving the surface up and down by measured increments, the result (under favorable conditions) is an atomic-resolution topographic map of the surface. Also termed a scanning force microscope.
 
-Barrier height Roughly synonymous with activation energy.
+**Barrier height** Roughly synonymous with activation energy.
 
-Base In the Brønsted definition, a base is a chemical species that can accept a proton from another species. In the Lewis definition, a base is a chemical species that can donate (and share) a pair of electrons with another species. See ${ }^{\circ}$ acid.
+**Base** In the Brønsted definition, a base is a chemical species that can accept a proton from another species. In the Lewis definition, a base is a chemical species that can donate (and share) a pair of electrons with another species. See ${ }^{\circ}$ acid.
 
-Bearing $\mathbf{A}^{\circ}$ mechanical device that permits the motion of a component (ideally, with minimal resistance) in one or more degrees of freedom while resisting motion (ideally, with a stiff restoring force) in all other degrees of freedom.
+**Bearing** $\mathbf{A}^{\circ}$ mechanical device that permits the motion of a component (ideally, with minimal resistance) in one or more degrees of freedom while resisting motion (ideally, with a stiff restoring force) in all other degrees of freedom.
 
-Binding energy The reduction in the ${ }^{\circ}$ free energy of a system that occurs when $a^{\circ}$ ligand binds to $a^{\circ}$ receptor. Generally used to describe the total energy required to remove something, or to take a system apart into its constituent particles-for example, to separate two atoms from one another, or to separate an atom into electrons and nuclei.
+**Binding energy** The reduction in the ${ }^{\circ}$ free energy of a system that occurs when $a^{\circ}$ ligand binds to $a^{\circ}$ receptor. Generally used to describe the total energy required to remove something, or to take a system apart into its constituent particles-for example, to separate two atoms from one another, or to separate an atom into electrons and nuclei.
 
-Binding site The active region of a ${ }^{\circ}$ receptor; any site at which a chemical ${ }^{\circ}$ species of interest tends to bind.
-Binding The process by which a molecule (or ligand) becomes bound, that is, confined in position (and often orientation) with respect to $a^{\circ}$ receptor. Confinement occurs because structural features of the receptor create $a^{\circ}$ potential well for the ligand; ${ }^{\circ}$ van der Waals and electrostatic interactions commonly contribute.
+**Binding site** The active region of a ${ }^{\circ}$ receptor; any site at which a chemical ${ }^{\circ}$ species of interest tends to bind.
 
-Bond Two atoms are said to be bonded when the energy required to separate them is substantially larger than the van der Waals attraction energy. Ionic bonds result from the electrostatic attraction between ions; ${ }^{\circ}$ covalent and metallic bonds result from the sharing of electrons among atoms; ${ }^{\circ}$ hydrogen bonds are weaker and result from dipole interactions and limited electron sharing. When used without modification, "bond" usually refers to a covalent bond.
+**Binding** The process by which a molecule (or ligand) becomes bound, that is, confined in position (and often orientation) with respect to $a^{\circ}$ receptor. Confinement occurs because structural features of the receptor create $a^{\circ}$ potential well for the ligand; ${ }^{\circ}$ van der Waals and electrostatic interactions commonly contribute.
 
-Brownian assembly ${ }^{\circ}$ Brownian motion in a fluid brings molecules together in various positions and orientations. If molecules have suitable complementary surfaces, they can bind, assembling to form a specific structure. Brownian assembly is a less paradoxical name for self-assembly (how can a structure assemble itself, or do anything, when it does not yet exist?).
+**Bond** Two atoms are said to be bonded when the energy required to separate them is substantially larger than the van der Waals attraction energy. Ionic bonds result from the electrostatic attraction between ions; ${ }^{\circ}$ covalent and metallic bonds result from the sharing of electrons among atoms; ${ }^{\circ}$ hydrogen bonds are weaker and result from dipole interactions and limited electron sharing. When used without modification, "bond" usually refers to a covalent bond.
 
-Brownian motion Motion of a particle in a fluid owing to thermal agitation, observed in 1827 by Robert Brown. (Originally thought to be caused by a vital force, Brownian motion in fact plays a vital role in the assembly and activity of the molecular structures of life.)
+**Brownian assembly** ${ }^{\circ}$ Brownian motion in a fluid brings molecules together in various positions and orientations. If molecules have suitable complementary surfaces, they can bind, assembling to form a specific structure. Brownian assembly is a less paradoxical name for self-assembly (how can a structure assemble itself, or do anything, when it does not yet exist?).
 
-CAD Computer-aided design.
+**Brownian motion** Motion of a particle in a fluid owing to thermal agitation, observed in 1827 by Robert Brown. (Originally thought to be caused by a vital force, Brownian motion in fact plays a vital role in the assembly and activity of the molecular structures of life.)
 
-Cam A component that translates or rotates to move a contoured surface past $a{ }^{\circ}$ follower; the contours impose a sequence of motions (potentially complex) on the follower.
+**CAD** Computer-aided design.
 
-Carbanion A highly reactive ${ }^{\circ}$ anionic chemical species with an even number of electrons and an unshared pair of electrons on a tetravalent carbon atom.
+**Cam** A component that translates or rotates to move a contoured surface past $a{ }^{\circ}$ follower; the contours impose a sequence of motions (potentially complex) on the follower.
 
-Carbene A highly reactive chemical species containing an electrically neutral, divalent carbon atom with two nonbonding ${ }^{\circ}$ valence electrons; a prototype is $\mathrm{CH}_{2}$.
+**Carbanion** A highly reactive ${ }^{\circ}$ anionic chemical species with an even number of electrons and an unshared pair of electrons on a tetravalent carbon atom.
 
-Carbonium ion A highly reactive ${ }^{\circ}$ cationic chemical species with an even number of electrons and an unoccupied orbital on a carbon atom.
+**Carbene** A highly reactive chemical species containing an electrically neutral, divalent carbon atom with two nonbonding ${ }^{\circ}$ valence electrons; a prototype is $\mathrm{CH}_{2}$.
 
-Carbonyl A chemical moiety consisting of $\mathrm{O}$ with a double bond to $\mathrm{C}$. If the $\mathrm{C}$ is bonded to $\mathrm{N}$, the resulting structure is termed an ${ }^{\circ}$ amide; if it is bonded to $\mathrm{O}$, it is termed a ${ }^{\circ}$ carboxylic acid or an ${ }^{\circ}$ ester linkage.
+**Carbonium ion** A highly reactive ${ }^{\circ}$ cationic chemical species with an even number of electrons and an unoccupied orbital on a carbon atom.
 
-## Carboxylic acid A molecule that
+**Carbonyl** A chemical moiety consisting of $\mathrm{O}$ with a double bond to $\mathrm{C}$. If the $\mathrm{C}$ is bonded to $\mathrm{N}$, the resulting structure is termed an ${ }^{\circ}$ amide; if it is bonded to $\mathrm{O}$, it is termed a ${ }^{\circ}$ carboxylic acid or an ${ }^{\circ}$ ester linkage.
 
- includes a $\mathrm{C}$ having a ${ }^{\circ}$ double bond to $\mathrm{O}$ and $a^{\circ}$ single bond to $\mathrm{OH}$.Catalyst A chemical ${ }^{\circ}$ species or other structure that facilitates a chemical ${ }^{\circ}$ reaction without itself undergoing a permanent change.
+**Carboxylic acid** A molecule that includes a $\mathrm{C}$ having a ${ }^{\circ}$ double bond to $\mathrm{O}$ and $a^{\circ}$ single bond to $\mathrm{OH}$.Catalyst A chemical ${ }^{\circ}$ species or other structure that facilitates a chemical ${ }^{\circ}$ reaction without itself undergoing a permanent change.
 
-Cation A positively charged ${ }^{\circ}$ ion.
+**Cation** A positively charged ${ }^{\circ}$ ion.
 
-Classical mechanics Classical mechanics describes a ${ }^{\circ}$ mechanical system as a set of particles (which in a limiting case can form continuous media) having a well-defined geometry at any given time, and undergoing motions determined by applied forces and by the initial positions and velocities of the particles. The forces themselves may have electromagnetic or ${ }^{\circ}$ quantum mechanical origins. Classical 'statistical mechanics uses the same physical model, but treats the geometry and velocities as uncertain, statistical quantities subject to random thermally-induced fluctuations. Classical mechanics and classical statistical mechanics give a good account of many mechanical properties and behaviors of molecules; but for describing the ${ }^{\circ}$ electronic properties and behaviors of molecules, they are often useless.
+**Classical mechanics** Classical mechanics describes a ${ }^{\circ}$ mechanical system as a set of particles (which in a limiting case can form continuous media) having a well-defined geometry at any given time, and undergoing motions determined by applied forces and by the initial positions and velocities of the particles. The forces themselves may have electromagnetic or ${ }^{\circ}$ quantum mechanical origins. Classical 'statistical mechanics uses the same physical model, but treats the geometry and velocities as uncertain, statistical quantities subject to random thermally-induced fluctuations. Classical mechanics and classical statistical mechanics give a good account of many mechanical properties and behaviors of molecules; but for describing the ${ }^{\circ}$ electronic properties and behaviors of molecules, they are often useless.
 
-CMOS An acronym for complementary metal-oxide-semiconductor, as in CMOS transistor and CMOS logic.
+**CMOS** An acronym for complementary metal-oxide-semiconductor, as in CMOS transistor and CMOS logic.
 
-Col In describing landforms, a pass between two valleys is sometimes termed a col. In describing molecular ${ }^{\circ}$ potential energy functions, this term is commonly used to describe analogous features of the PES; a col is the region around a saddle point having negative curvature along one axis and positive curvature along all orthogonal axes.
-Compliance The reciprocal of ${ }^{\circ}$ stiffness; in a linear elastic system, displacement equals force times compliance.
+**Col** In describing landforms, a pass between two valleys is sometimes termed a col. In describing molecular ${ }^{\circ}$ potential energy functions, this term is commonly used to describe analogous features of the PES; a col is the region around a saddle point having negative curvature along one axis and positive curvature along all orthogonal axes.
 
-Configuration space A mathematical space describing the three-dimensional configuration of a system of particles (e.g., atoms in a ${ }^{\circ}$ nanomechanical structure) as a single point; the configuration space for an $N$ particle system has $3 N$ dimensions.
+**Compliance** The reciprocal of ${ }^{\circ}$ stiffness; in a linear elastic system, displacement equals force times compliance.
 
-Conformation A molecular geometry that differs from other geometries chiefly by rotation about single or triple bonds; distinct conformations (termed conformers) are associated with distinct ${ }^{\circ}$ potential wells. Typical biomolecules and products of organic synthesis can interconvert among many conformations; typical ${ }^{\circ}$ diamondoid structures are locked into a single potential well, and thus lack conformational flexibility.
+**Configuration space** A mathematical space describing the three-dimensional configuration of a system of particles (e.g., atoms in a ${ }^{\circ}$ nanomechanical structure) as a single point; the configuration space for an $N$ particle system has $3 N$ dimensions.
 
-Conjugated A conjugated ${ }^{\circ}$ pi system is one in which pi bonds alternate with single bonds. The resulting electron distribution gives the intervening single bonds partial double-bond character, the pi electrons become delocalized, and the energy of the system is reduced.
+**Conformation** A molecular geometry that differs from other geometries chiefly by rotation about single or triple bonds; distinct conformations (termed conformers) are associated with distinct ${ }^{\circ}$ potential wells. Typical biomolecules and products of organic synthesis can interconvert among many conformations; typical ${ }^{\circ}$ diamondoid structures are locked into a single potential well, and thus lack conformational flexibility.
 
-Conservative In design and analysis, a conservative model or a conservative assumption is one that departs from accuracy in such a way that it reduces the chances of a false-positive assessment of the feasibility of the system in question. Conservative assumptions overestimate problems and underestimate capabilities.
+**Conjugated** A conjugated ${ }^{\circ}$ pi system is one in which pi bonds alternate with single bonds. The resulting electron distribution gives the intervening single bonds partial double-bond character, the pi electrons become delocalized, and the energy of the system is reduced.
 
-Covalent bond $\mathrm{A}^{\circ}$ bond formed by sharing a pair of electrons between two atoms.
+**Conservative** In design and analysis, a conservative model or a conservative assumption is one that departs from accuracy in such a way that it reduces the chances of a false-positive assessment of the feasibility of the system in question. Conservative assumptions overestimate problems and underestimate capabilities.
 
-Covalent radius Given a set of $N$ elements that can form ${ }^{\circ}$ covalent ${ }^{\circ}$ single bonds in molecules, with $N(N-1)$ possible elemental pairings, it has proved possible to define a covalent radius for each element such that the actual bond length between any two elements that form a covalent single bond is roughly equal to the sums of their covalent radii.
+**Covalent bond** $\mathrm{A}^{\circ}$ bond formed by sharing a pair of electrons between two atoms.
 
-CPU The central processing unit of a computer, responsible for executing instructions to process information.
+**Covalent radius** Given a set of $N$ elements that can form ${ }^{\circ}$ covalent ${ }^{\circ}$ single bonds in molecules, with $N(N-1)$ possible elemental pairings, it has proved possible to define a covalent radius for each element such that the actual bond length between any two elements that form a covalent single bond is roughly equal to the sums of their covalent radii.
 
-Cyclic A structure is termed cyclic if its ${ }^{\circ}$ covalent bonds form one or more rings.
+**CPU** The central processing unit of a computer, responsible for executing instructions to process information.
 
-Cycloaddition $A^{\circ}$ reaction in which two unsaturated molecules (or moieties within a molecule) join, forming a ring.
+**Cyclic** A structure is termed cyclic if its ${ }^{\circ}$ covalent bonds form one or more rings.
 
-Dative bond $\mathrm{A}{ }^{\circ}$ dipolar bond.
+**Cycloaddition** $A^{\circ}$ reaction in which two unsaturated molecules (or moieties within a molecule) join, forming a ring.
 
-Diamondoid As used in this volume, this term describes structures that resemble diamond in a broad sense: strong, stiff structures containing dense, threedimensional networks of ${ }^{\circ}$ covalent bonds, formed chiefly from first and second row atoms with $a^{\circ}$ valence of three or more. Many of the most useful diamondoid structures will in fact be rich in tetrahedrally coordinated carbon.
+**Dative bond** $\mathrm{A}{ }^{\circ}$ dipolar bond.
+
+**Diamondoid** As used in this volume, this term describes structures that resemble diamond in a broad sense: strong, stiff structures containing dense, threedimensional networks of ${ }^{\circ}$ covalent bonds, formed chiefly from first and second row atoms with $a^{\circ}$ valence of three or more. Many of the most useful diamondoid structures will in fact be rich in tetrahedrally coordinated carbon.
 
 Diamondoid is used more narrowly elsewhere in the literature.
 
-Dipolar bond $\mathrm{A}^{\circ}$ covalent bond in which one atom supplies both bonding electrons, and the other atom supplies an empty orbital in which to share them. Also termed a dative bond.
+**Dipolar bond** $\mathrm{A}^{\circ}$ covalent bond in which one atom supplies both bonding electrons, and the other atom supplies an empty orbital in which to share them. Also termed a dative bond.
 
-Dissociation constant For systems in which ${ }^{\text {ligands }}$ of a particular kind bind to a ${ }^{\circ}$ receptor in a solvent there will be a characteristic frequency with which existing ligand-receptor complexes dissociate as a result of thermal excitation, and a characteristic frequency with which empty receptors bind ligands as a result of Brownian encounters, forming new complexes. The frequency of binding is proportional to the concentration of the ligand in solution. The dissociation constant is the magnitude of the ligand concentration at which the probability that the receptor will be found occupied is $1 / 2$.
+**Dissociation constant** For systems in which ${ }^{\text {ligands }}$ of a particular kind bind to a ${ }^{\circ}$ receptor in a solvent there will be a characteristic frequency with which existing ligand-receptor complexes dissociate as a result of thermal excitation, and a characteristic frequency with which empty receptors bind ligands as a result of Brownian encounters, forming new complexes. The frequency of binding is proportional to the concentration of the ligand in solution. The dissociation constant is the magnitude of the ligand concentration at which the probability that the receptor will be found occupied is $1 / 2$.
 
-Double bond Two atoms sharing electrons as in a ${ }^{\circ}$ single bond (that is, $a^{\circ}$ sigma bond) may also share electrons in an orbital with a node passing through the two atoms. This adds a second, weaker bonding interaction ( $\mathrm{a}^{\circ} \mathrm{pi}$ bond); the combination is termed a double bond. A twisting motion that forces the nodal plane at one atom to become perpendicular to the nodal plane on the other atom eliminates the (signed) ${ }^{\circ}$ overlap between the atomic orbitals, destroying the pi bond. The energy required to do this cre- ates a large barrier to rotation about the bond (see ${ }^{\circ}$ triple bond).
+**Double bond** Two atoms sharing electrons as in a ${ }^{\circ}$ single bond (that is, $a^{\circ}$ sigma bond) may also share electrons in an orbital with a node passing through the two atoms. This adds a second, weaker bonding interaction ( $\mathrm{a}^{\circ} \mathrm{pi}$ bond); the combination is termed a double bond. A twisting motion that forces the nodal plane at one atom to become perpendicular to the nodal plane on the other atom eliminates the (signed) ${ }^{\circ}$ overlap between the atomic orbitals, destroying the pi bond. The energy required to do this cre- ates a large barrier to rotation about the bond (see ${ }^{\circ}$ triple bond).
 
-Doublet The electronic state of a molecule having one unpaired spin is termed a doublet (see ${ }^{\circ}$ radical). This term is derived from spectroscopy: an unpaired spin can be either up or down with respect to a magnetic field, and these states have different energy, resulting in field-dependent pairs, or doublets, of spectral lines. (See ${ }^{\circ}$ triplet, ${ }^{\circ}$ singlet.)
+**Doublet** The electronic state of a molecule having one unpaired spin is termed a doublet (see ${ }^{\circ}$ radical). This term is derived from spectroscopy: an unpaired spin can be either up or down with respect to a magnetic field, and these states have different energy, resulting in field-dependent pairs, or doublets, of spectral lines. (See ${ }^{\circ}$ triplet, ${ }^{\circ}$ singlet.)
 
-Effective mass In a vibrating system, a particular vibrational mode can be described as a harmonic oscillator with some mass and stiffness. Given some measure of vibrational amplitude, there exists a unique choice of mass and stiffness that yields the correct values for both frequency and energy; these are the effective mass and effective stiffness.
+**Effective mass** In a vibrating system, a particular vibrational mode can be described as a harmonic oscillator with some mass and stiffness. Given some measure of vibrational amplitude, there exists a unique choice of mass and stiffness that yields the correct values for both frequency and energy; these are the effective mass and effective stiffness.
 
-Effective stiffness See ${ }^{\circ}$ effective mass.
+**Effective stiffness** See ${ }^{\circ}$ effective mass.
 
-Elastic An object behaves elastically if it returns to its original shape after a force is applied and then removed. (If an applied force causes a permanent deformation, the behavior is termed plastic.) In an elastic system, the internal potential energy is a function of shape alone, independent of past forces and deformations.
+**Elastic** An object behaves elastically if it returns to its original shape after a force is applied and then removed. (If an applied force causes a permanent deformation, the behavior is termed plastic.) In an elastic system, the internal potential energy is a function of shape alone, independent of past forces and deformations.
 
-Electron density The location of an electron is not fixed, but is instead described by a probability density function. The sum of the probability densities of all the electrons in a region is the electron density in that region.
+**Electron density** The location of an electron is not fixed, but is instead described by a probability density function. The sum of the probability densities of all the electrons in a region is the electron density in that region.
 
-Electronegativity A measure of the tendency of an atom (or moiety) to withdraw electrons from structures to which it is bonded. In most circumstances, for example, sodium tends to donate electron density (it has a low electronegativity) and fluorine tends to withdraw electron density (it has a high electronegativity).
+**Electronegativity** A measure of the tendency of an atom (or moiety) to withdraw electrons from structures to which it is bonded. In most circumstances, for example, sodium tends to donate electron density (it has a low electronegativity) and fluorine tends to withdraw electron density (it has a high electronegativity).
 
-Electronic Pertaining to the energies, distributions, and behaviors of electrons; see ${ }^{\circ}$ mechanical.
+**Electronic** Pertaining to the energies, distributions, and behaviors of electrons; see ${ }^{\circ}$ mechanical.
 
-Endoergic A transformation is termed endoergic if it absorbs energy; such a ${ }^{\circ}$ reaction increases molecular ${ }^{\circ}$ potential
+**Endoergic** A transformation is termed endoergic if it absorbs energy; such a ${ }^{\circ}$ reaction increases molecular ${ }^{\circ}$ potential
 energy. (Sometimes wrongly equated to the narrower term ${ }^{\circ}$ endothermic.)
 
-Endothermic A transformation is termed endothermic if it absorbs energy in the form of heat. A typical endother$\mathrm{mic}^{\circ}$ reaction increases both ${ }^{\circ} \mathrm{entropy}$ and molecular ${ }^{\circ}$ potential energy (and is thus analogous to a gas expanding while absorbing heat and compressing a spring).
+**Endothermic** A transformation is termed endothermic if it absorbs energy in the form of heat. A typical endother$\mathrm{mic}^{\circ}$ reaction increases both ${ }^{\circ} \mathrm{entropy}$ and molecular ${ }^{\circ}$ potential energy (and is thus analogous to a gas expanding while absorbing heat and compressing a spring).
 
-Energy A conserved quantity that can be interconverted among many forms, including ${ }^{\circ}$ kinetic energy, ${ }^{\circ}$ potential energy, and electromagnetic energy. Sometimes defined as "the capacity to do "work," but in an environment at a uniform nonzero ${ }^{\circ}$ temperature, ${ }^{\circ}$ thermal energy does not provide this capacity. (Note, however, that all energy has mass, and thus can be used to do work by virtue of its gravitational potential energy; this caveat, however, is of no practical significance unless a really deep gravity well is available.) See ${ }^{\circ}$ free energy.
+**Energy** A conserved quantity that can be interconverted among many forms, including ${ }^{\circ}$ kinetic energy, ${ }^{\circ}$ potential energy, and electromagnetic energy. Sometimes defined as "the capacity to do "work," but in an environment at a uniform nonzero ${ }^{\circ}$ temperature, ${ }^{\circ}$ thermal energy does not provide this capacity. (Note, however, that all energy has mass, and thus can be used to do work by virtue of its gravitational potential energy; this caveat, however, is of no practical significance unless a really deep gravity well is available.) See ${ }^{\circ}$ free energy.
 
-Enthalpy The enthalpy of a system is its actual ${ }^{\circ}$ energy (termed the internal energy) plus the product of its volume and the external pressure. Though sometimes termed "heat content," the enthalpy in fact includes energy not contained in the system. Enthalpy proves convenient for describing processes in gases and liquids in laboratory environments, if one does not wish to account explicitly for energy stored in the atmosphere by work done when a system expands. It is of little use, however, in describing processes in ${ }^{\circ}$ nanomechanical systems, where work can take many forms: internal energy is then more convenient. Enthalpy is to energy what the ${ }^{\circ}$ Gibbs free energy is to the ${ }^{\circ} \mathrm{Helmholtz}$ free energy.
+**Enthalpy** The enthalpy of a system is its actual ${ }^{\circ}$ energy (termed the internal energy) plus the product of its volume and the external pressure. Though sometimes termed "heat content," the enthalpy in fact includes energy not contained in the system. Enthalpy proves convenient for describing processes in gases and liquids in laboratory environments, if one does not wish to account explicitly for energy stored in the atmosphere by work done when a system expands. It is of little use, however, in describing processes in ${ }^{\circ}$ nanomechanical systems, where work can take many forms: internal energy is then more convenient. Enthalpy is to energy what the ${ }^{\circ}$ Gibbs free energy is to the ${ }^{\circ} \mathrm{Helmholtz}$ free energy.
 
-Entropy A measure of uncertainty regarding the state of a system: for example, a gas molecule at an unknown location in a large volume has a higher entropy than one known to be confined to a smaller volume. ${ }^{\circ}$ Free energy can be extracted in converting a low-entropy state to a high-entropy state: the (timeaverage) pressure exerted by a gas molecule can do useful work as a small volume is expanded to a larger volume. In the classical ${ }^{\circ}$ configuration space picture, any molecular system can be viewed as a single-particle gas in a high-dimensional space. In the quantum mechanical picture, entropy is described as a function of the probabilities of occupancy of different members of a set of alternative quantum states. Increased information regarding the state of a system reduces its entropy and thereby increases its free energy, as shown by the resulting ability to extract more work from it.
+**Entropy** A measure of uncertainty regarding the state of a system: for example, a gas molecule at an unknown location in a large volume has a higher entropy than one known to be confined to a smaller volume. ${ }^{\circ}$ Free energy can be extracted in converting a low-entropy state to a high-entropy state: the (timeaverage) pressure exerted by a gas molecule can do useful work as a small volume is expanded to a larger volume. In the classical ${ }^{\circ}$ configuration space picture, any molecular system can be viewed as a single-particle gas in a high-dimensional space. In the quantum mechanical picture, entropy is described as a function of the probabilities of occupancy of different members of a set of alternative quantum states. Increased information regarding the state of a system reduces its entropy and thereby increases its free energy, as shown by the resulting ability to extract more work from it.
 
 An illustrative contradiction in the simple textbook view of entropy as a local property of a material (defining an entropy per mole, and so forth) can be shown as follows: The third law of thermodynamics states that a perfect crystal at absolute zero has zero entropy;* this is true regardless of its size. A piece of disordered material, such as a glass, has some finite entropy $\mathscr{S}_{0}>0$ at absolute zero. In the local-property view, $N$ pieces of glass, even (or especially) if all are atomically identical, must have an entropy of $N \mathscr{S}_{0}$. If these $N$ pieces of glass are arranged in a regular three-dimensional lattice, however, the resulting structure constitutes a perfect crystal (with a large unit cell); at absolute zero, the third law states that this crystal has zero entropy, not $N \varphi_{0}$. To understand the informational perspective on entropy, it is a useful exercise to consider (1) what the actual entropy of such crystal is as a function of $N$, with and without information describing the structure of the unit cell, (2) how the third law can be phrased more precisely, and (3) what this more precise statement implies for the entropy of well-defined aperiodic structures. Note that any one unit cell in the crystal can be regarded as a description of all the rest.
 
-Enzyme $A^{\circ}$ protein molecule that acts as a specific ${ }^{\circ}$ catalyst, binding to other[^51]molecules in a manner that facilitates a particular chemical ${ }^{\circ}$ reaction.
+**Enzyme** $A^{\circ}$ protein molecule that acts as a specific ${ }^{\circ}$ catalyst, binding to other[^51]molecules in a manner that facilitates a particular chemical ${ }^{\circ}$ reaction.
 
-Equilibrium A system is said to be at equilibrium (with respect to some set of feasible transformations) if it has minimal ${ }^{\circ}$ free energy. A system containing objects at different ${ }^{\circ}$ temperatures is in disequilibrium, because heat flow can reduce the free energy. Springs have equilibrium lengths, reactants and products in solution have equilibrium concentrations, thermally excited systems have equilibrium probabilities of occupying various states, and so forth.
+**Equilibrium** A system is said to be at equilibrium (with respect to some set of feasible transformations) if it has minimal ${ }^{\circ}$ free energy. A system containing objects at different ${ }^{\circ}$ temperatures is in disequilibrium, because heat flow can reduce the free energy. Springs have equilibrium lengths, reactants and products in solution have equilibrium concentrations, thermally excited systems have equilibrium probabilities of occupying various states, and so forth.
 
-Ester A molecule containing an ester linkage, $\mathrm{a}^{\circ}$ carbonyl group bonded to an $\mathrm{O}$ that is in turn bonded to a $\mathrm{C}$.
+**Ester** A molecule containing an ester linkage, $\mathrm{a}^{\circ}$ carbonyl group bonded to an $\mathrm{O}$ that is in turn bonded to a $\mathrm{C}$.
 
-Ether A molecule containing a $\mathrm{C}-\mathrm{O}-\mathrm{C}$ structure, termed an ether linkage (unless one of the $C$ atoms has a ${ }^{\circ}$ double bond to another $\mathrm{O}$, making this part of an ester linkage, or some other exception holds).
+**Ether** A molecule containing a $\mathrm{C}-\mathrm{O}-\mathrm{C}$ structure, termed an ether linkage (unless one of the $C$ atoms has a ${ }^{\circ}$ double bond to another $\mathrm{O}$, making this part of an ester linkage, or some other exception holds).
 
-Eutactic Characterized by precise molecular order, like that of a perfect crystal, the interior of a protein molecule, or a machine-phase system; contrasted to the disorder of bulk materials, solution environments, or biological structures on a cellular scale. Borderline cases can be identified, but perfection is not necessary. As a crystal with sparse defects is best described as a crystal (rather than as amorphous), so a eutactic structure with sparse defects is best described as (imperfectly) eutactic, rather than as disordered.
+**Eutactic** Characterized by precise molecular order, like that of a perfect crystal, the interior of a protein molecule, or a machine-phase system; contrasted to the disorder of bulk materials, solution environments, or biological structures on a cellular scale. Borderline cases can be identified, but perfection is not necessary. As a crystal with sparse defects is best described as a crystal (rather than as amorphous), so a eutactic structure with sparse defects is best described as (imperfectly) eutactic, rather than as disordered.
 
-Excluded volume The presence of one molecule (or moiety) reduces the volume available for other molecules (or moieties); resulting reductions in their 'entropy are termed excluded volume effects.
+**Excluded volume** The presence of one molecule (or moiety) reduces the volume available for other molecules (or moieties); resulting reductions in their 'entropy are termed excluded volume effects.
 
-Exoergic The opposite of ${ }^{\circ}$ endoergic; describes a transformation that releases energy.
+**Exoergic** The opposite of ${ }^{\circ}$ endoergic; describes a transformation that releases energy.
 
-Exothermic The opposite of ${ }^{\circ}$ endothermic; describes an ${ }^{\circ}$ exoergic transformation in which energy is released as ${ }^{\circ}$ heat. Exoergic ${ }^{\circ}$ reactions in solution are commonly exothermic.
+**Exothermic** The opposite of ${ }^{\circ}$ endothermic; describes an ${ }^{\circ}$ exoergic transformation in which energy is released as ${ }^{\circ}$ heat. Exoergic ${ }^{\circ}$ reactions in solution are commonly exothermic.
 Fail-stop Describes a component or subsystem that, in the event of a failure, produces no output (e.g., of material or data) rather than producing a damaged or incorrect output.
 
-Fault-tolerant Describes a system that can suffer failure in a component or subsystem, yet continue to function correctly.
+**Fault-tolerant** Describes a system that can suffer failure in a component or subsystem, yet continue to function correctly.
 
-Follower A component in a ${ }^{\circ}$ cam system that is driven through a pattern of displacements as it rests against a moving contoured surface.
+**Follower** A component in a ${ }^{\circ}$ cam system that is driven through a pattern of displacements as it rests against a moving contoured surface.
 
-Free energy Free energy is a measure of the ability of a system to do work, such that a reduction in free energy could in principle yield an equivalent quantity of work. The ${ }^{\circ} \mathrm{Helmholtz}$ free energy describes the free energy within a system; the ${ }^{\circ} \mathrm{Gibbs}$ free energy does not.
+**Free energy** Free energy is a measure of the ability of a system to do work, such that a reduction in free energy could in principle yield an equivalent quantity of work. The ${ }^{\circ} \mathrm{Helmholtz}$ free energy describes the free energy within a system; the ${ }^{\circ} \mathrm{Gibbs}$ free energy does not.
 
-Free radical $\mathbf{A}^{\circ}{ }^{\circ}$ radical.
+**Free radical** $\mathbf{A}^{\circ}{ }^{\circ}$ radical.
 
-Gate In digital logic, a component that can switch the state of an output dependent on the states of one or more inputs.
+**Gate** In digital logic, a component that can switch the state of an output dependent on the states of one or more inputs.
 
-Gibbs free energy The Gibbs ${ }^{\circ}$ free energy is the ${ }^{\circ} \mathrm{Helmholtz}$ free energy plus the product of the system volume and the external pressure. Changes in the Gibbs free energy at a constant pressure thus include work done against external pressure as a system undergoes volumetric changes. This proves convenient for describing equilibria in gases and liquids at a constant pressure (e.g., at one atmosphere), but is of little use in describing machine-phase chemical processes.
+**Gibbs free energy** The Gibbs ${ }^{\circ}$ free energy is the ${ }^{\circ} \mathrm{Helmholtz}$ free energy plus the product of the system volume and the external pressure. Changes in the Gibbs free energy at a constant pressure thus include work done against external pressure as a system undergoes volumetric changes. This proves convenient for describing equilibria in gases and liquids at a constant pressure (e.g., at one atmosphere), but is of little use in describing machine-phase chemical processes.
 
 Changes in the Gibbs free energy caused by a change in the applied pressure (at constant volume) have no direct physical significance. (See also ${ }^{\circ}$ enthalpy.)
 
-Ground state The lowest-energy state of a system. The electronic ground state of a system cannot reduce its energy by an electronic transition, but may contain vibrational energy ( ${ }^{\circ}$ kinetic and ${ }^{\circ}$ potential energy associated with the motions and positions of its atoms); extended systems at ordinary temperatures are always vibrationally excited, and so "ground state" is often taken to mean "electronic ground state."
+**Ground state** The lowest-energy state of a system. The electronic ground state of a system cannot reduce its energy by an electronic transition, but may contain vibrational energy ( ${ }^{\circ}$ kinetic and ${ }^{\circ}$ potential energy associated with the motions and positions of its atoms); extended systems at ordinary temperatures are always vibrationally excited, and so "ground state" is often taken to mean "electronic ground state."
 
-Group A set of linked atoms in a molecule; a defined substructure. Typically, a set that is usefully regarded as a unit in chemical ${ }^{\circ}$ reactions of interest.
+**Group** A set of linked atoms in a molecule; a defined substructure. Typically, a set that is usefully regarded as a unit in chemical ${ }^{\circ}$ reactions of interest.
 
-Group velocity In wave propagation, the speed of the waveform (e.g., of a peak) can be different from the speed of a group of waves (e.g., of a set of ripples in water). The latter is the group velocity, and is the speed of propagation of information and wave energy. The waveform speed is the phase velocity.
+**Group velocity** In wave propagation, the speed of the waveform (e.g., of a peak) can be different from the speed of a group of waves (e.g., of a set of ripples in water). The latter is the group velocity, and is the speed of propagation of information and wave energy. The waveform speed is the phase velocity.
 
-Harmonic oscillator A system in which a mass is subject to a linear restoring force, like an ideal spring. A harmonic oscillator vibrates at a fixed frequency, independent of amplitude.
+**Harmonic oscillator** A system in which a mass is subject to a linear restoring force, like an ideal spring. A harmonic oscillator vibrates at a fixed frequency, independent of amplitude.
 
-Heat As defined in thermodynamics, heat is the energy that flows between two systems as a result of ${ }^{\circ}$ temperature differences (a system contains neither heat nor ${ }^{\circ}$ work, but can produce heat or do work). Heat thus differs from ${ }^{\circ}$ thermal energy.
+**Heat** As defined in thermodynamics, heat is the energy that flows between two systems as a result of ${ }^{\circ}$ temperature differences (a system contains neither heat nor ${ }^{\circ}$ work, but can produce heat or do work). Heat thus differs from ${ }^{\circ}$ thermal energy.
 
-Heat capacity The ratio of the ${ }^{\circ}$ heat input to the ${ }^{\circ}$ temperature increase in a system. Note that this definition does not imply that a system contains heat, despite the name heat capacity.
+**Heat capacity** The ratio of the ${ }^{\circ}$ heat input to the ${ }^{\circ}$ temperature increase in a system. Note that this definition does not imply that a system contains heat, despite the name heat capacity.
 
-Helmholtz free energy The internal energy of a system minus the product of its ${ }^{\circ}$ entropy and ${ }^{\circ}$ temperature; see ${ }^{\circ}$ free energy.
+**Helmholtz free energy** The internal energy of a system minus the product of its ${ }^{\circ}$ entropy and ${ }^{\circ}$ temperature; see ${ }^{\circ}$ free energy.
 
-Hydrocarbon A molecule consisting only of $\mathrm{H}$ and $\mathrm{C}$.
+**Hydrocarbon** A molecule consisting only of $\mathrm{H}$ and $\mathrm{C}$.
 
-Hydrogen bond A hydrogen atom ${ }^{\circ}$ covalently bound to an electronegative atom (e.g., nitrogen, oxygen) has a significant positive charge and can form a weak bond to another electronegative atom; this is termed a hydrogen bond.
+**Hydrogen bond** A hydrogen atom ${ }^{\circ}$ covalently bound to an electronegative atom (e.g., nitrogen, oxygen) has a significant positive charge and can form a weak bond to another electronegative atom; this is termed a hydrogen bond.
 
-Hydrophobic force Water molecules are linked by a network of ${ }^{\text {hydrogen }}$ bonds. A nonpolar, nonwetting, surface (e.g., wax) cannot form hydrogen bonds. To form their full complement of hydrogen bonds, the nearby water molecules must form a more orderly (hence lower ${ }^{\circ}$ entropy) network. This both increases ${ }^{\circ}$ free energy and causes forces that tend to draw hydrophobic surfaces together across distances of several nanometers.
+**Hydrophobic force** Water molecules are linked by a network of ${ }^{\text {hydrogen }}$ bonds. A nonpolar, nonwetting, surface (e.g., wax) cannot form hydrogen bonds. To form their full complement of hydrogen bonds, the nearby water molecules must form a more orderly (hence lower ${ }^{\circ}$ entropy) network. This both increases ${ }^{\circ}$ free energy and causes forces that tend to draw hydrophobic surfaces together across distances of several nanometers.
 Intermolecular Describes an interaction (e.g., a chemical ${ }^{\circ}$ reaction) between different molecules.
 
-Internal energy The sum of the ${ }^{\circ}$ kinetic and ${ }^{\circ}$ potential energies (including electromagnetic field energies) of the particles that make up a system.
+**Internal energy** The sum of the ${ }^{\circ}$ kinetic and ${ }^{\circ}$ potential energies (including electromagnetic field energies) of the particles that make up a system.
 
-Intramolecular Describes an interaction (e.g., a chemical ${ }^{\circ}$ reaction) within a single molecule. Intramolecular interactions between widely separated parts of a molecule resemble ${ }^{\circ}$ intermolecular interactions in most respects.
+**Intramolecular** Describes an interaction (e.g., a chemical ${ }^{\circ}$ reaction) within a single molecule. Intramolecular interactions between widely separated parts of a molecule resemble ${ }^{\circ}$ intermolecular interactions in most respects.
 
-Ion An atom or ${ }^{\circ}$ molecule with a net charge.
+**Ion** An atom or ${ }^{\circ}$ molecule with a net charge.
 
-Ionic bond A chemical ${ }^{\circ}$ bond resulting chiefly from the electrostatic attraction between positive and negative ${ }^{\circ}$ ions.
+**Ionic bond** A chemical ${ }^{\circ}$ bond resulting chiefly from the electrostatic attraction between positive and negative ${ }^{\circ}$ ions.
 
-Isoelectronic Two molecules are described as isoelectronic if they have the same number of valence electrons in similar orbitals, although they may differ in their distribution of nuclear charges (e.g., $\mathbf{H}-\mathbf{C} \equiv \mathrm{N}$ and $\mathbf{H}-\mathrm{N}^{+} \equiv \mathrm{C}^{-}$are isoelectronic).
+**Isoelectronic** Two molecules are described as isoelectronic if they have the same number of valence electrons in similar orbitals, although they may differ in their distribution of nuclear charges (e.g., $\mathbf{H}-\mathbf{C} \equiv \mathrm{N}$ and $\mathbf{H}-\mathrm{N}^{+} \equiv \mathrm{C}^{-}$are isoelectronic).
 
-Kinetic Pertaining to the rates of chemical ${ }^{\circ}$ reactions. A fast reaction is said to have fast kinetics; if the balance of products in a reaction is controlled by reaction rates rather than by thermodynamic equilibria, the reaction is said to be kinetically controlled.
+**Kinetic** Pertaining to the rates of chemical ${ }^{\circ}$ reactions. A fast reaction is said to have fast kinetics; if the balance of products in a reaction is controlled by reaction rates rather than by thermodynamic equilibria, the reaction is said to be kinetically controlled.
 
-Kinetic energy Energy resulting from the motion of masses.
+**Kinetic energy** Energy resulting from the motion of masses.
 
-Ligand In ${ }^{\circ}$ protein chemistry, a small molecule that is (or can be) bound by a larger molecule is termed a ligand. In organometallic chemistry, a moiety bonded to a central metal atom is also termed a ligand; the latter definition is more common in general chemistry.
+**Ligand** In ${ }^{\circ}$ protein chemistry, a small molecule that is (or can be) bound by a larger molecule is termed a ligand. In organometallic chemistry, a moiety bonded to a central metal atom is also termed a ligand; the latter definition is more common in general chemistry.
 
-Linear Aside from its geometric meaning, linear describes systems in which an output is directly proportional to an input. In particular, a linear ${ }^{\circ}$ elastic system is one in which the internal displacements are (at equilibrium) directly proportional to applied forces.
+**Linear** Aside from its geometric meaning, linear describes systems in which an output is directly proportional to an input. In particular, a linear ${ }^{\circ}$ elastic system is one in which the internal displacements are (at equilibrium) directly proportional to applied forces.
 
-London dispersion force An attractive force caused by quantum-mechanical electron correlation. For example, a neu-
+**London dispersion force** An attractive force caused by quantum-mechanical electron correlation. For example, a neu-
 tral spherical molecule (such as a single argon atom) has no charge and produces no external electric field, yet a pair of molecules has a distribution of electron configurations weighted toward those with lesser electron-electron repulsions; this creates a small net attraction.
 
-Lone pair Two valence electrons of an atom that share an orbital but do not participate in a bond.
+**Lone pair** Two valence electrons of an atom that share an orbital but do not participate in a bond.
 
-Machine-phase chemistry The chemistry of systems in which all potentially reactive moieties follow controlled trajectories (e.g., guided by molecular machines working in vacuum).
+**Machine-phase chemistry** The chemistry of systems in which all potentially reactive moieties follow controlled trajectories (e.g., guided by molecular machines working in vacuum).
 
-Mechanical Pertaining to the positions and motions of atoms, as defined by the positions of their nuclei; see ${ }^{\circ}$ electronic. A purely mechanical device can be described in terms of atomic positions and motions without reference to electronic properties, save through their effect on the ${ }^{\circ}$ potential energy function.
+**Mechanical** Pertaining to the positions and motions of atoms, as defined by the positions of their nuclei; see ${ }^{\circ}$ electronic. A purely mechanical device can be described in terms of atomic positions and motions without reference to electronic properties, save through their effect on the ${ }^{\circ}$ potential energy function.
 
-Mechanochemistry In this volume, the chemistry of processes in which ${ }^{\circ}$ mechanical systems operating with atomic-scale precision either guide, drive, or are driven by chemical transformations. In general usage, the chemistry of processes in which energy is converted from mechanical to chemical form, or vice versa.
+**Mechanochemistry** In this volume, the chemistry of processes in which ${ }^{\circ}$ mechanical systems operating with atomic-scale precision either guide, drive, or are driven by chemical transformations. In general usage, the chemistry of processes in which energy is converted from mechanical to chemical form, or vice versa.
 
-Mechanosynthesis Chemical ${ }^{\circ}$ synthesis controlled by ${ }^{\circ}$ mechanical systems operating with atomic-scale precision, enabling direct positional selection of ${ }^{\circ}$ reaction sites; synthetic applications of ${ }^{\circ}$ mechanochemistry. Suitable mechanical systems include ${ }^{\circ} \mathrm{AFM}$ mechanisms, ${ }^{\circ}$ molecular manipulators, and ${ }^{\circ}$ molecular mill systems. Processes that fall outside the intended scope of this definition include reactions guided by the incorporation of reactive ${ }^{\circ}$ moieties into a shared ${ }^{\circ}$ covalent framework (i.e., conventional intramolecular reactions), or by the binding of reagents to ${ }^{\circ}$ enzymes or enzymelike ${ }^{\circ}$ catalysts.
+**Mechanosynthesis** Chemical ${ }^{\circ}$ synthesis controlled by ${ }^{\circ}$ mechanical systems operating with atomic-scale precision, enabling direct positional selection of ${ }^{\circ}$ reaction sites; synthetic applications of ${ }^{\circ}$ mechanochemistry. Suitable mechanical systems include ${ }^{\circ} \mathrm{AFM}$ mechanisms, ${ }^{\circ}$ molecular manipulators, and ${ }^{\circ}$ molecular mill systems. Processes that fall outside the intended scope of this definition include reactions guided by the incorporation of reactive ${ }^{\circ}$ moieties into a shared ${ }^{\circ}$ covalent framework (i.e., conventional intramolecular reactions), or by the binding of reagents to ${ }^{\circ}$ enzymes or enzymelike ${ }^{\circ}$ catalysts.
 
-Metastable A classical system is metastable if it is above its minimum-energy state, but requires an energy input before it can reach a lower-energy state; accordingly, a metastable system can act like a ${ }^{\circ}$ stable system, provided that energy inputs (e.g., thermal fluctuations) remain below some threshold. Systems with strong metastability are commonly described as stable. Quantum mechanical effects can permit metastable states to reach lower energies by tunneling, without an energy input; an associated, broader definition of metastable embraces all systems that have a long lifetime (by some standard) in a state above the minimum-energy state.
+**Metastable** A classical system is metastable if it is above its minimum-energy state, but requires an energy input before it can reach a lower-energy state; accordingly, a metastable system can act like a ${ }^{\circ}$ stable system, provided that energy inputs (e.g., thermal fluctuations) remain below some threshold. Systems with strong metastability are commonly described as stable. Quantum mechanical effects can permit metastable states to reach lower energies by tunneling, without an energy input; an associated, broader definition of metastable embraces all systems that have a long lifetime (by some standard) in a state above the minimum-energy state.
 
-Misreaction A chemical ${ }^{\circ}$ reaction that fails by yielding an unwanted product.
+**Misreaction** A chemical ${ }^{\circ}$ reaction that fails by yielding an unwanted product.
 
-MM2 A molecular mechanics program developed by Norman Allinger and coworkers; the "MM2 model" is the molecular ${ }^{\circ}$ potential energy function described by the equations, rules, and parameters embodied in that program.
+**MM2** A molecular mechanics program developed by Norman Allinger and coworkers; the "MM2 model" is the molecular ${ }^{\circ}$ potential energy function described by the equations, rules, and parameters embodied in that program.
 
-MM2/CSC A molecular mechanics program developed by Cambridge Scientific Computing that closely follows the MM2 model, adding a graphical user interface and other features.
+**MM2/CSC** A molecular mechanics program developed by Cambridge Scientific Computing that closely follows the MM2 model, adding a graphical user interface and other features.
 
-Modulus Any of several measures of ${ }^{\circ}$ strain versus applied ${ }^{\circ}$ stress. See ${ }^{\circ}$ shear modulus, ${ }^{\circ}$ Young's modulus.
+**Modulus** Any of several measures of ${ }^{\circ}$ strain versus applied ${ }^{\circ}$ stress. See ${ }^{\circ}$ shear modulus, ${ }^{\circ}$ Young's modulus.
 
-Moiety A portion of a molecular structure having some property of interest.
+**Moiety** A portion of a molecular structure having some property of interest.
 
-Mole A number of instances of something (typically a molecular species) equaling $\sim 6.022 \times 10^{23}$. Mole ordinarily means gram-mole; a kilogram-mole is $\sim 6.022 \times 10^{26}$.
+**Mole** A number of instances of something (typically a molecular species) equaling $\sim 6.022 \times 10^{23}$. Mole ordinarily means gram-mole; a kilogram-mole is $\sim 6.022 \times 10^{26}$.
 
-Molecular machine $A^{\circ}$ mechanical device that performs a useful function using components of nanometer scale and defined molecular structure; includes both artificial $^{\circ}$ nanomachines and naturally occurring devices found in biological systems.
+**Molecular machine** $A^{\circ}$ mechanical device that performs a useful function using components of nanometer scale and defined molecular structure; includes both artificial $^{\circ}$ nanomachines and naturally occurring devices found in biological systems.
 
-Molecular manipulator A programmable device able to position molecular tools with high precision, for example, to direct a sequence of ${ }^{\circ}$ mechanosynthetic steps; a molecular ${ }^{\circ}$ assembler.
+**Molecular manipulator** A programmable device able to position molecular tools with high precision, for example, to direct a sequence of ${ }^{\circ}$ mechanosynthetic steps; a molecular ${ }^{\circ}$ assembler.
 
-Molecular manufacturing The production of complex structures via nonbiolog-
+**Molecular manufacturing** The production of complex structures via nonbiolog-
 ical ${ }^{\circ}$ mechanosynthesis (and subsequent assembly operations).
 
-Molecular mechanics models Many of the properties of molecular systems are determined by the molecular ${ }^{\circ}$ potential energy function. Molecular mechanics models approximate this function as a sum of 2-atom, 3-atom, and 4-atom terms, each determined by the geometries and bonds of the component atoms. The 2-atom and 3-atom terms describing bonded interactions roughly correspond to linear springs.
+**Molecular mechanics models** Many of the properties of molecular systems are determined by the molecular ${ }^{\circ}$ potential energy function. Molecular mechanics models approximate this function as a sum of 2-atom, 3-atom, and 4-atom terms, each determined by the geometries and bonds of the component atoms. The 2-atom and 3-atom terms describing bonded interactions roughly correspond to linear springs.
 
-Molecular mill $\mathrm{A}^{\circ}$ mechanochemical processing system characterized by limited motions and repetitive operations without programmable flexibility (see ${ }^{\circ}$ molecular manipulator).
+**Molecular mill** $\mathrm{A}^{\circ}$ mechanochemical processing system characterized by limited motions and repetitive operations without programmable flexibility (see ${ }^{\circ}$ molecular manipulator).
 
-Molecular nanotechnology See $^{\circ}$ nanotechnology.
+**Molecular nanotechnology** See $^{\circ}$ nanotechnology.
 
-Molecule A set of atoms linked by ${ }^{\circ}$ covalent bonds. A macroscopic piece of diamond is technically a single molecule. (Sets of atoms linked by bonds of other kinds are sometimes also termed molecules.)
+**Molecule** A set of atoms linked by ${ }^{\circ}$ covalent bonds. A macroscopic piece of diamond is technically a single molecule. (Sets of atoms linked by bonds of other kinds are sometimes also termed molecules.)
 
-Nanomachine An artificial ${ }^{\circ}$ eutactic ${ }^{\circ}$ mechanical device that relies on nanometer-scale components; see ${ }^{\circ}$ molecular machine.
+**Nanomachine** An artificial ${ }^{\circ}$ eutactic ${ }^{\circ}$ mechanical device that relies on nanometer-scale components; see ${ }^{\circ}$ molecular machine.
 
-Nanomechanical Pertaining to ${ }^{\circ}$ nanomachines.
+**Nanomechanical** Pertaining to ${ }^{\circ}$ nanomachines.
 
-Nanoscale On a scale of nanometers, from atomic dimensions to $\sim 100 \mathrm{~nm}$.
+**Nanoscale** On a scale of nanometers, from atomic dimensions to $\sim 100 \mathrm{~nm}$.
 
-Nanosystem $A^{\circ}$ eutactic set of nanoscale components working together to serve a set of purposes; complex nanosystems can be of macroscopic size.
+**Nanosystem** $A^{\circ}$ eutactic set of nanoscale components working together to serve a set of purposes; complex nanosystems can be of macroscopic size.
 
-Nanotechnology In recent general usage, any technology related to features of nanometer scale: thin films, fine particles, chemical synthesis, advanced microlithography, and so forth. As introduced by the author, a technology based on the ability to build structures to complex, atomic specifications by means of mechanosynthesis; this can be termed molecular nanotechnology.
+**Nanotechnology** In recent general usage, any technology related to features of nanometer scale: thin films, fine particles, chemical synthesis, advanced microlithography, and so forth. As introduced by the author, a technology based on the ability to build structures to complex, atomic specifications by means of mechanosynthesis; this can be termed molecular nanotechnology.
 
-NMOS An acronym for n-channel metal-oxide-semiconductor, as in NMOS transistor and NMOS logic.
+**NMOS** An acronym for n-channel metal-oxide-semiconductor, as in NMOS transistor and NMOS logic.
 Nucleus The positively charged core of an atom, an object of $\sim 0.00001$ atomic diameters containing $\mathbf{> 9 9 . 9} \%$ of the atomic mass. Nuclear positions define atomic positions.
 
-Olefin $\mathrm{An}^{\circ}$ alkene.
+**Olefin** $\mathrm{An}^{\circ}$ alkene.
 
-Omitted reaction A chemical ${ }^{\circ}$ reaction that fails by not occurring (see ${ }^{\circ}$ misreaction).
+**Omitted reaction** A chemical ${ }^{\circ}$ reaction that fails by not occurring (see ${ }^{\circ}$ misreaction).
 
-Orbital In the approximation that each electron in a molecule has a distinct, independent ${ }^{\circ}$ wave function, the spatial distribution of an electron wave function corresponds to a molecular orbital. These, in turn, can be approximated as sums of contributions from the orbitals characteristic of the isolated atoms. An electron added to a molecule-or, similarly, one excited to a higher-energy state within a moleculewould occupy a state with a different wave function from the rest; an unoccupied state of this kind corresponds to an unoccupied molecular orbital. Orbitalsymmetry effects on reaction rates arise when a reaction requires ${ }^{\circ}$ overlap between two lobes of the orbitals on each of two ${ }^{\circ}$ reagents: if the algebraic signs of the wave functions in the facing lobes do not match, bond formation between those orbitals is prohibited.
+**Orbital** In the approximation that each electron in a molecule has a distinct, independent ${ }^{\circ}$ wave function, the spatial distribution of an electron wave function corresponds to a molecular orbital. These, in turn, can be approximated as sums of contributions from the orbitals characteristic of the isolated atoms. An electron added to a molecule-or, similarly, one excited to a higher-energy state within a moleculewould occupy a state with a different wave function from the rest; an unoccupied state of this kind corresponds to an unoccupied molecular orbital. Orbitalsymmetry effects on reaction rates arise when a reaction requires ${ }^{\circ}$ overlap between two lobes of the orbitals on each of two ${ }^{\circ}$ reagents: if the algebraic signs of the wave functions in the facing lobes do not match, bond formation between those orbitals is prohibited.
 
-Overlap ${ }^{\circ}$ Orbitals lack sharply defined surfaces, declining in amplitude exponentially in their surface regions. When two orbitals are brought together, regions of substantial amplitude overlap. The resulting system can be described as two new orbitals, one formed by joining the two original orbitals without introducing a node in the ${ }^{\circ}$ wave function, and the other formed with a node between them. The nodeless joining reduces the energy of the electrons relative to the separate orbitals, resulting in a bonding interaction; joining with a node raises the energy, producing an antibonding interaction. If both new orbitals are occupied, antibonding forces dominate, resulting in ${ }^{\circ}$ overlap repulsion. ${ }^{\circ}$ Molecular mechanics models give an approximate description of overlap (and other) forces for a certain range of atoms and geometries.
+**Overlap** ${ }^{\circ}$ Orbitals lack sharply defined surfaces, declining in amplitude exponentially in their surface regions. When two orbitals are brought together, regions of substantial amplitude overlap. The resulting system can be described as two new orbitals, one formed by joining the two original orbitals without introducing a node in the ${ }^{\circ}$ wave function, and the other formed with a node between them. The nodeless joining reduces the energy of the electrons relative to the separate orbitals, resulting in a bonding interaction; joining with a node raises the energy, producing an antibonding interaction. If both new orbitals are occupied, antibonding forces dominate, resulting in ${ }^{\circ}$ overlap repulsion. ${ }^{\circ}$ Molecular mechanics models give an approximate description of overlap (and other) forces for a certain range of atoms and geometries.
 
-Overlap repulsion A repulsive force resulting from the nonbonding ${ }^{\circ}$ overlap of two atoms.
+**Overlap repulsion** A repulsive force resulting from the nonbonding ${ }^{\circ}$ overlap of two atoms.
 
-Partition function A function determined by the probability distribution (over ${ }^{\circ}$ phase space in the ${ }^{\circ}$ classical treatment; over ${ }^{\circ}$ quantum states in the quantum treatment) describing a thermally equilibrated system; many thermodynamic quantities can be expressed in terms of the partition function and its derivatives.
+**Partition function** A function determined by the probability distribution (over ${ }^{\circ}$ phase space in the ${ }^{\circ}$ classical treatment; over ${ }^{\circ}$ quantum states in the quantum treatment) describing a thermally equilibrated system; many thermodynamic quantities can be expressed in terms of the partition function and its derivatives.
 
-PDF See ${ }^{\circ}$ probability density function
+**PDF** See ${ }^{\circ}$ probability density function
 
-Peptide A short chain of amino acids; see ${ }^{\circ}$ protein.
+**Peptide** A short chain of amino acids; see ${ }^{\circ}$ protein.
 
-FES See ${ }^{\circ}$ potential energy surface.
+**FES** See ${ }^{\circ}$ potential energy surface.
 
-Phase space A classical system of $N$ particles can be described by its $3 N$ position and $3 N$ momentum coordinates. The phase space associated with the system is the $6 N$ dimensional space defined by these coordinates.
+**Phase space** A classical system of $N$ particles can be described by its $3 N$ position and $3 N$ momentum coordinates. The phase space associated with the system is the $6 N$ dimensional space defined by these coordinates.
 
-Phonon A quantum of acoustic energy, analogous to the quantum of electromagnetic radiation, the photon. Thermal excitations in a crystal or in an elastic continuum can be described as a population of phonons (analogous to blackbody electromagnetic radiation). In highly inhomogeneous solids, a description in terms of phonons breaks down and localized vibrational modes become important.
+**Phonon** A quantum of acoustic energy, analogous to the quantum of electromagnetic radiation, the photon. Thermal excitations in a crystal or in an elastic continuum can be described as a population of phonons (analogous to blackbody electromagnetic radiation). In highly inhomogeneous solids, a description in terms of phonons breaks down and localized vibrational modes become important.
 
-Pi bond $\mathrm{A}^{\circ}$ covalent bond formed by ${ }^{\circ}$ overlap between two $p$ orbitals on different atoms ( see $^{\circ} s p$ ). Pi bonds are superimposed on ${ }^{\circ}$ sigma bonds, forming ${ }^{\circ}$ double or ${ }^{\circ}$ triple bonds.
+**Pi bond** $\mathrm{A}^{\circ}$ covalent bond formed by ${ }^{\circ}$ overlap between two $p$ orbitals on different atoms ( see $^{\circ} s p$ ). Pi bonds are superimposed on ${ }^{\circ}$ sigma bonds, forming ${ }^{\circ}$ double or ${ }^{\circ}$ triple bonds.
 
-Poisson's ratio A bar of an isotropic, elastic material ordinarily shrinks laterally when it is stretched longitudinally. The lateral contracting strain divided by the applied tensile strain is Poisson's ratio, which varies from material to material.
+**Poisson's ratio** A bar of an isotropic, elastic material ordinarily shrinks laterally when it is stretched longitudinally. The lateral contracting strain divided by the applied tensile strain is Poisson's ratio, which varies from material to material.
 
-Polycyclic $A^{\circ}$ cyclic structure contains rings of bonds; a structure having many such rings is termed polycyclic. In the polycyclic structures of interest in this volume, a large fraction of the atoms are members of multiple small rings, resulting in considerable rigidity.
-Potential energy The energy associated with a configuration of particles, as distinct from their motions. In macroscopic experience, potential energy can be increased (for example) by stretching a spring or by lifting a mass against a gravitational force; in molecular systems, potential energy can be increased (for example) by stretching a bond or by separating molecules against $\mathbf{a}^{\circ} \mathbf{v a n}$ der Waals attraction.
+**Polycyclic** $A^{\circ}$ cyclic structure contains rings of bonds; a structure having many such rings is termed polycyclic. In the polycyclic structures of interest in this volume, a large fraction of the atoms are members of multiple small rings, resulting in considerable rigidity.
 
-Potential energy surface The ${ }^{\circ}$ potential energy of a ground-state molecular system containing $N$ atoms is a function of its geometry, defined by $3 N$ spatial coordinates ( $a^{\circ}$ configuration space). If the energy is imagined as corresponding to a height in a $3 N+1$ dimensional space, the resulting landscape of hills, hollows, and valleys is the potential energy surface.
+**Potential energy** The energy associated with a configuration of particles, as distinct from their motions. In macroscopic experience, potential energy can be increased (for example) by stretching a spring or by lifting a mass against a gravitational force; in molecular systems, potential energy can be increased (for example) by stretching a bond or by separating molecules against $\mathbf{a}^{\circ} \mathbf{v a n}$ der Waals attraction.
 
-Potential well In a ${ }^{\circ}$ potential energy surface, the region surrounding a local energy minimum. Typically taken to include at least those points in ${ }^{\circ}$ configuration space such that a path of steadily declining energy can be found that leads to the minimum in question, and such that no similar path can be found to any other minimum. If the PES were a landscape, this would be the region around the minimum that could be filled with water without any flowing down and away toward another minimum.
+**Potential energy surface** The ${ }^{\circ}$ potential energy of a ground-state molecular system containing $N$ atoms is a function of its geometry, defined by $3 N$ spatial coordinates ( $a^{\circ}$ configuration space). If the energy is imagined as corresponding to a height in a $3 N+1$ dimensional space, the resulting landscape of hills, hollows, and valleys is the potential energy surface.
 
-Probability density function Consider an uncertain physical property and a corresponding space describing the range of values that the property can have (e.g., the configuration of a thermally excited $N$ particle system and the corresponding $3 N$ dimensional configuration space). The probability density function associated with a property is defined over the corresponding space; its value at a particular point is the probability per unit volume that the property has a value in an infinitesimal region around that point.
+**Potential well** In a ${ }^{\circ}$ potential energy surface, the region surrounding a local energy minimum. Typically taken to include at least those points in ${ }^{\circ}$ configuration space such that a path of steadily declining energy can be found that leads to the minimum in question, and such that no similar path can be found to any other minimum. If the PES were a landscape, this would be the region around the minimum that could be filled with water without any flowing down and away toward another minimum.
 
-Protein Living cells contain many molecules that consist of amino acid polymers folded to form more-or-less definite three-dimensional structures; these are termed proteins. Short polymers lacking definite three-dimensional structures
+**Probability density function** Consider an uncertain physical property and a corresponding space describing the range of values that the property can have (e.g., the configuration of a thermally excited $N$ particle system and the corresponding $3 N$ dimensional configuration space). The probability density function associated with a property is defined over the corresponding space; its value at a particular point is the probability per unit volume that the property has a value in an infinitesimal region around that point.
+
+**Protein** Living cells contain many molecules that consist of amino acid polymers folded to form more-or-less definite three-dimensional structures; these are termed proteins. Short polymers lacking definite three-dimensional structures
 are termed ${ }^{\circ}$ peptides. Many proteins incorporate structures other than amino acids, either as ${ }^{\circ}$ covalently attached side chains or as bound ligands. Molecular objects made of protein form much of the molecular machinery of living cells.
 
-## Quantum mechanics Quantum
+**Quantum mechanics** Quantum mechanics describes a system of particles in terms of a ${ }^{\circ}$ wave function defined over the ${ }^{\circ}$ configuration space of the system. Although the concept of particles having distinct locations is implicit in the ${ }^{\circ}$ potential energy function that determines the wave function (e.g., of a ${ }^{\circ}$ ground-state system), the observable dynamics of the system cannot be described in terms of the motion of such particles from point to point. In describing the energies, distributions, and behaviors of electrons in nanometer-scale structures, quantum mechanical methods are necessary. Electron ${ }^{\circ}$ wave functions help determine the ${ }^{\circ}$ potential energy surface of a molecular system, which in turn is the basis for ${ }^{\circ}$ classical descriptions of molecular motion. ${ }^{\circ} \mathrm{Nanomechanical}$ systems can almost always be described in terms of classical mechanics, with occasional quantum mechanical corrections applied within the framework of a classical model.
 
-mechanics describes a system of particles in terms of a ${ }^{\circ}$ wave function defined over the ${ }^{\circ}$ configuration space of the system. Although the concept of particles having distinct locations is implicit in the ${ }^{\circ}$ potential energy function that determines the wave function (e.g., of a ${ }^{\circ}$ ground-state system), the observable dynamics of the system cannot be described in terms of the motion of such particles from point to point. In describing the energies, distributions, and behaviors of electrons in nanometer-scale structures, quantum mechanical methods are necessary. Electron ${ }^{\circ}$ wave functions help determine the ${ }^{\circ}$ potential energy surface of a molecular system, which in turn is the basis for ${ }^{\circ}$ classical descriptions of molecular motion. ${ }^{\circ} \mathrm{Nanomechanical}$ systems can almost always be described in terms of classical mechanics, with occasional quantum mechanical corrections applied within the framework of a classical model.
+**Radiation damage** Chemical changes (bond breakage, ionization) caused by high-energy radiation (e.g., x-rays, gamma rays, high-speed electrons, protons, etc.).
 
-Radiation damage Chemical changes (bond breakage, ionization) caused by high-energy radiation (e.g., x-rays, gamma rays, high-speed electrons, protons, etc.).
+**Radical** A structure with an unpaired electron (but excluding certain metal ions). In organic molecules, a radical is often associated with a highly reactive site of reduced valence (see ${ }^{\circ}$ doublet). The term radical is sometimes used to describe a substructure within a molecule; the term free radical then describes a radical in this sense, viewed as the result of cleaving the bond linking the substructure to the rest of the molecule.
 
-Radical A structure with an unpaired electron (but excluding certain metal ions). In organic molecules, a radical is often associated with a highly reactive site of reduced valence (see ${ }^{\circ}$ doublet). The term radical is sometimes used to describe a substructure within a molecule; the term free radical then describes a radical in this sense, viewed as the result of cleaving the bond linking the substructure to the rest of the molecule.
+**Reaction** A process that transforms one or more chemical ${ }^{\circ}$ species into others. Typical reactions make or break 'bonds; others change the state of ionization or other properties taken to distinguish chemical species.
 
-Reaction A process that transforms one or more chemical ${ }^{\circ}$ species into others. Typical reactions make or break 'bonds; others change the state of ionization or other properties taken to distinguish chemical species.
-Reagent A chemical ${ }^{\circ}$ species that undergoes change as a result of a chemical ${ }^{\circ}$ reaction.
+**Reagent** A chemical ${ }^{\circ}$ species that undergoes change as a result of a chemical ${ }^{\circ}$ reaction.
 
-Reagent device A large ${ }^{\circ}$ reagent structure (or a large structure that binds a smaller reagent) serving as a component of a ${ }^{\circ}$ mechanochemical system. A reagent device exists chiefly to hold, position, and manipulate the environment of a ${ }^{\circ}$ reagent moiety.
+**Reagent device** A large ${ }^{\circ}$ reagent structure (or a large structure that binds a smaller reagent) serving as a component of a ${ }^{\circ}$ mechanochemical system. A reagent device exists chiefly to hold, position, and manipulate the environment of a ${ }^{\circ}$ reagent moiety.
 
-Reagent moiety The portion of a ${ }^{\circ}$ reagent device that is intimately involved in a chemical ${ }^{\circ}$ reaction.
+**Reagent moiety** The portion of a ${ }^{\circ}$ reagent device that is intimately involved in a chemical ${ }^{\circ}$ reaction.
 
-Receptor A structure that can capture a molecule (often of a specific type in a specific orientation) owing to complementary surface shapes, charge distributions, and so forth, without forming a ${ }^{\circ}$ covalent bond. See ${ }^{\circ}$ dissociation constant.
+**Receptor** A structure that can capture a molecule (often of a specific type in a specific orientation) owing to complementary surface shapes, charge distributions, and so forth, without forming a ${ }^{\circ}$ covalent bond. See ${ }^{\circ}$ dissociation constant.
 
-Reconstruction A crystal consists of a regular array of atoms, and the simplest model of a crystal surface would be generated by simply discarding all atoms to one side of a surface without changing the positions of the rest. In reality, however, the positions of the remaining atoms do change. A pattern of displacements that lowers the symmetry of the surface (relative to the ideally terminated crystal) is termed a surface reconstruction; some reconstructions alter the pattern of bonds.
+**Reconstruction** A crystal consists of a regular array of atoms, and the simplest model of a crystal surface would be generated by simply discarding all atoms to one side of a surface without changing the positions of the rest. In reality, however, the positions of the remaining atoms do change. A pattern of displacements that lowers the symmetry of the surface (relative to the ideally terminated crystal) is termed a surface reconstruction; some reconstructions alter the pattern of bonds.
 
-Reduced mass Many dynamical properties of a system consisting of two interacting masses, $m_{1}$ and $m_{2}$, are equivalent to those of a system in which one mass is fixed in space and the other has a mass (the reduced mass) with the value $m_{1} m_{2} /\left(m_{1}+m_{2}\right)$. The reduced mass description has fewer dynamical variables.
+**Reduced mass** Many dynamical properties of a system consisting of two interacting masses, $m_{1}$ and $m_{2}$, are equivalent to those of a system in which one mass is fixed in space and the other has a mass (the reduced mass) with the value $m_{1} m_{2} /\left(m_{1}+m_{2}\right)$. The reduced mass description has fewer dynamical variables.
 
-Register A temporary storage location for an array of bits within a digital logic system.
+**Register** A temporary storage location for an array of bits within a digital logic system.
 
-Relaxation time A measure of the rate at which a disequilibrium distribution decays toward an ${ }^{\circ}$ equilibrium distribution. The electron relaxation time in a metal, for example, describes the time required for a disequilibrium distribution of electron momenta (e.g., in a flow-
+**Relaxation time** A measure of the rate at which a disequilibrium distribution decays toward an ${ }^{\circ}$ equilibrium distribution. The electron relaxation time in a metal, for example, describes the time required for a disequilibrium distribution of electron momenta (e.g., in a flow-
 ing current) to decay toward equilibrium in the absence of an ongoing driving force and can be interpreted as the mean time between scattering events for a given electron.
 
-Representative point The point in a ${ }^{\circ}$ configuration space that represents the geometry of a system.
+**Representative point** The point in a ${ }^{\circ}$ configuration space that represents the geometry of a system.
 
-Rigid structure As used in this volume, a ${ }^{\circ}$ covalent structure that is reasonably stiff. In a typical rigid structure, all modes of deformation encounter firstorder restoring forces resulting from some combination of bond stretching and angle bending; such a structure cannot undergo deformation by bond torsion alone. Meeting this condition usually requires a ${ }^{\circ}$ polycyclic ${ }^{\circ}$ diamondoid structure.
+**Rigid structure** As used in this volume, a ${ }^{\circ}$ covalent structure that is reasonably stiff. In a typical rigid structure, all modes of deformation encounter firstorder restoring forces resulting from some combination of bond stretching and angle bending; such a structure cannot undergo deformation by bond torsion alone. Meeting this condition usually requires a ${ }^{\circ}$ polycyclic ${ }^{\circ}$ diamondoid structure.
 
-Salt bridge An ionic bond between charged ${ }^{\circ}$ groups that are part of larger ${ }^{\circ}$ covalent structures; salt bridges occur in many ${ }^{\circ}$ proteins.
+**Salt bridge** An ionic bond between charged ${ }^{\circ}$ groups that are part of larger ${ }^{\circ}$ covalent structures; salt bridges occur in many ${ }^{\circ}$ proteins.
 
-Saturated An organic molecule is described as saturated if it is a closed shell species lacking ${ }^{\circ}$ double or ${ }^{\circ}$ triple bonds; forming a new bond to a saturated molecule requires the cleavage of an existing bond.
+**Saturated** An organic molecule is described as saturated if it is a closed shell species lacking ${ }^{\circ}$ double or ${ }^{\circ}$ triple bonds; forming a new bond to a saturated molecule requires the cleavage of an existing bond.
 
-Scanning tunneling microscope A device in which a sharp conductive tip is moved across a conductive surface close enough to permit a substantial tunneling current (typically a nanometer or less). In a common mode of operation, the voltage is kept constant and the current is monitored and kept constant by controlling the height of the tip above the surface; the result, under favorable conditions, is an atomic-resolution map of the surface reflecting a combination of topography and electronic properties. The STM has been used to manipulate atoms and molecules on surfaces.
+**Scanning tunneling microscope** A device in which a sharp conductive tip is moved across a conductive surface close enough to permit a substantial tunneling current (typically a nanometer or less). In a common mode of operation, the voltage is kept constant and the current is monitored and kept constant by controlling the height of the tip above the surface; the result, under favorable conditions, is an atomic-resolution map of the surface reflecting a combination of topography and electronic properties. The STM has been used to manipulate atoms and molecules on surfaces.
 
-Self assembly A term commonly used for ${ }^{\circ}$ Brownian assembly.
+**Self assembly** A term commonly used for ${ }^{\circ}$ Brownian assembly.
 
-Shear modulus Shear ${ }^{\circ}$ stress divided by shear ${ }^{\circ}$ strain; has the units of force per unit area.
+**Shear modulus** Shear ${ }^{\circ}$ stress divided by shear ${ }^{\circ}$ strain; has the units of force per unit area.
 
-Shear A shear deformation is one that displaces successive layers of a material transversely with respect to one another, like a crooked stack of cards. Shear is a dimensionless quantity measured by the ratio of the transverse displacement to the thickness over which it occurs.
+**Shear** A shear deformation is one that displaces successive layers of a material transversely with respect to one another, like a crooked stack of cards. Shear is a dimensionless quantity measured by the ratio of the transverse displacement to the thickness over which it occurs.
 
-Sigma bond $A^{\circ}$ covalent bond in which ${ }^{\circ}$ overlap between two atomic ${ }^{\circ}$ orbitals (e.g., of ${ }^{\circ} s p, s p^{2}$, or $s p^{3}$ hybridization) produces a single bonding orbital in which the distribution of shared electrons has a roughly cylindrical symmetry about the axis linking the two atoms; see ${ }^{\circ} \mathrm{pi}$ bond, ${ }^{\circ}$ single bond, ${ }^{\circ}$ double bond, ${ }^{\circ}$ triple bond. By themselves, sigma bonds present little barrier to rotation of one substructure with respect to another, although ${ }^{\circ}$ steric effects and ${ }^{\circ}$ cyclic structures may hinder or block rotation.
+**Sigma bond** $A^{\circ}$ covalent bond in which ${ }^{\circ}$ overlap between two atomic ${ }^{\circ}$ orbitals (e.g., of ${ }^{\circ} s p, s p^{2}$, or $s p^{3}$ hybridization) produces a single bonding orbital in which the distribution of shared electrons has a roughly cylindrical symmetry about the axis linking the two atoms; see ${ }^{\circ} \mathrm{pi}$ bond, ${ }^{\circ}$ single bond, ${ }^{\circ}$ double bond, ${ }^{\circ}$ triple bond. By themselves, sigma bonds present little barrier to rotation of one substructure with respect to another, although ${ }^{\circ}$ steric effects and ${ }^{\circ}$ cyclic structures may hinder or block rotation.
 
-Single bond $\mathrm{A}^{\circ}$ sigma bond having no associated ${ }^{\circ} \mathrm{pi}$ bonds.
+**Single bond** $\mathrm{A}^{\circ}$ sigma bond having no associated ${ }^{\circ} \mathrm{pi}$ bonds.
 
-Singlet An electronic state of a molecule in which all spins are paired; see ${ }^{\circ}$ doublet, ${ }^{\circ}$ triplet.
+**Singlet** An electronic state of a molecule in which all spins are paired; see ${ }^{\circ}$ doublet, ${ }^{\circ}$ triplet.
 
 $s p, s p^{2}, s p^{3} \quad$ An isolated carbon atom has four ${ }^{\circ}$ valence ${ }^{\circ}$ orbitals: three mutually perpendicular $p$ orbitals, each with a single nodal plane, and one spherically symmetric $s$ orbital. A carbon atom in a typical molecule can be regarded as bonding with four orbitals consisting of weighted sums (termed hybrids) of these $s$ and $p$ orbitals. One common pattern has four equivalent orbitals, each formed by combining the three $p$ orbitals with the $s$ orbital; this is $s p^{3}$ hybridization. An $s p^{3}$ carbon atom forms four ${ }^{\circ}$ sigma bonds, usually in a roughly tetrahedral arrangement. Another common pattern has three equivalent orbitals formed by combining two $p$ orbitals with the $s$ orbital; this is termed $s p^{2}$ hybridization. An $s p^{2}$ carbon atom forms three roughly coplanar sigma bonds, usually separated by $\sim 120^{\circ}$, and one ${ }^{\circ} \mathrm{pi}$ bond (or several fractional pi bonds). If a single $p$ orbital is combined with the $s$ orbital, the result is $s p$ hybridization, forming two sigma bonds and two pi bonds (usually in a straight line). Atoms of other kinds (e.g., $\mathrm{N}$ and $\mathrm{O}$ ) can hybridize in an analogous manner.
 
-Species In chemistry, a distinct kind of ${ }^{\circ}$ molecule, ${ }^{\circ}$ ion, or other structure.
+**Species** In chemistry, a distinct kind of ${ }^{\circ}$ molecule, ${ }^{\circ}$ ion, or other structure.
 
-Stable Strictly speaking, a system is termed stable if no rearrangement of its parts can form a system of lower ${ }^{\circ}$ free energy. In practice, the term is used with an implicit proviso regarding the transformations to be considered. Hydrogen is not considered unstable merely because it is subject to nuclear fusion at extreme temperatures. A system is usually regarded as stable (more precisely, as kinetically stable) if its rate of transformation to a state of lower free energy is negligible (by some standard) under the ambient conditions. In ${ }^{\circ}$ nanomechanical systems, a structure can commonly be regarded as stable if it has an extremely low rate of transformations when subjected to its intended operating conditions.
+**Stable** Strictly speaking, a system is termed stable if no rearrangement of its parts can form a system of lower ${ }^{\circ}$ free energy. In practice, the term is used with an implicit proviso regarding the transformations to be considered. Hydrogen is not considered unstable merely because it is subject to nuclear fusion at extreme temperatures. A system is usually regarded as stable (more precisely, as kinetically stable) if its rate of transformation to a state of lower free energy is negligible (by some standard) under the ambient conditions. In ${ }^{\circ}$ nanomechanical systems, a structure can commonly be regarded as stable if it has an extremely low rate of transformations when subjected to its intended operating conditions.
 
-State A physical system is said to be in a particular state when its physical properties fall within some particular range; the boundaries of the range defining a state depend on the problem under consideration. In a ${ }^{\circ}$ classical world, each point in ${ }^{\circ}$ phase space could be said to correspond to a distinct state. In the real world, time-invariant systems in ${ }^{\circ}$ quantum mechanics have a set of discrete states, particular superpositions of which constitute complete descriptions of the system. In practice, broader boundaries are usually drawn. A molecule is often said to be in a particular excited ${ }^{\circ}$ electronic state, regardless of its state of ${ }^{\circ}$ mechanical vibration. In ${ }^{\circ}$ nanomechanical systems, the ${ }^{\circ} \mathrm{PES}$ often corresponds to a set of distinct ${ }^{\circ}$ potential wells, and all points in configuration space within a particular well can be regarded as one state. Definitions of state in the thermodynamics of bulk matter are analogous, but extremely coarse by these standards.
+**State** A physical system is said to be in a particular state when its physical properties fall within some particular range; the boundaries of the range defining a state depend on the problem under consideration. In a ${ }^{\circ}$ classical world, each point in ${ }^{\circ}$ phase space could be said to correspond to a distinct state. In the real world, time-invariant systems in ${ }^{\circ}$ quantum mechanics have a set of discrete states, particular superpositions of which constitute complete descriptions of the system. In practice, broader boundaries are usually drawn. A molecule is often said to be in a particular excited ${ }^{\circ}$ electronic state, regardless of its state of ${ }^{\circ}$ mechanical vibration. In ${ }^{\circ}$ nanomechanical systems, the ${ }^{\circ} \mathrm{PES}$ often corresponds to a set of distinct ${ }^{\circ}$ potential wells, and all points in configuration space within a particular well can be regarded as one state. Definitions of state in the thermodynamics of bulk matter are analogous, but extremely coarse by these standards.
 
-## Statistical mechanics Statistical
+**Statistical mechanics** Statistical mechanics treats the detailed ${ }^{\circ}$ state of a system (its ${ }^{\circ}$ quantum state or, in ${ }^{\circ}$ classical models, its position in ${ }^{\circ}$ phase space) as unknown and subject to statistical uncertainties; ${ }^{\circ}$ entropy is a measure of this uncertainty. Statistical mechanics describes the distribution of states in an ${ }^{\circ}$ equilibrium system at a given ${ }^{\circ}$ tempera- ture (describing either the distribution of probabilities of quantum states or the ${ }^{\circ}$ probability density function in ${ }^{\circ} \mathrm{phase}$ space), and can be used to derive ${ }^{\circ}$ thermodynamic properties from properties at the molecular level. These equilibrium results are useful in ${ }^{\circ}$ nanomechanical design.Steric Pertaining to the spatial relationships of atoms in a molecular structure, and in particular, to the space-filling properties of a molecule. If molecules were rigid and had hard surfaces, steric properties would merely be an opaque way of saying "shape"; a flexible sidechain, however, has definite steric properties but no fixed shape. ${ }^{\circ}$ Nanomechanical systems make extensive use of the steric properties of relatively rigid molecules, for which the term "shape" has essentially its conventional meaning so long as one remembers that the surface interactions are soft on small lengthscales.
 
- mechanics treats the detailed ${ }^{\circ}$ state of a system (its ${ }^{\circ}$ quantum state or, in ${ }^{\circ}$ classical models, its position in ${ }^{\circ}$ phase space) as unknown and subject to statistical uncertainties; ${ }^{\circ}$ entropy is a measure of this uncertainty. Statistical mechanics describes the distribution of states in an ${ }^{\circ}$ equilibrium system at a given ${ }^{\circ}$ tempera- ture (describing either the distribution of probabilities of quantum states or the ${ }^{\circ}$ probability density function in ${ }^{\circ} \mathrm{phase}$ space), and can be used to derive ${ }^{\circ}$ thermodynamic properties from properties at the molecular level. These equilibrium results are useful in ${ }^{\circ}$ nanomechanical design.Steric Pertaining to the spatial relationships of atoms in a molecular structure, and in particular, to the space-filling properties of a molecule. If molecules were rigid and had hard surfaces, steric properties would merely be an opaque way of saying "shape"; a flexible sidechain, however, has definite steric properties but no fixed shape. ${ }^{\circ}$ Nanomechanical systems make extensive use of the steric properties of relatively rigid molecules, for which the term "shape" has essentially its conventional meaning so long as one remembers that the surface interactions are soft on small lengthscales.
+**Steric hindrance** Slowing of the rate of a chemical ${ }^{\circ}$ reaction owing to the presence of structures on the ${ }^{\circ}$ reagents that mechanically interfere with the motions associated with the reaction, typically by obstructing the reaction site.
 
-Steric hindrance Slowing of the rate of a chemical ${ }^{\circ}$ reaction owing to the presence of structures on the ${ }^{\circ}$ reagents that mechanically interfere with the motions associated with the reaction, typically by obstructing the reaction site.
+**Stiffness** The stiffness of a system with respect to a deformation (e.g., the stiffness of a spring with respect to stretching) is the second derivative of the energy with respect to the corresponding displacement; this measures the curvature of the ${ }^{\circ}$ potential energy surface along a particular direction. Positive stiffness is associated with stability, and a large stiffness can result in a small positional uncertainty in the presence of thermal excitation. Negative stiffnesses correspond to unstable locations on the potential energy surface. Alternative terms for stiffness include force gradient and rigidity.
 
-Stiffness The stiffness of a system with respect to a deformation (e.g., the stiffness of a spring with respect to stretching) is the second derivative of the energy with respect to the corresponding displacement; this measures the curvature of the ${ }^{\circ}$ potential energy surface along a particular direction. Positive stiffness is associated with stability, and a large stiffness can result in a small positional uncertainty in the presence of thermal excitation. Negative stiffnesses correspond to unstable locations on the potential energy surface. Alternative terms for stiffness include force gradient and rigidity.
+**STM** A ${ }^{\circ}$ scanning tunneling microscope.
 
-STM A ${ }^{\circ}$ scanning tunneling microscope.
-
-Strain In mechanical engineering, strain is a measure of the deformation resulting from ${ }^{\circ}$ stress (that is, force per unit area); the displacement of one point
+**Strain** In mechanical engineering, strain is a measure of the deformation resulting from ${ }^{\circ}$ stress (that is, force per unit area); the displacement of one point
 with respect to another, divided by their ${ }^{\circ}$ equilibrium separation in the absence of stress. In chemistry, a molecular fragment generally has some equilibrium geometry (bond lengths, interbond angles, etc.) when the rest of the molecular structure does not impose special constraints (e.g., bending bonds to form a small ring). Deviations from this equilibrium geometry are described as strain, and increase the energy of the molecule. Strain in the mechanical engineering sense causes strain in the chemical sense.
 
-Stress Force per unit area applied by one part of an object to another. Pressure is an isotropic compressive stress. Suspending a mass from a fiber places it in tensile stress. Gluing a layer of rubber between two plates and then sliding one over the other (while holding their separation constant) places the rubber in ${ }^{\circ}$ shear stress.
+**Stress** Force per unit area applied by one part of an object to another. Pressure is an isotropic compressive stress. Suspending a mass from a fiber places it in tensile stress. Gluing a layer of rubber between two plates and then sliding one over the other (while holding their separation constant) places the rubber in ${ }^{\circ}$ shear stress.
 
-Structural volume The interior of a ${ }^{\circ}$ diamondoid structure typically consists of a dense network of ${ }^{\circ}$ covalent bonds; $a$ larger ${ }^{\circ}$ excluded volume, however, is determined by nonbonded repulsions at the surface. The structural volume corresponds to a region smaller than the excluded volume, chosen to make properties such as the strength and ${ }^{\circ}$ modulus nearly size independent by correcting for surface effects.
+**Structural volume** The interior of a ${ }^{\circ}$ diamondoid structure typically consists of a dense network of ${ }^{\circ}$ covalent bonds; $a$ larger ${ }^{\circ}$ excluded volume, however, is determined by nonbonded repulsions at the surface. The structural volume corresponds to a region smaller than the excluded volume, chosen to make properties such as the strength and ${ }^{\circ}$ modulus nearly size independent by correcting for surface effects.
 
-Synthesis The production of a specific ${ }^{\circ}$ molecular structure by a series of chemical ${ }^{\circ}$ reactions.
+**Synthesis** The production of a specific ${ }^{\circ}$ molecular structure by a series of chemical ${ }^{\circ}$ reactions.
 
-System In scientific usage, usually equivalent to "a collection of matter and energy being analyzed as a unit." In engineering usage, usually equivalent to "a set of components working together to serve a set of purposes."
+**System** In scientific usage, usually equivalent to "a collection of matter and energy being analyzed as a unit." In engineering usage, usually equivalent to "a set of components working together to serve a set of purposes."
 
-Temperature A system in which internal vibrational modes have equilibrated with one another can be said to have a particular temperature. Two systems A and $B$ are said to be at different temperatures if, when brought into contact, ${ }^{\circ}$ heat flows from (say) A to B, increasing the ${ }^{\circ}$ thermal energy of $B$ at the expense of the thermal energy of $A$.
-Thermal energy The internal energy present in a system as a result of the energy of thermally equilibrated vibrational modes and other motions (including both ${ }^{\circ}$ kinetic energy and molecular ${ }^{\circ}$ potential energy). The mean thermal energy of a classical ${ }^{\circ}$ harmonic oscillator is $k T$.
+**Temperature** A system in which internal vibrational modes have equilibrated with one another can be said to have a particular temperature. Two systems A and $B$ are said to be at different temperatures if, when brought into contact, ${ }^{\circ}$ heat flows from (say) A to B, increasing the ${ }^{\circ}$ thermal energy of $B$ at the expense of the thermal energy of $A$.
 
-Thermal expansion coefficient The rate of change of length with respect to ${ }^{\circ}$ temperature for a particular material.
+**Thermal energy** The internal energy present in a system as a result of the energy of thermally equilibrated vibrational modes and other motions (including both ${ }^{\circ}$ kinetic energy and molecular ${ }^{\circ}$ potential energy). The mean thermal energy of a classical ${ }^{\circ}$ harmonic oscillator is $k T$.
 
-Thermal fluctuations The ${ }^{\circ}$ thermal energy of a system (or of a particular part or mode of motion in a system) has a mean value determined by the ${ }^{\circ}$ temperature and by the structure of the system. Statistical deviations about that mean are termed thermal fluctuations; these are of great importance in determining both rates of chemical ${ }^{\circ}$ reactions and error rates in ${ }^{\circ}$ nanomechanical systems.
+**Thermal expansion coefficient** The rate of change of length with respect to ${ }^{\circ}$ temperature for a particular material.
 
-Thermodynamics A field of study embracing energy conversion among various forms, including ${ }^{\circ}$ heat, ${ }^{\circ}$ work, and ${ }^{\circ}$ potential and ${ }^{\circ}$ kinetic energy.
+**Thermal fluctuations** The ${ }^{\circ}$ thermal energy of a system (or of a particular part or mode of motion in a system) has a mean value determined by the ${ }^{\circ}$ temperature and by the structure of the system. Statistical deviations about that mean are termed thermal fluctuations; these are of great importance in determining both rates of chemical ${ }^{\circ}$ reactions and error rates in ${ }^{\circ}$ nanomechanical systems.
 
-Thermoelastic Both ${ }^{\circ}$ stress and ${ }^{\circ}$ temperature changes alter the dimensions of an object having a finite ${ }^{\circ}$ stiffness and a nonzero thermal expansion coefficient. Applying a stress then produces a temperature change; this can result in a heat flow which then changes the stress: these are thermoelastic effects, and result in losses of ${ }^{\circ}$ free energy.
+**Thermodynamics** A field of study embracing energy conversion among various forms, including ${ }^{\circ}$ heat, ${ }^{\circ}$ work, and ${ }^{\circ}$ potential and ${ }^{\circ}$ kinetic energy.
 
-Thiol An SH group, or a molecule containing one. Also known as a sulfhydryl or mercapto group.
+**Thermoelastic** Both ${ }^{\circ}$ stress and ${ }^{\circ}$ temperature changes alter the dimensions of an object having a finite ${ }^{\circ}$ stiffness and a nonzero thermal expansion coefficient. Applying a stress then produces a temperature change; this can result in a heat flow which then changes the stress: these are thermoelastic effects, and result in losses of ${ }^{\circ}$ free energy.
 
-Tight-receptor structures A receptor structure in which a bound ligand of a particular kind is confined on all sides by repulsive interactions (note that favorable binding energies are compatible with repulsive forces). A tight-receptor structure discriminates strongly against all molecules larger than the target.
+**Thiol** An SH group, or a molecule containing one. Also known as a sulfhydryl or mercapto group.
 
-Transition state At the saddle point of $a^{\circ}$ col linking two ${ }^{\circ}$ potential wells, the direction of maximum negative curvature defines the reaction coordinate; the transition state is a hypothetical system
+**Tight-receptor structures** A receptor structure in which a bound ligand of a particular kind is confined on all sides by repulsive interactions (note that favorable binding energies are compatible with repulsive forces). A tight-receptor structure discriminates strongly against all molecules larger than the target.
+
+**Transition state** At the saddle point of $a^{\circ}$ col linking two ${ }^{\circ}$ potential wells, the direction of maximum negative curvature defines the reaction coordinate; the transition state is a hypothetical system
 of reduced dimensionality, free to move only on a hypersurface perpendicular to the reaction coordinate at its point of maximum energy.
 
-Transition state theory Any of several theories that give approximate descriptions of chemical ${ }^{\circ}$ reaction rates based on the ${ }^{\circ} \mathrm{PES}$ of the system, and in particular, on the properties of two ${ }^{\circ}$ potential wells and ${ }^{\circ}$ transition state between them.
+**Transition state theory** Any of several theories that give approximate descriptions of chemical ${ }^{\circ}$ reaction rates based on the ${ }^{\circ} \mathrm{PES}$ of the system, and in particular, on the properties of two ${ }^{\circ}$ potential wells and ${ }^{\circ}$ transition state between them.
 
-Triple bond $\mathrm{A}^{\circ}$ double bond is formed when a pi bond is superimposed on a ${ }^{\circ}$ single bond; adding a second pi bond results in a triple bond. The two pi bonds have perpendicular nodal planes, and their sum has roughly cylindrical symmetry, permitting rotation in much the same manner as a single bond.
+**Triple bond** $\mathrm{A}^{\circ}$ double bond is formed when a pi bond is superimposed on a ${ }^{\circ}$ single bond; adding a second pi bond results in a triple bond. The two pi bonds have perpendicular nodal planes, and their sum has roughly cylindrical symmetry, permitting rotation in much the same manner as a single bond.
 
-Triplet An electronic state of a molecule in which two spins are aligned. This term is derived from spectroscopy: a system of two aligned spins has three possible orientations with respect to a magnetic field; each has a different energy, resulting in sets of three fielddependent spectral lines (see ${ }^{\circ}$ doublet, ${ }^{\circ}$ singlet.)
+**Triplet** An electronic state of a molecule in which two spins are aligned. This term is derived from spectroscopy: a system of two aligned spins has three possible orientations with respect to a magnetic field; each has a different energy, resulting in sets of three fielddependent spectral lines (see ${ }^{\circ}$ doublet, ${ }^{\circ}$ singlet.)
 
-## TST ${ }^{\circ}$ Transition state theory.
+**TST** ${ }^{\circ}$ Transition state theory.
 
-Tunneling A classical particle or system could not penetrate regions in which its energy would be negative, that is, barrier regions in which the ${ }^{\circ}$ potential energy is greater than the system energy. In the real world, however, $a^{\circ}$ wave function of significant amplitude may extend into and beyond such a region. If the wave function extends into another region of positive energy, the barrier is crossed with some probability; this process is termed tunneling (since the barrier is penetrated rather than climbed).
+**Tunneling** A classical particle or system could not penetrate regions in which its energy would be negative, that is, barrier regions in which the ${ }^{\circ}$ potential energy is greater than the system energy. In the real world, however, $a^{\circ}$ wave function of significant amplitude may extend into and beyond such a region. If the wave function extends into another region of positive energy, the barrier is crossed with some probability; this process is termed tunneling (since the barrier is penetrated rather than climbed).
 Unimolecular Occurring to or within a single molecule; like ${ }^{\circ}$ intramolecular, but can refer to fragmentation reactions.
 
-Unsaturated Possessing ${ }^{\circ}$ double or ${ }^{\circ}$ triple bonds.
+**Unsaturated** Possessing ${ }^{\circ}$ double or ${ }^{\circ}$ triple bonds.
 
-Valence electrons Electrons that can participate in bonds and in chemical reactions; ${ }^{\circ}$ lone-pair electrons are valence electrons, although not participating in a bond.
+**Valence electrons** Electrons that can participate in bonds and in chemical reactions; ${ }^{\circ}$ lone-pair electrons are valence electrons, although not participating in a bond.
 
-Valence In ${ }^{\circ}$ covalent compounds, the valence of an atom is the number of bonds it forms to other atoms.
+**Valence** In ${ }^{\circ}$ covalent compounds, the valence of an atom is the number of bonds it forms to other atoms.
 
-Van der Waals force Any of several intermolecular attractive forces not resulting from ionic charges; in this volume, only ${ }^{\circ}$ London dispersion forces are described by this name. Descriptions of the potential energy of nonbonded interactions follow the convention of expressing van der Waals attractive forces and overlap repulsion forces as a single van der Waals potential.
+**Van der Waals force** Any of several intermolecular attractive forces not resulting from ionic charges; in this volume, only ${ }^{\circ}$ London dispersion forces are described by this name. Descriptions of the potential energy of nonbonded interactions follow the convention of expressing van der Waals attractive forces and overlap repulsion forces as a single van der Waals potential.
 
-Wave function In ${ }^{\circ}$ quantum mechanics, a complex function extending over the ${ }^{\circ}$ configuration space of a system; its complex conjugate yields the ${ }^{\circ}$ probability density function, and other mathematical operations yield other physical quantities.
+**Wave function** In ${ }^{\circ}$ quantum mechanics, a complex function extending over the ${ }^{\circ}$ configuration space of a system; its complex conjugate yields the ${ }^{\circ}$ probability density function, and other mathematical operations yield other physical quantities.
 
-Work Energy transferred by applying a force over a distance; lifting a mass does work against gravity, and stores gravitational ${ }^{\circ}$ potential energy.
+**Work** Energy transferred by applying a force over a distance; lifting a mass does work against gravity, and stores gravitational ${ }^{\circ}$ potential energy.
 
-Young's modulus $\quad \mathrm{A}^{\circ}$ modulus relating tensile (or compressive) ${ }^{\circ}$ stress to ${ }^{\circ}$ strain in a rod that is free to contract or expand transversely in accord with its ${ }^{\circ}$ Poisson's ratio. The relevant measure of strain is the elongation divided by the initial length.
+**Young's modulus** $\quad \mathrm{A}^{\circ}$ modulus relating tensile (or compressive) ${ }^{\circ}$ stress to ${ }^{\circ}$ strain in a rod that is free to contract or expand transversely in accord with its ${ }^{\circ}$ Poisson's ratio. The relevant measure of strain is the elongation divided by the initial length.
 
 ## References
 
@@ -13130,7 +13101,7 @@ Overlap forces, 63
 
 Overlap repulsion in MM2, 49
 
-## $\mathbf{P}$
+## P
 
 Partition functions:
 
