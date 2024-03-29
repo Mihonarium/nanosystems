@@ -14,8 +14,8 @@ const config = {
   title: 'Nanosystems',
   tagline: 'Eric Drexler',
 	
-  url: 'https://nanosystems.contact.ms',
-  baseUrl: '/interface/',
+  url: 'https://nanosystems-md.contact.ms',
+  baseUrl: '/',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
