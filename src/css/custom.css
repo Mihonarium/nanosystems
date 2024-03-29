@@ -1,0 +1,254 @@
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.tweetsSection > :global(.col) > * {
+  margin-bottom: 2rem;
+}
+
+.hero__subtitle {
+	font-size: 1.4rem;
+    font-family: MercurySSm-Book-Pro_Web,serif;
+}
+
+.hero__title {
+	font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 996px) {
+  .tweetsSection > :global(.col:last-child) > *:last-child {
+    margin-bottom: 0;
+  }
+	.heroBanner {
+		padding: 1rem;
+	}
+	.hero__subtitle {
+		font-size: 1.2rem;
+	}
+	.statement_text {
+		font-size: 1.1rem;
+	}
+	.quote_dontDisplayOnSmall {
+		display: none;
+	}
+}
+
+@media (min-width: 997px) {
+  .tweetsSection > :global(.col) > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.statement_text {
+  font-size: 1.2rem;
+}
+
+.statement_info {
+  font-size: 1rem;
+}
+
+.md-intro h1 {
+  text-align: center;
+}
+.md-intro h2 {
+  text-align: center;
+}
+
+.index-md {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 997px) {
+	.index-md {
+		max-width: 75%!important;
+		padding: 0 var(--ifm-spacing-horizontal);
+	}
+}
+
+.quote_summary {
+	cursor:pointer;
+	color:var(--ifm-code-color);
+}
+
+.footnotes hr {
+	display: none;
+}
+
+.centered {
+    text-align: center;
+}
+
+@font-face{font-display:block;font-family:MercurySSm-Book-Pro_Web;font-style:normal;font-weight:400;src:url(https://www.whitehouse.gov/wp-content/themes/whitehouse/assets/fonts/MercurySSm-Book-Pro_Web.woff2) format('woff2'),url(https://www.whitehouse.gov/wp-content/themes/whitehouse/assets/fonts/MercurySSm-Book-Pro_Web.woff) format('woff');} /* temporary; Creative Commons licensed? */
+
+.quote_text {
+	margin-bottom: 0;
+}
+
+.mark {
+	font: var(--ifm-h4-font-size) / var(--ifm-heading-line-height)
+      var(--ifm-font-family-base)
+}
+
+/*h1, h2, h3, h4 {
+    font-family: MercurySSm-Book-Pro_Web,serif;
+}*/
+
+.hash-link {
+	display: none;
+}
+
+[data-theme='dark'] .hero__subtitle {
+	--ifm-hero-text-color: #fff;
+	color: var(--ifm-hero-text-color);
+}
+[data-theme='dark'] .hero__title {
+	--ifm-hero-text-color: #fff;
+	color: var(--ifm-hero-text-color);
+}
+
+[data-theme='dark'] .button--outline:hover, .button--outline:active, .button--outline.button--active {
+	--ifm-button-color: #fff;
+}
+
+.technical-section{	
+    padding: 1px;
+    margin-left: calc((100% - 98vw) / 2);
+    margin-right: calc((100% - 98vw) / 2);
+    background-color: var(--ifm-color-primary-darker);
+    color: white;
+	--ifm-link-hover-color: white;
+    --ifm-link-color: white;
+	--ifm-hr-background-color: white;
+	--ifm-link-decoration: underline;
+	/*margin-top: 2.5rem;
+    margin-bottom: 2.5rem;*/
+}
+.technical-section button {
+    color: white;
+}
+
+.button-collapsible {
+	cursor: pointer;
+    background: none;
+    border: none;
+    font-size: inherit;
+    text-align: left;
+    position: relative;
+    padding: 0px 0px 0px 1.5em;
+    width: 100%;
+    color: var(--ifm-font-color-base);
+}
+
+.form-input {
+    color: var(--ifm-code-color);
+    font-family: var(--ifm-font-family-monospace);
+    font-size: var(--ifm-code-font-size);
+    padding: var(--ifm-code-padding-vertical);
+    background: #0000;
+    border-style: solid;
+    width: 250px;
+    border-color: var(--ifm-code-background);
+    border-radius: var(--ifm-code-border-radius);
+}
+
+footer .form-input {
+    color: var(--ifm-color-white);
+    border-color: var(--ifm-color-white);
+    font-family: var(--ifm-font-family-monospace);
+    font-size: var(--ifm-code-font-size);
+    padding: var(--ifm-code-padding-vertical);
+	background: #0000;
+    border-style: solid;    
+	border-radius: var(--ifm-global-radius);
+    padding-left: 10px;
+    margin-bottom: 10px;
+	border-width: 1px;
+}
+
+.footer {
+    --ifm-font-color-base: : white;
+}
+.footer .form-input::placeholder {
+    color: #ffffffaa;
+}
+
+.button--primary[href="#intelligence"]::after {
+    --arrows-size: 1.3em;
+    background-color: currentcolor;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-size: var(--arrows-size);
+    content: "";
+    display: inline-block;
+    height: var(--arrows-size);
+    mask-image: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE2LjMxNSAxNi42NjhhMSAxIDAgMSAwIDEuNDE1IDEuNDE0bDQuNjY1LTQuNjY1YTIgMiAwIDAgMCAwLTIuODI5TDE3LjcyNyA1LjkyYTEgMSAwIDEgMC0xLjQxNSAxLjQxNEwxOS45NzggMTFIMmExIDEgMCAxIDAgMCAyaDE3Ljk4M2wtMy42NjggMy42NjhaIiBmaWxsPSIjMDAwIi8+PC9zdmc+);
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    margin-left: 8px;
+    vertical-align: text-bottom;
+    width: var(--arrows-size);
+}
+
+.contact-forms-container {
+    display: flex;
+    align-items: start; /* This might be causing the children to align at the start, making the hr appear shorter */
+    gap: 2rem;
+    min-height: 200px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+	flex-wrap: wrap;
+}
+
+.vertical-hr {
+    width: 3px;
+    height: 100%;
+    background-color: var(--ifm-code-background);
+    flex-shrink: 0;
+    margin: 0 1rem;
+    min-height: 180px;
+}
+@media (max-width: 997px) {
+  .vertical-hr {
+    display: none;
+  }
+}
+
+.theme-back-to-top-button {
+	display: none;
+}
+
+
+.contact-form {
+    flex: 1;
+    padding: 1rem;    flex-shrink: 0;
+    border-color: var(--ifm-code-background);
+    border-style: solid;
+    border-radius: var(--ifm-global-radius);
+    flex-shrink: 0;  
+}
+
+.star {
+    color: #d93025;
+}
