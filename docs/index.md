@@ -11740,7 +11740,7 @@ Zheng, C., C. F. Wong, J. A. McCammon, and P. G. Wolynes. (1988) Quantum simulat
 
 ## Index
 
-## A
+### A
 
 $A b$ initio quantum chemistry, $40-42$
 
@@ -11855,7 +11855,7 @@ MM2 properties, table of, 44
 
 radii of, under load, 44, 60-61
 
-## B
+### B
 
 Band flutter, 173, 175, 292
 
@@ -11957,7 +11957,7 @@ and nanomechanical design, 318
 
 Brittleness, and cracks, 254
 
-## C
+### C
 
 Cage effect, 139,148
 
@@ -12103,7 +12103,7 @@ Cyclopentyne, 214
 
 Cyclopropane, 195, 217
 
-## D
+### D
 
 Damage, see also Thermomechanical damage
 
@@ -12402,7 +12402,7 @@ exp-6 potential, 49,274
 
 Experimentation, role of, 89, 137, 438, 480$481,485,495,496-497$
 
-## F
+### F
 
 Fail-stop systems, 393
 
@@ -12484,7 +12484,7 @@ Friction, 27, 80, 316
 
 Fullerenes, 247
 
-## C
+### G
 
 Gases, 326, 328, 329-330. See also Fluids
 
@@ -12518,7 +12518,7 @@ Grignard reagents, 219
 
 Grüneisen number, 179
 
-## H
+### H
 
 Hagen-Poiseuille law, 327
 
@@ -12576,7 +12576,7 @@ Hydrogen bonding, 270
 
 Hydrogen and seals, 328
 
-## 1
+### I
 
 Independent electron approximation, 40
 
@@ -12628,11 +12628,11 @@ Irregular objects, sliding of, 277-284
 
 Isotopes, 373
 
-## I
+### J
 
 Jahn-Teller effect, 39
 
-## K
+### K
 
 Kaehler brackets, 266, 436
 
@@ -12642,7 +12642,7 @@ Knudsen number, 326
 
 Krummenacker, Markus, 467
 
-## L
+### L
 
 Latching, 321, 356
 
@@ -12730,7 +12730,7 @@ Lone pairs, 45
 
 Lubricants, 26, 316, 329
 
-## M
+### M
 
 Machine-phase systems, 6, 14, 122, 135
 
@@ -13005,7 +13005,7 @@ Motors, see Electrostatic motors
 
 Murray's law, 331
 
-## N
+### N
 
 Nanocomputers, see also Computation; CPUs; Finite-state machines; Gates; Logic rods; Memory; Nanomachines; Registers
 
@@ -13088,7 +13088,7 @@ Nonlinear effects, 71
 
 Nuts, 301
 
-## O
+### O
 
 Objectives, limitations in this volume, 15
 
@@ -13106,7 +13106,7 @@ Overlap forces, 63
 
 Overlap repulsion in MM2, 49
 
-## P
+### P
 
 Partition functions:
 
@@ -13287,7 +13287,7 @@ Purification cascades, 380-383
 
 Pyrolysis, 145-148
 
-## Q
+### Q
 
 Quality factor, scaling of, 32
 
@@ -13305,7 +13305,7 @@ Quantum uncertainty, 83
 
 Quasiclassical approximation, 72
 
-## R
+### R
 
 Rack-and-pinion gears, 308
 
@@ -13745,7 +13745,7 @@ Symmetrical structures, $267-270$
 
 Synthesis, 3. See also Organic synthesis; Mechanosynthesis
 
-## T
+### T
 
 Taylor, Dean, 476
 
@@ -13883,7 +13883,7 @@ Tunneling junctions, 335,366
 
 Turbomolecular pumps, 329
 
-## U
+### U
 
 Ultraviolet light, 151, 153
 
@@ -13893,7 +13893,7 @@ See also Positional uncertainty
 
 Unsaturated hydrocarbons as reagents, 213
 
-## V
+### V
 
 Vacuum pumps, 329
 
@@ -13913,7 +13913,7 @@ Vibrational excitation of logic rods, 349
 
 Viscosity, 27, 326
 
-## W
+### W
 
 Waste heat, 397. See also Energy dissipation
 
@@ -13935,7 +13935,7 @@ Worm drives, toroidal, 323
 
 Worm gears, 309
 
-## X-Z
+### X-Z
 
 Xenon, as a solvent, 482
 
@@ -13955,6 +13955,8 @@ $$
 \text { . }
 $$
 
+***
+
 ## COMPUTER SCIENCE/CHEMISTRY/ENGINEERING
 
 "Devices enormously smaller than before will remodel engineering, chemistry, medicine, and computer technology. How can we understand machines that are so small? Nanosystems covers it all: power and strength, friction and wear, thermal noise and quantum uncertainty. This is the book for starting the next century of engineering."
@@ -13968,17 +13970,13 @@ $$
 
 Science magazine calls Eric Drexler "Mr. Nanotechnology." For years, Drexler has stirred controversy by declaring that molecular nanotechnology will bring a sweeping technological revolution-delivering tremendous advances in miniaturization, materials, computers, and manufacturing of all kinds. Now, he's written a detailed, top-to-bottom analysis of molecular machinery - how to design it, how to analyze it, and how to build it.
 
-Nanosystems is the first scientifically detailed description of developments that will revolutionize most of the industrial processes and products currently in use. This groundbreaking work draws on physics and chemistry to establish basic concepts and analytical tools. The book then describes nanomechanical components, devices, and systems, including parallel computers able to execute $10^{20}$ instructions per second and desktop molecular manufacturing systems able to make such products. Via chemical and biochemical techniques, proximal probe instruments, and software for computer-aided molecular design, the book charts a path from present laboratory capabilities to advanced molecular manufacturing.
+*Nanosystems* is the first scientifically detailed description of developments that will revolutionize most of the industrial processes and products currently in use. This groundbreaking work draws on physics and chemistry to establish basic concepts and analytical tools. The book then describes nanomechanical components, devices, and systems, including parallel computers able to execute $10^{20}$ instructions per second and desktop molecular manufacturing systems able to make such products. Via chemical and biochemical techniques, proximal probe instruments, and software for computer-aided molecular design, the book charts a path from present laboratory capabilities to advanced molecular manufacturing.
 
-Bringing together physics, chemistry, mechanical engineering, and computer science, Nanosystems provides an indispensable introduction to the emerging field of molecular nanotechnology.
+Bringing together physics, chemistry, mechanical engineering, and computer science, *Nanosystems* provides an indispensable introduction to the emerging field of molecular nanotechnology.
 
-K. ERIC DREXLER published the first scientific paper on molecular nanotechnology ir. 1981. In addition, he taught the first course on the subject (at Stanford University) and chaired the first two conferences. He is currently President of the Foresight Institute and a Research Fellow of the Institute for Molecular Manufacturing. He wrote Nanosystems while a Visiting Scholar at the Stanford University Department of Computer Science and continues to lecture at universities and corporations in the U.S., Europe, and Japan. He received his doctoral degree in molecular nanotechnology from MIT.
+**K. ERIC DREXLER** published the first scientific paper on molecular nanotechnology ir. 1981. In addition, he taught the first course on the subject (at Stanford University) and chaired the first two conferences. He is currently President of the Foresight Institute and a Research Fellow of the Institute for Molecular Manufacturing. He wrote Nanosystems while a Visiting Scholar at the Stanford University Department of Computer Science and continues to lecture at universities and corporations in the U.S., Europe, and Japan. He received his doctoral degree in molecular nanotechnology from MIT.
 
-WILEY-INTERSCIENCE
-
-John Wiley \& Sons, Inc.
-
-Professional, Reference and Trade Group
+> WILEY-INTERSCIENCE<br/>John Wiley \& Sons, Inc.<br/>Professional, Reference and Trade Group
 
 
 
