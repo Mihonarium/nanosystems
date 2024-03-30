@@ -52,21 +52,21 @@ $$
 
 -Association of American Publishers
 
+***
+
 # Nanosystems 
 
 ## Molecular Machinery, Manufacturing, and Computation
 
-K. Eric Drexler<br/>Research Fellow<br/>Institute for Molecular Manufacturing<br/>Palo Alto, California
+**K. Eric Drexler**<br/>Research Fellow<br/>Institute for Molecular Manufacturing<br/>Palo Alto, California
 
-A WILEY-INTERSCIENCE PUBLICATION
+> A WILEY-INTERSCIENCE PUBLICATION<br/>John Wiley \& Sons, Inc.<br/>NEW YORK - CHICHESTER - BRISBANE - TORONTO - SINGAPORE
 
-John Wiley \& Sons, Inc.
-
-NEW YORK - CHICHESTER - BRISBANE - TORONTO - SINGAPORE
+***
 
 Excerpt from "There's Plenty of Room at the Bottom" by Richard P. Feynman (C) 1960 by Engineering \& Science, California Institute of Technology; used with permission.
 
-In recognition of the importance of preserving what has been written, it is a policy of John Wiley \& Sons, Inc. to have books of enduring value published in the United States printed on acid-free paper, and we exert our best efforts to that end.
+*In recognition of the importance of preserving what has been written, it is a policy of John Wiley \& Sons, Inc. to have books of enduring value published in the United States printed on acid-free paper, and we exert our best efforts to that end.*
 
 Copyright (C) 1992 by John Wiley \& Sons, Inc.
 
@@ -74,28 +74,15 @@ All rights reserved. Published simultaneously in Canada.
 
 Reproduction or translation of any part of this work beyond that permitted by section 107 or 108 of the 1976 United States Copyright Act without the permission of the copyright owner is unlawful. Requests for permission or further information should be addressed to the Permission Department, John Wiley \& Sons, Inc.
 
-## Library of Congress Cataloging-in-Publication Data
+***Library of Congress Cataloging-in-Publication Data***
 
 Drexler, K. Eric.
 
-Nanosystems : molecular machinery, manufacturing, and computation / K. Eric Drexler.
-p. $\mathrm{cm}$.
+> <br/>Nanosystems : molecular machinery, manufacturing, and computation / K. Eric Drexler.<br/>p. $\mathrm{cm}$.<br/>"A Wiley-Interscience publication."<br/>Includes bibliographical references and index.<br/>ISBN 0-471-57547-X. -- ISBN 0-471-57518-6 (pbk.)<br/>1. Nanotechnology. I. Title.
 
-"A Wiley-Interscience publication."
+T174.7.D74 1992<br/>620.4--dc20 $92-30870$<br/>CIP
 
-Includes bibliographical references and index.
-
-ISBN 0-471-57547-X. -- ISBN 0-471-57518-6 (pbk.)
-
-1. Nanotechnology. I. Title.
-
-T174.7.D74 1992
-
-620.4--dc20
-
-$92-30870$
-
-CIP
+***
 
 To experimentalists, engineers, and software builders:
 
@@ -107,36 +94,35 @@ Manufactured products are made from atoms, and their properties depend on how th
 
 It has become clear that this degree of control can be achieved. The present volume assembles the conceptual and analytical tools needed to understand molecular machinery and manufacturing, presents an analysis of their core capabilities, and explores how present laboratory techniques can be extended, stage by stage, to implement molecular manufacturing systems. It says little about applications other than computation (describing $10^{9}$-instruction-per-second submicron scale CPUs executing $\sim 10^{16}$ instructions per second per watt) and manufacturing (describing desktop devices able to produce precisely structured, kilogram-scale products from simple chemical feedstocks). Surveys of broader implications appear elsewhere (Drexler, 1986a; 1989c; Drexler et al., 1991).
 
-## The intended readership
+### The intended readership
 
 Molecular manufacturing is linked to many areas of science and technology. In writing this volume, I have been guided by an imaginary committee of readers with differing demands.
 
 One is a reader with a general science background, interested in the basic principles, capabilities, and nature of molecular nanotechnology, but not in the mathematical derivations. Accordingly, I have attempted to summarize the chief results in descriptions, diagrams, and example calculations, and have included comparisons of this field to others that are more familiar. Such a reader can skip many sections without becoming lost.
 
-Another is a student considering a career in the field. This reader demands an introduction to the foundations of molecular nanotechnology presented in terms of the basic physics, calculus, and chemistry taught to students in other
-fields. Accordingly, I have grounded most derivations in basic principles, developing intermediate results as needed.
+Another is a student considering a career in the field. This reader demands an introduction to the foundations of molecular nanotechnology presented in terms of the basic physics, calculus, and chemistry taught to students in other fields. Accordingly, I have grounded most derivations in basic principles, developing intermediate results as needed.
 
 The rest of the committee includes a physicist, a chemist, a molecular biologist, a materials scientist, a mechanical engineer, and a computer scientist. Each has deep professional knowledge of a particular field. Each demands answers to special questions that presuppose specialized knowledge. Each knows the exceptions that hide behind most generalizations, and the approximations that hide behind most textbook formulas. Accordingly, the discussion sometimes dives into a topic that readers outside the relevant discipline may find opaque. Skipping past these topics will seldom impair comprehension of what follows.
 
 Each of these specialists also represents a community of researchers able to advance the development of molecular nanotechnology. Accordingly, many of the discussions implicitly or explicitly highlight open problems, inviting work in theoretical analysis, in computer-aided design and modeling, and in laboratory experimentation. I hope that this volume will be seen both as a guide and as an invitation to a promising new field.
 
-## The nature of the subject
+### The nature of the subject
 
 Our ability to model molecular machines-of specific kinds, designed in part for ease of modeling - has far outrun our ability to make them. Design calculations and computational experiments enable the theoretical study of these devices, independent of the technologies needed to implement them. Work in this field is thus (for now) a branch of theoretical applied science (Appendix A).
 
 Molecular manufacturing applies the principles of mechanical engineering to chemistry (or should one say the principles of chemistry to mechanical engineering?) and uses results drawn from materials science, computer science, and elsewhere. But interdisciplinary studies can foster misunderstandings. From every disciplinary perspective, a superficial glance suggests that something is wrongapplying chemical principles leads to odd-looking machines, applying mechanical principles leads to odd-looking chemistry, and so forth. The following chapters offer a deeper view of how these principles interact.
 
-## Criticism of criticism
+### Criticism of criticism
 
 Research in molecular nanotechnology requires a design perspective because it aims to describe workable systems. It is easy to describe unworkable systems, and criticisms of a critic's own bad design have on occasion been presented as if they were criticisms of molecular nanotechnology as a whole. Some examples: assuming the use of flexible molecules, then warning that they will have no stable shape; assuming the manipulation of unbound reactive atoms, then warning that they will react and bond to the manipulator; assuming the use of materials with unstable surfaces, then warning that the surfaces will change; assuming that reactive gases permeate nanosystems, then warning that reactions will occur; assuming that nanomachines must "see," then warning that light waves are too long and $x$-rays too energetic; assuming that nanomachines swim from point to point, then warning that Brownian motion makes such navigation impossible; assuming that nanomachines dissipate enormous power in a small volume, then warning of overheating; and so on, and so forth. These observations constitute not criticisms, but rediscoveries of elementary engineering constraints.
 
-## Use of tenses
+### Use of tenses
 
 In ordinary discourse, "will be" suggests a prediction, while "would be" suggests a conditional prediction. Using these future-tense expressions is inappropriate when discussing the time-independent possibilities inherent in physical law.
 
 In speaking of spacecraft trajectories to Pluto, for example, to say that they "will be" is to predict the future of spaceflight; to say that they "would be" is to remind readers of the uncertainties of budgets and life. Both phrases distract from the analysis of celestial mechanics and engineering trade-offs. The present tense is more serviceable: One can say that as-yet unrealized spacecraft trajectories to Pluto "are of two kinds, direct and gravity assisted," and then analyze their properties without distraction. Similarly, one can say that as-yet unrealized nanomachines of diamondoid structure "are typically stiffer and more stable than folded proteins." Much of the discussion in this volume is cast in this timeless present tense; this is not intended to imply that devices like those discussed in Parts I and II presently exist.
 
-## Citations and apologies
+### Citations and apologies
 
 It is much easier to grasp and apply the main results of a field than it is to provide a balanced guide to the recent work, omitting no useful citations. I am sure that my discussions of chemistry and protein engineering, for example, omit papers fully as valuable as the best included. I apologize to authors I have slighted.
 
@@ -146,7 +132,7 @@ Aside from these lapses, material presented without citation falls into two cate
 
 It also seems necessary to apologize for doing theoretical work in a world where experimental gains are often so hard-won. If this theoretician's description of possibilities seems to make light of experimental difficulties, I can only plead that it would soon become tedious to say, at every turn, that laboratory work is difficult, and that the hard work is yet to be done.
 
-## Acknowledgments
+### Acknowledgments
 
 The research behind this volume began in 1977 , stimulated by the growing literature on biological molecular machines. Basic results appeared in a refereed paper (Drexler, 1981). The present work began as notes for a course taught at Stanford in 1988 at the invitation of Nils Nilsson; early versions of some chapters did service as a doctoral thesis at MIT in 1991. During this long gestation, many people have contributed through discussion, criticism, and detailed review.
 
@@ -186,8 +172,7 @@ Of these capabilities, several are qualitatively novel and others improve on pre
 
 ### 1.2. What is molecular manufacturing?
 
-This volume describes the fundamental principles of molecular machinery and applies them to nanomechanical devices and systems, including molecular manufacturing systems and computers. At present, however, these are unfamiliar topics. New fields often need new terms to describe their characteristic features, and so it may be excusable to begin with a few definitions: Molecular manufacturing is the construction of objects to complex, atomic specifications using sequences of chemical reactions directed by nonbiological molecular machinery. Molecular nanotechnology comprises molecular manufacturing together with its techniques, its products, and their design and analysis; it describes the field as a whole. Mechanosynthesis-mechanically guided chemical synthesis-is fundamental to molecular manufacturing: it guides chemical reactions on an atomic
-scale by means other than the local 'steric* and electronic properties of the ${ }^{\circ}$ reagents; it is thus distinct from (for example) enzymatic processes and present techniques for organic synthesis. $\dagger$
+This volume describes the fundamental principles of molecular machinery and applies them to nanomechanical devices and systems, including molecular manufacturing systems and computers. At present, however, these are unfamiliar topics. New fields often need new terms to describe their characteristic features, and so it may be excusable to begin with a few definitions: Molecular manufacturing is the construction of objects to complex, atomic specifications using sequences of chemical reactions directed by nonbiological molecular machinery. Molecular nanotechnology comprises molecular manufacturing together with its techniques, its products, and their design and analysis; it describes the field as a whole. Mechanosynthesis-mechanically guided chemical synthesis-is fundamental to molecular manufacturing: it guides chemical reactions on an atomic scale by means other than the local 'steric* and electronic properties of the ${ }^{\circ}$ reagents; it is thus distinct from (for example) enzymatic processes and present techniques for organic synthesis. $\dagger$
 
 At the time of this writing, positional chemical synthesis is at the threshold of realization: precise placement of atoms and molecules has been demonstrated (for example, see Eigler and Schweizer, 1990), but flexible, extensible techniques remain in the domain of design and theoretical study (Part III), as does the longer-term goal of molecular manufacturing (Chapter 14). Accordingly, the implementation of molecular nanotechnologies like those analyzed in Part II awaits the development of new tools. This volume is addressed both to those concerned with identifying promising directions for current research, and to those concerned with understanding and preparing for future technologies.
 
@@ -204,25 +189,25 @@ Figure 1.1 shows several views of one design for a nanomechanical bearing like t
 
 Table 1.1. Some known issues, problems, and constraints.
 
-Thermal excitation
-Thermal and quantal positional uncertainty
-Quantum-mechanical tunneling
-Bond energies, strengths, and stiffnesses
-Feasible chemical transformations
-Electric field effects
-Contact electrification
-Ionizing radiation damage
-Photochemical damage
-Thermomechanical damage
-Stray reactive molecules
-Device operational reliabilities
-Device operational lifetimes
-Energy dissipation mechanisms
-Inaccuracies in molecular mechanics models
-Limited scope of molecular mechanics models
-Limited scale of accurate quantal calculations
-Inaccuracy of semiempirical models
-Providing ample safety margins for modeling errors
+- Thermal excitation
+- Thermal and quantal positional uncertainty
+- Quantum-mechanical tunneling
+- Bond energies, strengths, and stiffnesses
+- Feasible chemical transformations
+- Electric field effects
+- Contact electrification
+- Ionizing radiation damage
+- Photochemical damage
+- Thermomechanical damage
+- Stray reactive molecules
+- Device operational reliabilities
+- Device operational lifetimes
+- Energy dissipation mechanisms
+- Inaccuracies in molecular mechanics models
+- Limited scope of molecular mechanics models
+- Limited scale of accurate quantal calculations
+- Inaccuracy of semiempirical models
+- Providing ample safety margins for modeling errors
 
 - Accordingly, each component is relatively stiff, lacking the numerous opportunities for internal rotation about bonds that make ${ }^{\circ}$ conformational analysis difficult in typical biomolecules.
 - Repulsive, nonbonded interactions strongly resist both rotations of the shaft away from its axial alignment with the ring, and displacement along that axis or perpendicular to it.
@@ -252,6 +237,7 @@ The bearing shown in Figure 1.1 suggests the nature of other systems described i
 Chemistry today (and chemical synthesis in particular) focuses chiefly on the behavior of molecules diffusing and colliding in solution. Reaction rates in solution-phase chemistry are determined by multiple influences, including concentration-dependent collision frequencies, and steric and electronic effects local to the reacting molecules.
 
 Although based on the same principles of physics, mechanosynthesis performed by molecular machinery in vacuum differs greatly from conventional chemistry. Concepts developed to describe diffusing molecules in a gas or liquid (or immobile molecules in a solid) often must be modified in describing systems characterized by nondiffusive mobility. The concept of "concentration," for example, in the familiar sense of "number of molecules of a particular type per unit of macroscopic volume" becomes inapplicable to calculations of reaction rates. Local steric and electronic effects remain important, but the decisive influence on reaction rates becomes mechanical positioning aided by applied force.
+
 a. Machine-phase systems. To emphasize differences from solid-, liquid-, and gas-phase systems, it can be useful to speak of machine-phase systems and chemistry:
 
 - A machine-phase system is one in which all atoms follow controlled trajectories (within a range determined in part by thermal excitation).
@@ -318,8 +304,7 @@ b. Differences: scale, molecular phenomena. Despite these similarities, nanomech
 
 ### 1.3.2. Microfabrication and microtechnology
 
-a. Similarities: small scale, electronic quantum effects. Microtechnology has enabled the fabrication of micron-scale mechanical devices. These share basic scaling properties with nanomechanical devices-and so, for example,
-electrostatic motors are preferred over electromagnetic motors in both microand nanotechnology (Section 2.4.3). Further, quantum electronic devices of kinds now being explored with microfabrication technologies may become targets for molecular manufacturing.
+a. Similarities: small scale, electronic quantum effects. Microtechnology has enabled the fabrication of micron-scale mechanical devices. These share basic scaling properties with nanomechanical devices-and so, for example, electrostatic motors are preferred over electromagnetic motors in both microand nanotechnology (Section 2.4.3). Further, quantum electronic devices of kinds now being explored with microfabrication technologies may become targets for molecular manufacturing.
 
 b. Differences: fabrication technology, scale, molecular phenomena. Microfabrication relies on technologies (photolithographic pattern definition, etching, deposition, diffusion) essentially unrelated to those of molecular manufacturing. In a sense these two fields are moving in opposite directions: microfabrication attempts to make bulk-material structures smaller despite fabrication irregularities; molecular manufacturing will emerge from attempts to make molecular structures larger without losing the atomic precision characteristic of stereospecific chemical synthesis. Making structures consisting of a few dozen preciselyarranged atoms seems unachievable using microfabrication, but is routine in chemical synthesis. The gears, bearings, and motors described in Chapters 10 and 11 differ in volume from their closest microfabricated counterparts by a factor of $\sim 10^{9}$, and rely on molecular structures and phenomena in their operation.*
 
@@ -389,8 +374,7 @@ Chapter 11 briefly discusses nanoscale electromechanical systems. These use cond
 
 c. Machine-phase chemistry. Because it can guide reactions (and can avoid most competing reactions) by tightly constraining molecular motions, machinephase chemistry can be simpler, in some respects, than is solution-phase chemistry. Mechanosynthesis and other operations can be conducted by systems of molecular machines immersed in a solution environment, and there are sometimes advantages to doing so. These less controlled, more complex chemical systems fall beyond the scope of the present work, save for the discussion of implementation strategies in Part III.
 
-d. Room temperature processes. Reduced temperatures decrease thermally excited displacements (Chapter 5), thermal damage rates (Chapter 6), and phonon-mediated drag (Chapter 7). The opportunities and problems presented
-by low-temperature systems are nonetheless not explored in the present work. Operation at high temperatures is desirable in some circumstances, and can facilitate both desired and undesired chemical reactions, but discussions of the associated technological opportunities and problems are likewise omitted.
+d. Room temperature processes. Reduced temperatures decrease thermally excited displacements (Chapter 5), thermal damage rates (Chapter 6), and phonon-mediated drag (Chapter 7). The opportunities and problems presented by low-temperature systems are nonetheless not explored in the present work. Operation at high temperatures is desirable in some circumstances, and can facilitate both desired and undesired chemical reactions, but discussions of the associated technological opportunities and problems are likewise omitted.
 
 e. No photochemistry. Photochemical damage mechanisms are discussed in Section 6.5. Design of molecular machines for photochemical damage resistance is an important challenge, but for simplicity the following will instead assume that devices operate in optically shielded environments. Deliberate use of photochemistry is mentioned only in passing.
 
@@ -489,8 +473,7 @@ The first of the following sections considers the role of engineering approximat
 
 When used with caution, classical continuum models of nanoscale systems can be of substantial value in design and analysis. They represent the simplest level in a hierarchy of approximations of increasing accuracy, complexity, and difficulty.
 
-Experience teaches the value of approximation in design. A typical design process starts with the generation and preliminary evaluation of many options, then selects a few options for further elaboration and evaluation, and finally settles on a detailed specification and analysis of a single preferred design. The first steps entail little commitment to a particular approach. The ease of exploring and comparing many qualitatively distinct approaches is at a premium, and drastic approximations often suffice to screen out the worst options. Even the final
-design and analysis does not require an exact calculation of physical behavior: approximations and compensating safety margins suffice. Accordingly, a design process can use different approximations at different stages, moving toward greater analytical accuracy and cost.
+Experience teaches the value of approximation in design. A typical design process starts with the generation and preliminary evaluation of many options, then selects a few options for further elaboration and evaluation, and finally settles on a detailed specification and analysis of a single preferred design. The first steps entail little commitment to a particular approach. The ease of exploring and comparing many qualitatively distinct approaches is at a premium, and drastic approximations often suffice to screen out the worst options. Even the final design and analysis does not require an exact calculation of physical behavior: approximations and compensating safety margins suffice. Accordingly, a design process can use different approximations at different stages, moving toward greater analytical accuracy and cost.
 
 Approximation is inescapable because the most accurate physical models are computationally intractable. In macromechanical design, engineers employ approximations based on classical mechanics, neglecting quantum mechanics, the thermal excitation of mechanical motions, and the molecular structure of matter. Since macromechanical engineering blends into nanomechanical engineering with no clear line of demarcation, the approximations of macromechanical engineering offer a point of departure for exploring the nanomechanical realm. In some circumstances, these approximations (with a few adaptations) provide an adequate basis for the design and analysis of nanoscale systems. In a broader range of circumstances, they provide an adequate basis for exploring design options and for conducting a preliminary analysis. In a yet broader range of circumstances, they provide a crude description to which one can compare more sophisticated approximations.
 
@@ -666,8 +649,7 @@ Design and analysis have shown, however, that dry bearings with atomically preci
 
 ### 2.3.3. Major corrections
 
-The above scaling relationships treat matter as a continuum with bulk values of strength, modulus, and so forth. They readily yield results for the behavior of iron bars scaled to a length of $10^{-12} \mathrm{~m}$, although such results are meaningless
-because a single atom of iron is over $10^{-10} \mathrm{~m}$ in diameter. They also neglect the influence of surfaces on mechanical properties (Section 9.4), and give (at best) crude estimates regarding small components, in which some dimensions may be only one or a few atomic diameters.
+The above scaling relationships treat matter as a continuum with bulk values of strength, modulus, and so forth. They readily yield results for the behavior of iron bars scaled to a length of $10^{-12} \mathrm{~m}$, although such results are meaningless because a single atom of iron is over $10^{-10} \mathrm{~m}$ in diameter. They also neglect the influence of surfaces on mechanical properties (Section 9.4), and give (at best) crude estimates regarding small components, in which some dimensions may be only one or a few atomic diameters.
 
 Aside from the molecular structure of matter, major corrections to the results suggested by these scaling laws include uncertainties in position and velocity resulting from statistical and quantum mechanics (examined in detail in Chapter 5). Thermal excitation superimposes random velocities on those intended by the designer. These random velocities depend on scale, such that
 
@@ -689,8 +671,7 @@ In considering the scaling of electromagnetic systems, it is convenient to assum
 
 ### 2.4.2. Major corrections
 
-Chapter 11 describes several nanometer scale electromechanical systems, requiring consideration of the electrical conductivity of fine wires and of insulating layers thin enough to make tunneling a significant mechanism of electron
-transport. These phenomena are sometimes (within an expanding range of conditions) understood well enough to permit design calculations.
+Chapter 11 describes several nanometer scale electromechanical systems, requiring consideration of the electrical conductivity of fine wires and of insulating layers thin enough to make tunneling a significant mechanism of electron transport. These phenomena are sometimes (within an expanding range of conditions) understood well enough to permit design calculations.
 
 Corrections to classical continuum models are more important in electromagnetic systems than in mechanical systems: quantum effects, for example, become dominant and at small scales can render classical continuum models useless even as crude approximations. Electromagnetic systems on a nanometer scale commonly have extremely high frequencies, yielding large values of $\hbar \omega / k T_{300}$. Molecules undergoing electronic transitions typically absorb and emit light in the visible to ultraviolet range, rather than the infrared range characteristic of thermal excitation at room temperature. The mass of an electron is less than $10^{-3}$ that of the lightest atom, hence for comparable confining energy barriers, electron ${ }^{\circ}$ wave functions are more diffuse and permit longer-range tunneling. At high frequencies, the inertial effects of electron mass become significant, but these are neglected in the usual macroscopic expressions for electrical circuits. Accordingly, many of the following classical continuum scaling relationships fail in nanoscale systems. The assumption of scale-independent electrostatic field strengths itself fails in the opposite direction, when scaling up from the nanoscale to the macroscale: the resulting large voltages introduce additional modes of electrical breakdown. In small structures, the discrete size of the electronic charge unit, $\sim 1.6 \times 10^{-19} \mathrm{C}$, disrupts the smooth scaling of classical electrostatic relationships (Section 11.7.2c).
 
@@ -804,8 +785,7 @@ $$
 \end{equation*}
 $$
 
-Accordingly, the efficiency of electrostatic motors decreases with decreasing scale. The absence of long conducting paths (like those in electromagnets) makes resistive losses smaller to begin with, however, and a detailed examination (Section 11.7) shows that efficiencies remain high in absolute terms for
-motors of submicron scale. The above relationships show that electromechanical systems cannot be scaled in the simple manner suggested for purely mechanical systems, even in the classical continuum approximation.
+Accordingly, the efficiency of electrostatic motors decreases with decreasing scale. The absence of long conducting paths (like those in electromagnets) makes resistive losses smaller to begin with, however, and a detailed examination (Section 11.7) shows that efficiencies remain high in absolute terms for motors of submicron scale. The above relationships show that electromechanical systems cannot be scaled in the simple manner suggested for purely mechanical systems, even in the classical continuum approximation.
 
 Electromagnets are far less attractive for nanoscale systems, since
 
@@ -855,8 +835,7 @@ $$
 \end{equation*}
 $$
 
-Combining the characteristic $17 \Omega$ resistance and $10^{-15} \mathrm{~h}$ inductance calculated above yields an $L R$ time constant of $\sim 6 \times 10^{-17} \mathrm{~s}$. This time constant is nonphysical: it is, for example, short compared to the electron ${ }^{\circ}$ relaxation time in a typical metal at room temperature ( $\left.\sim 10^{-14} \mathrm{~s}\right)$. In reality, current decays more slowly
-because of electron inertia (which has effects broadly similar to those of inductance) and because of the related effect of finite electron relaxation time.
+Combining the characteristic $17 \Omega$ resistance and $10^{-15} \mathrm{~h}$ inductance calculated above yields an $L R$ time constant of $\sim 6 \times 10^{-17} \mathrm{~s}$. This time constant is nonphysical: it is, for example, short compared to the electron ${ }^{\circ}$ relaxation time in a typical metal at room temperature ( $\left.\sim 10^{-14} \mathrm{~s}\right)$. In reality, current decays more slowly because of electron inertia (which has effects broadly similar to those of inductance) and because of the related effect of finite electron relaxation time.
 
 With the approximation of scale-independent resistivity,
 
@@ -1008,8 +987,7 @@ The concept of a molecular potential energy surface (PES) is fundamental to prac
 
 The significant features of a PES are its ${ }^{\circ}$ potential wells and the passes (termed ${ }^{\circ} \mathrm{cols}$ ) between them. A point representing the state of a stiff, ${ }^{\circ}$ stable structure resides in a well with steep walls (i.e., with a large second derivative of the energy, the basis of stiffness, for all displacements) and no low, accessible cols leading to alternative wells (i.e., no low-energy routes to other structures, the basis of stability). A point representing the initial state of a chemically reactive structure, in contrast, resides in a well linked to another well by a col of accessible height. A point representing a mobile nanomechanical component commonly moves in a well with a long, level floor. Molecular systems in which all transitions occur between distinct potential wells resemble transistor systems in which all transitions occur between distinct logic states: in both instances, the application of correct design principles can yield reliable behavior even though other systems subject to the same physical principles behave erratically.
 
-Physicists and chemists describe molecular behavior using a hierarchy of approximations of varying accuracy; the PES concept itself is one such approximation. The following sections move from extremely accurate but impractical theories to less accurate but more useful approximations. Section 3.2 discusses both exact quantum mechanical theories and chemically useful approximations to them. Section 3.3 discusses molecular mechanics methods at some length: for nanomechanical engineering, approaches like those described in Sections 3.3 to 3.5 often provide the most useful approximations to the PES, from the standpoint both of accuracy and of computational feasibility. (A discussion of the
-accuracy of these methods relative to different requirements appears in Section 4.4.) Section 3.4 discusses specialized potential energy functions describing chemical reactions, and Section 3.5 discusses models of the interaction energy of large objects, neglecting atomic detail. Most of the topics introduced in this chapter are discussed at length in the literature; suggestions for further reading are appended.
+Physicists and chemists describe molecular behavior using a hierarchy of approximations of varying accuracy; the PES concept itself is one such approximation. The following sections move from extremely accurate but impractical theories to less accurate but more useful approximations. Section 3.2 discusses both exact quantum mechanical theories and chemically useful approximations to them. Section 3.3 discusses molecular mechanics methods at some length: for nanomechanical engineering, approaches like those described in Sections 3.3 to 3.5 often provide the most useful approximations to the PES, from the standpoint both of accuracy and of computational feasibility. (A discussion of the accuracy of these methods relative to different requirements appears in Section 4.4.) Section 3.4 discusses specialized potential energy functions describing chemical reactions, and Section 3.5 discusses models of the interaction energy of large objects, neglecting atomic detail. Most of the topics introduced in this chapter are discussed at length in the literature; suggestions for further reading are appended.
 
 ### 3.2. Quantum theory and approximations
 
@@ -1091,8 +1069,7 @@ Molecular mechanics programs use an approximate PES to calculate the properties 
 
 Burkert and Allinger (1982) provide data on the typical accuracy of calculations performed on hydrocarbons using the MM2 model: estimated bond lengths typically match experimental values to within a few times $10^{-13} \mathrm{~m}(\sim 0.1 \%)$, estimated bond angles typically match within about $0.01 \mathrm{rad}\left(\approx 0.6^{\circ}\right.$, or $\left.0.5 \%\right)$, and energies within a few times $10^{-21} \mathrm{~J}$. These values are comparable in accuracy to the experimental data itself. Accuracies are lower among nonhydrocarbon structures, but are often good by nanomechanical standards (Section 4.4.3).
 
-Burkert and Allinger compare the computational costs of molecular mechanics calculations to those of $a b$ initio quantum mechanical calculations: for a small molecule (propylamine, with 13 atoms) cost favors molecular mechanics by a factor of $10^{3}$. For larger molecules the difference becomes more pronounced: computational costs for molecular mechanics methods increase at between the second and third power of the number of atoms, rather than the higher powers characteristic of molecular orbital methods. As of 1992, molecular mechanics
-calculations on $10^{5}$ atom systems have become routine, and systems of $10^{2}$ to $10^{3}$ atoms are readily modeled using personal computers.
+Burkert and Allinger compare the computational costs of molecular mechanics calculations to those of $a b$ initio quantum mechanical calculations: for a small molecule (propylamine, with 13 atoms) cost favors molecular mechanics by a factor of $10^{3}$. For larger molecules the difference becomes more pronounced: computational costs for molecular mechanics methods increase at between the second and third power of the number of atoms, rather than the higher powers characteristic of molecular orbital methods. As of 1992, molecular mechanics calculations on $10^{5}$ atom systems have become routine, and systems of $10^{2}$ to $10^{3}$ atoms are readily modeled using personal computers.
 
 b. Limitations, content, and applications. Molecular mechanics systems have, however, been successfully applied to only a narrow range of molecular structures in configurations not too far from equilibrium. They use energy functions and parameters tailored to specific, local arrangements of atoms. Fortunately for nanomechanical engineering efforts, the most advanced molecular mechanics methods have been developed to model a class of structures that includes those most suitable for use as nanomechanical components-that is, structures built largely of carbon atoms (often augmented with one or more of the elements $\mathrm{H}, \mathrm{N}, \mathrm{O}, \mathrm{F}, \mathrm{Si}, \mathrm{P}, \mathrm{S}$, and $\mathrm{Cl}$ ) joined by strong, directional, covalent bonds. Structures of this class are the focus of organic chemistry; a subset of these structures comprises most of the molecular machinery of living systems.
 
@@ -1275,8 +1252,7 @@ d. Electrostatic interactions. Structures containing atoms of substantially diff
 
 An example of a strongly polarized bond is $\mathrm{C}-\mathrm{F}$, with a dipole moment of $\sim 4.7 \times 10^{-30} \mathrm{C} \cdot \mathrm{m}$. If this dipole is treated as resulting from atom-centered fractional charges, the corresponding charge on the $\mathrm{F}$ atom is about $-0.2 e$. Figures 3.6 and 3.7 include a comparison of the magnitude of electrostatic and nonbonded interactions for $\mathrm{C}-\mathrm{F}, \mathrm{C}-\mathrm{Cl}$, and $\mathrm{C}-\mathrm{Br}$ groups, calculated using atomcentered fractional charges.
 
-e. Nonbonded interactions. Corresponding to each atom type (Table 3.1) is a set of parameters describing the attractive and repulsive forces experienced by pairs of uncharged, nonbonded atoms. Physicists usually apply the term "van der Waals force" to the attractive component alone, that is, to the London dispersion force (along with various polar interactions between molecules). This volume follows a common usage in computational chemistry, treating polar
-interactions separately but including the ${ }^{\circ}$ overlap repulsion (a.k.a. exchangeforce, hard-core, Born, or steric repulsion) as part of a single nonbonded potential. The MM2 model describes these overall interactions with a Buckingham (or $\exp -6$ ) potential
+e. Nonbonded interactions. Corresponding to each atom type (Table 3.1) is a set of parameters describing the attractive and repulsive forces experienced by pairs of uncharged, nonbonded atoms. Physicists usually apply the term "van der Waals force" to the attractive component alone, that is, to the London dispersion force (along with various polar interactions between molecules). This volume follows a common usage in computational chemistry, treating polar interactions separately but including the ${ }^{\circ}$ overlap repulsion (a.k.a. exchangeforce, hard-core, Born, or steric repulsion) as part of a single nonbonded potential. The MM2 model describes these overall interactions with a Buckingham (or $\exp -6$ ) potential
 
 $$
 \begin{equation*}
@@ -1401,8 +1377,7 @@ D_{\mathrm{e}} \approx D_{0}+\frac{\hbar}{2} \sqrt{\frac{k_{\mathrm{s}}}{\mu}}=D
 \end{equation*}
 $$
 
-where $m_{1}$ and $m_{2}$ are the masses of the bonded atoms. The zero-point energy of a harmonic oscillator of frequency $\omega$ is $\hbar \omega / 2$, and Eq. (3.14) treats a bonded pair of atoms as if it were a harmonic oscillator having the frequency of an analogous
-isolated diatomic molecule. In the case of a $\mathrm{C}-\mathrm{C}$ bond, $D_{\mathrm{e}}$ is about $1.02 D_{0}$. Table 3.8 lists values for $D_{\mathrm{e}}$ based on tabulated values for bond dissociation energies and the bond stiffness values of the MM2 potential, using Eq. (3.14) to approximate the zero-point energy after correction to zero $\mathrm{K}$. These values can be substantially modified by the surrounding molecular structure.
+where $m_{1}$ and $m_{2}$ are the masses of the bonded atoms. The zero-point energy of a harmonic oscillator of frequency $\omega$ is $\hbar \omega / 2$, and Eq. (3.14) treats a bonded pair of atoms as if it were a harmonic oscillator having the frequency of an analogous isolated diatomic molecule. In the case of a $\mathrm{C}-\mathrm{C}$ bond, $D_{\mathrm{e}}$ is about $1.02 D_{0}$. Table 3.8 lists values for $D_{\mathrm{e}}$ based on tabulated values for bond dissociation energies and the bond stiffness values of the MM2 potential, using Eq. (3.14) to approximate the zero-point energy after correction to zero $\mathrm{K}$. These values can be substantially modified by the surrounding molecular structure.
 
 Figure 3.3 plots the $\mathrm{C}-\mathbf{C}$ Morse potential based on the values in Table 3.8, along with the MM2 bonded and nonbonded potentials; Figures 3.4 and 3.5 plot additional Morse potentials for easy reference. Although its form is motivated by quantum mechanical considerations, the Morse function grows increasingly inaccurate far from the equilibrium separation. From a structural perspective,
 
@@ -1441,6 +1416,7 @@ b. Nonbonded interactions under large compressive loads. Nonbonded interactions 
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-78.jpg?height=1913&width=1110&top_left_y=177&top_left_x=188)
 
 Figure 3.7. The relationships in Figure 3.6 regraphed on a logarithmic scale to facilitate reading of values. Dashed lines represent negative values.
+
 the well depths and equilibrium radii of pairwise interactions, and so forth. Modeling interactions within and between molecules in terms of atom-by-atom pairwise potentials of any kind has no basic theoretical justification and guarantees some inaccuracy. Discussions of alternative models may be found in the literature (Maitland et al., 1981; Rigby et al., 1986). Nonetheless, molecular mechanics potentials including the three components just mentioned have proved accurate enough for a wide range of purposes. The additional interaction terms just mentioned are inconsequential when repulsive forces are dominant, as is common at interfaces within nanomechanical devices.
 
 Several well-known potential forms are unsuitable for analyzing nanomechanical systems that involve large repulsive energies. The Lennard-Jones 6-12 potential, although time honored, has a repulsive interaction that lacks theoretical motivation and is unrealistically steep. The Maitland and Smith potential (Maitland et al., 1981), although excellent in the low-energy range, is again too steep in the deep repulsive regime.
@@ -1469,8 +1445,7 @@ $$
 
 Figure 3.8. MM2 nonbonded potential energies and stiffnesses as a function of the pairwise force for a range of pairwise interactions. The dotted diagonal lines represent Eq. (3.18) (bottom) and Eq. (3.19) (top) for $r_{\text {vdw0 }}=0.36 \mathrm{~nm}$.
 
-Figures 3.6 and 3.7 plot energy, force, and stiffness as functions of distance for various pairwise nonbonded interactions. In the repulsive regime, stiffness increases with decreasing separation and increasing force; the achievable compressive force commonly limits the achievable stiffness. Figure 3.8 plots stiffness and energy as functions of compressive force for a representative set of pairwise interactions. Where the exponential term dominates, stiffness, force, and energy
-are proportional. For strongly repulsive interactions in the MM2 model
+Figures 3.6 and 3.7 plot energy, force, and stiffness as functions of distance for various pairwise nonbonded interactions. In the repulsive regime, stiffness increases with decreasing separation and increasing force; the achievable compressive force commonly limits the achievable stiffness. Figure 3.8 plots stiffness and energy as functions of compressive force for a representative set of pairwise interactions. Where the exponential term dominates, stiffness, force, and energy are proportional. For strongly repulsive interactions in the MM2 model
 
 $$
 \begin{equation*}
@@ -1493,6 +1468,7 @@ Chemists define various atomic sizes, including covalent, ionic, and van der Waa
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-81.jpg?height=984&width=1078&top_left_y=1131&top_left_x=320)
 
 Figure 3.9. Approximate summable nonbonded radii, based on Eq. (3.20): for a given force between two atoms, their separation is approximately the sum of the above radii.
+
 approximate expression defines loaded contact radii as a function of the applied force $F$
 
 $$
@@ -1513,8 +1489,7 @@ Bond cleavage and formation present computational challenges for molecular orbit
 
 ### 3.4.2. Bond cleavage and radical coupling
 
-The simplest reactions break a single bond and yield two ${ }^{\circ}$ radicals that undergo no subsequent rearrangement. These reactions have potential energy surfaces that are extensions of bond stretching and bond angle-bending. The Morse function, Eq. (3.10), can serve as an approximate potential for homolytic reactions (i.e., bond cleavage yielding a pair of radicals rather than a pair of ions). For the design of reactive nanomechanisms, the important region of the Morse function lies between the bottom of the potential well $\left(r=r_{0}\right)$ and the distance at which the stiffness is most negative [which occurs at $r=r_{0}+(\ln 4) / \beta$ ]. Toward the outer
-end of this range, however, the Lippincott potential appears to give a more accurate description.
+The simplest reactions break a single bond and yield two ${ }^{\circ}$ radicals that undergo no subsequent rearrangement. These reactions have potential energy surfaces that are extensions of bond stretching and bond angle-bending. The Morse function, Eq. (3.10), can serve as an approximate potential for homolytic reactions (i.e., bond cleavage yielding a pair of radicals rather than a pair of ions). For the design of reactive nanomechanisms, the important region of the Morse function lies between the bottom of the potential well $\left(r=r_{0}\right)$ and the distance at which the stiffness is most negative [which occurs at $r=r_{0}+(\ln 4) / \beta$ ]. Toward the outer end of this range, however, the Lippincott potential appears to give a more accurate description.
 
 Bond formation by radical coupling (the inverse of homolytic bond cleavage) requires paired, antiparallel electron spins (termed a ${ }^{\circ}$ singlet state, for reasons rooted in spectroscopy). With paired spins, this process follows a Morse potential; systems with parallel, unpaired spins (triplet states) experience a potential approximated by the repulsive, anti-Morse function
 
@@ -1656,6 +1631,7 @@ ${ }^{a}$ Hamaker constants for metals from Israelachvili (1992). Values for $n,
 | ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=366&width=509&top_left_y=1673&top_left_x=188) | ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=366&width=552&top_left_y=1673&top_left_x=767) |
 
 Figure 3.10. The potential energy, $\mathscr{V}_{\text {vdw }}$ of the van der Waals attraction in the nonretarded continuum approximation; after Israelachvili (1992). In the two-surface expression, $S=$ area. The more complex expressions for geometries with $r \approx s$ appear in Hiemenz (1986).
+
 region of high polarizability in an object) and an approximate excluded-volume surface (describing the limits of motion imposed by overlap repulsion). The gap occurs because polarizability chiefly arises from regions of high electron density within bonds and atomic core regions, while the overlap repulsion is substantial even outside these regions. Section 3.5.2 describes flat-surface models that include the effects of overlap repulsion.
 
 Taking $\mathscr{A}=400 \mathrm{maJ}$ (a fairly high value) and $s=0.2 \mathrm{~nm}$ (i.e., contact), the attractive dispersion force between two spheres of $r=1 \mathrm{~nm}$ is $\sim 0.83 \mathrm{nN}$. For parallel surfaces at this separation, the force per unit area is $\sim 2.7 \times 10^{9} \mathrm{~N} / \mathrm{m}^{2}$ $\left(=2.7 \mathrm{nN} / \mathrm{nm}^{2}\right.$ ), $\sim 1 / 20$ the tensile strength of diamond. Doubling $s$ (for example, by interposing scattered atomic-scale bumps as spacers) reduces this force to $\sim 3.3 \times 10^{8} \mathrm{~N} / \mathrm{m}^{2}$.
@@ -1679,6 +1655,7 @@ with obvious generalizations when more layers of atoms are treated explicitly.
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-03.jpg?height=331&width=150&top_left_y=1711&top_left_x=593)
 
 a2 12
+
 Figure 3.11. Model of two surfaces, showing the outermost atomic layers described as uniform planes and deeper regions approximated as uniform volumes.[^9]
 
 The plane-plane interaction energy can be calculated from integrals describing the point-plane interaction energy, using an exp-6 potential. In terms of the densities $n_{\mathrm{a} 1}$ and $n_{\mathrm{a} 2}$ of atoms in the two planes, the energy per unit area is
@@ -1757,8 +1734,7 @@ Computational methods in quantum mechanics have advanced greatly over the decade
 
 Potential energy surfaces. A general introduction to molecular mechanics methods is given by Molecular Mechanics (Burkert and Allinger, 1982). A Handbook of Computational Chemistry (Clark, 1985) includes descriptions of MM2, although its main focus is on quantum chemistry.
 
-Molecular mechanics methods are evolving rapidly. A common operation is to find a local minimum on the PES; so-called Newton methods have usually required storage space proportional to $N^{2}$ (where $N$ is the number of atoms) and a computational time proportional to $N^{3}$, but more recent algorithms have better scaling laws: $N^{1.5}$ and $N^{2}$ respectively (Ponder and Richards, 1987a). For engineering work, fast, rough approximations are of considerable value in the early stages of design and analysis; a method has been reported that gives results similar to MM2 using simpler, faster code based purely on pairwise, interatomic
-central forces (Saunders and Jarret, 1986). Quantum chemistry methods are being used to improve molecular mechanics models, for example, in work supported by the Consortium for Research and Development of Potential Energy Functions (Hagler et al., 1989).
+Molecular mechanics methods are evolving rapidly. A common operation is to find a local minimum on the PES; so-called Newton methods have usually required storage space proportional to $N^{2}$ (where $N$ is the number of atoms) and a computational time proportional to $N^{3}$, but more recent algorithms have better scaling laws: $N^{1.5}$ and $N^{2}$ respectively (Ponder and Richards, 1987a). For engineering work, fast, rough approximations are of considerable value in the early stages of design and analysis; a method has been reported that gives results similar to MM2 using simpler, faster code based purely on pairwise, interatomic central forces (Saunders and Jarret, 1986). Quantum chemistry methods are being used to improve molecular mechanics models, for example, in work supported by the Consortium for Research and Development of Potential Energy Functions (Hagler et al., 1989).
 
 Intermolecular forces are complex, though most are weak enough to be neglected in nanomechanical engineering. A good introduction is The Forces Between Molecules (Rigby et al., 1986); a more advanced book is Intermolecular Forces: Their Origin and Determination (Maitland et al., 1981). An excellent text that emphasizes interactions between objects and forces in liquids is Intermolecular and Surface Forces (Israelachvili, 1992). The broad literature on surface science and surface chemistry contains much that is relevant, but often focuses on surfaces that are unstable and reactive; these need not be used in nanomechanical devices.
 
@@ -1778,8 +1754,7 @@ This section outlines several nonstatistical descriptions of molecular dynamics 
 
 Molecular vibrations have been extensively studied in connection with infrared spectroscopy, and observed infrared vibrational frequencies are a major constraint used in determining parameters for molecular mechanics energy functions. Small displacements of a stiff structure from its equilibrium geometry are associated with nearly linear restoring forces. This permits the use of a harmonic approximation, in which the vibrational dynamics can be separated into a set of independent normal modes and the total motion of the system can be treated as a linear superposition of normal-mode displacements. This common approximation is of considerable use in describing nanomechanical systems.
 
-Since both classical and quantum mechanics permit exact solutions for the harmonic oscillator, the time evolution of systems can readily be calculated in the harmonic approximation. In real systems, nonlinear effects permit energy
-exchange among vibrational modes, causing relaxation to thermal equilibrium. The equilibrium state, in turn, is best described by the methods of statistical mechanics. A nonstatistical description of vibrational motion is of interest chiefly during (or within a few relaxation times of) the excitation of a vibrational mode by a nonthermal energy source.
+Since both classical and quantum mechanics permit exact solutions for the harmonic oscillator, the time evolution of systems can readily be calculated in the harmonic approximation. In real systems, nonlinear effects permit energy exchange among vibrational modes, causing relaxation to thermal equilibrium. The equilibrium state, in turn, is best described by the methods of statistical mechanics. A nonstatistical description of vibrational motion is of interest chiefly during (or within a few relaxation times of) the excitation of a vibrational mode by a nonthermal energy source.
 
 ### 4.2.2. Reactions and transition rates
 
@@ -1791,8 +1766,7 @@ In practice, calculations of molecular reaction dynamics commonly are based on t
 
 b. Solution and machine phase vs. molecular beams. Coarse features from a reaction dynamics perspective are, however, fine features from the perspective of a chemist or a nanomechanical engineer. Chemical reactions in nanomechanical systems bear little resemblance to reactions in crossed molecular beams. In an extended solid system subject to relatively slow mechanical motions, reactive molecular components do not encounter one another with well-defined energies and momenta; broad, thermal distributions dominate. Likewise, during the course of the encounter, the reactive components do not form an isolated system with locally conserved energy, momentum, and angular momentum; the reactive system remains coupled to a thermal bath. The notion of a scattering angle is meaningless, and reaction-induced vibrational excitations are quickly thermalized.
 
-In these respects, reactions in nanomechanical systems resemble the solution-phase reactions familiar to chemists. In such systems, the chief concern is with overall reaction rates, not with the details of trajectories. As a consequence,
-the detailed shape of the PES (crucial to the details of reactive scattering) is of reduced importance. Reaction rate data only weakly constrain PES properties. Given a few properties of the PES, thermally activated reaction rates are calculated using classical or quantum mechanical transition state theories based on statistical mechanics; these are discussed in Chapter 6.
+In these respects, reactions in nanomechanical systems resemble the solution-phase reactions familiar to chemists. In such systems, the chief concern is with overall reaction rates, not with the details of trajectories. As a consequence, the detailed shape of the PES (crucial to the details of reactive scattering) is of reduced importance. Reaction rate data only weakly constrain PES properties. Given a few properties of the PES, thermally activated reaction rates are calculated using classical or quantum mechanical transition state theories based on statistical mechanics; these are discussed in Chapter 6.
 
 ### 4.2.3. Generalized trajectories
 
@@ -1806,8 +1780,7 @@ c. Dynamical regimes and corresponding models. The dynamical behavior of nanomec
 
 ### 4.3. Statistical mechanics
 
-Statistical mechanics (also known as statistical or molecular thermodynamics) is most commonly applied to relate macroscopic thermodynamic properties to statistical descriptions of the behavior of large numbers of molecules. En route to
-describing properties of bulk matter, statistical mechanics frequently describes probability distributions for underlying molecular variables, such as position and velocity. In the present context, it is these probabilistic descriptions of the behavior of individual molecular objects that are of primary value.
+Statistical mechanics (also known as statistical or molecular thermodynamics) is most commonly applied to relate macroscopic thermodynamic properties to statistical descriptions of the behavior of large numbers of molecules. En route to describing properties of bulk matter, statistical mechanics frequently describes probability distributions for underlying molecular variables, such as position and velocity. In the present context, it is these probabilistic descriptions of the behavior of individual molecular objects that are of primary value.
 
 Statistical mechanics can frequently provide estimates of the statistical behavior of nanomechanical systems without the computational cost of running a detailed dynamical simulation for long periods of time. Today, it is expensive to do a simulation of $10^{3}$ atoms for as long as $10^{-9} \mathrm{~s}$, yet a nanomechanism that fails even once per millisecond may be unacceptable. Estimating failure rates by observing more than $10^{6}$ expensive simulations would be impractical. Statistical mechanics, in contrast, can provide estimates for the frequencies of extremely rare events using efficient analytical methods.
 
@@ -1819,8 +1792,7 @@ By omitting dynamical details, statistical mechanics provides a simplification t
 
 The nanomechanical engineer's task, then, is to devise systems in which all probable behaviors (or all but exceedingly improbable behaviors) are compatible with successful system operation. This typically requires designs that present low energy barriers to desired behaviors, and high energy barriers to undesired behaviors, in which the high energy barriers often are a consequence of the use of stiff components.
 
-Even if one were to assume classical, deterministic behavior and nearly perfect information regarding initial conditions, a typical nanomechanical system would soon require a statistical description. Consider the trajectory of a particle rebounding from an atom: because atoms are not flat, a small perturbation typically causes a particle to rebound at a different angle, leading to a larger perturbation at its next point of impact. In a typical system, trajectories that are
-initially almost identical will rapidly diverge until they have no similarity. This divergence is characteristic of chaos. Further, real nanomechanical systems are in mechanical or radiative contact with an environment at some nonzero temperature, providing a constant source of unpredictable thermal excitations.
+Even if one were to assume classical, deterministic behavior and nearly perfect information regarding initial conditions, a typical nanomechanical system would soon require a statistical description. Consider the trajectory of a particle rebounding from an atom: because atoms are not flat, a small perturbation typically causes a particle to rebound at a different angle, leading to a larger perturbation at its next point of impact. In a typical system, trajectories that are initially almost identical will rapidly diverge until they have no similarity. This divergence is characteristic of chaos. Further, real nanomechanical systems are in mechanical or radiative contact with an environment at some nonzero temperature, providing a constant source of unpredictable thermal excitations.
 
 ### 4.3.2. Basic results in equilibrium statistical mechanics
 
@@ -1876,8 +1848,7 @@ p=-(\partial \mathscr{F} / \partial V)_{T}=k T(\partial \ln q / \partial V)_{T} 
 \end{equation*}
 $$
 
-b. Classical statistical mechanics. Paralleling the quantum case, in classical statistical mechanics it is common to consider a system that is in thermal contact with a heat bath, yet is treated as having a bath-independent energy function, $\mathscr{E}$ (state). For a mechanical system, a state is defined as a point in the phase space defined by the set of position coordinates $q_{1}, q_{2}, q_{3}, \ldots, q_{3 N}$ (the position), and
-the corresponding momentum coordinates $p_{1}, p_{2}, p_{3}, \ldots, p_{3 N}$ (the momentum), where $N$ is the number of atoms. Here, a complete description consists of a specification of the probability density function (PDF) over phase space. The fundamental result is
+b. Classical statistical mechanics. Paralleling the quantum case, in classical statistical mechanics it is common to consider a system that is in thermal contact with a heat bath, yet is treated as having a bath-independent energy function, $\mathscr{E}$ (state). For a mechanical system, a state is defined as a point in the phase space defined by the set of position coordinates $q_{1}, q_{2}, q_{3}, \ldots, q_{3 N}$ (the position), and the corresponding momentum coordinates $p_{1}, p_{2}, p_{3}, \ldots, p_{3 N}$ (the momentum), where $N$ is the number of atoms. Here, a complete description consists of a specification of the probability density function (PDF) over phase space. The fundamental result is
 
 $$
 \begin{equation*}
@@ -1955,8 +1926,7 @@ region of locally minimal energy. Thus, points correspond to minima, and each lo
 
 Minima separated by barriers small compared to $k T$ can often be regarded as a single minimum, because the barriers are crossed so easily. A system acting as a good rotary bearing (Section 10.4), for example, will exhibit a chain or loop of minima having essentially the same depth and separated by barriers of negligible height. For all practical purposes, a chain or loop of this sort constitutes a single potential well. In a properly designed nanomechanical system, cols between potential wells are either functional parts of the design, or are high enough to block any substantial probability flux.
 
-c. Constraints and thermal excitation. Even without being able to visualize interconnected, approximately ellipsoidal potential wells, or ring-shaped valleys in a high-dimensional space, one can get a sense of the strongly constrained nature of the motion of the configuration point in such systems. A similar description of a chemically reacting solution-phase system lacks such well-defined features. Each possible covalent combination of atoms forms a separate valley, and the valleys intertwine in a manner that brings each into close proximity with many others. Which cols are available-determining which reactions can occur
-at appreciable rates-depends on the relative heights and widths of the numerous connections between valleys. A chemist attempting to control the pattern of reactions must exploit small differences in the heights and effective volumes (the energies and entropies) of cols and valleys. In a nanomechanical system, in contrast, a reaction might occur between two groups brought together by a gearlike rotary motion. The available configuration space consists of two ringshaped valleys linked by a single col of modest height. Unwanted reactions can be prevented by gross mechanical constraints, rather than by small differences in energy and entropy.
+c. Constraints and thermal excitation. Even without being able to visualize interconnected, approximately ellipsoidal potential wells, or ring-shaped valleys in a high-dimensional space, one can get a sense of the strongly constrained nature of the motion of the configuration point in such systems. A similar description of a chemically reacting solution-phase system lacks such well-defined features. Each possible covalent combination of atoms forms a separate valley, and the valleys intertwine in a manner that brings each into close proximity with many others. Which cols are available-determining which reactions can occur at appreciable rates-depends on the relative heights and widths of the numerous connections between valleys. A chemist attempting to control the pattern of reactions must exploit small differences in the heights and effective volumes (the energies and entropies) of cols and valleys. In a nanomechanical system, in contrast, a reaction might occur between two groups brought together by a gearlike rotary motion. The available configuration space consists of two ringshaped valleys linked by a single col of modest height. Unwanted reactions can be prevented by gross mechanical constraints, rather than by small differences in energy and entropy.
 
 The configuration-space picture is most useful when applied to a subsystem that is coupled to a larger system that acts as a thermal bath. This can be described in terms of the potential surface that would arise if the rest of the system were motionless and fully relaxed for all subsystem configurations, combined with a time-varying perturbing potential representing the effects of thermal vibrations external to the subsystem. In this picture, the landscape vibrates, and total energy of the configuration point is not a constant.
 
@@ -2038,8 +2008,7 @@ The quantum interference effects that can be observed in such experiments provid
 
 ### 4.4.2. Chemical accuracy
 
-a. Predicting solution-phase reaction rates and equilibria is hard. In solution chemistry, a standard challenge is to predict chemical equilibria, absolute reaction rates, and the relative rates of competing reactions. Synthetic chemistry can be viewed as an engineering discipline aimed at constructing molecules. In
-this task, rates and equilibria are of central importance: if a reaction equilibrates several species, then the yield of the desired product will depend on the equilibrium concentration ratios; alternatively, if a reaction can proceed along any of several effectively irreversible paths, then the yield of the desired product will depend on the ratio of the reaction rates. In some reactions, yields are affected by both rates and equilibria.
+a. Predicting solution-phase reaction rates and equilibria is hard. In solution chemistry, a standard challenge is to predict chemical equilibria, absolute reaction rates, and the relative rates of competing reactions. Synthetic chemistry can be viewed as an engineering discipline aimed at constructing molecules. In this task, rates and equilibria are of central importance: if a reaction equilibrates several species, then the yield of the desired product will depend on the equilibrium concentration ratios; alternatively, if a reaction can proceed along any of several effectively irreversible paths, then the yield of the desired product will depend on the ratio of the reaction rates. In some reactions, yields are affected by both rates and equilibria.
 
 If entropic factors are equal, then the equilibrium ratio of two species is an exponential (Boltzmann) function of the difference in potential energy between the species. Likewise, if entropic factors (and certain dynamical factors) are equal, then the ratio of the rates of two competing reactions is an exponential function of the difference in potential energy between the two transition states. At $300 \mathrm{~K}$, a difference of $1 \mathrm{maJ}$ changes rates and equilibria by a factor of 1.27 , a $10 \mathrm{maJ}$ difference results in a factor of 11 , and a $100 \mathrm{maJ}$ difference results in a factor of $3.1 \times 10^{10}$. To a practicing chemist, an energy difference of $10 \mathrm{maJ}$ between two competing species or transition states which changes the yield of a reaction from $8 \%$ to $90 \%$ usually matters more than would a $100 \mathrm{maJ}$ shift in all energies (causing no change in the course of the reaction) or a $100 \mathrm{maJ}$ shift in the transition-state energies which slows the reaction-completion time from a microsecond to an hour. In discussions of molecular energies, the term "chemical accuracy" usually implies errors of somewhat less than $10 \mathrm{maJ}$ per molecule in describing the energies of chemical species (corresponding to potential wells) and transition states (corresponding to features of cols). Aside from entropic effects dependent on the breadth of potential wells and cols, reaction rates typically exhibit only modest sensitivity to the shape-as distinct from the well depths and ${ }^{\circ}$ barrier heights-of the potential energy surface.
 
@@ -2067,6 +2036,7 @@ Figure 4.4. Molecular dynamics simulation of pentacyclo[4.2.0.0 $\left.2,5.0^{3,
 c. Mechanosynthesis is relatively insensitive to modeling errors. Errors in modeling chemical reactions play a different role. If the correct sequence of reactions is performed, then the correct structure will result, regardless of small errors in describing reaction rates or transition-state geometries during the process (Section 6.2). Distinct structures correspond to distinct states on a PES determined by invariant physical constants, and the manner of construction has no effect on the nature of the product. In conventional manufacturing, small variations in fabrication steps can have cumulative effects on properties such as product geometry, but no parallel problem arises in molecular manufacturing. Like switching events in digital logic, reactions either occur or they don't, and the result is either correct, or it isn't: ambiguous situations are unstable and transient.
 
 In comparison to conventional chemical synthesis, molecular manufacturing processes based on positional control of synthetic reactions are less sensitive to small energy differences. Individual reaction steps can be driven to completion either by ensuring that energy differences greatly favor the product state, or by repeating trials until a molecular measurement verifies successful completion. To achieve regio- and stereospecificity, reactions can be guided not by differences in reaction rates and equilibria as in conventional synthesis, but by rigid control of ${ }^{\circ}$ reagent access to different sites. In chemical terms, this can create enormous ratios of effective reagent concentration between molecular sites that might otherwise be equally reactive. With positional control of synthesis, the main issues are achieving a high enough reaction rate (fast reactions best exploit the speed of nanomechanical systems) and avoiding (or being able to reverse) unwanted reactions immediately adjacent to the target site. These and related matters are discussed in more detail in Chapter 8.
+
 d. Designs can eventually be tested and corrected. At present, nanomechanical design must rely on modeling because the tools necessary for construction and testing are unavailable. Note, however, that errors in specific designs (as distinct from systematic errors regarding what sorts of designs are workable) will be of little significance until the systems they describe can be constructed and used. Then, of course, testing will become possible, and errors can be corrected.
 
 ### 4.5. Conclusions
@@ -2134,6 +2104,7 @@ $$
 $$
 
 This relationship has broader applicability than its derivation may suggest.
+
 a. The irrelevance of external bombardment. The probability density function for the position and velocity of a harmonic oscillator is independent of the nature of its coupling to the surrounding thermal bath. This may occur through vibration of its attachment point, through absorption and emission of thermal radiation, or through bombardment by molecules in a surrounding gas. None of these influences alters the potential energy function, hence none alters the Boltzmann distribution for the oscillator.
 
 This may seem counterintuitive, given a mental image of the dynamical effects of molecular bombardment. At equilibrium, however, an impinging gas molecule is as likely to absorb energy as to deliver it, and so molecular bombardment has no net effect on the amplitude of vibration. How a system is coupled to a thermal bath can affect its detailed dynamics (e.g., the smoothness or irregularity of its trajectory, the decay time for oscillations of unusual amplitude, etc.), but not the statistical distribution of dynamical quantities. This principle holds true for systems in general, and makes the study of positional uncertainty dependent only on potential energy functions.
@@ -2344,6 +2315,7 @@ $$
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-35.jpg?height=379&width=1001&top_left_y=1726&top_left_x=349)
 
 Figure 5.5. Limiting-case rods. Part (a) diagrams a rod in the limiting case in which masses and spring constants are lumped on a plane-by-plane basis; (b) diagrams the limiting case in which the rod is treated as a bundle of decoupled simple rods.
+
 b. Semicontinuum quantum mechanical approximation. A simple approximation to a discrete system uses the continuum results but truncates the sum of the modal variances at $n=N-1$. The continuum expressions for the modal effective stiffnesses and frequencies, together with Eq. (5.17), yield the positional variance associated with mode $n$ in the continuum approximation:
 
 $$
@@ -2438,6 +2410,7 @@ $$
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-37.jpg?height=808&width=1087&top_left_y=1321&top_left_x=320)
 
 Figure 5.6. A dimensionless measure of variance vs. a dimensionless measure of temperature, for rods supporting varying numbers of longitudinal modes, Eq. (5.37).
+
 and the standard deviation of the bundle end position (i.e., of the mean displacement of the component ends) is
 
 $$
@@ -3159,6 +3132,7 @@ $$
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-60.jpg?height=1092&width=874&top_left_y=1090&top_left_x=344)
 
 Figure 6.1. Potential energy surfaces illustrating concepts in transition state theory.
+
 where $v_{\text {mean }}$ is the mean speed of particles of probability gas along a given direction (that is, the average of the absolute value of the velocity along that direction, divided by two to discount particles traveling in the wrong direction). This expression generalizes to any number of dimensions: An $N$ dimensional volume is always bounded by an $N-1$ dimensional surface; each patch of surface transmits gas at a rate equaling its area times the mean speed perpendicular to its surface, and the mean speed (in the above sense) is independent of the number of dimensions. In mass-weighted coordinates,
 
 $$
@@ -3473,7 +3447,9 @@ In that design, however, 6.1 would encounter other structures including the frag
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-73.jpg?height=376&width=880&top_left_y=856&top_left_x=419)
 
 and various other products. To approach the Diels-Alder transition state, the rings would have to encounter one another in a nearly parallel orientation, as in 6.5. In the application proposed, however, a surrounding matrix would mechanically constrain the rings, forcing them to approach in a perpendicular orientation, as in 6.6, thereby precluding this reaction.
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-73.jpg?height=578&width=952&top_left_y=1486&top_left_x=384)[^15]b. Machine-phase damage mechanisms. To generalize from these examples:
+![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-73.jpg?height=578&width=952&top_left_y=1486&top_left_x=384)[^15]
+
+b. Machine-phase damage mechanisms. To generalize from these examples:
 - Structures that are unstable in solution environments owing to intermolecular reactions between identical molecules can be stable in eutactic systems because collisions do not occur.
 - Structures that react on collision in solution environments can fail to react on collision in eutactic systems owing to constraints on orientation.
 
@@ -3539,6 +3515,7 @@ and the effective stiffness as the bond stiffness, $k_{\mathrm{s}}$. The tunneli
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-76.jpg?height=1202&width=1181&top_left_y=769&top_left_x=191)
 
 Figure 6.9. Values of the characteristic time for bond breakage, $\tau_{\mathrm{cl}}$, as a function of temperature and the bond energy $\Delta \mathcal{V}$, as given by Eq. (6.28). The solid and dashed lines represent systems in which the partition function $q_{\text {long }}$ is unity (corresponding to the high-frequency limit); the dotted lines just above the solid lines represent systems in which this partition function is calculated for $\omega=7 \times 10^{13} \mathrm{rad} / \mathrm{s}$, a relatively low frequency like that of a $\mathrm{Si}-\mathrm{Si}$ bond.
+
 b. Rate modifications in liquid and solid media. In liquids, the observed rate of thermal bond cleavage is substantially reduced by the dynamic cage effect: radicals surrounded by solvent molecules are confined for several molecular vibration times, permitting opportunities for immediate (geminate) recombination. In solids, geminate recombination is often far more probable than in liquids owing to the near absence of diffusion: the radicals are trapped in solid cages. In the interior of a stiff diamondoid solid, and in the absence of intense stress, separation of radicals commonly requires the simultaneous cleavage of additional bonds, multiplying the effective magnitude of the barrier height and drastically reducing failure rates; this can be termed a solid-cage effect.
 
 Attachment to a ${ }^{\circ}$ rigid structure can have dramatic effects even for surface moieties. For example, while an ordinary organic peroxide, Eq. (6.31), is subject to irreversible cleavage in solution (once separated, the two radicals are unlikely to recombine), an analogous peroxide structure attached to a rigid structure will (in the absence of neighboring reactive moieties) reliably recombine on a $10^{-13} \mathrm{~s}$ time scale Eq. (6.32).
@@ -3552,6 +3529,7 @@ A better physical model for thermal damage in the interior of a stable diamondoi
 ### 6.4.4. Thermomechanical bond cleavage
 
 Tensile stress destabilizes bonds, increasing the rate of thermal cleavage and sometimes opening a tunneling path to cleavage. Large angular strains are common in organic chemistry, for example, in small rings. Substantial tensile strains are less common in organic chemistry but frequently are important in nanomechanical systems, where engineering performance often depends on the imposed stress, providing an incentive to push toward the allowable limits of stress.
+
 a. Thermomechanical bond cleavage rates. Cleavage rates for bonds under simple tensile stress at ordinary temperatures can be approximated with a onedimensional quantum TST like that in Section 6.2.3, but with frequencies and barrier heights calculated with the aid of a potential energy function describing bond extension. Combining the Morse function Eq. (3.10) with the potential energy resulting from an applied force $F$ yields
 
 $$
@@ -3577,6 +3555,7 @@ and frequencies at the well minimum and barrier maximum that yield both a one-di
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-78.jpg?height=793&width=856&top_left_y=1345&top_left_x=346)
 
 Figure 6.10. Morse curves modified by tensile stresses ranging from 0.0 to 1.0 times the critical stress for barrier elimination.
+
 a parabolic well),
 
 $$
@@ -3691,6 +3670,7 @@ The second difference is that potentially unstable substructures found in nanome
 A useful exercise is to examine a list of rearrangement reactions and observe how few could occur if most bonds to hydrogen atoms on a molecular surface were instead bonds to carbon atoms in a surrounding matrix of diamondlike rigidity. Diamond itself is stable to $1800 \mathrm{~K}$ in an inert atmosphere $\left(\tau_{\text {trans }}>10^{85} \mathrm{~s}\right.$ at $300 \mathrm{~K}$ ), despite the well-known energetic advantage of rearrangement to graphite.
 
 For the nanomechanical design process, it would be useful to develop an automated classification system capable of reliably labeling structures as adequately stable, inadequately stable, or of unknown adequacy, with the set of structures labeled as adequately stable being large enough to permit effective nanomechanical design. Such a design tool could in substantial measure be validated using the existing data on small-molecule pyrolysis. Lacking a tool of this sort, one must proceed using informal chemical reasoning (drawing on the accumulated generalizations of organic chemistry) and analogy based on model compounds (drawing on the yet more massive accumulation of data in organic chemistry), supplemented by computational methods. The strategy pursued in the present work is to favor structures in which strong bonds form frameworks of diamondlike rigidity that lack substructures of known instability. This strategy is more likely to exclude workable designs (yielding false negatives) than to include unworkable designs (yielding false positives). As development progresses, both classes of error will be reduced.
+
 e. Stability of reagent devices. Molecular manufacturing systems include devices containing moieties that play the role of reagents in organic synthesis. These evidently cannot be designed for high stability in a general sense, hence their stability against unwanted chemical transformations must in practice be examined on a case-by-case basis.
 
 Some broad observations can be made: Reagent moieties make up only a small fraction $\left(10^{-3}\right.$ to $\left.10^{-6}\right)$ of the mass of a molecular manufacturing system as presently conceived; this somewhat reduces their quantitative significance as targets for damage. Further, they are subject to rapid cycles of synthesis and use, rather than serving as structural elements that must be stable for the life of the system; this can reduce their significance as targets for damage. Finally, the reagent devices used in a molecular manufacturing system can be selected from a wide range of candidate structures, including analogues of familiar reagents, catalysts, and reactive intermediates; this generates a large set of options with varying stability characteristics.
@@ -4168,6 +4148,7 @@ More generally, each surface can be viewed as having many sets of rows, with set
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-20.jpg?height=415&width=622&top_left_y=1662&top_left_x=514)
 
 Figure 7.2. The motion of bands of atomic alignment as two surfaces with differing row spacings slide over each other. Panels (a), (b), and (c) represent three successive positions, the left-hand arrow traces the motion of an atom in surface 1; the right-hand arrow traces the motion of an alignment band between the surfaces.
+
 can be seen that
 
 $$
@@ -4598,6 +4579,7 @@ $$
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-35.jpg?height=268&width=656&top_left_y=1834&top_left_x=499)
 
 Figure 7.7. Two-piston model of a compressed square well; cylinder walls are assumed adiabatic.
+
 where $v_{1, \mathrm{rms}}$ and $v_{2, \mathrm{rms}}$ are measured in the frame of reference of the scattering piston ( pistons are assumed to interact only with particles moving in their direction in the rest frame, neglecting molecules overtaken; this approximation is good for small $f$ ). Since mean square velocity is proportional to temperature, Eq. (7.55) can be converted to velocity terms, yielding the condition
 
 $$
@@ -4829,6 +4811,7 @@ which is simply $-T \mathscr{S}$, where $\mathscr{S}$ is the entropy increase re
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-41.jpg?height=449&width=936&top_left_y=1691&top_left_x=359)
 
 Figure 7.9. Merging of symmetrical (a) and asymmetrical (b) potential wells, showing potentials at a series of times.
+
 gas to half its initial volume. In computational systems, the symmetrical merging of two wells corresponds to the erasure of one bit of information; information erasure is the only abstract computational process that of necessity results in an increase in entropy and a corresponding loss of free energy (Bennett, 1982; Landauer, 1988; see also Section 4.3.5).
 
 ### 7.6.4. Asymmetrical well merging
@@ -5064,6 +5047,7 @@ Unlike forces resulting from hydrostatic pressure, forces applied by mechanochem
 d. Localized electrochemistry, "photochemistry." Mechanochemical systems can exploit nonmechanical energy sources, for example, through electrochemistry and energy transfer via electronic excitations. Both of these mechanisms can be controlled more precisely in a mechanochemical environment than in solution or solution-surface systems.Electrochemistry finds significant use in organic synthesis (Kyriacou, 1981). Electrostatic potentials and tunneling rates can vary sharply on a molecular scale (Bockris and Reddy, 1970b), permitting molecular-scale localization of electrochemical activity. Accordingly, electrochemical processes are well suited to exploitation in a mechanochemical context; they are also subject to modulation by piezochemical means (Swaddle, 1986). In electrochemical cells, pyridine can withstand an electrode potential of $3.3 \mathrm{~V}$ without reaction and tetrahydrofuran, $-3.2 \mathrm{~V}$, both with respect to a (catalytically active) platinum electrode (Kyriacou, 1981); these potentials correspond to energy differences with a magnitude $>500 \mathrm{maJ}$ per unit charge. In field-ion microscopes (which provide one model for an electrode surface), electric fields can reach $\sim 50 \mathrm{~V} / \mathrm{nm}$ (Nanis, 1984). Chapter 11 will discuss certain aspects of electrical engineering on a nanometer scale, but electrochemical processes, despite their undoubted utility, are not exploited in the following analysis.
 
 Direct photochemistry suffers from problems of localization (which do not preclude its use), but photochemical effects can often be achieved by nonphotochemical means. Photochemical processes begin with the electronic excitation of a molecule by a photon, but this energy often can migrate from molecule to molecule as a discrete exciton before inducing a chemical reaction, and this process is highly sensitive to molecular structures and positions. Accordingly, the transfer of excitons can provide a better-controlled means for achieving photochemical ends; potential applications are, however, neglected in this volume.
+
 e. Broadened options for catalysis. The structural requirements for mechanochemical reagents discussed in Section 8.3.2b are satisfied by many catalytic structures: some are parts of solid surfaces already, and others (e.g., many homogeneous transition metal catalysts) have analogues that can be covalently anchored to a larger structure. The remarks of Section 8.3.2b apply to small catalytic species (e.g., hydrogen and hydroxide ions).
 
 Aside from regeneration treatments (which are infrequent on a molecular time scale), conventional catalysts operate under steady-state conditions. In a typical catalytic cycle, reagents are bound to form a complex, the complex rearranges, and a product departs, all in the same medium at constant pressure, temperature, and so forth. If any transition state in this sequence of steps is too high in energy, its inaccessibility will block the reaction. If any intermediate state is too low in energy, its stability will block the reaction. If any feasible alternative reaction (with any reagent or contaminant in the diffusing mixture) leads to a stable complex, the catalyst will be poisoned. Many successful catalysts have been developed, but the above conditions are stringent, requiring a delicately balanced energy profile across a sequence of steps (Crabtree, 1987).
@@ -5399,6 +5383,7 @@ a. Force and activation energy. Forces in piezochemical processes alter the reac
 Initial motion along a reaction coordinate can resemble the stretching of bonds or the compression of nonbonded contacts. As these motions continue, the resisting forces increase, but (usually) not so rapidly or so far as they would in simple bond cleavage or in the compression of an unreactive molecular substance. The potential energy curve instead levels off, passes through a transition state, and falls into another well. Since the energy stored in a given degree of freedom by a given force is proportional to compliance, the energy stored by a force applied through an unreactive bonded or nonbonded interaction is usually lower than that stored in a reactive system.
 
 As shown by Figure 3.8, a compressive load of $\sim 2$ to $3 \mathrm{nN}$ stores $70 \mathrm{maJ}$ in a nonbonded interaction in the MM2 model; the $\sim 30 \mathrm{nN}$ per-bond compressive load in a diamond anvil cell (Section 8.3.3c) is an order of magnitude larger. The energy stored in bonds is more variable, but for a $\mathrm{C}-\mathrm{C}$ bond in the Morse model (Table 3.8), a tensile force of $\sim 5 \mathrm{nN}$ stores $70 \mathrm{maJ}$.
+
 b. Applied forces and energy dissipation. When actuation times are relatively long ( $\left.\sim 10^{-6} \mathrm{~s}\right)$, acoustic radiation from time-varying forces (Section 7.2 ) is minimal, as are free-energy losses resulting from potential-well compression (Section 7.5), given reasonable values for critical stiffnesses. Likewise, with small displacements $(\sim 1 \mathrm{~nm})$ and low speeds $\left(\sim 10^{-3} \mathrm{~m} / \mathrm{s}\right)$, phonon-scattering losses (Section 7.3) are small. In an elementary reaction process, the most significant potential sources of dissipation are transitions among time-dependent wells (Section 7.6).
 
 Although the issue is distinct from the basic qualitative question of mechanosynthesis (i.e., what can be synthesized?), minimizing energy losses is of practical interest. Losses can broadly be divided into three classes: (1) those that are many times $k T$, resulting from the merging of an occupied high-energy well with an unoccupied low-energy well; (2) those on the order of $k T$, resulting from the merging of wells of similar energy; and (3) those of negligible magnitude, resulting from the merging of a low-energy, occupied well with a high-energy, unoccupied well. The simplest way to achieve high reaction reliability is to follow route (1), dissipating $\geq 145 \mathrm{maJ}$ per operation. During forcible mechanochemical processes, however, it will in many instances be possible first to follow route (2) or (3) to a state in which the wells are merged (or rapidly equilibrating over a low barrier), then to use piezochemical effects to transform the PES to a type (1) surface before separation. This yields a process with reliability characteristic of (1), but with energy dissipation characteristic of (2) or (3). Systems capable of altering relative well depths by $\geq 150 \mathrm{maJ}$ in mid-transformation can achieve error rates $<10^{-15}$ with an energy dissipation $<0.1 k T_{300}$. Opportunities for this sort of control are discussed in several of the following sections.
@@ -5459,6 +5444,7 @@ At finite temperatures and modest speeds, transitions can occur without causing 
 For estimating energy dissipation, a conservative measure of the barrier height for the process as a whole is the height when the two wells are of equal depth, $\Delta \mathcal{V}_{=}^{\ddagger}$ (assuming substantial values of $k_{\mathrm{s}, \text { struct }}$, to limit the entropic differences between the two wells). Figure 8.8 plots $\Delta \mathscr{V}_{=}^{\ddagger}$ as a function of $k_{\mathrm{s}, \text { struct }}$ for several bond types. For processes in which $k_{\mathrm{s}, \text { struct }}>90 \mathrm{~N} / \mathrm{m}$, and characteristic times are $\geq 10^{-7} \mathrm{~s}$, dissipation is small relative to $k T$ for all the single bonds shown; for standard $\mathrm{C}-\mathrm{C}$ bonds, $k_{\mathrm{s}, \text { struct }}>60 \mathrm{~N} / \mathrm{m}$ is sufficient.
 
 c. Spin, dissipation, and reversibility. In the absence of intersystem crossing, bond cleavage yields a singlet diradical. In a well-separated diradical, however, the singlet-triplet energy gap approaches zero, and thermal excitation soon populates the triplet state. If bond cleavage is fast compared to intersystem crossing, this equilibration process results in $\Delta \mathscr{F}=-\ln (2) k T$ (corresponding to the loss of one bit of information). Conversely, if intersystem crossing is fast, the thermal population of the (repulsive) triplet state results in a reduction of the mean-force bond potential energy during cleavage, and no significant dissipation. Note that slow intersystem crossing can cause large energy dissipation in mechanically forced radical coupling, even when the reverse process has a dissipation $<k T$.
+
 d. Atomic stiffness estimation. In the linear, continuum approximation, the $z$-axis deformation of a surface at a radius $r$ from a $z$-axis point load is $\propto 1 / r$ (Timoshenko and Goodier, 1951). Accordingly, most of the compliance associated with displacement of an atom on a surface results from the compliance of the portion of the structure within a few bond radii.
 
 A carbon atom on a hydrogenated diamond (111) surface can be taken as a model for $s p^{3}$ carbons on the surfaces of diamondoid structures. The MM2 model value for the $z$-axis stiffness $k_{\mathrm{sz}}$ of such a carbon atom on a semi-infinite lattice can be accurately approximated by measuring the stiffness in a series of approximately hemispherical, diamondlike clusters of increasing radius (Figure 8.9), holding the lattice-terminating hydrogen atoms fixed. In the continuum model, the compliance of the region outside a hemisphere is $\propto 1 / r$; treating the number of carbon atoms as a measure of $r^{3}$ and fitting the four cluster-stiffness values with this model yields $k_{\mathrm{sz}}=153 \pm 2 \mathrm{~N} / \mathrm{m}$.
@@ -5490,6 +5476,7 @@ With this function in hand, it is straightforward to evaluate the energy barrier
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-79.jpg?height=606&width=1074&top_left_y=1477&top_left_x=283)
 
 Figure 8.10. Barrier height for abstraction of hydrogen from methane by methyl, plotted as a function of the compressive load applied to the carbon atoms (linear geometry). This function is based on an extended LEPS potential fitted to $a b$ initio transition state parameters for an unloaded system.
+
 this model, $\Delta \mathscr{V}^{\ddagger}=0$ at $F_{\text {compr }} \approx 3.6 \mathrm{nN}$, and $r(\mathrm{CC}) \approx 0.242 \mathrm{~nm}$; this load is well within the achievable range (Section 8.3.3c). At ordinary temperatures, however, there is little practical reason to drive $\Delta \mathscr{V}^{\ddagger}$ to zero (indeed, with tunneling, there is little reason to do so even at cryogenic temperatures). The barrier is reduced to $2 k T_{300}$ at a load of $2 \mathrm{nN}$, with $r(C C) \approx 0.251 \mathrm{~nm}$ at the transition state. At a load of $1 \mathrm{nN}, \Delta^{\mathscr{V}} \approx 29 \mathrm{maJ}$, and $r(\mathrm{CC}) \approx 0.258 \mathrm{~nm}$. Assuming a frequency factor of $10^{13} \mathrm{~s}^{-1}$, this barrier would be consistent with an omitted-reaction probability $\leq 10^{-15}$ in a mechanochemical system with a transformation time of $\sim 4 \times 10^{-9} \mathrm{~s}$ (if, that is, the reaction were also sufficiently exoergic). These conditions are consistent with achieving high reaction reliability via the conditional-repetition mechanism (Section 8.3.4f).
 
 b. Exoergic abstraction reactions. A reliable single-step reaction must meet stringent exoergicity requirements (Section 8.3.4e) at the time of kinetic decoupling. The energy differences in Eqs. (8.28) and 8.30) are consistent with $P_{\mathrm{err}}<$ $10^{-15}$ without using cycles of repetition and measurement, while for Eq. (8.29), $P_{\mathrm{err}} \approx 10^{-13}$ :
@@ -5678,6 +5665,7 @@ $\mathbf{8 . 4 4}$
 The metal-nitrogen bond lengths shown in this structure are appropriate for octahedrally coordinated cobalt.
 
 Single ligands mounted on independently manipulable tips represent one extreme of mobility; multiple ligand moieties in a single rigid structure represent another. An intermediate class incorporates several ligand moieties into a single structure, subjecting them to substantial relative motion by elastic deformation of that structure. This can ensure large interligand stiffnesses, facilitating low-dissipation processes.
+
 c. Mechanically driven processes. Low-stiffness, low-strength bonds are more readily subject to mechanochemical manipulation: both the required force and (for low-dissipation processes) the required stiffness of the surrounding structure are smaller. The stretching frequencies of $\mathrm{M}-\mathrm{H}$ bonds (Crabtree, 1987) imply stiffnesses between 130 and $225 \mathrm{~N} / \mathrm{m}, \sim 0.25$ to 0.50 times the stiffness of a typical $\mathrm{C}-\mathrm{H}$ or $\mathrm{C}-\mathrm{C}$ bond; the stiffness of $\mathrm{M}-\mathrm{C}$ bonds (which are longer and of lower energy) should likewise be low. Given that bonds as stiff as C-C can be cleaved in a low-dissipation process (Section 8.5.3), a wide range of mechanochemical processes involving transition metals can presumably be carried out in a positive-stiffness, zero-barrier manner (or, with similar effect, in a manner encountering only small regions of negative stiffness, and hence only low barriers).
 
 In solution-phase chemistry, catalysts capable of inserting metals into ${ }^{\circ}$ alkane $\mathrm{C}-\mathrm{H}$ bonds, Eq. (8.35), have been unstable, either attacking their ligands or the solvent, and insertion into $\mathrm{C}-\mathrm{C}$ bonds [Eq. (8.36)] has required a strained reagent (Crabtree, 1987). With an expanded choice of ligands and the elimination of accessible solvent molecules, the first problem should be avoidable. Further, when loads of bond-breaking magnitude can be applied between a transitionmetal atom and a potential reagent, intrinsic strain is presumably no longer required in the reagent. Configurations like 8.44 seem well suited for insertion into a sterically exposed bond. Since metal insertion in the above instances has the effect of replacing a strong, stiff bond with two weaker, more compliant bonds, it can facilitate further mechanochemical operations.
@@ -5750,6 +5738,7 @@ Section 8.6.5 describes synthesis strategies that exploit the regular structure 
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-09.jpg?height=130&width=330&top_left_y=2031&top_left_x=865)
 
 Figure 8.18. A diamond (100) surface, without (a) and with (b) reconstruction.
+
 specific irregular structures might be synthesized, and thus provides a point of departure for considering the synthesis of a broad class of diamondoids.
 
 a. Existing models of diamond synthesis. Models of synthesis via small molecular fragments have been developed to explain the low-pressure synthesis of diamond under nonequilibrium conditions in a high-temperature hydrocarbon gas, a process of increasing technological importance. Two models have been advanced and subjected to studies using semiempirical quantum mechanics. Both propose mechanisms for the growth of diamond on (111) surfaces, one based on a cationic process involving methyl groups (Tsuda et al., 1986) and one based on the addition of ethyne (Huang et al., 1988). Of these, the ethyne process appears more plausible and more directly relevant to feasible mechanosynthetic processes (regardless of its frequency during diamond growth from the gas phase).
@@ -5813,6 +5802,7 @@ Figure 8.23 represents a pair of similar reaction processes on a dehydrogenated 
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-14.jpg?height=302&width=720&top_left_y=1716&top_left_x=379)
 
 Figure 8.23. Reaction processes bonding cumulene strands to (left) a dehydrogenated step on a hydrogenated diamond (111) surface and (right) a groove on a diamond (110) surface (see Section 8.6.5a).
+
 require a series of stepwise reactions both to dehydrogenate atoms in the plane to be covered and to hydrogenate new atoms in the plane being constructed; the (110) reaction has no such requirement.
 
 b. Hexagonal diamond from hexagonal strands. The unsaturated, hexagonal, columnar structure 8.49 can be regarded as a tightly rolled tube of graphite; it can made from a ${ }^{\circ}$ saturated structure by abstraction of all hydrogens. Like a cumulene strand, 8.48 , this is a pure-carbon structure; owing to pyramidalization and torsion of pi systems, it is also relatively high in energy.
@@ -6058,6 +6048,7 @@ Figure 9.4. Results of computational experiments measuring rod moduli in the MM2
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=166&width=297&top_left_y=1818&top_left_x=749)
 
 Figure 9.5. A series of rods forming a family of structures suffering increasing strain per bond with increasing diameter; instances with $n_{\text {bond }}=2,3$, and 4 are shown. Moduli are graphed in Figure 9.4(b).
+
 (a)
 
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=94&width=280&top_left_y=238&top_left_x=516)
@@ -6183,6 +6174,7 @@ Some cylindrical structures are not members of scalable families. The rods illus
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-38.jpg?height=552&width=756&top_left_y=1574&top_left_x=360)
 
 Figure 9.11. A cylindrical structure with $s p^{3}$ surface structure and an $s p^{2}$ inner structure (the ten-membered conjugated rings will exhibit ${ }^{\circ}$ aromatic stabilization).
+
 an example of intermediate size; the outer ring of the bearing in Figure 1.1 provides a still larger example. The set of diamondoid structures of high rotational symmetry, small length, and diameter $\leq 1 \mathrm{~nm}$ is large, but may be small enough to permit the development of an exhaustive catalogue.
 
 ### 9.7. Adhesive interfaces
@@ -6602,6 +6594,7 @@ $$
 For a bearing with $r_{\text {eff }}=\ell=2 \mathrm{~nm}$ and $k_{\text {s,bear }}=10^{3} \mathrm{~N} / \mathrm{m}, P_{\text {drag }} \approx 3 \times 10^{-16} \mathrm{~W}$ at $v=1 \mathrm{~m} / \mathrm{s}$, and $\approx 3 \times 10^{-20} \mathrm{~W}$ at $1 \mathrm{~cm} / \mathrm{s}$.
 
 Sleeve bearings can be used both to support loads along the shaft axis and to provide stiffness in resisting axial displacements; this can be accomplished by ensuring that the shaft and sleeve have interlocking circumferential corrugations (e.g., as shown in Figure 10.17). An interface of this sort exhibits a stiffness per unit area for transverse displacements (in the axial direction) of $k_{\mathrm{a}, \text { trans }}$. This coupling mode permits phonons of a different polarization to cross the interface, providing an independent mechanism for energy dissipation characterized by expressions like those above, but with $k_{\mathrm{a} \text {,trans }}$ substituted for $k_{\mathrm{a}}$ (and in a more thorough analysis, a different modulus, etc.). Where the axial stiffness equals $k_{\mathrm{s} \text {,bear }}$, the increment in energy dissipation is $\sim 0.5^{1.7} P_{\mathrm{drag}} \approx 0.3 P_{\mathrm{drag}}$.
+
 c. Band-stiffness scattering. Following the procedure in the previous section, expressions analogous to Eqs. (10.21) and (10.22) for power dissipation from band-stiffness scattering, Eq. (7.35), are
 
 $$
@@ -6661,6 +6654,7 @@ With $k_{\mathrm{s}, \text { bear }}=1000 \mathrm{~N} / \mathrm{m}, r_{\text {ef
 Sleeve bearings can usefully be examined at two levels of molecular detail: interfacial structure and overall structure. The design of relatively large bearings can exploit strained cylindrical shells (Section 9.6.1). Bearings of this sort can be viewed as forming families with specific unstrained structures and crystallographic orientations (relative to the interface and the bearing axis), and with specific surface terminations at the sliding interface. Within such a family, the bearing radius $r_{\text {eff }}$ and the spacing between the surfaces $s_{\text {gap }}$ are determined within broad limits by the choice of the inner and outer circumferences (in lattice units). For these bearings, specification of the interfacial structure is primary, since the overall structure is simple and repetitive.
 
 For smaller bearings, in contrast, strained cylindrical shells become a poor model. The structure of the shaft then becomes a special case rather than a member of a parameterized family, and the overall structure must be considered as a unit. Examples drawn from both classes are given in the following sections.
+
 a. Bearing interfaces for strained-shell structures. Figures 10.15 and 10.16 illustrate several pairs of terminated diamond surfaces, each forming an interface suitable for use in a symmetrical sleeve bearing. These interfaces have differing properties with respect to axial stiffness and drag.
 
 Each of the interfaces shown exhibits substantial axial stiffness at suitably small values of $s_{\text {gap }}$. Along the axis, the surface atomic rows on opposite sides of each interface have identical spacings, hence the sinusoidal potentials for sliding
@@ -6687,6 +6681,7 @@ Each of the interfaces shown exhibits substantial axial stiffness at suitably sm
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=1056&width=256&top_left_y=842&top_left_x=866)
 
 Figure 10.15. Several sliding interfaces based on diamond (111) surfaces, with nitrogen termination (a), hydrogen termination (b), alternating, interlocking rows with nitrogen and hydrogen termination (c), fluorine termination (d), and alternating, interlocking rows of nitrogen and fluorine termination (e). Note that pairs of surfaces from (a), (b), and (d) could be combined, as could a pair from (c) and (e). In each diagram the direction of sliding is nearly perpendicular to the page. Different terminations offer different functional relationships among spacing, shear stiffness, and compressive stiffness.
+
 (a)
 
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=188&width=268&top_left_y=244&top_left_x=406)
@@ -6711,6 +6706,7 @@ Figure 10.16. Several sliding interfaces based on diamond (100) surfaces, with o
 in this direction add in phase over the entire interface. Interfaces 10.15(c), 10.15(e), 10.16(c), and 10.16(d) include interlocking grooves, increasing the energy barrier for axial sliding and (in most instances) the stiffness as well. In these structures, the axial stiffness can equal or exceed the transverse-displacement stiffness $k_{\mathrm{s} \text {, bear }}$. An interface with mismatched spacings in both dimensions [e.g., combining 10.15(b) and 10.16(a), can permit both rotation and axial sliding (see Section 10.5.2].
 
 Interfaces 10.15(c), 10.15(e), and 10.16(a-d) exhibit values of $d_{\mathrm{a}} \approx 0.25 \mathrm{~nm}$, corresponding to the high-drag cases in Sections 10.4.6c and 10.4.6d. Interfaces 10.15(b) and 10.15(d), however, will (in the absence of significant axial loads) exhibit $d_{\mathrm{a}, \text { eff }} \approx 0.125 \mathrm{~nm}$ : an atom on one surface interacts equally with two staggered rows on the other, halving the effective spacing for most purposes. This value of $d_{\mathrm{a}, \text { eff }}$ corresponds to the low-drag cases in Sections 10.4.6c and 10.4.6d. A nitrogen-terminated (111) surface, Figure 10.15(a), has $d_{\mathrm{a}, \text { eff }} \approx 0.125 \mathrm{~nm}$ where first-layer interactions are concerned, but the second atomic layer introduces significant interactions with $d_{\mathrm{a}} \approx 0.25 \mathrm{~nm}$.
+
 b. Interfacial stability. Each of the interfaces in Figures 10.15 and 10.16 (and that shown in Figures 10.17 and 10.18) appears stable enough for practical use under the baseline conditions assumed in this volume (i.e., no extreme temperatures, no UV exposure, no extraneous reactive molecules, no extreme mechanical loads); further, the symmetrical and low-polarity interfaces should guarantee the absence of contact charging (Section 6.4.7). The low-valence atoms used to terminate each surface form strong bonds to carbon and (usually) weaker bonds to one another. A reaction between one surface and the other typically must form a bond between two low-valence atoms at the expense of cleaving two bonds to carbon. Since this would be a strongly endoergic process, the energy barrier is large ( $>500 \mathrm{maJ}$ ) and the rate of occurrence negligible
 
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-65.jpg?height=354&width=586&top_left_y=795&top_left_x=532)
@@ -6753,6 +6749,7 @@ exploded view
 258 atoms
 
 Figure 10.19. Views of a small sleeve-bearing structure: (a) end, (b) exploded.
+
 (a)
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-68.jpg?height=190&width=630&top_left_y=204&top_left_x=400)
 
@@ -6802,6 +6799,7 @@ $$
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-70.jpg?height=270&width=412&top_left_y=1988&top_left_x=146)
 
 Figure 10.22. Vector representation of interatomic potentials (see Figure 10.5) for a row of regularly spaced atoms in one surface sliding over regularly spaced atoms in another. Each atom experiences an approximately sinusoidal potential, and the phase difference between the sinusoid experienced by one atom and that experienced by its successor in the row corresponds to a constant difference in the angle between their vectors.
+
 (a)
 
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-71.jpg?height=150&width=579&top_left_y=195&top_left_x=576)
@@ -7114,6 +7112,7 @@ At high speeds $\left(\sim 10^{-9} \mathrm{~s}\right.$ per operation) the energy
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-13.jpg?height=275&width=910&top_left_y=1742&top_left_x=290)
 
 Figure 11.1. Well partitioning in a measurement system. Each curve represents the potential energy of the indicator as a function of its sliding displacement; the shading represents the probability density over that range of motion. In (1), the potential is flat, and the PDF is uniform. In (2) an applied force has skewed the potential and the PDF. In (3), a barrier has been introduced, trapping the indicator on the right hand side with high probability as a direct consequence of the presence of the applied force.
+
 changed, then well merging is simply the reverse of well partitioning, and can be nearly thermodynamically reversible (save for further nonisothermal losses).
 
 ### 11.2.2. Force discrimination
@@ -7182,6 +7181,7 @@ exhibit substantial residual fluctuations, which are periodic in the invertingro
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-17.jpg?height=248&width=769&top_left_y=1410&top_left_x=349)
 
 Figure 11.6. A cross-sectional diagram of a toroidal worm drive. Power (and positional control) are provided via the threaded drive ring, the inner surface of which can be geared to a drive gear in the arm's core structure (see Figure 13.11). The outer surface of the drive ring bears a helically threaded band consisting of ridges like those on the surfaces in Figure 10.18; this surface interlocks with the driven threads of the triply-threaded torus. The outer surface of the drive also bears a circularly threaded band forming an interlocking bearing surface with the lower, stationary tube ("stationary" only in the present frame of reference). Rotation of the threaded drive ring about its axis thus drives the inverting rotational motion of the triply-threaded torus within the groove formed by the junction of the stationary and driven tube segments (which in turn are held together by an additional interlocking bearing surface). Within this groove, the stationary tube bears ridges which interlock with the retaining rings of the torus, and the driven tube bears ridges which interlock with the driving threads of the torus. Thus, as the torus undergoes its inverting rotation, the driven tube segment is forced to turn.
+
 a period of $2 \pi / N_{\mathrm{seg}}$ in that coordinate, where $N_{\mathrm{seg}}$ is the number of segments in the torus. If the minor diameter is $2 \mathrm{~nm}$ and $N_{\mathrm{seg}}=50$, the spatial frequency of the potential energy function (measuring displacements at the sliding interface) is $\sim 8 \mathrm{~nm}^{-1}$. This results in strong mutual cancellation of the residual fluctuations in potential energy associated with the individual segments, yielding a potential energy function with negligible barriers for motion of the torus as a whole. (These parameters are appropriate for the manipulator joints described in Section 13.4.1.)
 
 ### 11.4. Fluids, seals, and pumps
@@ -7195,6 +7195,7 @@ a. Scale lengths in gases and liquids. Classical continuum models of fluid flow 
 The Knudsen number measures the ratio of the mean free path to the feature size $r$ in the flow system; where it is $\geq 100$, the process is termed free molecular flow; where it is $\sim 1$, the process is termed transition flow. In macroscale devices, transition flow occurs at low pressures ( $\sim 10^{-5}$ atmospheres). In nanoscale devices $(r \leq 100 \mathrm{~nm})$, transition flow occurs in air at atmospheric pressure. Free molecular flow can be modeled as a process of repeated scattering from surfaces.
 
 The behavior of liquids in small spaces is more complex and is a subject of active research (much of the following paragraph is based on Israelachvili, 1992). Liquids have short-range order, and that order is strongly perturbed near surfaces. For example, two smooth surfaces brought into close proximity in a liquid ( $\leq 6$ to 10 molecular diameters) experience forces that oscillate strongly as a function of separation: gaps that accommodate an integral number of molecular layers are preferred; slightly smaller separations result in repulsive forces, slightly larger separations result in attractive forces. These oscillations are smaller with rough surfaces and in liquids that mix molecules of varying size. With smooth mica surfaces in water, force oscillations virtually disappear at separations $\geq 2 \mathrm{~nm}$. (In water, hydrophilic forces can cause short-range surfacesurface repulsion and hydrophobic forces can cause short-range attraction, both with ranges of a few nanometers.) In liquid films a few molecular layers thick, viscosity increases and finite shear strength can develop; at a thickness of 7 to 10 layers or more, the bulk fluid viscosity gives a good description of shear stresses (Israelachvili, 1992).
+
 b. Shear rates. Nanoscale fluid flows can exhibit extreme rates of shear: for example, a $1 \mathrm{~m} / \mathrm{s}$ shear speed imposed on a $1 \mathrm{~nm}$ gap corresponds to a shear rate of $10^{9} \mathrm{~s}^{-1}$. For a slab of fluid a meter thick to undergo shear at this rate, one surface would have to exceed the speed of light. In typical liquids (composed of small molecules with only local order), viscosity is little affected by shear rate so long as the velocity differential across a molecular diameter is small compared to the mean thermal velocity. A shear rate of $10^{9} \mathrm{~s}^{-1}$ easily meets this criterion.
 
 c. Formulas for drag and pressure drop. With the above caveats regarding phenomena on short length-scales, fluid flow in small structures can usually be described by the classical continuum equations. The Reynolds number
@@ -7365,6 +7366,7 @@ Electrostatic actuators (Figure 11.10) can produce substantial mechanical forces
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-27.jpg?height=509&width=707&top_left_y=1646&top_left_x=438)
 
 Figure 11.10. Schematic diagram of an electrostatic actuator for interfacing electrical inputs to mechanical outputs (moving parts and electrical components only).
+
 move within a small range of displacements. In a concrete example, an actuator with a stroke length of $1 \mathrm{~nm}$ (moving between plate separations of 3 and $4 \mathrm{~nm}$ ) and a potential ranging from 0 to $5 \mathrm{~V}$ can apply a force ranging from zero to $1 \mathrm{nN}$ with a plate area of $\sim 150 \mathrm{~nm}^{2} \approx(12 \mathrm{~nm})^{2}$.
 
 Although this is perhaps the simplest kind of electrostatic actuator, many others are possible. For example, a solenoidlike system can draw a high-dielectric constant plate into a gap with a force depending on the field; this can produce a large displacement. A long structure with multiple actuator mechanisms along its length can produce a large force with a small displacement. Finally, the range of actuators that can be built by molecular manufacturing will likely have no sharp boundary separating electrostatic from piezoelectric devices. In a mechanism of a given size, piezoelectric structures can typically provide larger forces but smaller displacements than electrostatic actuators of the sort just described. The use of a direct piezoelectric drive mechanism for manipulaturs of the sort described in Section 13.4.1 would increase their similarity to existing proximal probes.
@@ -7503,6 +7505,7 @@ Figure 12.1 schematically illustrates the components of an interlock, including 
 (c)
 
 Figure 12.2. Schematic diagram of a short logic rod with two inputs and one output. Diagram (a) shows the initial state, with both input rods in the blocking position. Diagram (b) shows a state in which both input rods have been moved to the unblocking position, enabling the driver to move the vertical rod and switch the output gate; diagram (c) shows a state in which one of the input rods has remained in the blocking position, forcing the drive spring to accommodate the motion of the driver and leaving the vertical rod unmoved.
+
 a. Drivers and drive springs. The rod logic systems considered here are clocked, with a distinct clock signal for each level of gates in a combinational logic system (this approach helps minimize energy dissipation). Each rod is accordingly attached to a driver, a source of periodic, nonsinusoidal displacements; the implementation considered here achieves this motion using a follower sliding on a sinusoidally oscillating cam surface (Section 2.7.1). (The cam surface, in turn, is part of a thick drive rod, which in turn is part of a power distribution and clocking system ultimately driven by crankshafts coupled to a motor-flywheel system; Section 12.7.5.) Multiple rods can be attached to a single driver mechanism.
 
 Driver displacements are coupled to a single rod via a drive spring. This can be a constant force spring that retains a fixed length until the force exceeds a threshold. If the rod is not blocked, as in Figure 12.2(b), displacements of the driver are transmitted through the drive spring and cause comparable displacements of the rod. If the rod is blocked, as in Figure 12.2(c), displacements of the driver chiefly cause stretching of the drive spring. The driver and drive spring thus form a drive system that periodically tensions and de-tensions the rod, without forcing motion.
@@ -7705,6 +7708,7 @@ $$
 $$
 
 (the use of mean square rather than peak speed introduces a factor of 1/2). Assuming an interfacial stiffness $k_{\mathrm{a}}=10 \mathrm{~N} / \mathrm{m} \cdot \mathrm{nm}^{2}$ and the exemplar parameters, this yields an energy dissipation of $0.052 \mathrm{maJ}$ per displacement. Since this energy loss is small compared to the kinetic energy of motion ( $\sim 23 \mathrm{maJ}$ ), damping can (as has been assumed) be neglected in computing velocities, accelerations, and so forth.
+
 d. Sliding-interface drag in the cam surface. If the maximum slope of the cam surface in the driver mechanism (Section 12.7.1) is $1 / 2$, then the sliding speed of the cam surface is
 
 $$
@@ -7759,6 +7763,7 @@ With the parameters of the exemplar system, $\Delta \mathscr{E}_{\text {state }}
 Thermal displacement of gate knobs can cause errors in switching. In principle, these errors could occur either because a gate knob blocks a probe knob when it should pass, or because it lets a probe knob pass when it should be blocked. Erroneous blockage, however, is transient relative to the switching time because (given low damping, Section 12.3.4c) the maximum delay before the obstructing knob moves from the path is $\sim 2 \ell_{\text {out }} / v_{\mathrm{s}}$, or $\sim 0.006 \mathrm{~ns}$ for the exemplar system. Accordingly, the probe knob will begin to pass the gate knob early in the switching period, even if a thermal fluctuation places the gate knob in a blocking position for a brief time.
 
 Erroneous probe knob passage, in contrast, does not undergo fast, spontaneous reversal: it causes a faulty output. The resulting error rate can be estimated from a model of positional uncertainty in gate knob position.
+
 a. A conservative bound on acceptable gate knob displacement. Gate knobs and probe knobs are here regarded as blocks with facing surfaces of equal extent, $w_{\text {knob }}$. In the bounded continuum model, corners are regarded as occupied by atoms, and hence are rounded. If the contact between gate knob and probe knob occurs solely through a glancing contact of corner atoms, the probe knob will exert a force tending to push the gate knob aside. For a wide range of geometries and stiffness and force parameter, this tendency can be resisted by gate-knob restoring forces.
 
 A simple, conservative model neglects these restoring forces, and treats as an error condition any contact in which the line of travel of the center of the corner atom of a probe knob falls beyond the center of the corner atom of the corresponding gate knob. In terms of the effective steric radii for the atoms, $r_{\text {eff }}$, the effective width of the knobs is $w_{\text {eff }}=\ell_{\text {eff }}=w_{\text {knob }}-2 r_{\text {eff }}$. The acceptable gate knob displacement is then $\Delta x_{\text {thresh }}=w_{\text {eff }}$ (assuming that the knobs are aligned at $\Delta x=0$ ). For the exemplar system, assuming $r_{\text {eff }}=0.15 \mathrm{~nm}, \Delta x_{\text {thresh }}=w_{\text {eff }}=$ $0.7 \mathrm{~nm}$.
@@ -8268,6 +8273,7 @@ a. Steps in ordering and input. One approach to providing ordered inputs compris
 3. Transfer the molecule to the other transport system as a covalently bound moiety, emptying the receptor for reuse.
 
 This approach to molecular ordering is illustrated in Figure 13.5, with transfer to a reagent belt mechanism like those discussed in Section 13.3.1. In a mechanism of this sort, step 3 is a natural consequence of the pattern of motion, leaving steps 1 and 2 as the primary design problems.
+
 b. Ensuring reliable receptor occupancy. A receptor will be occupied reliably $\left(P_{\text {empty }} \leq 10^{-15}\right)$ if the free energy of binding has a magnitude greater than $\sim 143 \mathrm{maJ}$. The loss of entropy that occurs when a molecule is bound from solution is comparable to the loss of entropy in freezing to a crystal; for small organic molecules, a typical value is $6 \times 10^{-23} \mathrm{~J} / \mathrm{K}$, hence the required potential energy of binding is $\Delta V_{\text {binding }} \approx-161 \mathrm{maJ}$.
 
 Two sources of driving force can be applied to increase $\Delta \mathcal{V}_{\text {binding }}$ : attractive intermolecular forces to reduce the energy of the bound molecule, and hydrostatic pressure to increase the Gibbs free energy of the unbound molecules. In general, feasible binding energies increase in magnitude with increasing molecular size, polarizability, and dipole moments. Feasible hydrostatic pressures (i.e., those that do not cause the liquid to solidify) tend to decrease with the same variables. The magnitudes of feasible binding energies can be evaluated using molecular mechanics methods; the magnitudes of feasible hydrostatic pressures $a_{i} e$ indicated by data on liquids at high pressures.
@@ -8329,6 +8335,7 @@ $\sim 50 \mathrm{~nm}$
 $\sim 100000$ atoms per roller assembly
 
 Figure 13.7. Schematic diagrams of reactive encounter mechanisms, providing for simple contact and separation (a), prolonged contact with opportunity for substantial cam-driven manipulation (b), and transformations of moiety transit frequency (c) and speed (d).
+
 motions. This can be accomplished by elaborating the structure of the reagent device to include moving parts actuated by auxiliary rollers or cam surfaces (Chapter 10), while extending the encounter time (if need be) as suggested in Figure 13.7(b).
 
 This approach enables thorough control of molecular trajectories and reaction environments. As the two reagent devices come together, they can entirely surround the pair of moieties with a eutactic environment. Multinanometerscale reagent devices containing multiple moving parts can manipulate this environment, forcing the moieties and adjacent structures to execute motions driven by stiff mechanisms capable of exerting large forces. Cam surfaces adjacent to the belts can interact with one or more protruding cam followers on the device to guide and power an arbitrarily long sequence of arbitrarily complex motions. Relatively small and simple mechanisms in this class are capable of exploiting pi-bond torsion effects, performing three-moiety encounters such as regeneration of alkynyl radicals assisted by radical displacement (Section 8.5.7), and so forth.
@@ -8367,6 +8374,7 @@ Figure 13.8. Schematic diagram of a reagent device for implementing a conditiona
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=564&width=1129&top_left_y=1134&top_left_x=227)
 
 Figure 13.9. Schematic diagram of a conditional-repetition system. Each small diagram below (numbered 1 to 10) represents the state of a mechanism like that illustrated in Figure 13.8 at a different time as it moves along one of the five possible paths through the system. The block above represents a structure with a network of cam grooves, shown from behind (with supporting material cut away). The cam-follower protrusions on the sliding mechanisms are (in the assembled configuration) constrained to follow the grooves. When a groove branches, the path taken is determined by the presence or absence of the transferable group at times $2,4,6,8$, and 10 (see Figure 13.8). So long as the group is present, the cam follower remains in the upper groove. Once it is absent (in the illustrated sequence, at time 6), the bias force moves the follower to the lower groove. The position of the probe then prevents further reactive encounters, as discussed in Section 13.3.1c. Several reactive devices can simultaneously be in transit through a cam mechanism of this sort, following different paths.
+
 occupancy. If the sizes and depths of these wells are designed such that Eq. (7.73) holds, then the merging wells are in effect preequilibrated, and there is no fixed lower bound on the energy dissipation. Under these conditions, the work of compression done in merging wells directly increases the free energy of the product by reducing its entropy (i.e., increasing reaction reliability).
 
 ### 13.3.2. Interfacing mechanisms
@@ -8496,6 +8504,7 @@ a. General structure and kinematics. A hollow tubular shape can combine low bend
 A drive system forces the tubular structural segments to rotate with respect to one another, and thus to rotate with respect to the local axis of the arm. In some instances (chiefly the two joints closest to the base, J1 and J2 in Figure 13.11) these rotational motions must be accomplished while maintaining high torsional stiffness. The approach chosen here exploits toroidal worm drives (Section 11.3.2) driven by mechanisms in a flexible core structure.
 
 A stiff arm of this design has substantial dynamic friction, yielding relatively poor trade-offs between speed and energy dissipation. Speed and efficiency can be substantially improved if the arm need not move through a large distance between operations. Accordingly, the present design reserves a substantial volume of space for a transportation pathway from the base to the tip, permitting reagent moieties to be interchanged without arm motion by means of an internal conveyor mechanism.
+
 b. Power supply and control. The power supply and control system is outside the arm itself, and hence is not subject to tight geometric constraints. It need only be assumed that shaft power is available, and that a control mechanism can engage and disengage smaller drive shafts (using clutches), causing them to turn by a set number of rotations between locked states. Reasonable implementations can be devised that use gear trains to produce an odometerlike encoding of the number of shaft rotations and use a corresponding device to encode a representation of the desired number of shaft rotations (this device can be written to like a register); a match between the two can be made to trigger a motion causing the disengagement of a clutch and the locking of the corresponding drive shaft. To initiate a motion, a digital logic device stores a suitable number in the register, then engages a clutch to cause shaft rotation in the appropriate direction.*
 
 Drive shafts undergo longitudinal displacements as the arm moves (most obviously, when the telescoping joint $\mathrm{J} 4$ is actuated). A coupling that permits these motions while applying torque (e.g., a drive nut engaging longitudinal
@@ -8517,6 +8526,7 @@ c. Drive shafts, gears, and the core structure. Figure 13.11 shows a cross secti
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-11.jpg?height=372&width=817&top_left_y=1828&top_left_x=320)
 
 Figure 13.12. Cross section A-A of arm in Figure 13.11, perpendicular to the axis.
+
 stresses caused by shaft bending. Surface strains in the shafts are well within the acceptable range even of high-modulus diamondoid structures. (Jointed and telescoping structures for drive shafts are also feasible.) One shaft, ending at joint $\mathrm{J} 1$, need not be flexible and is located outside the core structure.
 
 The remaining shafts are threaded through bearing apertures in core plates, and are free to rotate and to slide longitudinally with respect to these plates. The rims of the core plates interlock with drive rings that in turn interlock with joints in the arm, forcing coplanarity between each core plate and its corresponding joint. Both segments linked by the joint can rotate with respect to the core plate.
@@ -8791,6 +8801,7 @@ With a judicious choice of structures and reactions, damage to a molecular manuf
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-29.jpg?height=458&width=533&top_left_y=1819&top_left_x=165)
 
 Figure 14.6. Schematic illustration of a geometry (suggested by R. Merkle) permitting the manufacture and delivery of objects of a size equaling or exceeding (in all dimensions) that of the manufacturing system.
+
 by ionizing radiation. Accordingly, Eq. (6.54) can be taken as a damage model. Using this model, Section 13.3.6c concludes that mechanosynthetic units with a mass of $\leq 2 \times 10^{-18} \mathrm{~kg}$ have a probability of failure $\leq .01$ in a 10 -year period in a typical terrestrial environment. The early sets of mill units described in Section 14.4 have overall operating frequencies of $\sim 10^{6} \mathrm{~s}^{-1}$, but divided among 100 units in each set, yielding an operating frequency of $10^{4} \mathrm{~s}^{-1}$ per unit. Accordingly, if the failure rate of a mill unit is dominated by a step with a failure rate of $10^{-15}$ (see Section 13.3.6), this will contribute $\sim .003$ to the probability of failure in a 10 -year period.*
 
 Section 13.3.6b shows that mechanosynthetic units can be built to exhibit fail-stop behavior, reliably ceasing operation rather than delivering damaged products. Section 13.3.2b outlines the characteristics of transportation components capable of transferring structures from belts to pallets, moving pallets along tracks through fair, nonblocking merging and distribution junctions, and transferring structures back to belts again. Figure 14.7 shows how fail-stop units
@@ -9455,6 +9466,7 @@ Chemists frequently prepare derivatives of molecules to identify the original st
 Organic synthesis today offers powerful techniques for building molecular structures. Use of maneuverable molecular tips can add a fundamental novelty: flexible, positional control of sequences of synthetic steps based on control of local effective concentration. Receptors that bind reagent ligands can serve as tool holders for mechanosynthesis.
 
 Molecular tip array systems enable approaches substantially different from those previously proposed (Drexler and Foster, 1990): Tip arrays and antibody technologies will enable the use of distinct receptors for reagents of different types, permitting a series of reactions without cycling the composition of the solution. With rapid, spontaneous dissociation no longer necessary for interchange, reagent ligands can be bound tightly; this enables larger effective concentration ratios and hence better site specificity.
+
 a. Effective concentrations. Reagent reaction rates are by definition proportional to reagent effective concentrations (Section 8.3.3a). All else being equal, the effective concentration of a reagent is proportional to its spatial probability density. Modeling a reagent ligand as a thermally excited object, subject to a force $F$ pressing it against a barrier, to constraint by a transverse stiffness $k_{\mathrm{s}}$, and to an additional Gaussian jitter in the AFM mechanism with a root mean square amplitude $=\sigma_{\mathrm{AFM}}$, yields a probability density having a peak local concentration $\left(\mathrm{m}^{-3}\right)$
 
 $$
@@ -9653,6 +9665,7 @@ A manipulator can replace many other control mechanisms. With a "hand" in the wo
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-04.jpg?height=572&width=1128&top_left_y=1475&top_left_x=192)
 
 Figure 16.5. A two-dimensional schematic of a positioning mechanism based on the Stewart platform (a); the kinematics of this structure correspond to three of the six degrees of freedom of a three-dimensional platform (Figure 16.4). Panel (b) illustrates a portion of the available range of motion. Note that the lateral range exceeds the length of the arm in a retracted position.
+
 special jig for a series of operations, and then to its destination. To minimize parts and physical complexity, it may be desirable to use a manipulator for many purposes beyond the narrowly mechanochemical.
 
 ### 16.3.4. Inert internal environment
@@ -9980,6 +9993,7 @@ Several forms of reasoning illustrate how a partial (even nonexistent) physical 
 a. Biological analogy. Biological systems can demonstrate capabilities without revealing their underlying physical structures and mechanisms. The original case for programmable molecular ${ }^{\circ}$ assemblers (Drexler, 1981) exploited analogies with enzymes (which guide chemical reactions) and with ribosomes (which execute a programmed series of operations). Likewise, the simplest case for the possibility of systems of molecular machinery able to build similar systems of molecular machinery is the existence and replication of bacteria.
 
 b. Continuum models. In studying nanotechnology, useful design calculations can sometimes be performed based on a model of components made of homogeneous materials of a certain density, stiffness, surface stiffness (Sections 9.3 and 9.4), and so forth. The chief hazard is the use of such an approximation on the wrong scale (Chapter 2). A continuum model constitutes a partial specification that often can give an adequate description of the engineering possibilities.
+
 c. Encompassing options. In this approach, one attempts to establish that a range of options is broad enough and rich enough to include a solution, without specifying which option will actually satisfy the requirements (Section 10.3 provides an example). For a nanomechanical example, any of over $10^{75}$ different structures can be built within a single cubic nanometer (Section 9.5.2c); this range of options should suffice to join two slim rods of diamond with a bend of any desired angle and twist, satisfying tight tolerances on both. The chief hazard in this sort of argument is that a combination of constraints (angle and twist and offset and modulus and surface structure), each easily satisfied in isolation, may each eliminate a large fraction of the apparent options, perhaps leaving none that satisfy all the conditions simultaneously.
 
 d. Engineering analogy. The possibility of parts that are analogous to those composing a system $\mathrm{X}$ will often make possible a system analogous to $\mathrm{X}$ itself. For example, given mechanical parts analogous to conduction paths, transistors, and so forth, mechanical computers will be possible (Chapter 12). Given parts equivalent to conventional gears, bearings, motors, and so forth (Chapters 10 and 11), robotic arms will be possible (Chapter 13). To reach these conclusions, one need not specify every detail of a particular computer or robotic arm; accordingly, one can postpone enormous efforts in design, analysis, and debugging to the engineering phase. In this mode of reasoning, the chief hazard is an inadequately close analogy between the sets of parts. For example, if one proposes devices intended to be analogous to transistors, then one must consider not only the basic logic operations that each gate performs, but other characteristics important in building systems: noise tolerance, signal fan-out, and logic-level restoration. Shortcomings in these areas have caused the demise of many proposed computer devices (Keyes, 1985; Keyes, 1989). To be reliable, analogies must either be sufficiently exact, or be buttressed by an analysis of the functionally significant differences.
@@ -10707,7 +10721,8 @@ An illustrative contradiction in the simple textbook view of entropy as a local 
 **Exoergic** The opposite of ${ }^{\circ}$ endoergic; describes a transformation that releases energy.
 
 **Exothermic** The opposite of ${ }^{\circ}$ endothermic; describes an ${ }^{\circ}$ exoergic transformation in which energy is released as ${ }^{\circ}$ heat. Exoergic ${ }^{\circ}$ reactions in solution are commonly exothermic.
-Fail-stop Describes a component or subsystem that, in the event of a failure, produces no output (e.g., of material or data) rather than producing a damaged or incorrect output.
+
+**Fail-stop** Describes a component or subsystem that, in the event of a failure, produces no output (e.g., of material or data) rather than producing a damaged or incorrect output.
 
 **Fault-tolerant** Describes a system that can suffer failure in a component or subsystem, yet continue to function correctly.
 
@@ -10742,7 +10757,8 @@ Changes in the Gibbs free energy caused by a change in the applied pressure (at 
 **Hydrogen bond** A hydrogen atom ${ }^{\circ}$ covalently bound to an electronegative atom (e.g., nitrogen, oxygen) has a significant positive charge and can form a weak bond to another electronegative atom; this is termed a hydrogen bond.
 
 **Hydrophobic force** Water molecules are linked by a network of ${ }^{\text {hydrogen }}$ bonds. A nonpolar, nonwetting, surface (e.g., wax) cannot form hydrogen bonds. To form their full complement of hydrogen bonds, the nearby water molecules must form a more orderly (hence lower ${ }^{\circ}$ entropy) network. This both increases ${ }^{\circ}$ free energy and causes forces that tend to draw hydrophobic surfaces together across distances of several nanometers.
-Intermolecular Describes an interaction (e.g., a chemical ${ }^{\circ}$ reaction) between different molecules.
+
+**Intermolecular** Describes an interaction (e.g., a chemical ${ }^{\circ}$ reaction) between different molecules.
 
 **Internal energy** The sum of the ${ }^{\circ}$ kinetic and ${ }^{\circ}$ potential energies (including electromagnetic field energies) of the particles that make up a system.
 
@@ -10815,7 +10831,8 @@ ical ${ }^{\circ}$ mechanosynthesis (and subsequent assembly operations).
 **Nanotechnology** In recent general usage, any technology related to features of nanometer scale: thin films, fine particles, chemical synthesis, advanced microlithography, and so forth. As introduced by the author, a technology based on the ability to build structures to complex, atomic specifications by means of mechanosynthesis; this can be termed molecular nanotechnology.
 
 **NMOS** An acronym for n-channel metal-oxide-semiconductor, as in NMOS transistor and NMOS logic.
-Nucleus The positively charged core of an atom, an object of $\sim 0.00001$ atomic diameters containing $\mathbf{> 9 9 . 9} \%$ of the atomic mass. Nuclear positions define atomic positions.
+
+**Nucleus** The positively charged core of an atom, an object of $\sim 0.00001$ atomic diameters containing $\mathbf{> 9 9 . 9} \%$ of the atomic mass. Nuclear positions define atomic positions.
 
 **Olefin** $\mathrm{An}^{\circ}$ alkene.
 
@@ -10958,7 +10975,8 @@ of reduced dimensionality, free to move only on a hypersurface perpendicular to 
 **TST** ${ }^{\circ}$ Transition state theory.
 
 **Tunneling** A classical particle or system could not penetrate regions in which its energy would be negative, that is, barrier regions in which the ${ }^{\circ}$ potential energy is greater than the system energy. In the real world, however, $a^{\circ}$ wave function of significant amplitude may extend into and beyond such a region. If the wave function extends into another region of positive energy, the barrier is crossed with some probability; this process is termed tunneling (since the barrier is penetrated rather than climbed).
-Unimolecular Occurring to or within a single molecule; like ${ }^{\circ}$ intramolecular, but can refer to fragmentation reactions.
+
+**Unimolecular** Occurring to or within a single molecule; like ${ }^{\circ}$ intramolecular, but can refer to fragmentation reactions.
 
 **Unsaturated** Possessing ${ }^{\circ}$ double or ${ }^{\circ}$ triple bonds.
 
@@ -11046,6 +11064,7 @@ Bigeleisen, J. (1949) The Relative Reaction Velocities of Isotopic Molecules. J.
 Binnig, G., and C. F. Quate. (1986) Atomic Force Microscope. Phys. Rev. Letters. 56: 930-933.
 
 Bird, R. E., K. D. Hardman, J. W. Jacobson, S. Johnson, B. M. Kaufman, S. Lee, T. Lee, S. H. Pope, G. S. Riordan, and M. Whitlow. (1988) Single-Chain AntigenBinding Proteins. Science. 242:423-426.
+
 Blair, D. F. (1990) The bacterial flagellar motor. Sem. in Cell Bio. 1:75-85.
 
 Blundell, T., D. Carney, S. Gardner, F. Hayes, B. Howlin, T. Hubbard, J. Overington, D. A. Singh, B. L. Sibanda, and M. Sutcliffe. (1988) Knowledgebased protein modelling and design. Eur. J. Biochem. 172:513-520.
@@ -11109,6 +11128,7 @@ Amsterdam: Elsevier.
 Corey, E. J., and X. Cheng. (1989) The Logic of Chemical Synthesis. New York: John Wiley \& Sons.
 
 Cotton, R., P. M. Hardy, and A. E. LangranGoldsmith. (1986) Peptides containing dialkylglycines. Int. J. Peptide Protein Res. 28:245-253.
+
 Cowan, D. O., and R. L. Drisko. (1976) Elements of Organic Photochemistry. New York: Plenum Press.
 
 Crabtree, R. H. (1987) The Organometallic Chemistry of the Transition Metals. New York: John Wiley \&Sons.
@@ -11168,6 +11188,7 @@ Drexler, K. E. (1989b) Engineering Macromolecular Objects. (Draft circulated for
 Drexler, K. E. (1989c) Machines of Inner Space. 1990 Yearbook of Science and the Future. D. Calhoun, ed. Chicago: Encyclopædia Britannica.
 
 Drexler, K. E. (1991a) Exploring Future Technologies. Doing Science. J. Brockman, ed. New York: Prentice Hall.
+
 Drexler, K. E. (1991b) Molecular tip arrays for molecular imaging and nanofabrication. JVST-B. 9:1394-1397.
 
 Drexler, K. E. (1992) Molecular directions in nanotechnology. Nanotechnology. 2: 113-118.
@@ -11229,6 +11250,7 @@ Foster, J. S., J. E. Frommer, and P. C. Arnett. (1988) Molecular manipulation us
 Frankel, A. D., D. S. Bredt, and C. O. Pabo. (1988) Tat Protein from Human Immunodeficiency Virus Forms a MetalLinked Dimer. Science. 240:70-73.
 
 Franks, A. (1987) Nanotechnology. J. Phys. E: Sci. Instr. 20:1442-1451.
+
 Fredkin, E., and T. Toffoli. (1982) Conservative Logic. Int. J. Theor. Phys. 21:219-253.
 
 Freitas, R. A., Jr., and W. P. Gilbreath, editors. (1982) Advanced Automation for Space Missions. National Aeronautics and Space Administration: NASA CP2255
@@ -11423,6 +11445,7 @@ Lothe, J. (1962) Theory of Dislocation Mobility in Pure Slip. J. Appl. Phys. 33:
 Maitland, G. C., M. Rigby, E. B. Smith, and W. A. Wakeham. (1981) Intermolecular Forces: Their Origin and Determination. Oxford: Clarendon Press.
 
 Mao, H. K., Y. Wu, R. J. Hemley, L. C. Chen, J. F. Shu, and L. W. Finger. (1989) $\mathrm{X}$-ray Diffraction to 302 Gigapascals: High-Pressure Crystal Structure of Cesium Iodide. Science. 246:649-651.
+
 Masters, C. (1981) Homogeneous Transition-metal Catalysis. London: Chapman and Hall.
 
 Matthews, B. W., H. Nicholson, and W. J. Becktel. (1987) Enhanced protein thermostability from site-directed mutations that decrease the entropy of unfolding. Proc. Natnl. Acad. Sci. U.S.A. 84:6663-6667.
@@ -11633,6 +11656,7 @@ Swaddle, T. W. (1986) Electron Transfer Reactions. Inorganic High Pressure Chemi
 Szajewski, R. P., and G. M. Whitesides. (1980) Rate Constants and Equilibrium Constants for Thiol-Disulfide Interchange Reactions Involving Oxidized Glutathione. J. Am. Chem. Soc. 102: 2011-2026.
 
 Tamor, M. A., and K. C. Hass. (1990) Hypothetical superhard carbon metal. 5: 2273-2276.
+
 Taniguchi, N. (1974) On the Basic Concept of 'Nano-Technology'. The International Conference on Production Engineering, Part II. Tokyo: Japan Society of Precision Engineering.
 
 Tapley, B. D., and T. R. Poston. (1990) Eschbach's Handbook of Engineering Fundamentals, Fourth Edition. New York: John Wiley \& Sons.
@@ -11686,6 +11710,7 @@ Webb, T. H., and C. S. Wilcox. (1990) Improved Synthesis of Symmetrical and Unsy
 Weiner, S. J., P. A. Kollman, D. A. Case, U. C. Singh, C. Ghio, G. Alagona, S. Profeta, Jr., and P. Weiner. (1984) A New Force Field for Molecular Mechanical Simulation of Nucleic Acids and Proteins. J. Am. Chem. Soc. 106:765-784.
 
 Weiner, S. J., P. A. Kollman, D. T. Nguyen, and D. A. Case. (1986) An All Atom Force Field for Simulations of Proteins and Nucleic Acids. J. Comp. Chem. 7:230252 .
+
 Weisenhorn, A. L., P. K. Hansma, T. R. Albrecht, and C. F. Quate. (1989) Forces in atomic force microscopy in air and water. Appl. Phys. Lett. 54:2651-2653.
 
 Weltner, W., Jr., and J. van Zee. (1989) Carbon Molecules, Ions, and Clusters. Chem. Rev. 89:1713-1747.
