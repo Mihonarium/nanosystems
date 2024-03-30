@@ -371,35 +371,14 @@ The present volume adheres to design constraints that may not limit future engin
 
 Figure 133. Diamonidbid structuress are a subert of comatently beraided stactures,
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=43&width=789&top_left_y=731&top_left_x=175)
+assumptions and limitations are thus conservative, resulting in what are likely to be underestimates of future capabilities:
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=48&width=1201&top_left_y=823&top_left_x=174)
-be uniterestimatesofffutureceqpatilitities:
-
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=46&width=1199&top_left_y=942&top_left_x=172)
-
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=48&width=1199&top_left_y=984&top_left_x=172)
-
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=46&width=1199&top_left_y=1029&top_left_x=172)
-formasmallsultse toff thowe that are possithke (Figure 1133), and ocontainatoms
-
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=43&width=1199&top_left_y=1117&top_left_x=172)
-
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=50&width=1201&top_left_y=1157&top_left_x=174)
-makngittand ssimilkarmetwridksattraxtikecomergginewringgrounds.SSineermany
-
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=46&width=1201&top_left_y=1251&top_left_x=174)
-
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=49&width=1201&top_left_y=1290&top_left_x=174)
-
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=51&width=1201&top_left_y=1335&top_left_x=174)
-
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=44&width=1199&top_left_y=1382&top_left_x=177)
-moleculkarmoituds.
+a. A narrow range of structures. From the broad range of materials (metals, ionic crystals, molecular crystals, polymers, etc.), the present work selects the class of diamondoid ${ }^{\circ}$ covalent solids as its focus (Section 9.3.1f). These structures form a small subset of those that are possible (Figure 1.3), and contain atoms drawn chiefly from the shaded region of Figure 1.4. Diamond itself is the strongest and stiffest structure presently known at ordinary pressures (Kelly, 1973), making it and similar materials attractive on engineering grounds. Since many components can be regarded as polycyclic organic molecules, much of the vast base of knowledge developed by organic chemists is immediately applicable. Small components are subject to large surface effects, but typical organic molecules are, in effect, all surface; accordingly, surface effects are an integral part of molecular models.
 
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=451&width=950&top_left_y=1516&top_left_x=287)
 
 Figure 1.4. Periodic table of the atoms, with cells shaded to indicate those of greatest importance to nanomechanical design: hydrogen $(\mathrm{H})$, carbon $(\mathrm{C})$, nitrogen $(\mathrm{N})$, oxygen $(\mathrm{O})$, fluorine $(\mathrm{F})$, silicon $(\mathrm{Si})$, phosphorus $(\mathrm{P})$, sulfur $(\mathrm{S})$, and chlorine $(\mathrm{Cl})$. Other elements have applications, but few of the structures discussed in the following chapters contain them. [H is more often placed above lithium ( $\mathrm{Li})$ than above $\mathrm{F}$, but hydrocarbons resemble the stable fluorocarbons far more than they do the reactive lithiocarbons. Like F, H is only one electron short of a closed-shell configuration.]
+
 b. No nanoelectronic devices. On a macroscale, mechanical systems are quite distinct from electronic systems: they involve the motion of materials, rather than of electrons and electromagnetic fields. On a nanoscale, mechanical motions are identified with the displacements of nuclei, but electronic activity can cause such motions. Nevertheless, many systems (e.g., the bearing in Figure 1.1) can be described by molecular mechanics models that take no explicit account of electronic degrees of freedom, instead subsuming them into a potential energy function (Chapter 3) defined in terms of the positions of nuclei. This volume focuses on mechanical systems of this sort.
 
 Some systems are strongly electronic in character, relying on changes of electronic state to change other electronic states, with the associated nuclear motions being of small amplitude. Molecular nanotechnologies will surely include nanometer-scale electronic devices exploiting quantum phenomena to achieve (for example) switching and computation. Research relevant to this class of devices is already in progress.
