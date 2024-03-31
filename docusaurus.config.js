@@ -62,7 +62,9 @@ const config = {
     ({
       // Replace with your project's social card
       //image: 'img/docusaurus-social-card.jpg',
-      navbar: {},
+      navbar: {
+        title: 'Eric Drexler - Nanosystems',
+      },
       footer: {
         style: 'dark',
         links: [],
