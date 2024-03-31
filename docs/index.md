@@ -17,6 +17,8 @@ $$
 
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-01.jpg?height=291&width=342&top_left_y=1004&top_left_x=367)
 
+![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-01.jpg?height=271&width=342&top_left_y=1484&top_left_x=367)
+
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-01.jpg?height=281&width=337&top_left_y=1943&top_left_x=367)
 
 # Nanosystems 
