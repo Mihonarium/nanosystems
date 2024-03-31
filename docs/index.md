@@ -337,11 +337,7 @@ As discussed in Chapter 3, the most rigorous models ordinarily used by chemists 
 
 Table 1.4. Levels of abstraction and approximation in molecular systems engineering.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-33.jpg?height=483&width=712&top_left_y=253&top_left_x=517)
-
-Schrödinger equation
-
-Quantum electrodynamics
+![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-33.jpg?height=700&width=712&top_left_y=253&top_left_x=517)
 
 methods of more limited applicability but lower computational cost; these too are discussed in Chapter 3.
 
@@ -355,7 +351,7 @@ The present volume adheres to design constraints that may not limit future engin
 
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=463&width=649&top_left_y=203&top_left_x=438)
 
-Figure 133. Diamonidbid structuress are a subert of comatently beraided stactures,
+Figure 133. Diamondoid structures are a subset of covalently bonded structures, which are a subset of the broad range of solid structures.
 
 assumptions and limitations are thus conservative, resulting in what are likely to be underestimates of future capabilities:
 
@@ -7745,9 +7741,7 @@ If one or more probe knobs is blocked by an input gate knob, no large displaceme
 
 The flow of energy between the drive system and rod is large compared to the energy dissipated. Logic-state-dependent fluctuations in the energy stored in the rods (at a given point in the clock cycle) determine certain requirements for the drive system (Section 12.6), and hence must be estimated.
 
-The greatest mechanical difference in the state of a rod occurs between a cycle in which it is mobile and one in which it is blocked near the drive spring. In a mobile cycle, the energy stored by tensioning is dominated by the energy in the
-
-reset spring $\left(\Delta \mathscr{E}_{\text {reset }}\right)$ and the strain energy of the input segment $\left(\Delta \mathscr{E}_{\text {input }}\right)$. In a blocked cycle, it is dominated by the energy stored in the drive spring ( $\left.\Delta \mathscr{E}_{\text {drive }}\right)$. The energy difference is thus
+The greatest mechanical difference in the state of a rod occurs between a cycle in which it is mobile and one in which it is blocked near the drive spring. In a mobile cycle, the energy stored by tensioning is dominated by the energy in the reset spring $\left(\Delta \mathscr{E}_{\text {reset }}\right)$ and the strain energy of the input segment $\left(\Delta \mathscr{E}_{\text {input }}\right)$. In a blocked cycle, it is dominated by the energy stored in the drive spring ( $\left.\Delta \mathscr{E}_{\text {drive }}\right)$. The energy difference is thus
 
 $$
 \begin{align*}
@@ -8008,16 +8002,7 @@ As illustrated in Figure 12.10, a sinusoidally oscillating cam surface on a driv
 
 A drive system requires a mechanism for linking drive rods so that different sets have the correct relative phases, a mechanism for buffering energy to compensate for fluctuations in the energy stored in the logic system in different logic states, and a source of motive power to compensate for energy losses. The source
 
-A cam surface on an oscillating drive rod induces vertical motion in a follower,
-
-and a sinusoidal oscillation of the drive rod
-
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-60.jpg?height=195&width=463&top_left_y=269&top_left_x=364)
-
-can produce pulses with varying
-
-high intervals, depending on the follower position:
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-60.jpg?height=464&width=842&top_left_y=254&top_left_x=608)
+![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-60.jpg?height=550&width=1110&top_left_y=180&top_left_x=340)
 
 Figure 12.10. Diagrams and text illustrating the generation of clocked drive-system impulses of varying intervals from the sinusoidal motion of a cam surface (only one ramp and one follower are shown).
 
@@ -9162,9 +9147,7 @@ It was long assumed that solving the fold-prediction problem was a prerequisite 
 
 ### 15.2.4. Rational design and evolutionary approaches
 
-At present, the field of protein engineering divides into several main areas. Most protein engineering experiments modify one or more amino acid residues in a natural structure to alter protein stability or function (e.g., Bowie et al., 1990; Imanaka et al., 1986; Pantoliano et al., 1987; Pantoliano et al., 1988; Wilks et al., 1988). More ambitious experiments splice portions of known structures together to make new proteins (Blundell et al., 1988). The most ambitious experiments, termed de novo protein engineering, make protein molecules that have no close resemblance to any found in nature (e.g., DeGrado et al., 1987; Hecht et al.,
-
-1989). Experiments of the first sort have become routine; de novo protein engineering remains exceptional.
+At present, the field of protein engineering divides into several main areas. Most protein engineering experiments modify one or more amino acid residues in a natural structure to alter protein stability or function (e.g., Bowie et al., 1990; Imanaka et al., 1986; Pantoliano et al., 1987; Pantoliano et al., 1988; Wilks et al., 1988). More ambitious experiments splice portions of known structures together to make new proteins (Blundell et al., 1988). The most ambitious experiments, termed de novo protein engineering, make protein molecules that have no close resemblance to any found in nature (e.g., DeGrado et al., 1987; Hecht et al., 1989). Experiments of the first sort have become routine; de novo protein engineering remains exceptional.
 
 Recent years have seen the emergence of several techniques that develop new proteins not by design, but by an evolutionary process of variation, selection, and replication. The first group, monoclonal antibody technologies, exploits animal immune systems to develop protein molecules that bind a specific ligand molecule; by developing antibodies that bind a molecule resembling the transition state of a particular chemical reaction, it has proved possible to develop antibodies (abzymes) that catalyze the reaction (e.g., Janda et al., 1989; Janda et al., 1988). More recently, techniques for in vitro evolution of monoclonal antibody molecules manufactured by bacteria have been demonstrated (Huse et al., 1989). Systems that select among molecular objects by their affinity to a chromatographic column have been used to evolve specific binding affinities both in protein fragments exposed on viral surfaces (Scott and Smith, 1990) and in isolated RNA fragments (Ellington and Szostak, 1990; Tuerk and Gold, 1990).
 
@@ -10360,9 +10343,7 @@ resistance $(\Omega)$
 
 $R_{\text {temp }}$ compression temperature ratio
 
-$\mathscr{R}_{n} \quad n$th root of Eqs. (5.45) and (5.46) describing
-
-beam vibrations
+$\mathscr{R}_{n} \quad n$th root of Eqs. (5.45) and (5.46) describing beam vibrations
 
 rad radians;
 
@@ -10420,11 +10401,7 @@ $V$ volume (in real space, $\mathrm{m}^{3}$;
 
 in $n$-dimensional configuration space, $\mathrm{m}^{n}$ )
 
-$\checkmark$ potential energy (often a
-
-function of position
-
-coordinates) ( $\mathrm{J}$ )
+$\checkmark$ potential energy (often a function of position coordinates) ( $\mathrm{J}$ )
 
 $\mathcal{V}^{\prime}$ potential energy of a well, corrected for zero point $v$ speed $(\mathrm{m} / \mathrm{s})$
 
@@ -10436,9 +10413,7 @@ $\Delta \mathscr{V}^{\prime \ddagger}$ barrier height based on corrected well en
 
 $\mathscr{V}_{\omega}$ potential energy of bond torsion
 
-$V_{\theta}$ potential energy of bond angle-bending
-
-speed $(\mathrm{m} / \mathrm{s})$
+$V_{\theta}$ potential energy of bond angle-bending speed $(\mathrm{m} / \mathrm{s})$
 
 $v_{\mathrm{s}} \quad$ speed of sound $(\mathrm{m} / \mathrm{s})$
 
@@ -11506,13 +11481,7 @@ Northrup, J. E., and M. L. Cohen. (1982) Reconstruction Mechanism and SurfaceSta
 Nugent, W. A., and J. M. Mayer. (1988)
 
 Metal Ligand Multiple Bonds: The
-Chemistry of Transition Metal Complexes
-
-Containing Oxo, Nitrido, Imido,
-
-Alkylidene, or Alkylidyne Ligands. New
-
-York: John Wiley \& Sons.
+Chemistry of Transition Metal Complexes Containing Oxo, Nitrido, Imido, Alkylidene, or Alkylidyne Ligands. New York: John Wiley \& Sons.
 
 Oosawa, F., and S. Asakura. (1975)
 
@@ -11766,24 +11735,15 @@ Acoustic noise, 91
 
 Acoustic power and control, 472-476
 
-Acoustic radiation:
-
-and energy dissipation, 162-168
-
-equal-speed approximation, 163
-
-moving disturbances, 166
-
-oscillating force at a point, 163
-
-oscillating pressure, 166
-
-oscillating torque at a point, 165
-
-in sleeve bearings, 290
-
-in sliding of irregular objects, 283
-
+Acoustic radiation:<br/>
+and energy dissipation, 162-168<br/>
+equal-speed approximation, 163<br/>
+moving disturbances, 166<br/>
+oscillating force at a point, 163<br/>
+oscillating pressure, 166<br/>
+oscillating torque at a point, 165<br/>
+in sleeve bearings, 290<br/>
+in sliding of irregular objects, 283<br/>
 uniform medium assumption, 162
 
 Acoustic transmission lines, 363
@@ -11804,14 +11764,10 @@ Adhesive interfaces, 270-271, 412,413-414
 
 Agoric open systems, 371
 
-Alignment bands:
-
-and acoustic radiation, 167
-
-and dislocations, 173
-
-phonon scattering, 173-175, 292
-
+Alignment bands:<br/>
+and acoustic radiation, 167<br/>
+and dislocations, 173<br/>
+phonon scattering, 173-175, 292<br/>
 thermoelastic drag, 181
 
 Alkene reagents, 213-215, 229-232
@@ -11825,6 +11781,7 @@ Alkynyl radical, 216-217, 227, 232-233
 Allenes, 214
 
 Aluminum, 149, 153
+
 AMBER force field, 43
 
 Amines and lone pairs, 45
@@ -11847,12 +11804,9 @@ Atmosphere, model of probability gas, 77
 
 Atomic-point bearings, 303
 
-Atoms, see also names of elements
-
-generation of free, 9,195
-
-MM2 properties, table of, 44
-
+Atoms, see also names of elements<br/>
+generation of free, 9,195<br/>
+MM2 properties, table of, 44<br/>
 radii of, under load, 44, 60-61
 
 ### B
@@ -11867,20 +11821,13 @@ Barth, Phillip, 150, 429
 
 Basis functions, in quantum chemistry, 40
 
-Bearings, see also Sleeve bearings
-
-atomic point, 303
-
-bonded, 303
-
-dry $v s$. lubricated, 27
-
-as example of nanomachine, 2-5
-
-interfacial structures, 294-295
-
-interfacial stability, 296
-
+Bearings, see also Sleeve bearings<br/>
+atomic point, 303<br/>
+bonded, 303<br/>
+dry $v s$. lubricated, 27<br/>
+as example of nanomachine, 2-5<br/>
+interfacial structures, 294-295<br/>
+interfacial stability, 296<br/>
 roller, 308
 
 Belt and roller systems, 309-310, 386-390
@@ -11991,8 +11938,7 @@ CHARMM, 43
 
 Chemical synthesis, see Mechanosynthesis; Organic synthesis
 
-Chemistry, see also Mechanosynthesis; Organic synthesis; Reactions
-
+Chemistry, see also Mechanosynthesis; Organic synthesis; Reactions<br/>
 contrasts between machine and solution phase, 6, 88, 135-137, 152, 196-207
 
 Classical continuum models and scaling laws, 23-35. See also Bounded continuum models
@@ -12105,14 +12051,10 @@ Cyclopropane, 195, 217
 
 ### D
 
-Damage, see also Thermomechanical damage
-
-dominance of radiation damage, 157
-
-energy sources, 120
-
-mechanisms of, $120,135,379$
-
+Damage, see also Thermomechanical damage<br/>
+dominance of radiation damage, 157<br/>
+energy sources, 120<br/>
+mechanisms of, $120,135,379$<br/>
 photochemical damage, $150-154$
 
 Dampers, 314
@@ -12138,8 +12080,7 @@ Detailed balancing, principle of, 78
 
 Detents, 314
 
-Diamond, see also Diamondoid solids; Diamondoid structures
-
+Diamond, see also Diamondoid solids; Diamondoid structures<br/>
 chemical vapor deposition, 241
 
 Debye temperature, 170
@@ -12263,16 +12204,11 @@ Elimination reactions and pyrolysis, 146
 
 Ene reactions, 147
 
-Energy, see also Potential energy; Potential energy surfaces; Power
-
-mean value, 75
-
-and nonbonded force, 59
-
-and partition function, 75
-
-release in adhesion, 271
-
+Energy, see also Potential energy; Potential energy surfaces; Power<br/>
+mean value, 75<br/>
+and nonbonded force, 59<br/>
+and partition function, 75<br/>
+release in adhesion, 271<br/>
 units for molecular phenomena, 11
 
 Energy barriers, see Potential barriers
@@ -12446,20 +12382,13 @@ Flywheels, 370
 
 Follower and cam, 310
 
-Force, see also Bond cleavage; Molecular mechanics
-
-measurement of, 322
-
-in mechanochemistry, 201
-
-in molecular mills, 386
-
-and nonbonded contact radii, 60
-
-and nonbonded energy, 59
-
-and nonbonded stiffness, 59
-
+Force, see also Bond cleavage; Molecular mechanics<br/>
+measurement of, 322<br/>
+in mechanochemistry, 201<br/>
+in molecular mills, 386<br/>
+and nonbonded contact radii, 60<br/>
+and nonbonded energy, 59<br/>
+and nonbonded stiffness, 59<br/>
 scaling of, 24
 
 Foresight Institute, 513
@@ -12766,71 +12695,40 @@ Mechanical energy, thermalization of, 81
 
 Mechanical engineering, 7,24
 
-Mechanochemistry, 191-192. See also Mechanosynthesis
-
-comparisons, 192
-
-energy dissipation in, 221
-
-forcible processes, $220-238$
-
-as power source, 397
-
+Mechanochemistry, 191-192. See also Mechanosynthesis<br/>
+comparisons, 192<br/>
+energy dissipation in, 221<br/>
+forcible processes, $220-238$<br/>
+as power source, 397<br/>
 theoretical modeling, 192
 
-Mechanosynthesis, 1, 191,197-207. See also Mechanochemistry
-
-and catalysis, 204
-
-cluster-based strategies, 246
-
-competing reactions, 204
-
-of diamondoid structures, 238-248
-
-electrochemistry, 203
-
-electrostatic effects, 200
-
-error rates in, 205. See also Error rates
-
-flexible components, 200
-
-handle structures, 197
-
-highly active reagents, 206
-
-ionic reactions, 200
-
-ions in, 198
-
-large effective concentrations, 198
-
-limited reagents, 197
-
-for molecular manufacturing, 207-211
-natural parallelism, lack of, 197
-
-nondiamondoid structures, 248
-
-and photochemistry, 198, 203
-
-radicals in, 198
-
-reaction cycle times, 208
-
-reagent preparation $v s$. application, 208
-
-sensitivity to modeling errors, 88
-
-in solution, 14
-
-vs. solution-phase synthesis, 196-207
-
-solvation, lack of true, 198
-
-summary of comparison, 211
-
+Mechanosynthesis, 1, 191,197-207. See also Mechanochemistry<br/>
+and catalysis, 204<br/>
+cluster-based strategies, 246<br/>
+competing reactions, 204<br/>
+of diamondoid structures, 238-248<br/>
+electrochemistry, 203<br/>
+electrostatic effects, 200<br/>
+error rates in, 205. See also Error rates<br/>
+flexible components, 200<br/>
+handle structures, 197<br/>
+highly active reagents, 206<br/>
+ionic reactions, 200<br/>
+ions in, 198<br/>
+large effective concentrations, 198<br/>
+limited reagents, 197<br/>
+for molecular manufacturing, 207-211<br/>
+natural parallelism, lack of, 197<br/>
+nondiamondoid structures, 248<br/>
+and photochemistry, 198, 203<br/>
+radicals in, 198<br/>
+reaction cycle times, 208<br/>
+reagent preparation $v s$. application, 208<br/>
+sensitivity to modeling errors, 88<br/>
+in solution, 14<br/>
+vs. solution-phase synthesis, 196-207<br/>
+solvation, lack of true, 198<br/>
+summary of comparison, 211<br/>
 temperatures in, 198
 
 Melting point, table of values, 256
