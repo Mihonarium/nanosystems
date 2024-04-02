@@ -223,8 +223,6 @@ Table 1.1. Some known issues, problems, and constraints.
 How typical are these characteristics? Stiff, polycyclic structures are ubiquitous in the designs presented in Part II. Many components are designed to combine stiff constraints in some degrees of freedom with nearly free motion in others, thereby fulfilling roles familiar in mechanical engineering; nonetheless,
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-25.jpg?height=1544&width=1024&top_left_y=246&top_left_x=364)
 
-side view
-
 Figure 1.1. End views and exploded views of a sample overlap-repulsion bearing design (shown in both ball-and-stick and space-filling representations). Geometries represent energy minima determined by the MM2/CSC molecular mechanics software. Note the six-fold symmetry of the shaft and fourteen-fold symmetry of the surrounding ring; with a least common multiple of 42 , this combination yields low energy barriers to rotation of the shaft within the ring. Bearing structures are discussed further in Chapter 10. (MM2/CSC denotes the Chem3D Plus implementation of the MM2 molecular mechanics force field. The MM2 model is discussed in Section 3.3.2; Chem3D Plus is a product of Cambridge Scientific Computing, Cambridge, Massachusetts.)
 
 ![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-26.jpg?height=499&width=1205&top_left_y=199&top_left_x=145)
@@ -1624,9 +1622,9 @@ Table 3.9. Refractive index, zero-frequency dielectric constant, and Hamaker con
 
 ${ }^{a}$ Hamaker constants for metals from Israelachvili (1992). Values for $n, \varepsilon$ from Gray (1972), Lide (1990).
 
-| Atom-surface <br/> $Q_{\mathrm{vdw}}=-\frac{\pi C n_{\mathrm{v}}}{6 s^{3}}$ | ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=369&width=552&top_left_y=905&top_left_x=767) |
+| ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=369&width=552&top_left_y=905&top_left_x=188) | ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=369&width=552&top_left_y=905&top_left_x=767) |
 | :---: | :---: |
-| (c) $V_{\mathrm{vdw}}=-\frac{\Perp}{6 s} \frac{r_{1} r_{2}}{\left(r_{1}+r_{2}\right)} ; r_{1}, r_{2} \gg s$ | Two surfaces <br/> (d) $\quad V_{\mathrm{vdw}}=-\frac{A S}{12 \pi s^{2}}$ |
+| ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=366&width=509&top_left_y=1289&top_left_x=188) | ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=369&width=552&top_left_y=1289&top_left_x=767) |
 | ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=366&width=509&top_left_y=1673&top_left_x=188) | ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=366&width=552&top_left_y=1673&top_left_x=767) |
 
 Figure 3.10. The potential energy, $\mathscr{V}_{\text {vdw }}$ of the van der Waals attraction in the nonretarded continuum approximation; after Israelachvili (1992). In the two-surface expression, $S=$ area. The more complex expressions for geometries with $r \approx s$ appear in Hiemenz (1986).
@@ -1649,11 +1647,7 @@ $$
 
 with obvious generalizations when more layers of atoms are treated explicitly.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-03.jpg?height=372&width=162&top_left_y=1710&top_left_x=281)
-
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-03.jpg?height=331&width=150&top_left_y=1711&top_left_x=593)
-
-a2 12
+![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-03.jpg?height=372&width=474&top_left_y=1710&top_left_x=281)
 
 Figure 3.11. Model of two surfaces, showing the outermost atomic layers described as uniform planes and deeper regions approximated as uniform volumes.[^9]
 
