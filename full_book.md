@@ -1271,8 +1271,8 @@ Table 3.6. Stretch-bend parameters.
 | $\mathrm{X}-$ Second-Y | 2.50 |
 | X-First-H | 0.90 |
 | $\mathrm{X}-$ Second-H | -4.00 |
-| a $\mathrm{X}, \mathrm{Y}=$ first or second row atoms; First = first row atom; |  |
-| Second = second row atom; H = hydrogen. |  |
+
+$^{\mathrm{a}}$ $\mathrm{X}, \mathrm{Y}=$ first or second row atoms; First = first row atom; Second = second row atom; H = hydrogen.
 
 A major complication arises in ${ }^{\circ}$ conjugated double-bond systems, in which the treatment of bonds as entities with properties depending only on their near neighbors breaks down. Where single and double bonds alternate along a chain or ring, delocalization of ${ }^{\circ} \mathrm{pi}$ electrons can greatly affect the potential energy function; benzene is a classic example. MM2 describes conjugated systems by performing a minimal quantum mechanical analysis of the participating pi electrons; it uses the results to estimate the magnitude of fractional bonding between pairs of atoms, and then adjusts the force field parameters (equilibrium bond lengths, stiffnesses, torsional energies, etc.) accordingly. (Further complications in the MM2 model are omitted from this discussion.)
 
