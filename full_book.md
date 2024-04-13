@@ -10156,11 +10156,9 @@ C coulomb; carbon
 
 $\mathrm{Cl}$ chlorine
 
-$C$ London dispersion force coefficient $\left(\mathrm{J} \cdot \mathrm{m}^{6}\right)$;
-
-constant of integration;
-
-compliance ( $\mathrm{m} / \mathrm{N})$;
+$C$ London dispersion force coefficient $\left(\mathrm{J} \cdot \mathrm{m}^{6}\right)$;<br/>
+constant of integration;<br/>
+compliance ( $\mathrm{m} / \mathrm{N})$;<br/>
 
 capacitance $(\mathrm{F}$ )
 
@@ -10242,8 +10240,7 @@ I iodine
 
 I moment of inertia $\left(\mathrm{kg} \cdot \mathrm{m}^2\right)$
 
-$i$ an integer (often an index);
-
+$i$ an integer (often an index);<br/>
 $(-1)^{1 / 2}$
 
 $\mathrm{J}$ joule
@@ -10258,8 +10255,7 @@ $K_{\mathrm{d}}$ dissociation constant $\left(\mathrm{m}^{-3}\right)$
 
 kg kilogram
 
-$k$ Boltzmann's constant $\left(\approx 1.381 \times 10^{-23} \mathrm{~J} / \mathrm{K}\right)$;
-
+$k$ Boltzmann's constant $\left(\approx 1.381 \times 10^{-23} \mathrm{~J} / \mathrm{K}\right)$;<br/>
 optical extinction coefficient
 
 $k_{12}$ rate of transitions from state 1 to state 2, given occupancy of state $1\left(\mathrm{~s}^{-1}\right)$
@@ -10367,24 +10363,18 @@ $q$ electrical charge (C); generalized coordinate
 
 $q$ partition function
 
-$R$ alignment band velocity ratio;
-
-Reynolds number;
-
-concentration ratio;
-
+$R$ alignment band velocity ratio;<br/>
+Reynolds number;<br/>
+concentration ratio;<br/>
 resistance $(\Omega)$
 
 $R_{\text {temp }}$ compression temperature ratio
 
-$\mathscr{R}_{n} \quad n$th root of Eqs. (5.45) and (5.46) describing beam vibrations
-
-rad radians;
-
+$\mathscr{R}_{n} \quad n$th root of Eqs. (5.45) and (5.46) describing beam vibrations;<br/>
+rad radians;<br/>
 radiation dose $\left(10^{-2} \mathrm{~J} / \mathrm{kg}\right)$
 
-$r$ distance or radius (m);
-
+$r$ distance or radius (m);<br/>
 interest rate $\left(\mathrm{yr}^{-1}\right)$
 
 $r_{0}$ reference distance or radius
@@ -10411,8 +10401,7 @@ $s$ separation (m)
 
 $\mathrm{T}$ tesla
 
-$T$ temperature (K);
-
+$T$ temperature (K);<br/>
 transmittance; torque $(\mathrm{N} \cdot \mathrm{m})$
 
 $T^{\prime} \quad T / T_{\mathrm{D}}$
@@ -10431,8 +10420,7 @@ $t_{\text {trans }}$ transformation time
 
 $\mathrm{V}$ volt
 
-$V$ volume (in real space, $\mathrm{m}^{3}$;
-
+$V$ volume (in real space, $\mathrm{m}^{3}$;<br/>
 in $n$-dimensional configuration space, $\mathrm{m}^{n}$ )
 
 $\checkmark$ potential energy (often a function of position coordinates) ( $\mathrm{J}$ )
@@ -10467,8 +10455,7 @@ $z$ spatial coordinate (m); general purpose variable
 
 $\alpha$ accommodation coefficient; selective transport coefficient
 
-$\beta$ Morse function scaling parameter $\left(\mathrm{m}^{-1}\right)$;
-
+$\beta$ Morse function scaling parameter $\left(\mathrm{m}^{-1}\right)$;<br/>
 volume coefficient of thermal expansion $\left(\mathbf{K}^{-1}\right)$
 
 $\Gamma^{*}$ Wigner tunneling correction factor
