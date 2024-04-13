@@ -257,9 +257,10 @@ footer .form-input {
     overflow-x: auto;
     overflow-y: hidden;
     padding: 3px;
-    .base {
-      margin: 0 auto;
-    }
+}
+
+.katex-html .base {
+    margin: 0 auto;
 }
 
 .katex-html:has(span.tag) {
@@ -270,4 +271,12 @@ footer .form-input {
   position: relative !important;
   float: right; 
   margin-left: 0.25rem;
+}
+
+/* The following fixes the scroll bug on mobile. Hopefully, this doesn't break the math on some browsers. Possibly todo? figure out when mathml is displayed instead of HTML. */
+tr .katex .katex-mathml {
+    display: none;
+}
+th .katex .katex-mathml {
+    display: none;
 }
