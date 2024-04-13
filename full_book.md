@@ -10208,7 +10208,81 @@ $f_{x}(x)$ probability density function with respect to a variable $x$
 
 $f_{x}$ spatial frequency along axis $x$ (cycles $/ \mathrm{m})$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-42.jpg?height=2095&width=570&top_left_y=183&top_left_x=162)
+G giga- $\left(10^9\right)$
+
+$G$ shear modulus $\left(\mathrm{N} / \mathrm{m}^2\right)$
+
+$G_{\ell}$ rod shear modulus (N)
+
+$\mathscr{G}$ Gibbs free energy (J)
+
+gcd greatest common denominator
+
+$H$ hydrogen
+
+$\mathrm{He}$ helium
+
+$\mathrm{Hz}$ Hertz (= cycle/s)
+
+$\left|\mathrm{H}\left(f_x\right)\right|$ amplitude spectral density of a potential along axis $x$
+
+$h$ henry
+
+$h$ height (m)
+
+$\hbar$ Planck's constant
+
+$\left(\approx 1.055 \times 10^{-34} \mathrm{~J} \cdot \mathrm{s}\right)$
+
+$\hbar \omega$ vibrational energy
+
+quantum ( $\mathrm{J}$ )
+
+I iodine
+
+I moment of inertia $\left(\mathrm{kg} \cdot \mathrm{m}^2\right)$
+
+$i$ an integer (often an index);
+
+$(-1)^{1 / 2}$
+
+$\mathrm{J}$ joule
+
+$J$ exchange integral $(\mathrm{J})$
+
+$j$ an integer (often an index)
+
+$\mathrm{K}$ degree kelvin
+
+$K_{\mathrm{d}}$ dissociation constant $\left(\mathrm{m}^{-3}\right)$
+
+kg kilogram
+
+$k$ Boltzmann's constant $\left(\approx 1.381 \times 10^{-23} \mathrm{~J} / \mathrm{K}\right)$;
+
+optical extinction coefficient
+
+$k_{12}$ rate of transitions from state 1 to state 2, given occupancy of state $1\left(\mathrm{~s}^{-1}\right)$
+
+$k_{\mathrm{a}} \quad$ stiffness per unit area of interface $\left(\mathrm{N} / \mathrm{m}^3\right)$
+
+$k_{\mathrm{b}}$ bending stiffness of a beam $\left(\mathrm{J} \cdot \mathrm{m} / \mathrm{rad}^2\right)$
+
+$k_{\text {cubic }}$ MM2 cubic bond stretching constant $\left(\mathrm{m}^{-1}\right.$ )
+
+$k_{\text {err }}$ erroneous reaction rate $\left(\mathrm{s}^{-1}\right)$
+
+$k_{\text {isc }}$ intersystem crossing rate $\left(\mathrm{s}^{-1}\right)$
+
+$k_{\ell}$ transverse stiffness per unit length $\left(\mathrm{N} / \mathrm{m}^2\right)$
+
+$k_{\text {react }}$ correct reaction rate $\left(\mathrm{s}^{-1}\right)$
+
+$k_{\mathrm{s}}$ mechanical stiffness $\left(\mathrm{N} / \mathrm{m}^2\right)$
+
+$k_{\text {sextic }}$ MM2 sextic bond angle-bending constant $\left(\mathrm{rad}^{-4}\right)$
+
+$k_{\mathrm{s} \theta}$ stretch-bend parameter (N/rad)
 
 $k_{\mathrm{s} \perp}$ mechanical stiffness perpendicular to a bond or axis $\left(\mathrm{N} / \mathrm{m}^{2}\right)$
 
