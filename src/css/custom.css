@@ -253,6 +253,21 @@ footer .form-input {
     color: #d93025;
 }
 
-.katex-display {
+.katex-html {
     overflow-x: auto;
+    overflow-y: hidden;
+    padding: 3px;
+    .base {
+      margin: 0 auto;
+    }
+}
+
+.katex-html:has(span.tag) {
+  display: flex !important;
+}
+
+.katex-display>.katex>.katex-html>.tag { 
+  position: relative !important;
+  float: right; 
+  margin-left: 0.25rem;
 }
