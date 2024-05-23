@@ -14,7 +14,7 @@ const config = {
   title: 'Nanosystems',
   tagline: 'Eric Drexler',
 	
-  url: 'https://nanosystems-md.contact.ms',
+  url: 'https://nanosyste.ms',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
@@ -69,6 +69,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [],
+        copyright: `Book by K. Eric Drexler. Copyright (C) 1992 by John Wiley & Sons, Inc. John Wiley & Sons, Inc. retains the rights to the book in print.`,
       },
       prism: {
         theme: prismThemes.github,
@@ -77,7 +78,7 @@ const config = {
     }),
 	  scripts: [
 	  {
-	  	src: 'https://nanosystems.contact.ms/interface/js/remember_scroll.js',
+	  	src: 'https://nanosyste.ms/interface/js/remember_scroll.js',
 		async: true,
 	  },
   ],
