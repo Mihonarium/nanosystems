@@ -15,11 +15,11 @@ $$
 \end{aligned}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-01.jpg?height=291&width=342&top_left_y=1004&top_left_x=367)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-01.jpg?height=291&width=342&top_left_y=1004&top_left_x=367)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-01.jpg?height=271&width=342&top_left_y=1484&top_left_x=367)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-01.jpg?height=271&width=342&top_left_y=1484&top_left_x=367)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-01.jpg?height=281&width=337&top_left_y=1943&top_left_x=367)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-01.jpg?height=281&width=337&top_left_y=1943&top_left_x=367)
 
 # Nanosystems 
 
@@ -221,11 +221,11 @@ Providing ample safety margins for modeling errors
 - Neither of the components of the bearing is a plausible target for synthesis using reagents diffusing in solution; barring unprecedented chemical cleverness, their construction requires mechanosynthetic control.
 
 How typical are these characteristics? Stiff, polycyclic structures are ubiquitous in the designs presented in Part II. Many components are designed to combine stiff constraints in some degrees of freedom with nearly free motion in others, thereby fulfilling roles familiar in mechanical engineering; nonetheless,
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-25.jpg?height=1544&width=1024&top_left_y=246&top_left_x=364)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-25.jpg?height=1544&width=1024&top_left_y=246&top_left_x=364)
 
 Figure 1.1. End views and exploded views of a sample overlap-repulsion bearing design (shown in both ball-and-stick and space-filling representations). Geometries represent energy minima determined by the MM2/CSC molecular mechanics software. Note the six-fold symmetry of the shaft and fourteen-fold symmetry of the surrounding ring; with a least common multiple of 42 , this combination yields low energy barriers to rotation of the shaft within the ring. Bearing structures are discussed further in Chapter 10. (MM2/CSC denotes the Chem3D Plus implementation of the MM2 molecular mechanics force field. The MM2 model is discussed in Section 3.3.2; Chem3D Plus is a product of Cambridge Scientific Computing, Cambridge, Massachusetts.)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-26.jpg?height=499&width=1205&top_left_y=199&top_left_x=145)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-26.jpg?height=499&width=1205&top_left_y=199&top_left_x=145)
 
 Figure 1.2. Conventions for atom representation using shading and relative sizes. The "H (fixed)" atom represents a hydrogen atom held at fixed spatial coordinates; these are used to model some mechanical constraints applied by a larger structure (e.g., in stiffness calculations). All radii are set equal to the values for $0.1 \mathrm{nN}$ compressive contacts given by Eq. (3.20).
 
@@ -335,7 +335,7 @@ As discussed in Chapter 3, the most rigorous models ordinarily used by chemists 
 
 Table 1.4. Levels of abstraction and approximation in molecular systems engineering.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-33.jpg?height=700&width=712&top_left_y=253&top_left_x=517)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-33.jpg?height=700&width=712&top_left_y=253&top_left_x=517)
 
 methods of more limited applicability but lower computational cost; these too are discussed in Chapter 3.
 
@@ -347,7 +347,7 @@ Nanomechanical systems are subject to a similar analysis, describing systemlevel
 
 The present volume adheres to design constraints that may not limit future engineering practice. Each constraint excludes possibilities that are presently difficult to analyze, but that may prove both feasible and desirable. The following
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=463&width=649&top_left_y=203&top_left_x=438)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=463&width=649&top_left_y=203&top_left_x=438)
 
 Figure 133. Diamondoid structures are a subset of covalently bonded structures, which are a subset of the broad range of solid structures.
 
@@ -355,7 +355,7 @@ assumptions and limitations are thus conservative, resulting in what are likely 
 
 a. A narrow range of structures. From the broad range of materials (metals, ionic crystals, molecular crystals, polymers, etc.), the present work selects the class of diamondoid ${ }^{\circ}$ covalent solids as its focus (Section 9.3.1f). These structures form a small subset of those that are possible (Figure 1.3), and contain atoms drawn chiefly from the shaded region of Figure 1.4. Diamond itself is the strongest and stiffest structure presently known at ordinary pressures (Kelly, 1973), making it and similar materials attractive on engineering grounds. Since many components can be regarded as polycyclic organic molecules, much of the vast base of knowledge developed by organic chemists is immediately applicable. Small components are subject to large surface effects, but typical organic molecules are, in effect, all surface; accordingly, surface effects are an integral part of molecular models.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=451&width=950&top_left_y=1516&top_left_x=287)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-34.jpg?height=451&width=950&top_left_y=1516&top_left_x=287)
 
 Figure 1.4. Periodic table of the atoms, with cells shaded to indicate those of greatest importance to nanomechanical design: hydrogen $(\mathrm{H})$, carbon $(\mathrm{C})$, nitrogen $(\mathrm{N})$, oxygen $(\mathrm{O})$, fluorine $(\mathrm{F})$, silicon $(\mathrm{Si})$, phosphorus $(\mathrm{P})$, sulfur $(\mathrm{S})$, and chlorine $(\mathrm{Cl})$. Other elements have applications, but few of the structures discussed in the following chapters contain them. [H is more often placed above lithium ( $\mathrm{Li})$ than above $\mathrm{F}$, but hydrocarbons resemble the stable fluorocarbons far more than they do the reactive lithiocarbons. Like F, H is only one electron short of a closed-shell configuration.]
 
@@ -1197,7 +1197,7 @@ Table 3.4. Some MM2 parameters for out-of-plane bending.
 | $9-(1 \ldots 4)$ | 0.05 |
 | $9-(6 \ldots 9)$ | 0.05 |
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-68.jpg?height=213&width=433&top_left_y=658&top_left_x=167)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-68.jpg?height=213&width=433&top_left_y=658&top_left_x=167)
 
 Figure 3.1. Out-of-plane bending geometry in the MM2 model. In calculating angle-bending energies centered on $s p^{2}$ atoms (such as $\mathrm{C}$ in the diagram at left), each angle (such as ACB) is described in terms of an in-plane component (the angle AEB) and an out-of-plane component (the angle CDE); the line CE is perpendicular to the $\mathrm{ABD}$ plane.
 
@@ -1229,7 +1229,7 @@ Table 3.5. MM2 parameters for bond torsion (the full set is roughly 80 times lar
 | $2-2-2-2$ | -6.46 | 55.58 | 0.00 | $\mathrm{C}\left(\mathrm{sp}^{2}\right)-\mathrm{C}=\mathrm{C}-\mathrm{C}\left(\mathrm{sp}^{2}\right)$ |
 | $5-2-2-5$ | 0.00 | 104.21 | 0.00 | $\mathrm{H}-\mathrm{C}=\mathrm{C}-\mathrm{H}$ |
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-69.jpg?height=227&width=352&top_left_y=697&top_left_x=285)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-69.jpg?height=227&width=352&top_left_y=697&top_left_x=285)
 
 Figure 3.2. Torsion geometry.
 
@@ -1368,11 +1368,11 @@ where $m_{1}$ and $m_{2}$ are the masses of the bonded atoms. The zero-point ene
 
 Figure 3.3 plots the $\mathrm{C}-\mathbf{C}$ Morse potential based on the values in Table 3.8, along with the MM2 bonded and nonbonded potentials; Figures 3.4 and 3.5 plot additional Morse potentials for easy reference. Although its form is motivated by quantum mechanical considerations, the Morse function grows increasingly inaccurate far from the equilibrium separation. From a structural perspective,
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-74.jpg?height=1298&width=1119&top_left_y=656&top_left_x=193)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-74.jpg?height=1298&width=1119&top_left_y=656&top_left_x=193)
 
 Figure 3.3. Morse and MM2 nonbonded potentials, forces, and stiffnesses for carboncarbon interactions. The Morse curves are based on parameters for $\mathbf{C}-\mathbf{C}$ bonds (Table 3.8); a dotted curve shows the MM2 bond-stretching potential for comparison. The curves for $\mathrm{C} \mid \mathrm{C}$ contacts are based on parameters from Table 3.1 for $s p^{2}$ carbon atoms, which have better-exposed surfaces than do typical $s p^{3}$ atoms. Note the breakdown in the MM2 exp-6 model at distances around $0.15 \mathrm{~nm}$; the dotted extensions of solid curves represent clearly nonphysical regions.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-75.jpg?height=1309&width=1102&top_left_y=156&top_left_x=308)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-75.jpg?height=1309&width=1102&top_left_y=156&top_left_x=308)
 
 Figure 3.4. Morse potentials, forces, and stiffnesses for a representative sample of bond types useful in structural frameworks. Parameters from Table 3.8.
 
@@ -1388,11 +1388,11 @@ $$
 
 which better fits data from vibrational spectroscopy (Eggers et al., 1964) and accurate $a b$-initio molecular orbital calculations (Brown and Truhlar, 1985), although its accuracy is poor for $r<r_{0}$. In comparison to the Morse function, the Lippincott function commonly predicts a greater magnitude for both the bond breaking force and the most-negative stiffness $\left(<-0.125 k_{\mathrm{s}}\right)$. Chapter 6 examines
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-76.jpg?height=1915&width=1108&top_left_y=181&top_left_x=189)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-76.jpg?height=1915&width=1108&top_left_y=181&top_left_x=189)
 
 Figure 3.5. The relationships in Figure 3.4 regraphed on a logarithmic scale to facilitate reading of values. Dashed lines represent negative values.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-77.jpg?height=1314&width=1110&top_left_y=156&top_left_x=301)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-77.jpg?height=1314&width=1110&top_left_y=156&top_left_x=301)
 
 Figure 3.6. MM2 nonbonded potentials, forces, and stiffnesses for a representative sample of pairwise nonbonded interactions (the $\mathrm{C} \mid \mathrm{O}$ curves omit the lone-pair contribution). The solid curves for $\mathrm{F}|\mathrm{F}, \mathrm{Cl}| \mathrm{Cl}$, and $\mathrm{Br} \mid \mathrm{Br}$ nonbonded interactions are accompanied by dotted curves representing combined nonbonded and electrostatic effects for the collinear dipole systems $\mathrm{C}-\mathrm{F}|\mathrm{F}-\mathrm{C}, \mathrm{C}-\mathrm{Cl}| \mathrm{Cl}-\mathrm{C}$, and $\mathrm{C}-\mathrm{Br} \mid \mathrm{Br}-\mathrm{C}$. Also shown are interactions between two isolated electrons (off scale in the upper graph).
 
@@ -1400,7 +1400,7 @@ bond strengths using Morse potentials (which underestimate strength); Chapter 8 
 
 b. Nonbonded interactions under large compressive loads. Nonbonded interactions (Figures 3.6 and 3.7) can be divided into multiple components, of which the MM2 model takes account of three: electrostatic forces, attractive van der Waals forces, and overlap repulsion forces. The latter two forces are represented by the $r^{-6}$ and exponential terms of the exp-6 potential, both of which have forms motivated by approximate quantum theories. More thorough treatments of these forces include small attractive $r^{-8}, r^{-10}$ (etc.) terms, three-body interactions, induced dipole effects, different rules of combination for estimating
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-78.jpg?height=1913&width=1110&top_left_y=177&top_left_x=188)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-78.jpg?height=1913&width=1110&top_left_y=177&top_left_x=188)
 
 Figure 3.7. The relationships in Figure 3.6 regraphed on a logarithmic scale to facilitate reading of values. Dashed lines represent negative values.
 
@@ -1428,7 +1428,7 @@ k_{\mathrm{s}, \mathrm{vdw}} & =\frac{\partial^{2}}{\partial r^{2}} \mathscr{V}_
 \end{align*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-80.jpg?height=1554&width=1095&top_left_y=154&top_left_x=203)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-80.jpg?height=1554&width=1095&top_left_y=154&top_left_x=203)
 
 Figure 3.8. MM2 nonbonded potential energies and stiffnesses as a function of the pairwise force for a range of pairwise interactions. The dotted diagonal lines represent Eq. (3.18) (bottom) and Eq. (3.19) (top) for $r_{\text {vdw0 }}=0.36 \mathrm{~nm}$.
 
@@ -1452,7 +1452,7 @@ Under these conditions, the wide range of $\varepsilon_{\mathrm{vdw}}$ values (a
 
 Chemists define various atomic sizes, including covalent, ionic, and van der Waals radii. These have the property that, under the relevant conditions (covalent bonding, ionic contact, and zero-load nonbonded contact) the distance between atoms of any two types can be approximated as the sum of their separate radii. For nanomechanical work, it is convenient to define analogous summable nonbonded radii for atoms under mechanical load. The following
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-81.jpg?height=984&width=1078&top_left_y=1131&top_left_x=320)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_5078c09f4e8b2d767097g-81.jpg?height=984&width=1078&top_left_y=1131&top_left_x=320)
 
 Figure 3.9. Approximate summable nonbonded radii, based on Eq. (3.20): for a given force between two atoms, their separation is approximately the sum of the above radii.
 
@@ -1610,10 +1610,10 @@ Table 3.9. Refractive index, zero-frequency dielectric constant, and Hamaker con
 | Glycerol | 1.47 | 42.5 | 66 |
 | Metals (Au, Ag, $\mathrm{Cu})$ |  |  | 300 to 500[^61] |
 
-| ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=369&width=552&top_left_y=905&top_left_x=188) | ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=369&width=552&top_left_y=905&top_left_x=767) |
+| ![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=369&width=552&top_left_y=905&top_left_x=188) | ![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=369&width=552&top_left_y=905&top_left_x=767) |
 | :---: | :---: |
-| ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=366&width=509&top_left_y=1289&top_left_x=188) | ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=369&width=552&top_left_y=1289&top_left_x=767) |
-| ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=366&width=509&top_left_y=1673&top_left_x=188) | ![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=366&width=552&top_left_y=1673&top_left_x=767) |
+| ![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=366&width=509&top_left_y=1289&top_left_x=188) | ![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=369&width=552&top_left_y=1289&top_left_x=767) |
+| ![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=366&width=509&top_left_y=1673&top_left_x=188) | ![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-02.jpg?height=366&width=552&top_left_y=1673&top_left_x=767) |
 
 Figure 3.10. The potential energy, $\mathscr{V}_{\text {vdw }}$ of the van der Waals attraction in the nonretarded continuum approximation; after Israelachvili (1992). In the two-surface expression, $S=$ area. The more complex expressions for geometries with $r \approx s$ appear in Hiemenz (1986).
 
@@ -1635,7 +1635,7 @@ $$
 
 with obvious generalizations when more layers of atoms are treated explicitly.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-03.jpg?height=372&width=474&top_left_y=1710&top_left_x=281)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-03.jpg?height=372&width=474&top_left_y=1710&top_left_x=281)
 
 Figure 3.11. Model of two surfaces, showing the outermost atomic layers described as uniform planes and deeper regions approximated as uniform volumes.
 
@@ -1687,7 +1687,7 @@ Molecular mechanics methods can be used to calculate the mechanical properties o
 
 For irregular surfaces in contact, there often is no substitute for modeling at the level of interatomic potentials. Nonetheless, Eqs. (3.18) and (3.19) provide approximate formulas for the stiffness and energy of repulsive interactions as a function of the applied compressive force. These interactions are relatively insensitive to details of surface structure (within the class of structures of chief
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-05.jpg?height=1298&width=1112&top_left_y=169&top_left_x=303)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-05.jpg?height=1298&width=1112&top_left_y=169&top_left_x=303)
 
 Figure 3.12. Interaction of pairs of surfaces according to Eqs. (3.33)-(3.38), with the following parameters (identical for both surfaces):
 
@@ -1881,7 +1881,7 @@ a. Probability gas in configuration space. For a classical system at thermal equ
 
 As in an equilibrated atmosphere (unlike Earth's convecting atmosphere), the mean kinetic energy, and hence the temperature, is independent of the height of the land. The equilibrium ratio of the total probability in two connected valleys depends on their effective volumes; these depend on size and altitude, which correspond to the entropy and energy of the corresponding states. The rate at which probability diffuses through a col between the valleys depends on the height and width of the pass, and on the mean speed and overall probability density of the configuration point. All of these factors appear in transitionstate theory (Chapter 6).
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-15.jpg?height=323&width=863&top_left_y=174&top_left_x=437)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-15.jpg?height=323&width=863&top_left_y=174&top_left_x=437)
 
 Figure 4.1. A one-dimensional PES shaded to illustrate the probability gas visualization of the equilibrium distribution in configuration space. The state boundaries are drawn in accord with the rules in Section 4.3.3b, but omitting those that correspond to energy barriers that are small compared to $k T$ (these would otherwise subdivide state 1 into three regions).
 
@@ -1889,15 +1889,15 @@ In statistical mechanics, the principle of detailed balancing asserts that, at e
 
 b. States in configuration space. The configuration space picture suggests one natural way to define what is meant by "distinct states" of a solid or liquid system (Stillinger and Weber, 1984).[^55] From each point on the energy landscape, there exists a path of steepest descent, and that path always ends in a point or
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-15.jpg?height=482&width=603&top_left_y=1334&top_left_x=285)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-15.jpg?height=482&width=603&top_left_y=1334&top_left_x=285)
 
 (b)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-15.jpg?height=482&width=492&top_left_y=1346&top_left_x=943)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-15.jpg?height=482&width=492&top_left_y=1346&top_left_x=943)
 
 Figure 4.2. Definition of states in terms of potential energy minima. Panel (a) shows a potential energy surface defined over a two-dimensional configuration space; Panel (b) shows the same surface as a contour map partitioned into regions corresponding to local potential energy minima (marked by minus signs).
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-16.jpg?height=663&width=1201&top_left_y=197&top_left_x=171)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-16.jpg?height=663&width=1201&top_left_y=197&top_left_x=171)
 
 Figure 4.3. Molecular dynamics simulation of $n$-octane at $400 \mathrm{~K}$ (MM2/CSC). The upper row illustrates molecular configurations at 10 ps intervals, starting after 10 ps of equilibration at the target energy. Each configuration is labeled with its potential energy relative to the minimum-energy configuration for the molecule, and corresponds to a point on a potential energy surface analogous to that shown in Figure 4.2. Lower row: structures and energies of the corresponding state-defining minima, which in the third state happened to be the global minimum. Note that energy differences between conformers frequently are small. Treating all atoms as distinguishable, the number of distinct conformers for octane is on the order of $3^{7}=2187$ (but this is reduced by excluded-volume effects). ${ }^{\circ}$ Conformationally mobile structures like $n$ octane are unsuitable for most nanomechanical applications.
 
@@ -2008,7 +2008,7 @@ b. Stiff molecules can resist "perturbing" modeling errors. Increasing structura
 
 Good design practice can increase tolerance for the errors that remain. Nonetheless, errors in predicting molecular geometry can lead to designs that fail to work, in part because small local discrepancies in the predicted equilibrium geometry can have cumulative effects across large structures. Appendix A discusses how this problem can be accommodated during preliminary design and later overcome through experimentation.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-25.jpg?height=456&width=1182&top_left_y=192&top_left_x=282)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-25.jpg?height=456&width=1182&top_left_y=192&top_left_x=282)
 
 Figure 4.4. Molecular dynamics simulation of pentacyclo[4.2.0.0 $\left.2,5.0^{3,8} \cdot 0^{4,7}\right]$ octane (cubane) at $400 \mathrm{~K}$ (MM2/CSC); conditions as in Figure 4.3. The polycyclic structure of cubane, unlike the open-ended chain of $n$-octane, is representative of structures suitable for nanomechanical systems. It is stiff and lacks alternative conformations, hence its shape is insensitive to small errors in the PES, and thermal excitation results in relatively small deformations. All vibrational states correspond to the same minimum, as shown in the lower row. (The length and opacity of formal IUPAC names for polycyclic structures, like that given above for cubane, grows rapidly with molecular size; no attempt will be made to give formal names to structures like those in Figure 1.1.)
 
@@ -2159,11 +2159,11 @@ $$
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-30.jpg?height=743&width=1086&top_left_y=1394&top_left_x=188)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-30.jpg?height=743&width=1086&top_left_y=1394&top_left_x=188)
 
 Figure 5.1. A dimensionless measure of variance vs. a dimensionless measure of temperature, Eq. (5.17).
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-31.jpg?height=745&width=1100&top_left_y=163&top_left_x=268)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-31.jpg?height=745&width=1100&top_left_y=163&top_left_x=268)
 
 Figure 5.2. The ratio of the actual variance to that predicted by a classical model, vs. a dimensionless measure of temperature, Eq. (5.18).
 
@@ -2183,13 +2183,13 @@ With less elegance (but more immediately accessible physical significance), thes
 
 Various molecular structures resemble rods; these include DNA helices, microtubules, ladder polymers, and several classes of nanomechanical components. Even flexible molecular chains resemble rods (for purposes of the present analysis) when held in an extended conformation by longitudinal tension or by lateral constraints. A rod is the simplest example of an extended object and can serve as a model for various mechanical systems.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-32.jpg?height=1361&width=1112&top_left_y=178&top_left_x=185)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-32.jpg?height=1361&width=1112&top_left_y=178&top_left_x=185)
 
 Figure 5.3. This set of graphs plots the logarithm of the root mean square displacement of harmonic oscillators of varying mass and spring constant as a function of temperature, from Eq. (5.16). Note that the length at the top of the graphs corresponds roughly to an atomic diameter. Above the dashed lines, the classical approximation is accurate to within $10 \%$; above the dotted lines, it is accurate to within $1 \%$. (continued)
 
 A rod clamped at one end and free at the other undergoes both transverse and longitudinal vibrations. This section analyzes the positional variance of the free end resulting from longitudinal vibrational modes; in rods of large aspect ratio, transverse vibrations can make a significant contribution to the longitudinal positional variance of the free end (analyzed in Section 5.6). The following first considers a classical model for a continuous elastic rod, then both an approximate and an exact quantum mechanical model for a rod consisting of a series of identical masses and springs, ending with an empirical approximation to this exact model.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-33.jpg?height=1341&width=1090&top_left_y=188&top_left_x=285)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-33.jpg?height=1341&width=1090&top_left_y=188&top_left_x=285)
 
 Figure 5.3. (continued) A $1 \mathrm{~nm}^{3}$ volume containing 1000 daltons has $\rho \approx 1661 \mathrm{~kg} / \mathrm{m}^{3}$.
 
@@ -2269,7 +2269,7 @@ This is exactly $k T / k_{\mathrm{s}}$, where $k_{\mathrm{s}}$ is the stretching
 
 a. Discrete rod models. For a continuous rod, a quantum mechanical treatment yields a divergent series for the positional variance, owing to the zero-point vibrations of an infinity of high-frequency modes; the continuum model is thus unacceptable even as an approximation. The following will work with a more realistic rod model (Figure 5.4) consisting of a series of $N$ identical springs and masses, supporting $N$ longitudinal vibrational modes. Introducing complexities
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-35.jpg?height=244&width=735&top_left_y=177&top_left_x=496)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-35.jpg?height=244&width=735&top_left_y=177&top_left_x=496)
 
 Figure 5.4. Diagram of a discrete rod, showing masses, springs, and the length coordinate (measuring between atomic centers).
 
@@ -2291,7 +2291,7 @@ N=10^{10} \ell \quad \text { (for } \ell \text { in meters) } \tag{5.28}
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-35.jpg?height=379&width=1001&top_left_y=1726&top_left_x=349)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-35.jpg?height=379&width=1001&top_left_y=1726&top_left_x=349)
 
 Figure 5.5. Limiting-case rods. Part (a) diagrams a rod in the limiting case in which masses and spring constants are lumped on a plane-by-plane basis; (b) diagrams the limiting case in which the rod is treated as a bundle of decoupled simple rods.
 
@@ -2386,7 +2386,7 @@ $$
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-37.jpg?height=808&width=1087&top_left_y=1321&top_left_x=320)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-37.jpg?height=808&width=1087&top_left_y=1321&top_left_x=320)
 
 Figure 5.6. A dimensionless measure of variance vs. a dimensionless measure of temperature, for rods supporting varying numbers of longitudinal modes, Eq. (5.37).
 
@@ -2434,19 +2434,19 @@ Figure 5.7 compares the results of these two approximations to the results given
 
 Figures 5.8 and 5.9 plot quantum mechanical variances in forms that are useful for making quick estimates. Figure 5.8 plots positional standard deviations for rods with diamondlike properties at $300 \mathrm{~K}$; Figure 5.9 plots ratios of quantum to classical results for a range of properties and temperatures.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-39.jpg?height=832&width=1100&top_left_y=163&top_left_x=309)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-39.jpg?height=832&width=1100&top_left_y=163&top_left_x=309)
 
 Figure 5.7. A plot of exact variances as in Figure 5.6, with the approximations of Eqs. (5.43) and (5.44) shown for comparison.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-39.jpg?height=649&width=1105&top_left_y=1200&top_left_x=306)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-39.jpg?height=649&width=1105&top_left_y=1200&top_left_x=306)
 
 Figure 5.8. Standard deviation in elastic longitudinal displacement for the end of a thermally excited rod, plotted vs. diameter and length, assuming mechanical properties like those of bulk diamond $\left(\rho=3500 \mathrm{~kg} / \mathrm{m}^{3}, E=10^{12} \mathrm{~N} / \mathrm{m}^{2}\right), N / \ell=10^{10} \mathrm{~m}^{-1}$, and $T=$ 300 K. Entropic effects, neglected here, are included in Figure 5.16. Note that quantum effects make a major contribution to the positional uncertainty only for $\ell \leq 1 \mathrm{~nm}$. At sufficiently small dimensions, neglect of atomic-scale structural detail becomes unacceptable even as an approximation (e.g., the dark gray region to the left describes nonexistent subatomic diameters); at larger dimensions, this approximation is excellent.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-40.jpg?height=1621&width=1124&top_left_y=166&top_left_x=207)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-40.jpg?height=1621&width=1124&top_left_y=166&top_left_x=207)
 
 Figure 5.9. A plot of ratios of exact [Eq. (5.37)] to classical [Eq. (5.26)] variances. The final graph in the sequence assumes an unrealistically high acoustic speed $(40 \mathrm{~km} / \mathrm{s}$, vs. $\sim 17 \mathrm{~km} / \mathrm{s}$ for diamond), and thus represents an upper bound on the magnitude of quantum effects in real structures under familiar physical conditions.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-41.jpg?height=1616&width=1107&top_left_y=169&top_left_x=305)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-41.jpg?height=1616&width=1107&top_left_y=169&top_left_x=305)
 
 Figure 5.9. (Continued)
 
@@ -2578,11 +2578,11 @@ where the approximation is exact for $N=1,2$, and $\infty$; for intermediate val
 
 The preceding analysis takes account of transverse compliance caused by bending, but rods of multiatom width also exhibit compliance through shear.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-43.jpg?height=234&width=692&top_left_y=1909&top_left_x=522)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-43.jpg?height=234&width=692&top_left_y=1909&top_left_x=522)
 
 Figure 5.10. A discrete rod, illustrating the angles entering into calculations of bending stiffness effects.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-44.jpg?height=408&width=760&top_left_y=187&top_left_x=397)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-44.jpg?height=408&width=760&top_left_y=187&top_left_x=397)
 
 Figure 5.11. Modal deformation in pure bending (a) vs. pure shear (b). Bending dominates in high aspect-ratio rods; shear dominates in rods of low aspect ratio. Both deformations are here shown in idealized form.
 
@@ -2602,7 +2602,7 @@ The preceding classical treatment can serve as the basis for a quantum mechanica
 
 We begin with a model including only the effects of bending compliance, deferring discussion of shear compliance. (Figure 5.11 illustrates the difference between these forms of compliance.) The above values of modal effective mass
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-45.jpg?height=820&width=1087&top_left_y=164&top_left_x=320)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-45.jpg?height=820&width=1087&top_left_y=164&top_left_x=320)
 
 Figure 5.12. Dimensionless transverse variance for rods, neglecting shear compliance. The simple approximation is based on Eq. (5.64); the exponential-factor approximation on Eq. (5.65), and the exact semicontinuum sum on Eq. (5.60).
 
@@ -2715,11 +2715,11 @@ $$
 
 with the choice of expressions for the shear and bending contributions depending on the desired accuracy, the magnitude of quantum effects, and the value of $N$. Figure 5.13 uses Eqs. (5.64) and (5.66) to graph the standard deviation of the transverse displacement at room temperature for rods with mechanical properties approximating those of bulk diamond. As can be seen, under these conditions, in the regime where shear and bending compliance are both important, quantum effects on positional uncertainty are minor for rods of nanometer or greater size; accordingly, Eq. (5.59) provides a good approximation.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-47.jpg?height=712&width=1100&top_left_y=1352&top_left_x=309)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-47.jpg?height=712&width=1100&top_left_y=1352&top_left_x=309)
 
 Figure 5.13. Transverse positional standard deviation for rods at $300 \mathrm{~K}$, including shear compliance. The bending component is based on Eq. (5.64); the shear component is based on Eq. (5.66), assuming mechanical properties resembling those of bulk diamond, as in Figure 5.8; similar remarks apply.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-48.jpg?height=282&width=514&top_left_y=182&top_left_x=187)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-48.jpg?height=282&width=514&top_left_y=182&top_left_x=187)
 
 Figure 5.14. Piston, cylinder, and gas molecules. Note that the position coordinate $x$ measures not the distance of the piston from the bottom of the cylinder, but the range of motion available to a gas molecule. A hardsphere, hard-surface model is assumed here and in the text.
 
@@ -2987,11 +2987,11 @@ $$
 
 Because the numerators and denominators of these parameters can both vary over many orders of magnitude, even for submicron systems, the ranges covered by Figure 5.15 are large.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-53.jpg?height=726&width=1107&top_left_y=1354&top_left_x=310)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-53.jpg?height=726&width=1107&top_left_y=1354&top_left_x=310)
 
 Figure 5.15. A measure of longitudinal variance vs. ratios of restoring forces, based on Eq. (5.97).
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-54.jpg?height=656&width=1105&top_left_y=176&top_left_x=229)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-54.jpg?height=656&width=1105&top_left_y=176&top_left_x=229)
 
 Figure 5.16. Total standard deviation in longitudinal displacement for the end of a thermally excited rod, including elastic and entropic contributions. Plotted vs. diameter and length, assuming mechanical properties resembling those of bulk diamond (as in Figure 5.8); similar remarks apply.
 
@@ -3108,7 +3108,7 @@ k_{12}=v_{\text {mean }} S_{\text {trans }} / V_{1} \tag{6.2}
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-60.jpg?height=1092&width=874&top_left_y=1090&top_left_x=344)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-60.jpg?height=1092&width=874&top_left_y=1090&top_left_x=344)
 
 Figure 6.1. Potential energy surfaces illustrating concepts in transition state theory.
 
@@ -3221,7 +3221,7 @@ q_{\text {quant }}=\prod_{i=1}^{N} \exp (-\hbar \omega / 2 k T)[1-\exp (-\hbar \
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-64.jpg?height=887&width=1119&top_left_y=162&top_left_x=212)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-64.jpg?height=887&width=1119&top_left_y=162&top_left_x=212)
 
 Figure 6.2. Ratios of quantum mechanical to classical partition functions for harmonic oscillators, [Eq. (6.11)]/[Eq. (6.9)], as a function of temperature and effective stiffness for two values of the effective mass at the well minimum. Since the TST expression contains one more modal factor in the denominator than in the numerator, decreases in the above quantum-to-classical ratios tend to increase transition rates.
 
@@ -3253,11 +3253,11 @@ k_{12}=\Gamma^{*} \frac{k T}{2 \pi \hbar} \frac{q_{\text {quant }}^{\ddagger}}{q
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-65.jpg?height=755&width=1085&top_left_y=52&top_left_x=309)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-65.jpg?height=755&width=1085&top_left_y=52&top_left_x=309)
 
 Figure 6.3. The Wigner tunneling correction factor, Eq. (6.14), as a function of temperature and effective stiffness for two values of the effective mass for motion along the reaction coordinate.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-65.jpg?height=888&width=1093&top_left_y=1131&top_left_x=300)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-65.jpg?height=888&width=1093&top_left_y=1131&top_left_x=300)
 
 Figure 6.4. The ratio of quantum to classical transition rates, assuming a one-dimensional model with the stated ratios of stiffnesses along the reaction coordinate. The stiffness at the well minimum is $500 \mathrm{~N} / \mathrm{m}$ (typical of the stretching stiffness of a covalent bond). Note that a stiffness ratio of zero implies an infinitely thick barrier and an absence of tunneling.
 
@@ -3281,7 +3281,7 @@ $$
 
 where the limits of integration define the region in which $\mathscr{V}(x)>\mathscr{E}$ (Figure 6.5). The approximation requires that the exponential decay of the wave function in the region of negative energy be the dominant phenomenon, making $T \ll 1$; it can be applied when tunneling occurs into a continuum of energy states, such as that characterized by free motion of a particle. Where several potential barriers occur in close succession, resonance effects can yield more complex relationships between energies and transmittances.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-66.jpg?height=323&width=446&top_left_y=1927&top_left_x=192)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-66.jpg?height=323&width=446&top_left_y=1927&top_left_x=192)
 
 Figure 6.5. Total energy and potential energy of a tunneling particle, showing the limits of integration used in the WKB approximation.
 
@@ -3294,7 +3294,7 @@ Section 6.2 implicitly assumes that the PES is unchanging. From a perspective th
 Various processes in nanomechanical systems can be described as attempts to place something in the proper potential well. In systems that perform measurement (Chapter 11), the proper potential well corresponds to an accurate measurement of a physical parameter; in nanomechanical computer systems (Chapter 12), the proper potential well corresponds to the correct state of a logic device; in molecular manufacturing (Chapters 13 and 14), the proper potential well corresponds to the desired result of an assembly step. The potential wells and trajectories that specify the process of placement will in the general case involve motions describable only in terms of a PES of high dimensionality; in practice, typical examples of each of the above cases can be described rather well in terms of thermal displacements of an atom (or small group of atoms) in one or two dimensions, subject to an increasing constraint imposed by a mechanical motion in a second or third dimension.
 
 For a concreteness, picture a probe atom at the tip of an elastic beam descending through vacuum toward a surface (Figure 6.6), described by the coordinates $x, y, z$, and $z^{\prime}$. In this model, $z^{\prime}$ is the equilibrium value of $z$ in the absence of thermal excitation and perturbing forces from the surface, or alternatively, the limit of $z$ as the stiffness components $k_{\mathrm{sx}}=k_{\mathrm{sy}}=k_{\mathrm{sz}} \rightarrow \infty$. In a nanomechanical system, the value of $z^{\prime}$ is determined by the mechanical configuration of the rest of the system. The potential $\mathscr{V}(x, y, z)_{z=z^{\prime}}$, can be regarded as a $z^{\prime}$-dependent two-dimensional potential $\mathscr{V}(x, y)$.
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-67.jpg?height=424&width=562&top_left_y=1780&top_left_x=269)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-67.jpg?height=424&width=562&top_left_y=1780&top_left_x=269)
 
 Figure 6.6. Model system consisting of a probe atom positioned by an elastic beam and subject to perturbations both from thermal excitation and from interactions as it encounters the surface below.
 
@@ -3346,11 +3346,11 @@ $$
 $$
 
 This model captures several basic features of placement errors in nanomechanical systems: the harmonic well is aligned to maximize the probability of
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-69.jpg?height=576&width=1010&top_left_y=1194&top_left_x=358)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-69.jpg?height=576&width=1010&top_left_y=1194&top_left_x=358)
 
 Figure 6.7. The lower panels illustrate time-dependent potentials described by Eq. (6.21), with higher curves representing later times; the upper panels illustrate the corresponding Boltzmann probability density functions at a particular temperature. In both panels, the dotted curves correspond to the potential at $t_{\text {crit }}$ (Section 6.3.3d); other curves are at $0.5,1.5$ and 10 times $t_{\text {crit }}$. Note the decrease in probability mass in the outlying peaks as the well spacing increases.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-70.jpg?height=682&width=1107&top_left_y=180&top_left_x=223)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-70.jpg?height=682&width=1107&top_left_y=180&top_left_x=223)
 
 Figure 6.8. Error rates per placement operation resulting from the application of different equilibration assumptions to the sinusoidal-well model.
 
@@ -3415,18 +3415,18 @@ Machine-phase chemistry comprises systems in which all potentially reactive moie
 
 a. Examples. The stability of a structure often depends on its physical environment. For example, a molecular structure including the fragment:
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-72.jpg?height=260&width=352&top_left_y=1954&top_left_x=598)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-72.jpg?height=260&width=352&top_left_y=1954&top_left_x=598)
 would be unstable in solution, readily forming dimeric products such as:
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-73.jpg?height=323&width=471&top_left_y=229&top_left_x=628)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-73.jpg?height=323&width=471&top_left_y=229&top_left_x=628)
 
 among others. The formation of dimers, however, requires that two molecules of the same kind encounter one another; this is inevitable in solution, but not in molecular machines.[^15] Structure $\mathbf{6 . 1}$ has been proposed for a role in a nanomechanical computer (Drexler, 1988b) in which such encounters would not occur.
 
 In that design, however, 6.1 would encounter other structures including the fragment 6.3, which in solution might yield the Diels-Alder adduct 6.4:
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-73.jpg?height=376&width=880&top_left_y=856&top_left_x=419)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-73.jpg?height=376&width=880&top_left_y=856&top_left_x=419)
 
 and various other products. To approach the Diels-Alder transition state, the rings would have to encounter one another in a nearly parallel orientation, as in 6.5. In the application proposed, however, a surrounding matrix would mechanically constrain the rings, forcing them to approach in a perpendicular orientation, as in 6.6, thereby precluding this reaction.
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-73.jpg?height=578&width=952&top_left_y=1486&top_left_x=384)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-73.jpg?height=578&width=952&top_left_y=1486&top_left_x=384)
 
 b. Machine-phase damage mechanisms. To generalize from these examples:
 - Structures that are unstable in solution environments owing to intermolecular reactions between identical molecules can be stable in eutactic systems because collisions do not occur.
@@ -3457,7 +3457,7 @@ $$
 \end{aligned}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-75.jpg?height=108&width=560&top_left_y=1415&top_left_x=579)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-75.jpg?height=108&width=560&top_left_y=1415&top_left_x=579)
 
 $$
 \begin{aligned}
@@ -3491,7 +3491,7 @@ $$
 
 and the effective stiffness as the bond stiffness, $k_{\mathrm{s}}$. The tunneling correction $\Gamma^{*}$ is unity owing to the effectively infinite barrier thickness. Rate increases owing to the increasing effective area of the escape channel with increasing bond length are neglected. Figure 6.9 shows values for the characteristic bond-cleavage time, $\tau_{\mathrm{cl}}=k_{\mathrm{cl}}{ }^{-1}$, based on Eq. (6.28). As shown in Section 6.7, there is seldom reason to seek bond lifetimes $>10^{20} \mathrm{~s}$; of the bonds selected for listing in Table 3.8, only the $\mathrm{O}-\mathrm{O}$ bond of organic peroxides falls short of this lifetime without ${ }^{\circ}$ strain or other adverse influences on bond stability.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-76.jpg?height=1202&width=1181&top_left_y=769&top_left_x=191)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-76.jpg?height=1202&width=1181&top_left_y=769&top_left_x=191)
 
 Figure 6.9. Values of the characteristic time for bond breakage, $\tau_{\mathrm{cl}}$, as a function of temperature and the bond energy $\Delta \mathcal{V}$, as given by Eq. (6.28). The solid and dashed lines represent systems in which the partition function $q_{\text {long }}$ is unity (corresponding to the high-frequency limit); the dotted lines just above the solid lines represent systems in which this partition function is calculated for $\omega=7 \times 10^{13} \mathrm{rad} / \mathrm{s}$, a relatively low frequency like that of a $\mathrm{Si}-\mathrm{Si}$ bond.
 
@@ -3499,7 +3499,7 @@ b. Rate modifications in liquid and solid media. In liquids, the observed rate o
 
 Attachment to a ${ }^{\circ}$ rigid structure can have dramatic effects even for surface moieties. For example, while an ordinary organic peroxide, Eq. (6.31), is subject to irreversible cleavage in solution (once separated, the two radicals are unlikely to recombine), an analogous peroxide structure attached to a rigid structure will (in the absence of neighboring reactive moieties) reliably recombine on a $10^{-13} \mathrm{~s}$ time scale Eq. (6.32).
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-77.jpg?height=330&width=729&top_left_y=901&top_left_x=494)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-77.jpg?height=330&width=729&top_left_y=901&top_left_x=494)
 
 At interior sites, a physical model for thermally activated structural damage is self-diffusion in diamondlike crystals of germanium and silicon, believed to occur largely through a vacancy-hopping mechanism (Reiss and Fuller, 1959). This process requires bond cleavage, as would a damage mechanism in a diamondoid solid; unlike an atom in the interior of a well-designed diamondoid solid, however, an atom adjacent to a vacancy has available to it both room into which to move and unsatisfied valencies with which to bond. Despite these facilitating structural features, the activation energies (which approximate the barrier energies discussed above) for vacancy diffusion in germanium and silicon (Lide, 1990) have been estimated to be 503 and 745 maJ, about 1.6 and 2.0 times their respective bond energies.
 
@@ -3531,7 +3531,7 @@ $$
 
 and frequencies at the well minimum and barrier maximum that yield both a one-dimensional partition function (making the conservative approximation of
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-78.jpg?height=793&width=856&top_left_y=1345&top_left_x=346)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-78.jpg?height=793&width=856&top_left_y=1345&top_left_x=346)
 
 Figure 6.10. Morse curves modified by tensile stresses ranging from 0.0 to 1.0 times the critical stress for barrier elimination.
 
@@ -3570,7 +3570,7 @@ Allowable stresses are strongly temperature dependent: Although this volume is c
 These calculations can be compared to the theoretical tensile strength of diamond estimated by Lawn as $\sim 1.9 \times 10^{11} \mathrm{~N} / \mathrm{m}^{2}$ (Field, 1979). Diamond normally cleaves along a (111) plane, which has $1.8 \times 10^{19}$ bonds $/ \mathrm{m}^{2}$; the strength just
 cited corresponds to $\sim 10.6 \mathrm{nN} /$ bond, roughly twice the theoretical limiting strength implied by the more conservative calculations of this section. Lawn also calculates a shear strength of $\sim 1.2 \times 10^{11} \mathrm{~N} / \mathrm{m}^{2}$ (Field, 1979), or $6.7 \mathrm{nN} /$ bond. At $\sim 1300 \mathrm{~K}$, diamond undergoes plastic flow under mean shear stresses as low as $0.18 \mathrm{nN} /$ bond (Brookes et al., 1988), but this process depends on the breakage of bonds in dislocations (where stresses are far higher than the mean) and occurs at temperatures that rapidly cleave $\mathrm{C}-\mathrm{C}$ bonds in normal hydrocarbons.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-80.jpg?height=1491&width=1091&top_left_y=533&top_left_x=224)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-80.jpg?height=1491&width=1091&top_left_y=533&top_left_x=224)
 
 Figure 6.11. Characteristic bond cleavage time vs. applied stress at 0,300 , and $500 \mathrm{~K}$. Calculations at 300 and $500 \mathrm{~K}$ are based on quantum transition state theory (Section 6.2.3); those at zero $\mathrm{K}$ are based on the WKB tunneling approximation (Section 6.2.4). The second curve from the right represents a pair of single $\mathrm{C}-\mathrm{C}$ bonds mechanically constrained to cleave in a concerted process.
 
@@ -3580,16 +3580,16 @@ a. Elementary, nonelementary, and solvent-dependent reactions. As suggested by S
 
 A simple example is an elimination reaction sometimes written as
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-81.jpg?height=136&width=884&top_left_y=590&top_left_x=580)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-81.jpg?height=136&width=884&top_left_y=590&top_left_x=580)
 
 This does not occur at an appreciable rate among molecules isolated in vacuum, because the reaction does not occur as shown. The above equation represents a reaction (or compound reaction), but not an elementary reaction, which is to say a single molecular transformation. Not all reactions are elementary, and mistaking a compound reaction for an elementary reaction can lead to mistaken conclusions.
 
 The steps yielding ethylene in Eq. (6.38) can proceed by at least two distinct mechanisms comprising three elementary reactions. The first mechanism is a single-step E2 process, such as:
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-81.jpg?height=306&width=1045&top_left_y=1140&top_left_x=423)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-81.jpg?height=306&width=1045&top_left_y=1140&top_left_x=423)
 
 The second is a two-step E1 process, such as:
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-81.jpg?height=250&width=960&top_left_y=1538&top_left_x=516)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-81.jpg?height=250&width=960&top_left_y=1538&top_left_x=516)
 
 Neither reaction mechanism actually yields an $\mathrm{HBr}$ molecule as shown in Eq. (6.38), and both require the participation of other molecules. The 2 in E2 refers to the requirement for participation of two molecules in the slow, ratelimiting step; the 1 in E1 indicates that the rate-limiting step is unimolecular. Even the first step of the E1 reaction is solvent dependent: the separation of a positive and negative ion from $0.3 \mathrm{~nm}$ to $3 \mathrm{~nm}$ in vacuum requires $\sim 700 \mathrm{maJ}$ of energy, but in a medium with the dielectric constant of water, only $\sim 9$ maJ. For similar reasons, $\mathrm{Na}^{+}$and $\mathrm{Cl}^{-}$ions readily leave a salt crystal in water, causing swift dissolution despite the lack of any significant tendency for salt to evaporate
 
@@ -3622,17 +3622,17 @@ These empirical observations can also be criticized for being sensitive to the c
 d. Unimolecular elimination, fragmentation, and rearrangement. The rapid pyrolysis of small organic molecules in the gas phase provides a useful model for long-term damage to machine-phase systems at room temperature. These processes can provide a guide to the relationship between stability and local molecular structure. This section offers examples of reactions and sketches some imperfect generalizations regarding molecular stability.
 
 Many structures suffer elimination reactions that proceed at unacceptably high rates at room temperature. In reactions such as
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-83.jpg?height=310&width=824&top_left_y=696&top_left_x=434)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-83.jpg?height=310&width=824&top_left_y=696&top_left_x=434)
 
 bonds rearrange to make the extremely stable $\mathrm{N}_{2}$ molecule. Reaction (6.42) proceeds quickly at $200 \mathrm{~K}$, but reaction (6.43) does so only at $\geq 370 \mathrm{~K}$ (Carey and Sundberg, 1983b); the difference in reaction mechanism stems from differences in orbital symmetry. Other processes of this sort yield $\mathrm{CO}, \mathrm{CO}_{2}$ and $\mathrm{H}_{2}$. Under pyrolytic conditions, hydrogen halides can be eliminated from alkyl halides [possibly as shown in Eq. (6.44), or in a surface reaction].
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-83.jpg?height=444&width=812&top_left_y=1324&top_left_x=440)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-83.jpg?height=444&width=812&top_left_y=1324&top_left_x=440)
 
 An extensive review of eliminations under gas-phase pyrolytic conditions appears in Brown (1980), from which reactions (6.44) through (6.46) are taken. Chapter 7 of Carey and Sundberg (1983b) provides a brief overview of elimination reactions and discusses some classes of unimolecular rearrangements of chemical interest. Examples include Cope rearrangements
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-83.jpg?height=152&width=743&top_left_y=2047&top_left_x=492)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-83.jpg?height=152&width=743&top_left_y=2047&top_left_x=492)
 and unimolecular ene reactions
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-84.jpg?height=193&width=697&top_left_y=234&top_left_x=423)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-84.jpg?height=193&width=697&top_left_y=234&top_left_x=423)
 
 Brown (1980) surveys reactions occurring during gas-phase pyrolysis, describing hundreds of examples of reactions from numerous classes. It is possible to draw some conclusions from this body of data (though without formulating generalizations that neatly categorize molecules according to stability). Brown's stated selection criteria favor the inclusion of reactions that are (1) useful in organic synthesis and (2) proceed at temperatures $>350^{\circ} \mathrm{C}$. The criterion of usefulness favors the inclusion of molecules having a specific reactivity, that is, a specific weakness relative to more inert molecular structures (such as aliphatic hydrocarbons of low strain). Further, the objective of maximizing reaction specificity tends to favor use of the lowest temperatures at which reaction rates are adequate for practical work. Of the structures in Brown (1980), selected for exhibiting useful pyrolytic reactions, the fraction having listed reaction temperatures $>500{ }^{\circ} \mathrm{C}$ (suggesting adequate stability for nanomechanical use at room temperature) is roughly half.
 
@@ -3646,7 +3646,7 @@ The study of pyrolytic reactions in small molecules provides useful indications 
 
 The second difference is that potentially unstable substructures found in nanomechanical systems commonly are constrained by diamondoid matrices. As we have seen, thermal bond cleavage can be strongly inhibited by the solidcage effect. Likewise, many rearrangements involve atomic displacements that are feasible in flexible structures, but not in more diamondlike structures. An example is the conrotary thermal ring opening of cyclobutene, Eq. (6.49) [with orbitals and transition geometry shown in Eq. (6.50)] contrasted with the expected behavior of a constrained analogue, Eq. (6.51).
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-01.jpg?height=562&width=794&top_left_y=747&top_left_x=457)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-01.jpg?height=562&width=794&top_left_y=747&top_left_x=457)
 
 A useful exercise is to examine a list of rearrangement reactions and observe how few could occur if most bonds to hydrogen atoms on a molecular surface were instead bonds to carbon atoms in a surrounding matrix of diamondlike rigidity. Diamond itself is stable to $1800 \mathrm{~K}$ in an inert atmosphere $\left(\tau_{\text {trans }}>10^{85} \mathrm{~s}\right.$ at $300 \mathrm{~K}$ ), despite the well-known energetic advantage of rearrangement to graphite.
 
@@ -3738,7 +3738,7 @@ $$
 
 where $d$ is the thickness of the metal layer. Figure 6.12 graphs the transmittance of aluminum layers as a function of their thickness, at several UV wavelengths.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-06.jpg?height=757&width=1107&top_left_y=1368&top_left_x=223)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-06.jpg?height=757&width=1107&top_left_y=1368&top_left_x=223)
 
 Figure 6.12. Transmittance (fraction of optical power transmitted) vs. thickness of aluminum for various wavelengths, $n_{1}=n_{2}=1.5$. Values computed from Eq. (6.52) and Table 6.3.
 
@@ -3780,7 +3780,7 @@ $$
 
 where $\rho$ is the density of the component in $\mathrm{kg} / \mathrm{m}^{3}$. This model (graphed in Figure 6.13) neglects various factors affecting track structure (though ionizing-event spacing is taken to scale inversely with density). It uses an arbitrary functional form to represent the transition between regimes, and should be taken as only a rough guide to damage rates for large components.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-09.jpg?height=758&width=1073&top_left_y=159&top_left_x=322)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-09.jpg?height=758&width=1073&top_left_y=159&top_left_x=322)
 
 Figure 6.13. Probability of component failure owing to ionizing radiation damage vs. radiation dose, according to Eq. (6.54), for components of differing masses; assumes failure after a single hit and a component density equaling that of water. Background radiation in the terrestrial environment seldom delivers more than $0.5 \mathrm{rad} /$ year, marked as "typical annual dose." Note that at the assumed density, the graphed curves correspond to component volumes ranging from $1 \mathrm{~nm}^{3}$ to $10^{12} \mathrm{~nm}^{3}=(10 \mu)^{3}$.
 
@@ -4004,7 +4004,7 @@ $$
 
 for $f \ll 1$.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-17.jpg?height=362&width=721&top_left_y=1751&top_left_x=515)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-17.jpg?height=362&width=721&top_left_y=1751&top_left_x=515)
 
 Figure 7.1. Model of a mechanical harmonic oscillator embedded in a medium. The oscillator can be treated as a point source of force so long as its dimensions are small compared to the wavelength of the sound emitted at its characteristic frequency.
 
@@ -4126,7 +4126,7 @@ More generally, each surface can be viewed as having many sets of rows, with set
 
 (a)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-20.jpg?height=415&width=622&top_left_y=1662&top_left_x=514)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-20.jpg?height=415&width=622&top_left_y=1662&top_left_x=514)
 
 Figure 7.2. The motion of bands of atomic alignment as two surfaces with differing row spacings slide over each other. Panels (a), (b), and (c) represent three successive positions, the left-hand arrow traces the motion of an atom in surface 1; the right-hand arrow traces the motion of an alignment band between the surfaces.
 
@@ -4215,7 +4215,7 @@ T_{\mathrm{D}}=\hbar k_{\mathrm{D}} v_{s} / k \tag{7.30}
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-23.jpg?height=716&width=1051&top_left_y=158&top_left_x=343)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-23.jpg?height=716&width=1051&top_left_y=158&top_left_x=343)
 
 Figure 7.3. Phonon energy density per unit interval of $k$ in the Debye model for $n_{\mathrm{v}}=$ $100 / \mathrm{nm}^{3}$ and $T=300 \mathrm{~K}$, normalized to constant total energy. The maximum value of $\boldsymbol{k}=$ $\boldsymbol{k}_{\mathrm{D}}=1.24 \times 10^{10} \mathrm{rad} / \mathrm{m}$.
 
@@ -4235,7 +4235,7 @@ The Debye model has several shortcomings in describing real crystals, to say not
 
 A scattering center moving with velocity $v$ experiences drag from the "phonon wind" resulting from its velocity (Alshits and Indenbom, 1986); this can be treated as analogous to scattering of photons in a vacuum. In the simplest situation, a scattering center has both an isotropic cross section in the rest frame and an isotropic emission pattern in its own frame. Drag can then be calculated from
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-24.jpg?height=1500&width=1088&top_left_y=176&top_left_x=223)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-24.jpg?height=1500&width=1088&top_left_y=176&top_left_x=223)
 
 Figure 7.4. Phonon energy density in the Debye model vs. the effective speed of sound, $v_{\mathrm{s}}$, and the atomic number density, $\boldsymbol{n}$. For perspective, in diamond the effective speed $v_{\mathrm{s}} \approx 13.8 \mathrm{~km} / \mathrm{s}$, Eq. (7.31), and $n \approx 176 / \mathrm{nm}^{3}$.
 
@@ -4276,7 +4276,7 @@ A sliding scattering center typically is coupled to the medium by nonbonded inte
 
 It is useful to examine the magnitude of drag for a typical case. A sliding contact with a stiffness of $\sim 30 \mathrm{~N} / \mathrm{m}$ has $\sigma \approx 10^{-20} \mathrm{~m}^{2}$ in a moderately stiff medium. With $v_{\mathrm{s}} \approx 10^{4} \mathrm{~m} / \mathrm{s}$ and $\varepsilon \approx 2 \times 10^{8} \mathrm{~J} / \mathrm{m}^{3}$, the power dissipation [Eq. (7.32)] is
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-26.jpg?height=724&width=1107&top_left_y=183&top_left_x=209)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-26.jpg?height=724&width=1107&top_left_y=183&top_left_x=209)
 
 Figure 7.5. Values of $\sigma_{\text {therm }}$ at $300 \mathrm{~K}$ for a range of values of $m$ and $k_{\mathrm{s}}$ and three values of the modulus $M$. For perspective, $10^{-25} \mathrm{~kg}$ is the approximate mass of 5 carbon atoms, and the Young's modulus of diamond is $\sim 1000 \mathrm{GPa}\left(=10^{12} \mathrm{~N} / \mathrm{m}^{2}\right)$. The assumed density is $2000 \mathrm{~kg} / \mathrm{m}^{2}$ (vs. $\sim 3500$ for diamond), with $n_{\mathrm{v}}=100 / \mathrm{nm}^{3}$.
 
@@ -4379,7 +4379,7 @@ T_{\text {trans }} \approx z, \quad z \ll 1 \tag{7.42}
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-29.jpg?height=665&width=1059&top_left_y=1421&top_left_x=336)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-29.jpg?height=665&width=1059&top_left_y=1421&top_left_x=336)
 
 Figure 7.6. The transmission coefficient for a compliant interface, Eq. (7.40), plotted for several values of a dimensionless measure of temperature, $T / T_{\mathrm{D}}$, and a dimensionless measure of interface compliance, $d_{\mathrm{n}}$. Dotted curves represent the approximation given by Eq. (7.41).
 
@@ -4557,7 +4557,7 @@ $$
 \end{align*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-35.jpg?height=268&width=656&top_left_y=1834&top_left_x=499)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-35.jpg?height=268&width=656&top_left_y=1834&top_left_x=499)
 
 Figure 7.7. Two-piston model of a compressed square well; cylinder walls are assumed adiabatic.
 
@@ -4647,7 +4647,7 @@ S \approx\left(m / \rho_{\mathrm{c}}\right)^{2 / 3} \tag{7.66}
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-38.jpg?height=330&width=572&top_left_y=204&top_left_x=476)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-38.jpg?height=330&width=572&top_left_y=204&top_left_x=476)
 
 Figure 7.8. Model of compression by an elastic system.
 
@@ -4789,7 +4789,7 @@ $$
 
 which is simply $-T \mathscr{S}$, where $\mathscr{S}$ is the entropy increase resulting from a volumedoubling free expansion of a single-molecule gas; this equals the work required to restore the initial condition by isothermally compressing a single-molecule
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-41.jpg?height=449&width=936&top_left_y=1691&top_left_x=359)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-41.jpg?height=449&width=936&top_left_y=1691&top_left_x=359)
 
 Figure 7.9. Merging of symmetrical (a) and asymmetrical (b) potential wells, showing potentials at a series of times.
 
@@ -4882,34 +4882,34 @@ No simple first-principles analysis leads from elementary facts regarding molecu
 
 - Highly strained molecules, such as cyclopropane rings 8.1, with $60^{\circ}$ bond angles, rather than the optimal $109.5^{\circ}$; cubane 8.2 , with a total strain energy of $\sim 1.15 \mathrm{aJ}$ (Eaton and Castaldi, 1985), about twice the typical $\mathrm{C}-\mathrm{C}$ bond energy; and [1.1.1]-propellane 8.3 (Wiberg and Walker, 1982), in which the bonding configuration at two of the carbon atoms is inverted relative to the normal tetrahedral geometry-all four bonds are in one hemisphere.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=70&width=70&top_left_y=890&top_left_x=453)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=70&width=70&top_left_y=890&top_left_x=453)
 
 8.1
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=75&width=77&top_left_y=884&top_left_x=712)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=75&width=77&top_left_y=884&top_left_x=712)
 
 8.2
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=77&width=104&top_left_y=883&top_left_x=966)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=77&width=104&top_left_y=883&top_left_x=966)
 
 8.3
 
 - Highly symmetrical molecules, such as dodecahedrane 8.4 (Ternansky et al., 1982) and cyclo[18]carbon 8.5 (Diederich et al., 1989).
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=137&width=154&top_left_y=1234&top_left_x=444)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=137&width=154&top_left_y=1234&top_left_x=444)
 
 8.4
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=260&width=275&top_left_y=1158&top_left_x=786)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=260&width=275&top_left_y=1158&top_left_x=786)
 
 8.5
 
 - Molecules that spontaneously decompose to free highly reactive species, such as carbenes (species containing divalent carbon), Eq. (8.1), and even free carbon atoms (Shevlin and Wolf, 1970), Eq. (8.2). (These species ordinarily exist only briefly before reacting.)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=418&width=934&top_left_y=1662&top_left_x=280)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=418&width=934&top_left_y=1662&top_left_x=280)
 - Some six hundred organic structures, containing a few tens to a few hundred atoms, identical to molecules synthesized by molecular machinery in living systems (Corey and Cheng, 1989). Some examples include 8.6 [anno-
 tinine (Wiesner et al., 1969)], 8.7 [bleomycin $\mathrm{A}_{2}$ (Aoyagi et al., 1982)], and 8.8 [endiandric acid C (Nicolaou et al., 1982)]
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-49.jpg?height=780&width=1130&top_left_y=295&top_left_x=305)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-49.jpg?height=780&width=1130&top_left_y=295&top_left_x=305)
 
 - Chains of a hundred or more monomers, joined in a precise sequence to build biologically active protein and DNA molecules containing on the order of 1000 precisely bonded atoms (Caruthers, 1985; Kent, 1988).
 - Molecules designed to self-assemble into larger structures (Cram, 1988; Lehn, 1988; Rebek, 1987), and even to catalyze the synthesis of copies of themselves (Tjivikua et al., 1990).
@@ -4938,7 +4938,7 @@ b. Mechanochemical parameters. Two major themes in the following sections are re
 a. Loss of natural parallelism. Solution-phase synthesis often yields macroscopic quantities of product. In replacing a macroscopic volume of reagent solution with a single device, the number of reacting entities is reduced by a factor on the rough order of $10^{-23}$. To compensate for this difference requires many mechanosynthetic devices, each operating at a high frequency. Some consequences of this constraint are discussed in Section 8.3.4c.
 
 b. Limitations on reagents and products. Mechanical control of reactions typically requires that reagent moieties be bound to extended "handle" structures; control of products typically requires that they, too, be bound, excluding the use or production of small, freely moving species. This constraint is less severe than it might seem, however, because free and bound species can often participate in similar reactions. For example, although an $\mathrm{S}_{\mathrm{N}} 2$ reaction producing a free ion [Eq. (8.3)] would cause unacceptable disorder, (8.4) is permissible.
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-50.jpg?height=382&width=984&top_left_y=1886&top_left_x=212)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-50.jpg?height=382&width=984&top_left_y=1886&top_left_x=212)
 
 In reality, an ionic process like reaction (8.3) would require a favorable electrostatic environment, and that environment could be used to bind the product ion. In water, small ions (from $\mathrm{Li}^{+}$to $\mathrm{I}^{-}$) are found in solvent cages, and are bound with energies $\geq 330 \mathrm{maJ}$ relative to vacuum (Bockris and Reddy, 1970a). In condensed-phase acid reactions " $\mathrm{H}^{+}$" is always bound. Reactions characteristic of small free ${ }^{\circ}$ radicals (e.g., $\mathrm{H}, \mathrm{F}, \mathrm{OH}$ ) can frequently be made to proceed by concerted mechanisms in which the radicals are never free. Binding of such species usually lessens reactivity, but Section 8.3.3 describes several effective techniques for speeding reactions in mechanochemical systems. Purely ${ }^{\circ}$ steric confinement sometimes is feasible, and has little effect on the electronic structure of the reagent.
 
@@ -4958,7 +4958,7 @@ interact with one another). In bulk chemistry, concentrations are commonly state
 Because their moieties are held in proximity to one another, mechanosynthetic reactions resemble intramolecular reactions; these, in turn, often resemble intermolecular reactions, save for a covalent link between reacting moieties. From the rate for an intramolecular reaction (in $\mathrm{s}^{-1}$ ) and the rate constant for an analogous intermolecular reaction (in $\mathrm{nm}^{3} \mathrm{~s}^{-1}$ ), one can compute the effective concentration of a moiety $B$ with respect to a moiety $A$ in the intramolecular process by computing the (hypothetical) concentration of B-like molecules (in $\mathrm{nm}^{-3}$ ) that would subject an A-like molecule to the same reaction frequency in the intermolecular process. The concept of effective concentration, although of no intrinsic importance to mechanosynthesis, is quite useful in estimating machine-phase reaction rates from solution-phase data.
 
 Experiment shows that effective concentrations for reactions between moieties on small molecules are not limited to $\sim 10 \mathrm{~nm}^{-3}$ (typical of immersion in a liquid); they can be as large as $\sim 10^{3}$ to $10^{10} \mathrm{~nm}^{-3}$ (Creighton, 1984). Two examples cited by Creighton are:
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-52.jpg?height=400&width=1130&top_left_y=1060&top_left_x=240)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-52.jpg?height=400&width=1130&top_left_y=1060&top_left_x=240)
 
 The occurrence of large magnitudes can readily be understood: In the probability-gas picture of classical transition state theory (Section 6.2.2), the rate of transitions is proportional to the density of the gas. For concreteness and ease of visualization, consider an intramolecular reaction in which a single atom is transferred (e.g., atom abstraction). The concentration of an atom at the bottom of the potential well defining its initial state is just the reciprocal of the effective volume; for example, using Eq. (6.5) and a stiffness of $20 \mathrm{~N} / \mathrm{m}$ in each of three dimensions (vs. $\sim 30 \mathrm{~N} / \mathrm{m}$ typical of bond angle-bending; Section 3.3.2b) yields a number density of $\sim 2 \times 10^{4} \mathrm{~nm}^{-3}$; this local density is unrelated to (and far larger than) the mean number-density of nuclei in solids at ordinary pressures. Further, many reactions require a relatively precise orientation of the reagent moieties; structural constraints in intramolecular reactions can greatly increase the concentration of properly oriented moieties, multiplying the effective concentration by a large factor. (Intramolecular reactions can also be accelerated by intermoietal strain; this can, however, be viewed as a violation of the intramolecular-intermolecular analogy that motivates the notion of effective concentration, and is more closely analogous to the piezochemical effects described in Section 8.3.3c.)
 
@@ -4973,7 +4973,7 @@ The magnitude of these effects can be roughly estimated. Ionic reactions commonl
 Enzymatic active sites often resemble preorganized solvent structures, reducing the energy of a transition state. Mechanochemical systems based on a more general class of molecular structures can equal or exceed enzymes in this regard. The requirement that all structures be well bound, prohibiting true solvation (Section 8.3.2c), does not appear to be a significant sacrifice.
 
 As enzymes show, molecular flexibility can be achieved without freely moving small molecules. In a mechanochemical context, however, it frequently is desirable to provide relatively rigid support for a reagent structure; one strategy is to surround the structure with a nonbonded (hence solventlike) but rigid shell.
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-54.jpg?height=220&width=684&top_left_y=213&top_left_x=398)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-54.jpg?height=220&width=684&top_left_y=213&top_left_x=398)
 
 Figure 8.1. Dipole-dipole interaction geometries and energies. In (a), the two parallel $\mathrm{HCN}$ molecules (modeling bound nitrile moieties) have been held fixed at a separation of $0.3 \mathrm{~nm}$ while the energy of the third is minimized. In (b), the orientation of the third has been reversed. The increase in the MM2/CSC electrostatic (and total) energies from (a) to (b) is $\sim 110 \mathrm{maJ}$.
 
@@ -5044,19 +5044,19 @@ A typical mechanosynthetic step involves the mechanically guided approach of a r
 Considering the approach of a reagent moiety to a target structure in threedimensional space, a reaction pathway can be characterized by the trajectory of some atom in the moiety (such as an atom that participates in the formation of a bond to the surface). Inspection of familiar chemical reactions concurs with elementary expectations in suggesting that reaction pathways leading to alternative products commonly are characterized by trajectories that differ by a bond length $\left(d_{\mathrm{t}} \approx 0.15 \mathrm{~nm}\right)$ or more at the competing transition states (for example, see Section 8.5.5a). This is not universally true, but it is the norm; accordingly, avoidance of the exceptional situations imposes only modest limitations on the available sequences of chemical reactions. Where reagents are selective, or have reactivities with a strong orientational dependence, alternative trajectories usually are separated by far greater distances.
 
 A reasonable stiffness for the displacement of an atom in a mechanically guided reagent moiety (measured with respect to a reasonably rigid or wellsupported target structure) is $20 \mathrm{~N} / \mathrm{m}$ (comparable to the $\sim 30 \mathrm{~N} / \mathrm{m}$ transverse stiffness of a carbon atom with respect to an $s p^{3}$ carbon, Section 3.3.2b). Note that the mechanical constraints on a reactive moiety can in many instances include not only the stiffness of its covalent framework, but forces resulting from an unreactive, closely packed surrounding structure that substantially blocks motion in undesired directions (see Figure 8.2). Using the sinusoidal worst-case decoupling model of Section 6.3.3d to estimate error rates with nonsinusoidal potentials, the condition $P_{\mathrm{err}} \leq 10^{-15}$ requires that the elastic energy difference between the two locations be $\geq \sim 180 \mathrm{maJ}$ at $300 \mathrm{~K}$. With $k_{\mathrm{s}}=20 \mathrm{~N} / \mathrm{m}$, this condition is satisfied at transition-state separations $d_{\mathrm{t}} \geq 0.135 \mathrm{~nm}$. Accordingly, with modest constraints on the chemistry of the reacting species, suppression of
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=408&width=146&top_left_y=229&top_left_x=322)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=408&width=146&top_left_y=229&top_left_x=322)
 
 (a)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=414&width=198&top_left_y=229&top_left_x=502)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=414&width=198&top_left_y=229&top_left_x=502)
 
 (b)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=412&width=210&top_left_y=228&top_left_x=715)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=412&width=210&top_left_y=228&top_left_x=715)
 
 (c)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=412&width=198&top_left_y=230&top_left_x=926)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=412&width=198&top_left_y=230&top_left_x=926)
 
 (d)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=410&width=216&top_left_y=232&top_left_x=1136)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=410&width=216&top_left_y=232&top_left_x=1136)
 
 (e)
 
@@ -5175,11 +5175,11 @@ species is then high (making solution precedents inapplicable), and the utility 
 
 a. Rearrangements and neutralization. Ionic species vary in their susceptibility to unimolecular rearrangement. ${ }^{\circ} \mathrm{Carbonium}$ ions, for example, are prone to 1,2-shifts with low [or zero (Hehre et al., 1986)] barrier energies:
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-66.jpg?height=200&width=741&top_left_y=428&top_left_x=360)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-66.jpg?height=200&width=741&top_left_y=428&top_left_x=360)
 
 A reagent moiety in which this process can occur will likely fail to meet the stability criterion for use in molecular manufacturing processes. If, however, each of the R-groups is part of an extended rigid system, this rearrangement is mechanically infeasible, as in Eq. (8.14). Rearrangement could also be prevented by steric constraints from a surrounding matrix, or (since the rearrangement involves charge migration) by local electrostatics.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-66.jpg?height=359&width=801&top_left_y=930&top_left_x=340)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-66.jpg?height=359&width=801&top_left_y=930&top_left_x=340)
 
 ${ }^{\circ}$ Carbanions, having filled ${ }^{\circ}$ orbitals, are somewhat less prone to rearrangement (Bates and Ogle, 1983) and can more readily meet stability criteria. Again, structural, steric, and electrostatic characteristics can in many instances be used to suppress unwanted rearrangements.
 
@@ -5189,7 +5189,7 @@ Charge neutralization provides another, nonlocal failure mechanism. To avoid thi
 
 In diffusive chemistry, ${ }^{\circ}$ unsaturated hydrocarbons (alkenes and alkynes) find extensive use in the construction of carbon frameworks. Their reactions characteristically redistribute electrons from relatively high-energy ${ }^{\circ} \mathrm{pi}$ bonds to relatively low-energy ${ }^{\circ}$ sigma bonds, thereby increasing the number of covalent linkages in the system while reducing the bond order of existing linkages. This process has a strongly negative $\Delta V^{\ddagger}$ and $\Delta V_{\text {react }}$, since the increase in interatomic separation resulting from a reduction in bond order is outweighed by the decrease resulting from the conversion of a nonbonded to a bonded interaction. Accordingly, these reactions are subject to strong piezochemical effects. Typical examples are Diels-Alder reactions such as Eq. (8.15),
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=147&width=721&top_left_y=274&top_left_x=460)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=147&width=721&top_left_y=274&top_left_x=460)
 
 which have $\Delta V^{\ddagger}$ in the range of $\sim-0.05$ to $-0.07 \mathrm{~nm}^{3}$.
 
@@ -5197,11 +5197,11 @@ Unsaturated hydrocarbons undergo useful reactions with ionic species, and their 
 
 From the perspective of solution-phase chemistry, mechanosynthesis has a greater freedom to exploit reactions involving strained (and therefore more reactive) alkenes and alkynes. The cyclic and polycyclic frameworks necessary to enforce strain will be commonplace, hence use of strained species can be routine; their use is desirable and practical for reasons discussed in Sections $8.3 .3 \mathrm{~g}$ and 8.3.4c. Planar alkenes have minimal energy, but molecules as highly pyramidalized as cubene 8.9 (Eaton and Maggini, 1988) and as highly twisted as adamantene 8.10 (Carey and Sundberg, 1983a) have been synthesized.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=73&width=75&top_left_y=1020&top_left_x=638)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=73&width=75&top_left_y=1020&top_left_x=638)
 
 8.9
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=94&width=99&top_left_y=1000&top_left_x=906)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=94&width=99&top_left_y=1000&top_left_x=906)
 
 8.10
 
@@ -5209,22 +5209,22 @@ The reduced bonding overlap in these species (zero for 8.10) makes the energetic
 
 Alkynes are of lowest energy when linear, but such highly reactive species as benzyne 8.11, cyclopentyne 8.12, and acenaphthyne 8.13, have been synthesized (Levin, 1985).
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=101&width=99&top_left_y=1452&top_left_x=515)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=101&width=99&top_left_y=1452&top_left_x=515)
 
 8.11
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=85&width=80&top_left_y=1453&top_left_x=751)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=85&width=80&top_left_y=1453&top_left_x=751)
 
 8.12
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=133&width=164&top_left_y=1463&top_left_x=972)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=133&width=164&top_left_y=1463&top_left_x=972)
 
 8.13
 
 Structures 8.11 to 8.13 have short lifetimes in solution owing to intermolecular reactions, but all have mechanically anchored analogues that are kinetically stable in eutactic environments but highly reactive in synthetic applications. Again, one pi bond is sufficiently weak to permit diradical-like reactivity under suitable conditions (Levin, 1985).
 
 Also of high energy are allenes 8.14, cumulenes 8.15, and polyynes 8.16 (Patai, 1980).
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=331&width=605&top_left_y=1952&top_left_x=515)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-67.jpg?height=331&width=605&top_left_y=1952&top_left_x=515)
 
 Cumulenes and polyynes are of particular interest in building diamondoid structures consisting predominantly of carbon (Section 8.6); they bring no unnecessary atoms into the reaction.
 
@@ -5236,15 +5236,15 @@ Free radicals result when a covalent bond is broken in a manner that leaves one 
 
 a. Reactions. Among the characteristic reactions of radicals are abstraction, in which the radical encounters a molecule and removes an atom (e.g., hydrogen), leaving a radical site behind,
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-68.jpg?height=272&width=910&top_left_y=988&top_left_x=288)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-68.jpg?height=272&width=910&top_left_y=988&top_left_x=288)
 
 addition to an unsaturated hydrocarbon (here, a reactive pyramidalized species), generating an adjacent radical site on the target structure,
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-68.jpg?height=189&width=892&top_left_y=1389&top_left_x=302)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-68.jpg?height=189&width=892&top_left_y=1389&top_left_x=302)
 
 and radical coupling, the inverse of bond cleavage.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-68.jpg?height=101&width=526&top_left_y=1655&top_left_x=480)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-68.jpg?height=101&width=526&top_left_y=1655&top_left_x=480)
 
 Radical addition and coupling have significant values of $\Delta V^{\ddagger}$ [for addition, $\sim-0.025 \mathrm{~nm}^{3}$ (Jenner, 1985)] and $\Delta V_{\text {react }}$. Abstraction reactions often have a smaller $\Delta V^{\ddagger}$, and no significant $\Delta V_{\text {react }}$. Their susceptibility to piezochemical acceleration is analyzed in Section 8.5.4.
 
@@ -5259,24 +5259,24 @@ From these examples, it is reasonable to expect that, in the absence of special 
 
 c. Types of radicals. Carbon radicals can broadly be divided into pi radicals (e.g., 8.17) and sigma radicals (e.g., 8.18 to 8.20), depending on the hybridization of the radical orbital. Of these, sigma radicals are higher in energy and hence more reactive; examples include radicals at pyramidalized $s p^{3}$ carbon (e.g., the 1-adamantyl radical) 8.18, aryl radicals 8.19, and the alkynyl radical 8.20.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-69.jpg?height=94&width=94&top_left_y=1984&top_left_x=445)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-69.jpg?height=94&width=94&top_left_y=1984&top_left_x=445)
 
 8.17
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-69.jpg?height=132&width=96&top_left_y=1965&top_left_x=673)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-69.jpg?height=132&width=96&top_left_y=1965&top_left_x=673)
 
 8.18
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-69.jpg?height=131&width=79&top_left_y=1968&top_left_x=906)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-69.jpg?height=131&width=79&top_left_y=1968&top_left_x=906)
 
 8.19
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-69.jpg?height=140&width=58&top_left_y=1966&top_left_x=1158)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-69.jpg?height=140&width=58&top_left_y=1966&top_left_x=1158)
 
 8.20
 
 The alkynyl radical forms the strongest bonds to hydrogen and has excellent steric properties. $A b$ initio calculations on the ethynyl radical (HCC)), however,
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-70.jpg?height=282&width=618&top_left_y=197&top_left_x=424)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-70.jpg?height=282&width=618&top_left_y=197&top_left_x=424)
 
 Figure 8.3. A structure with a sterically exposed alkynyl carbon (here in a model alkyne group) having MM2/CSC stiffnesses of 4.5 and $21 \mathrm{~N} / \mathrm{m}$ in orthogonal bending directions.
 
@@ -5290,31 +5290,31 @@ Carbenes are divalent carbon species, formally the result of breaking two covale
 
 a. Carbene reactions. Carbenes are of broad synthetic utility.[^22] They can undergo addition to double bonds, yielding cyclopropanes
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-70.jpg?height=140&width=511&top_left_y=1729&top_left_x=478)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-70.jpg?height=140&width=511&top_left_y=1729&top_left_x=478)
 
 insertion into $\mathrm{C}-\mathrm{H}$ bonds,
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-70.jpg?height=191&width=504&top_left_y=1950&top_left_x=481) and coupling (Neidlein et al., 1986)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-70.jpg?height=191&width=504&top_left_y=1950&top_left_x=481) and coupling (Neidlein et al., 1986)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-71.jpg?height=211&width=1000&top_left_y=221&top_left_x=441)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-71.jpg?height=211&width=1000&top_left_y=221&top_left_x=441)
 
 These reactions frequently proceed with energy barriers of $\leq 20 \mathrm{maJ}$; many have a barrier of zero (Eisenthal et al., 1984; Moss, 1989). Coupling of a singlet carbene and a radical
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-71.jpg?height=198&width=531&top_left_y=591&top_left_x=552)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-71.jpg?height=198&width=531&top_left_y=591&top_left_x=552)
 
 should likewise proceed with little or no barrier.
 
 b. Singlet and triplet carbenes. The prototypical carbene is methylene, 8.21, a ground-state triplet with $\Delta \mathscr{V}_{\mathrm{s}, \mathrm{t}}=-63 \mathrm{maJ}$ (Schaefer, 1986).
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-71.jpg?height=296&width=757&top_left_y=981&top_left_x=437)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-71.jpg?height=296&width=757&top_left_y=981&top_left_x=437)
 
 Adamantylidene $\mathbf{8 . 2 2}$ is thought to be a ground-state triplet (Moss and Chang, 1981). Carbenes with better steric properties (i.e., with supporting structures occupying a smaller solid angle) tend to be ground-state singlets: reducing the bond angle at the carbene stabilizes the singlet state, as does a double bond. In cyclopropenylidene 8.23 the predicted value of $\Delta \mathscr{V}_{\mathrm{s}, \mathrm{t}}$ is $\sim 490 \mathrm{maJ}$ (Lee et al., 1985); in vinylidene 8.24, a prototype for alkylidenecarbenes 8.25, $\Delta \mathscr{V}_{\mathrm{s}, \mathrm{t}} \approx$ $320 \mathrm{maJ}$ (Davis et al., 1977); and in cumulenylidenecarbenes such as 8.26, $\Delta \mathscr{V}_{\mathrm{s}, \mathrm{t}}$ $>400 \mathrm{maJ}$ (based on studies of odd-numbered carbon chains by Weltner and van Zee, 1989). These gaps are consistent with reliable singlet behavior in a molecular manufacturing context. Since singlet states of carbenes are appreciably more polar than triplets, singlet states can be significantly stabilized by a suitable electrostatic environment. For diphenylcarbene, experiment indicates that the shift from a nonpolar solvent to the highly polar acetonitrile increases $\Delta \mathscr{V}_{\mathrm{s}, \mathrm{t}}$ by $\sim 10 \mathrm{maJ}$ (Eisenthal et al., 1984). A preorganized environment (Section 8.3.3b) having a polarization greater than that induced in a solvent by the singlet dipole (and doing so without imposing an entropic cost) can increase the stabilization. Substituents including N, O, F, and $\mathrm{Cl}$ also tend to stabilize the singlet state.
 
 c. Carbene rearrangements. Carbenes have a substantial tendency to rearrange; alkylcarbenes, for example, readily transform into alkenes:
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-71.jpg?height=140&width=850&top_left_y=2140&top_left_x=601)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-71.jpg?height=140&width=850&top_left_y=2140&top_left_x=601)
 
 Among unsaturated carbenes, alkadienylidenecarbenes and cumulenylidenecarbenes have no available local rearrangements at the carbene center, and although vinylidene itself readily transforms to ethyne [indeed, it may not be a potential energy minimum (Hehre et al., 1986)], reaction (8.24) is not observed (Sasaki et al., 1983), and related cyclic species, as in reaction (8.25), may also be stable against this process.
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-72.jpg?height=244&width=484&top_left_y=458&top_left_x=498)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-72.jpg?height=244&width=484&top_left_y=458&top_left_x=498)
 
 ### 8.4.6. Organometallic reagents
 
@@ -5322,19 +5322,19 @@ Various reagents with metal-carbon bonds are used in organic synthesis; this sec
 
 a. Grignard and organolithium reagents. Grignard reagents $(\mathrm{RMgX})$ and organolithium reagents ( $\mathrm{RLi}$ ) find extensive use, providing weakly bonded carbon atoms with a high electron density (Carey and Sundberg, 1983b). As is common with organometallic species, their metal orbitals can accept electron pairs from coordinated molecules; this provides options for improving stability and mechanical manipulability. For example, in an ether solution a typical Grignard reagent structure is $\mathbf{8 . 2 7}$; organometallic species such as $\mathbf{8 . 2 8}$ to $\mathbf{8 . 3 0}$ are typical of species that might be used in mechanosynthesis.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-72.jpg?height=169&width=179&top_left_y=1331&top_left_x=439)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-72.jpg?height=169&width=179&top_left_y=1331&top_left_x=439)
 
 8.27
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-72.jpg?height=226&width=280&top_left_y=1585&top_left_x=398)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-72.jpg?height=226&width=280&top_left_y=1585&top_left_x=398)
 
 8.29
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-72.jpg?height=244&width=312&top_left_y=1277&top_left_x=722)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-72.jpg?height=244&width=312&top_left_y=1277&top_left_x=722)
 
 8.28
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-72.jpg?height=234&width=290&top_left_y=1581&top_left_x=791)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-72.jpg?height=234&width=290&top_left_y=1581&top_left_x=791)
 
 8.30
 
@@ -5369,24 +5369,24 @@ As Figure 6.11 suggests, a typical $\mathrm{C}-\mathrm{C}$ bond has a relatively
 
 a. Load and strength. The $300 \mathrm{~K}$ bond-lifetime curves in Figure 6.11 indicate the tensile loads required to effect rapid bond cleavage. To achieve a level of reliability characterized by $P_{\text {err }}$ requires a barrier meeting the condition given by Eq. (8.11); for a C-C bond in this model, achieving $P_{\mathrm{err}} \leq 10^{-15}$ within $t_{\text {trans }}=$ $10^{-7} \mathrm{~s}$ requires a tensile load of $\sim 4.2 \mathrm{nN}$. The Morse potential underestimates bond tensile strengths, but the problem of achieving sufficient tensile loads for rapid bond cleavage essentially pits the strength of one bond against that of others, hence errors in estimated strengths approximately cancel.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-75.jpg?height=343&width=547&top_left_y=176&top_left_x=228)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-75.jpg?height=343&width=547&top_left_y=176&top_left_x=228)
 
 Figure 8.4. Bond angle in a distorted tetrahedral geometry.
 
 As long as a carbon atom occupies a site with tetrahedral symmetry, straining one bond to the theoretical zero-Kelvin, zero-tunneling breaking point necessarily does the same to the rest. To concentrate a larger load on one bond requires that the angle $\theta_{\text {bond }}$ be increased (Figure 8.4), thereby increasing the alignment of the back bonds with the axis of stress and reducing their loads. Figure 8.5 illustrates a structure that has a geometry of this sort when at equilibrium without load. With load, however, even an initially tetrahedral geometry distorts in the desired fashion. Increase of $\theta_{\text {bond }}$ from $109.5^{\circ}$ to $115^{\circ}$ reduces back-bond tensile stresses to 0.79 of their undistorted-geometry values (neglecting the favorable contributions made by angle-bending forces in typical structures). Breaking of a back bond under these conditions would of necessity be a thermally activated process, and the energy barrier for breaking more than one bond at a time would be prohibitive. Moreover, in the structures considered here, breaking of a single bond is strongly resisted by angle-bending restoring forces from the remaining bonds $(\mathrm{a} \sim 0.1 \mathrm{~nm}$, bond-breaking deformation is associated with an angle-strain energy of $\sim 300 \mathrm{maJ}$ ); as has been discussed, this solid-cage effect invalidates the model used in Section 6.4.4a and strongly stabilizes structures. These stress and energy differences are more than adequate to ensure $a>10^{15}$ difference in rates of bond cleavage.
 
 b. Stiffness requirements for low-dissipation cleavage. Transitions between time-dependent potential wells can cause energy dissipation (Section 7.6.2), and distinct wells are of necessity separated by regions of negative stiffness in the potential energy surface. The potential energy for a pair of atoms undergoing bond cleavage can be described as the sum of the bond energy and the elastic
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-75.jpg?height=200&width=666&top_left_y=1767&top_left_x=476)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-75.jpg?height=200&width=666&top_left_y=1767&top_left_x=476)
 
 Figure 8.5. A structure having a surface carbon atom with a significantly nontetrahedral geometry $\left(\theta_{\text {bond }}=116.6^{\circ}\right.$ ). In this structure, $k_{\mathrm{sz}}=225 \mathrm{~N} / \mathrm{m}$ (MM2/CSC) for vertical displacement of the central surface carbon atom with respect to the lattice-terminating hydrogens below (shown in ruled shading); with an approximate correction for compliance of a surrounding diamondoid structure (Section 8.5.3d), $k_{\mathrm{sz}} \approx 190 \mathrm{~N} / \mathrm{m}$.
 
 Structural diagram:
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-76.jpg?height=188&width=352&top_left_y=263&top_left_x=246)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-76.jpg?height=188&width=352&top_left_y=263&top_left_x=246)
 
 Mechanical model:
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-76.jpg?height=321&width=545&top_left_y=247&top_left_x=690)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-76.jpg?height=321&width=545&top_left_y=247&top_left_x=690)
 
 Figure 8.6. Diagrams illustrating tensile bond cleavage and the corresponding coordinates. The lengths $d_{0}$ and $r_{0}$, corresponding to unstrained springs and an unstrained bond, determine the values of the coordinates $\Delta d=d-d_{0}$ and $\Delta r=r-r_{0}$.
 
@@ -5402,11 +5402,11 @@ where Figure 8.6 and its caption describe $\Delta d$ and $\Delta r$, and the fun
 
 Figure 8.7 illustrates potential energy curves as a function of $\Delta r$ for various values of $\Delta d$ for one set of model parameters. As can be seen, a steady increase
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-76.jpg?height=640&width=1091&top_left_y=1518&top_left_x=183)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-76.jpg?height=640&width=1091&top_left_y=1518&top_left_x=183)
 
 Figure 8.7. Potential energy as a function of $\mathrm{CC}$ distance, for several values of support separation. Stiffness of support $=50 \mathrm{~N} / \mathrm{m}$.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-77.jpg?height=630&width=1105&top_left_y=182&top_left_x=265)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-77.jpg?height=630&width=1105&top_left_y=182&top_left_x=265)
 
 Figure 8.8. Barrier heights vs. stiffness, for various bonds placed under a tensile load which equalizes the well depths (bond parameters from Table 3.8).
 
@@ -5426,7 +5426,7 @@ This model holds for small displacements, but at the larger displacements corres
 
 Since the compliances of the two bonded atoms are additive, $k_{\mathrm{s}, \text { struct }}=k_{\mathrm{sz}} / 2 \approx$ $90 \mathrm{~N} / \mathrm{m}$. This significantly exceeds the required stiffness for low-dissipation cleavage of all the single bonds in Figure 8.8, save for $\mathrm{O}-\mathrm{O}$. For the $\mathrm{C}-\mathrm{C}$ bond, available stiffness exceeds the requirement by a factor of 1.5 ; accordingly, lowdissipation bond cleavage should be a feasible process in a broad range of circumstances.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-78.jpg?height=407&width=625&top_left_y=1603&top_left_x=404)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-78.jpg?height=407&width=625&top_left_y=1603&top_left_x=404)
 
 Figure 8.9. A series of structures modeling a diamond (111) surface, with corresponding values of $k_{\mathrm{sz}}$ (MM2/CSC) for vertical displacement of the central surface carbon atom with respect to the lattice-terminating hydrogens below (shown in ruled shading). Note that this carbon atom has poor steric exposure, but that a better-exposed carbon atom need not sacrifice stiffness (e.g., Figure 8.5).
 
@@ -5446,14 +5446,14 @@ a. Abstraction in the extended LEPS model. The piezochemistry of abstraction rea
 
 With this function in hand, it is straightforward to evaluate the energy barrier $\Delta^{\mathscr{V}}$ as a function of the compressive load $F_{\text {compr }}$, as shown in Figure 8.10. In
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-79.jpg?height=606&width=1074&top_left_y=1477&top_left_x=283)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-79.jpg?height=606&width=1074&top_left_y=1477&top_left_x=283)
 
 Figure 8.10. Barrier height for abstraction of hydrogen from methane by methyl, plotted as a function of the compressive load applied to the carbon atoms (linear geometry). This function is based on an extended LEPS potential fitted to $a b$ initio transition state parameters for an unloaded system.
 
 this model, $\Delta \mathscr{V}^{\ddagger}=0$ at $F_{\text {compr }} \approx 3.6 \mathrm{nN}$, and $r(\mathrm{CC}) \approx 0.242 \mathrm{~nm}$; this load is well within the achievable range (Section 8.3.3c). At ordinary temperatures, however, there is little practical reason to drive $\Delta \mathscr{V}^{\ddagger}$ to zero (indeed, with tunneling, there is little reason to do so even at cryogenic temperatures). The barrier is reduced to $2 k T_{300}$ at a load of $2 \mathrm{nN}$, with $r(C C) \approx 0.251 \mathrm{~nm}$ at the transition state. At a load of $1 \mathrm{nN}, \Delta^{\mathscr{V}} \approx 29 \mathrm{maJ}$, and $r(\mathrm{CC}) \approx 0.258 \mathrm{~nm}$. Assuming a frequency factor of $10^{13} \mathrm{~s}^{-1}$, this barrier would be consistent with an omitted-reaction probability $\leq 10^{-15}$ in a mechanochemical system with a transformation time of $\sim 4 \times 10^{-9} \mathrm{~s}$ (if, that is, the reaction were also sufficiently exoergic). These conditions are consistent with achieving high reaction reliability via the conditional-repetition mechanism (Section 8.3.4f).
 
 b. Exoergic abstraction reactions. A reliable single-step reaction must meet stringent exoergicity requirements (Section 8.3.4e) at the time of kinetic decoupling. The energy differences in Eqs. (8.28) and 8.30) are consistent with $P_{\mathrm{err}}<$ $10^{-15}$ without using cycles of repetition and measurement, while for Eq. (8.29), $P_{\mathrm{err}} \approx 10^{-13}$ :
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-80.jpg?height=430&width=1084&top_left_y=935&top_left_x=266)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-80.jpg?height=430&width=1084&top_left_y=935&top_left_x=266)
 
 The energies in these reactions are computed from differences in $\mathrm{C}-\mathrm{H}$ bond strengths (Kerr, 1990). See also Musgrave et al. (1992).
 
@@ -5463,12 +5463,12 @@ c. Hydrogen abstraction tools. The large $\mathrm{C}-\mathrm{H}$ bond strength o
 
 Moieties with $\mathrm{C}-\mathrm{H}$ bond energies between those of alkynes and aryls can abstract hydrogen atoms from most $s p^{3}$ carbon sites with good reliability. Strained alkenyl radicals such as $\mathbf{8 . 3 1}$ or $\mathbf{8 . 3 2}$ should bind hydrogen with the
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-81.jpg?height=1076&width=1087&top_left_y=181&top_left_x=279)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-81.jpg?height=1076&width=1087&top_left_y=181&top_left_x=279)
 
 Figure 8.11. Potential energy surfaces for abstraction reactions under various compressive loads, plotted as a function of a reaction coordinate, the ratio of a $\mathrm{CH}$ distance to the (variable, optimized) CC distance. The curves in the upper panel are for the abstraction of hydrogen from methane by methyl, based on the extended LEPS model described in the text. The lower curves are representative of low-barrier exoergic processes (bond lengths and energies fit the abstraction of $\mathrm{H}$ from methane by ethynyl, but all Sato parameters are an arbitrary 0.15 .)
 
 necessary energy ( $\geq 790 \mathrm{maJ}$, vs. $\sim 737 \mathrm{maJ}$ for ethenyl).
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-81.jpg?height=252&width=650&top_left_y=1714&top_left_x=496)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-81.jpg?height=252&width=650&top_left_y=1714&top_left_x=496)
 
 These structures can exhibit good stiffness without buttressing from nonbonded contacts. Their steric properties are desirable, and their supporting structures strongly suppress bond-cleavage instabilities that would otherwise be promoted by the radical site.
 
@@ -5485,7 +5485,7 @@ The energy dissipation caused by radical addition (and its inverse) depends on a
 
 a. Stiffness and misreaction rates in radical addition. Radical addition reactions provide a convenient example of a process having two similar, closely spaced transition states. Structure 8.33 illustrates a transition state in the attack of an aryl radical on an alkene, with asterisks marking equivalent, alternative locations for the position of the attacking radical. Although transition states can be arbitrarily close together, the separation of the pair of locations on a single side of the alkene (moderately more than a bond length) is toward the low end of the range of anticipated typical cases, presenting a relatively challenging situation for achieving reliable positional control.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-82.jpg?height=162&width=296&top_left_y=2114&top_left_x=595)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-82.jpg?height=162&width=296&top_left_y=2114&top_left_x=595)
 
 Quantum calculations can be used to estimate the transition-state geometry for the addition of a phenyl radical to ethene (Arnaud and Subra, 1982), yielding lengths of $0.135 \mathrm{~nm}$ for the breaking double bond and $0.225 \mathrm{~nm}$ for the bond undergoing formation, with an angle of $95.4^{\circ}$ between them. This yields a distance between alternative positions for the attacking radical of $0.177 \mathrm{~nm}$. (In the full configuration-space picture, the distance between transition states is increased by contributions from other displacements, including differences in the angle of the attacking radical.)
 
@@ -5497,7 +5497,7 @@ Rotation of one of the methylene groups of ethene by $90^{\circ}$ breaks the pi 
 
 A typical reaction cycle for a mechanism of this kind could involve (1) abstraction of a relatively tightly bound moiety by a radical site like that in (b), yielding a structure like (a); (2) torsion to a state like (c) weakening the new bond; and (3) abstraction of the moiety by another radical, delivering it to a more weakly bound (i.e., high-energy) site and leaving a structure like (d). If
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-84.jpg?height=649&width=779&top_left_y=192&top_left_x=341)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-84.jpg?height=649&width=779&top_left_y=192&top_left_x=341)
 
 Figure 8.12. Modulation of bond strength by pi-bond torsion; see Section 8.5.6 for discussion.
 
@@ -5505,7 +5505,7 @@ steps 1 and 2 must be exoergic by $145 \mathrm{maJ}$, then the net increase in t
 
 Note that abstraction of a moiety by a radical to yield an alkene resembles radical coupling: it requires spin pairing, raising questions of intersystem crossing rates. As discussed in Section 8.4.4b, $k_{\text {isc }}$ is usually adequate in the presence of a suitably coupled high- $Z$ atom. Bismuth $(Z=83)$, with its ability to form three (albeit weak) covalent bonds, is a candidate for inclusion at a nearby site in the supporting diamondoid structure.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-84.jpg?height=510&width=740&top_left_y=1594&top_left_x=362)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-84.jpg?height=510&width=740&top_left_y=1594&top_left_x=362)
 
 Figure 8.13. A structure suitable for imposing torsion on an alkene while maintaining good steric exposure at one of the carbon sites (pyramidalization of the radical site increases the change in energy).
 
@@ -5523,10 +5523,10 @@ As noted in Section 8.4.5a, the standard carbene addition and insertion reaction
 
 Since bond-forming carbene reactions are highly exoergic, single-step reactions can be highly reliable (assuming, as always, that conditions and mechanical constraints are chosen to exclude access to transition states leading to unwanted products). Fast, reliable reactions involving triplet carbenes can require fast
 (a)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-02.jpg?height=706&width=908&top_left_y=188&top_left_x=290)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-02.jpg?height=706&width=908&top_left_y=188&top_left_x=290)
 
 (c)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-02.jpg?height=522&width=916&top_left_y=786&top_left_x=298)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-02.jpg?height=522&width=916&top_left_y=786&top_left_x=298)
 
 (d)
 
@@ -5544,11 +5544,11 @@ ${ }^{\circ}$ Cycloaddition reactions can find broad use in mechanosynthesis, as
 
 Cycloaddition reactions are subject to strong orbital-symmetry effects. The $[2+2]$ cycloaddition reaction
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-03.jpg?height=68&width=372&top_left_y=270&top_left_x=634)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-03.jpg?height=68&width=372&top_left_y=270&top_left_x=634)
 
 is termed thermally forbidden (according to the Woodward-Hoffmann rules), because the highest-energy occupied orbital on one molecule fails to mesh properly with the lowest-energy unoccupied orbital on the other (the unoccupied orbital presents two lobes of opposite sign, divided by a node; the occupied orbital has no such node, and creating the required node is akin to breaking a bond). But, as with well-observed "forbidden" spectral lines, the ban is not complete. Piezochemical techniques (including pi-bond torsion and direct compression) can force the formation of one of the new sigma bonds, even at the expense of breaking both pi bonds, thereby creating a pair of radicals that can then combine to form the second sigma bond:
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-03.jpg?height=75&width=560&top_left_y=802&top_left_x=540)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-03.jpg?height=75&width=560&top_left_y=802&top_left_x=540)
 
 This reaction can also proceed through a polar, asymmetric intermediate, which is likewise subject to strong piezochemical effects. For the dimerization of ethene, the activation energy is $\sim 305 \mathrm{maJ}$ (Huisgen, 1977).
 
@@ -5581,7 +5581,7 @@ Species such as metal alkylidene carbenes, 8.36, and metal alkylidyne radicals, 
 
 Among the reactions of metal carbene complexes are the following (Dötz et al., 1983; Hehre et al., 1986; Masters, 1981):
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-04.jpg?height=263&width=685&top_left_y=520&top_left_x=381)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-04.jpg?height=263&width=685&top_left_y=520&top_left_x=381)
 
 (Again, all illustrated states and transformations in each sequence have been observed, though not necessarily in a single complex.) Transition metals can also serve as radical leaving groups in $\mathrm{S}_{\mathrm{H}} 2$ reactions at $s p^{3}$ carbon atoms, transferring alkyl groups to radicals (Johnson, 1983).
 
@@ -5593,43 +5593,43 @@ The stability and manipulability of ligand structures in a mechanochemical conte
 
 Ligand supporting structures can maintain substantial strength and stiffness while occupying a reasonably small solid angle. This enables several ligands to be subjected to simultaneous, independent mechanochemical manipulation. The following structures provide one family of examples:
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=249&width=280&top_left_y=382&top_left_x=552)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=249&width=280&top_left_y=382&top_left_x=552)
 
 8.38
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=200&width=217&top_left_y=672&top_left_x=425)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=200&width=217&top_left_y=672&top_left_x=425)
 
 $\mathbf{8 . 4 0}$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=198&width=205&top_left_y=673&top_left_x=684)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=198&width=205&top_left_y=673&top_left_x=684)
 
 8.41
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=180&width=142&top_left_y=419&top_left_x=942)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=180&width=142&top_left_y=419&top_left_x=942)
 
 8.39
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=203&width=256&top_left_y=673&top_left_x=943)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=203&width=256&top_left_y=673&top_left_x=943)
 
 8.42
 
 The MM2/CSC stiffness of the following diamondoid support structure (shown in two views):
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=176&width=198&top_left_y=1094&top_left_x=552)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=176&width=198&top_left_y=1094&top_left_x=552)
 
 8.43
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=215&width=238&top_left_y=1079&top_left_x=870)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=215&width=238&top_left_y=1079&top_left_x=870)
 
 is $\sim 115 \mathrm{~N} / \mathrm{m}$ for extension and $\sim 20 \mathrm{~N} / \mathrm{m}$ for bending, both measured for displacements of the carbon atom at the tip relative to the bounding hydrogen atoms at the base.
 
 Alternatively, several ligand moieties can be integral parts of a diamondoid structure, as in the following two views of a bound metal atom with two of six octahedral coordination sites exposed:
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=203&width=215&top_left_y=1652&top_left_x=534)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=203&width=215&top_left_y=1652&top_left_x=534)
 
 $\mathbf{8 . 4 4}$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=234&width=258&top_left_y=1639&top_left_x=850)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=234&width=258&top_left_y=1639&top_left_x=850)
 
 The metal-nitrogen bond lengths shown in this structure are appropriate for octahedrally coordinated cobalt.
 
@@ -5662,7 +5662,7 @@ Finally, diamond is a simple and regular example of a diamondoid structure. Acco
 
 The identification of several distinct ways to synthesize a particular structure suggests that ways can be found to synthesize different but similar structures. Identifying multiple syntheses for diamond provides this sort of evidence
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-08.jpg?height=186&width=335&top_left_y=230&top_left_x=556)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-08.jpg?height=186&width=335&top_left_y=230&top_left_x=556)
 
 Figure 8.15. A hydrogen-terminated diamond (111) surface.
 
@@ -5676,15 +5676,15 @@ a. The (111) surface. When prepared by standard grinding procedures, a closely p
 
 It is not presently known whether a bare diamond (111) surface, Figure 8.16(a), spontaneously transforms to the $(2 \times 1)$ structure at room temperature. Calculations for the similar reconstruction of a silicon (111) surface (Northrup and Cohen, 1982) suggest an energy barrier of $\leq 5 \mathrm{maJ}$ per surface atom. This energy barrier, however, cannot be equated with an energy barrier for the
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-08.jpg?height=214&width=589&top_left_y=1924&top_left_x=147)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-08.jpg?height=214&width=589&top_left_y=1924&top_left_x=147)
 
 (a)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-08.jpg?height=200&width=389&top_left_y=1936&top_left_x=751)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-08.jpg?height=200&width=389&top_left_y=1936&top_left_x=751)
 
 Figure 8.16. A bare, unreconstructed diamond (111) surface (a) and the Pandey $(2 \times 1)$ reconstruction $(b)$.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-09.jpg?height=208&width=760&top_left_y=195&top_left_x=228)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-09.jpg?height=208&width=760&top_left_y=195&top_left_x=228)
 
 Figure 8.17. An unreconstructed diamond (110) surface.
 
@@ -5700,11 +5700,11 @@ d. Some chemical observations. The diversity of surface structures possible on a
 
 Section 8.6.5 describes synthesis strategies that exploit the regular structure of diamond by laying down reactive molecular strands. Synthesis based on the mechanical placement of small molecular fragments, in contrast, suggests how
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-09.jpg?height=145&width=337&top_left_y=2019&top_left_x=473)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-09.jpg?height=145&width=337&top_left_y=2019&top_left_x=473)
 
 (b)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-09.jpg?height=130&width=330&top_left_y=2031&top_left_x=865)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-09.jpg?height=130&width=330&top_left_y=2031&top_left_x=865)
 
 Figure 8.18. A diamond (100) surface, without (a) and with (b) reconstruction.
 
@@ -5713,7 +5713,7 @@ specific irregular structures might be synthesized, and thus provides a point of
 a. Existing models of diamond synthesis. Models of synthesis via small molecular fragments have been developed to explain the low-pressure synthesis of diamond under nonequilibrium conditions in a high-temperature hydrocarbon gas, a process of increasing technological importance. Two models have been advanced and subjected to studies using semiempirical quantum mechanics. Both propose mechanisms for the growth of diamond on (111) surfaces, one based on a cationic process involving methyl groups (Tsuda et al., 1986) and one based on the addition of ethyne (Huang et al., 1988). Of these, the ethyne process appears more plausible and more directly relevant to feasible mechanosynthetic processes (regardless of its frequency during diamond growth from the gas phase).
 
 Figure 8.19 (based on illustrations in Huang et al., 1988) shows the addition of two ethyne molecules to a hydrocarbon molecule which, with suitable positional constraints, was used to model a step on a diamond (111) surface. The overall set of calculations used MNDO and consumed $\sim 35$ hours of CPU time on a Cray XMP/48. The reaction mechanism originally proposed (Frenklach and Spear, 1988) for the transformations $2 \rightarrow 4$ and $4 \rightarrow 6$ involved multiple steps, later shown to be concerted (steps 3 and 5). The initiation step involves abstraction of a hydrogen atom by atomic hydrogen $(1 \rightarrow 2$; process not shown), and has a significant energy barrier. Steps 3 and 5 were calculated to proceed without energy barriers, suggesting that any energy barriers that actually occur are unlikely to be large.
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-10.jpg?height=692&width=556&top_left_y=1333&top_left_x=462)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-10.jpg?height=692&width=556&top_left_y=1333&top_left_x=462)
 
 Figure 8.19. A sequence of reaction steps for the addition of ethyne to a compound serving as a model of a step on a hydrogen-terminated diamond (111) surface. Redrawn from Huang et al. (1988); see Section 8.6.4a. Bonds in the process of breakage and formation are shown in black; radical sites are marked with dots.
 
@@ -5721,20 +5721,20 @@ In an analogous mechanosynthetic process, ethyne could be replaced by an alkyne 
 
 b. Mechanosynthesis on (111). Step 1 of Figure 8.20 illustrates a kink site in a step on a hydrogenated diamond (111) surface; one bond results from a reconstruction, and two hydrogen atoms have been removed to prepare radical sites. In step 2 of the proposed synthetic cycle, an alkyne reagent moiety such as $\mathbf{8 . 4 5}$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-11.jpg?height=181&width=309&top_left_y=575&top_left_x=656)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-11.jpg?height=181&width=309&top_left_y=575&top_left_x=656)
 
 is applied to one of the radical sites, resulting in a transition structure analogous to step 3 of Figure 8.19. The chief differences are that insertion occurs into a strained $\mathrm{C}-\mathrm{C}$ bond rather than an unstrained $\mathrm{C}-\mathrm{H}$ bond, and that large mechanical forces can (optionally) be applied to drive the insertion process. In step 3, tensile bond cleavage occurs (use of Si or another non-first-row atom reduces the mechanical strength of this bond), and a bond forms to the remaining prepared radical. Deposition of a hydrogen at the newly generated radical site and abstraction of two hydrogens further along the surface step then completes the cycle (not shown), generating a kink site like that in step 1, but with the diamond lattice extended by two atoms. Save for accommodating boundary conditions at the edge of a finite (111) surface, this sequence of operations (like those in the following sections) suffices to build an indefinitely large volume of diamond lattice.
 
 c. Mechanosynthesis on (110). Figure 8.21 illustrates the extension of a pi bonded chain along a groove in a diamond (110) surface, using an alkylidenecarbene reagent moiety such as $\mathbf{8 . 4 6}$.
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-11.jpg?height=468&width=568&top_left_y=1612&top_left_x=532)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-11.jpg?height=468&width=568&top_left_y=1612&top_left_x=532)
 
 Figure 8.20. A sequence of reaction steps for the addition of a pair of carbon atoms from an alkynyl moiety to a kink site in a step on a hydrogen-terminated diamond (111) surface (see Section 8.6.4b).
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-12.jpg?height=577&width=591&top_left_y=206&top_left_x=435)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-12.jpg?height=577&width=591&top_left_y=206&top_left_x=435)
 
 Figure 8.21. A sequence of reaction steps for the addition of a carbon atom from an alkylidenecarbene moiety to a pi-bonded chain on a diamond (110) surface (see Section 8.6.4c).
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-12.jpg?height=167&width=207&top_left_y=1002&top_left_x=630)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-12.jpg?height=167&width=207&top_left_y=1002&top_left_x=630)
 
 Step 1 illustrates the starting state; step 2 illustrates a transitional state in the insertion of the carbene into a strained $\mathrm{C}-\mathrm{C}$ bond. This process takes advantage of mechanical constraints to prevent the addition of the carbene into the adjacent double bond to form a cyclopropane moiety. Instead, electron density is accepted from the terminal atom of the pi bonded chain into the empty $p$ orbital of the carbene carbon, developing one of the desired bonds, while electron density is donated from the sigma orbital of the carbene carbon to form the other desired bond (shown in step 3). Substantial forces ( $\geq 4 \mathrm{nN}$; Section 8.3.3c) can be applied to drive this process, limited chiefly by mechanical instabilities.
 
@@ -5742,8 +5742,8 @@ Step 4 illustrates the use of torsion to break a pi bond, thereby facilitating t
 
 d. Mechanosynthesis on (100). Figure 8.22 illustrates a synthetic cycle on diamond (100) in which reactions occur on a series of relatively independent rows of pairs of dimers. In step 1 of Figure 8.22, a strained cycloalkyne reagent moiety such as 8.47
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-12.jpg?height=171&width=234&top_left_y=2047&top_left_x=631)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-13.jpg?height=930&width=734&top_left_y=250&top_left_x=460)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-12.jpg?height=171&width=234&top_left_y=2047&top_left_x=631)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-13.jpg?height=930&width=734&top_left_y=250&top_left_x=460)
 
 Figure 8.22. A sequence of reaction steps for the addition of pairs of carbon atoms from a strained alkyne moiety to a row of dimers on a diamond (100) surface (see Section 8.6.4d).
 
@@ -5768,7 +5768,7 @@ $$
 $$
 
 Figure 8.23 represents a pair of similar reaction processes on a dehydrogenated step on a diamond (111) surface and on a groove in a (110) surface: in each, a pi-bonded chain is extended by the formation of additional bonds to a cumulene strand in an exoergic, largely self-aligning process. Substantial forces can be applied through nonbonded interactions (which can also be used to constrain strand motions). The reaction on a hydrogenated (111) surface may
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-14.jpg?height=302&width=720&top_left_y=1716&top_left_x=379)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-14.jpg?height=302&width=720&top_left_y=1716&top_left_x=379)
 
 Figure 8.23. Reaction processes bonding cumulene strands to (left) a dehydrogenated step on a hydrogenated diamond (111) surface and (right) a groove on a diamond (110) surface (see Section 8.6.5a).
 
@@ -5776,13 +5776,13 @@ require a series of stepwise reactions both to dehydrogenate atoms in the plane 
 
 b. Hexagonal diamond from hexagonal strands. The unsaturated, hexagonal, columnar structure 8.49 can be regarded as a tightly rolled tube of graphite; it can made from a ${ }^{\circ}$ saturated structure by abstraction of all hydrogens. Like a cumulene strand, 8.48 , this is a pure-carbon structure; owing to pyramidalization and torsion of pi systems, it is also relatively high in energy.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-15.jpg?height=151&width=255&top_left_y=542&top_left_x=707)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-15.jpg?height=151&width=255&top_left_y=542&top_left_x=707)
 
 8.49
 
 A semiempirical quantum chemistry study using AM1 on the model structure 8.50 (R. Merkle)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-15.jpg?height=176&width=345&top_left_y=894&top_left_x=638)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-15.jpg?height=176&width=345&top_left_y=894&top_left_x=638)
 
 yielded bond lengths of $\sim 0.1384 \mathrm{~nm}$ for the three central, axially aligned bonds, and $\sim 0.1510 \mathrm{~nm}$ for the twelve adjacent bonds. These values are close to standard values for pure double and pure single bonds ( 0.1337 and $0.1541 \mathrm{~nm}$ ), hence structure 8.49, representing the hexagonal column as a network of strained alkenes, provides a good description.
 
@@ -5792,11 +5792,11 @@ Figure 8.24 represents a (100) surface of hexagonal diamond, bounded by similar 
 
 Syntheses based on cumulene and hexagonal-column strands suggest the feasibility of synthesizing diamondoid solids using reactive molecular fragments of intermediate size (e.g., 10 to 30 atoms). Fragments of this size can be strongly
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-15.jpg?height=183&width=487&top_left_y=1978&top_left_x=572)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-15.jpg?height=183&width=487&top_left_y=1978&top_left_x=572)
 
 Figure 8.24. A (100) surface of hexagonal diamond.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-16.jpg?height=379&width=590&top_left_y=189&top_left_x=438)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-16.jpg?height=379&width=590&top_left_y=189&top_left_x=438)
 
 Figure 8.25. A reaction process bonding a tube formed of alkenes to a (100) surface of hexagonal diamond (see Section 8.6.5b).
 
@@ -5939,31 +5939,31 @@ To maximize strength and stiffness, nanoscale structural components are best mad
 
 Ordinarily, one regards the region occupied by a component as the region from which other components are excluded. This measure of size varies with compressive loads, and with the shapes and chemical natures of the facing surfaces. A reasonable standard choice is the region occupied by the component atoms of
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-27.jpg?height=422&width=1203&top_left_y=1837&top_left_x=226)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-27.jpg?height=422&width=1203&top_left_y=1837&top_left_x=226)
 the structure when each is assigned a summable $0.1 \mathrm{nN}$ radius (Section 3.3.3b); these radii are used in space-filling molecular representations throughout this volume.
 
 Figures 9.2 and 9.3 suggest why this size estimate must be corrected when estimating stiffness. The polycyclic framework structure accounts for most of the stiffness, but the excluded volume extends well beyond this framework, because of both the separation between nonbonded atoms and (in some structures) the presence of monovalent surface atoms. To maximize stiffness for a given component size, it is best to avoid monovalent surface atoms, instead favoring structures like the one in Figure 9.3. The size correction $\delta_{\text {surf }}$ required to describe the structural volume is then approximately the difference between the covalent and nonbonded radii; using the $0.1 \mathrm{nN}$ nonbonded radii, $\delta_{\text {surf }} \approx 0.07 \mathrm{~nm}$ for both first- and second-row atoms. A larger correction ( $\delta_{\text {surf }}=0.1 \mathrm{~nm}$ is used in Chapter 11) yields a more conservative estimate of stiffness for a component of a given excluded-volume size. (For H-terminated diamond, a comparable correction is $\delta_{\text {surf }} \approx 0.14 \mathrm{~nm}$.)
 
 (a)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=82&width=502&top_left_y=1006&top_left_x=481)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=82&width=502&top_left_y=1006&top_left_x=481)
 
 (b)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=100&width=502&top_left_y=1122&top_left_x=481)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=100&width=502&top_left_y=1122&top_left_x=481)
 
 (c)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=106&width=500&top_left_y=1257&top_left_x=481)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=106&width=500&top_left_y=1257&top_left_x=481)
 
 (d)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=136&width=504&top_left_y=1410&top_left_x=480)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=136&width=504&top_left_y=1410&top_left_x=480)
 
 (e)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=168&width=506&top_left_y=1578&top_left_x=478)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=168&width=506&top_left_y=1578&top_left_x=478)
 
 (f)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=200&width=524&top_left_y=1777&top_left_x=461)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=200&width=524&top_left_y=1777&top_left_x=461)
 
 Figure 9.2. A series of rod structures, most consisting of a hydrogen-terminated region of the diamond lattice. Rod (a) is a polyethylene chain;(b)-(f) can be described as additional chains linked side by side (the digits to the right indicate the number of such chains in the corresponding rod). The structure of rod (c) departs from the diamond pattern, adding bonds perpendicular to the rod axis to replace nonbonded $\mathrm{H} / \mathrm{H}$ contacts. Moduli are graphed in Figure 9.4(c).
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-29.jpg?height=298&width=562&top_left_y=222&top_left_x=537)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-29.jpg?height=298&width=562&top_left_y=222&top_left_x=537)
 
 Figure 9.3. A segment of rod resembling Figure 9.2(f), but with $\mathrm{N}$ and $\mathrm{O}$ termination in place of $\mathrm{CH}$ and $\mathrm{CH}_{2}$. See Section 9.4.3 for discussion and Figure 9.4(a) for modulus.
 
@@ -5995,49 +5995,49 @@ If relaxation were to reduce the stiffness contributions of surface atoms, then 
 
 Figure 9.4 summarizes the results of computational experiments on the structures in Figures 9.2,9.3, 9.5, and 9.6. As can be seen, on a per-bond basis, thinner rods have a slightly greater value of $E_{\ell}$ than thicker rods (presumably owing to contributions from nonbonded interactions involving hydrogen), but rods of all
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=695&width=1143&top_left_y=181&top_left_x=147)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=695&width=1143&top_left_y=181&top_left_x=147)
 
 Figure 9.4. Results of computational experiments measuring rod moduli in the MM2/CSC approximation. Structure (a) is the $\mathrm{N}$ - and O-terminated rod in Figure 9.3; set (b) consists of the structures in Figure 9.5; set (c), Figure 9.2; set (d), Figure 9.6. The dashed line labeled (e) passes through the origin and a point corresponding to a column of hexagonal diamond structure (with a compact cross-section) having $n_{\text {bonds }}=16$; as can be seen, it almost exactly corresponds to an extrapolation from a similar column with $n_{\text {bonds }}=3$. The dashed line (f) is analogous to (e), but for a structure like family (c) with $n_{\text {bonds }}=18$. The upper dashed line bounding the shaded region corresponds to the modulus of diamond rods oriented along the $<111>$ axis, extrapolating from the properties of bulk diamond; the lower dashed line corresponds to a similar extrapolation with the modulus halved.
 
 (a)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=130&width=618&top_left_y=1524&top_left_x=422)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=130&width=618&top_left_y=1524&top_left_x=422)
 
 (b)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=128&width=239&top_left_y=1673&top_left_x=421)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=128&width=239&top_left_y=1673&top_left_x=421)
 3
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=145&width=278&top_left_y=1664&top_left_x=763)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=145&width=278&top_left_y=1664&top_left_x=763)
 
 (c)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=145&width=243&top_left_y=1833&top_left_x=419)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=145&width=243&top_left_y=1833&top_left_x=419)
 4
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=166&width=297&top_left_y=1818&top_left_x=749)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=166&width=297&top_left_y=1818&top_left_x=749)
 
 Figure 9.5. A series of rods forming a family of structures suffering increasing strain per bond with increasing diameter; instances with $n_{\text {bond }}=2,3$, and 4 are shown. Moduli are graphed in Figure 9.4(b).
 
 (a)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=94&width=280&top_left_y=238&top_left_x=516)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=94&width=280&top_left_y=238&top_left_x=516)
 
 (b)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=98&width=280&top_left_y=390&top_left_x=516)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=98&width=280&top_left_y=390&top_left_x=516)
 
 (c)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=111&width=299&top_left_y=545&top_left_x=499)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=111&width=299&top_left_y=545&top_left_x=499)
 
 (d)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=133&width=243&top_left_y=715&top_left_x=501)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=133&width=243&top_left_y=715&top_left_x=501)
 3
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=432&width=292&top_left_y=240&top_left_x=864)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=432&width=292&top_left_y=240&top_left_x=864)
 6
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=150&width=280&top_left_y=709&top_left_x=861)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=150&width=280&top_left_y=709&top_left_x=861)
 
 Figure 9.6. A second series of rods forming a family of structures suffering increasing strain per bond with increasing diameter; instances with $n_{\text {bonds }}=3,4,5$, and 6 are shown. Moduli are graphed in Figure 9.4(d).
 
@@ -6098,7 +6098,7 @@ $<35$ atoms, although the geometric and structural constraints of receptors ofte
 T. Kaehler has proposed a systematic approach to designing irregular interfaces to meet particular geometrical constraints (Kaehler, 1990; Kaehler, 1992). First, one defines an anchoring surface [e.g., a hydrogenated diamond (111) surface]. Second, one defines a large family of brackets extending from this surface. (These can resemble the hexagonal column of Figure 9.5(b), but adding various modifications: substitution of $\mathrm{N}, \mathrm{B}, \mathrm{P}$, or $\mathrm{SiH}$ for $\mathrm{CH}$, replacement of a $\mathrm{C}-\mathrm{C}$ linkage or a $\mathrm{CH} \mid \mathrm{HC}$ contact with $\mathrm{C}-\mathrm{CH}_{2}-\mathrm{C}, \mathrm{C}-\mathrm{O}-\mathrm{C}$, or $\mathrm{C}-\mathrm{S}-\mathrm{C}$, etc., all subject to stiffness and stability constraints; see Figure 9.7. The size of the resulting family of structures increases exponentially with bracket length and soon reaches millions.) Third, one determines the geometry of each bracket and notes the positions and orientations of its terminal bonds. Finally, one compiles an index based on this data, organized to enable one to find the brackets with terminal bonds most nearly matching a desired position and orientation.
 
 How might an indexed set of Kaehler brackets be used in design? The brackets define a relatively comprehensive set of slim diamondoid structures, indexed according to the geometrical relationship between their ends. These can be used
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-35.jpg?height=566&width=1008&top_left_y=1198&top_left_x=323)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-35.jpg?height=566&width=1008&top_left_y=1198&top_left_x=323)
 
 Figure 9.7. Six short Kaehler brackets ( $\sim 0.9 \mathrm{~nm}$ between the top and bottom six-membered rings), illustrating a portion of the available range of structural variations and geometries. Bracket (a) is a simple column (a hydrogen-terminated fragment of hexagonal diamond; all column ends truncated). Bracket (b) is lengthened by substituting Si for $\mathrm{C}$ at six sites. Bracket (c) is shortened by substituting $\mathrm{C}-\mathrm{O}-\mathrm{C}$ for a $\mathrm{CH} \mid \mathrm{HC}$ contact at six sites. Bracket (d) is bent by one substitution of the sort in bracket (a) and three of the sort in (c). Bracket (e) has its top offset with respect to the bottom because of four substitutions like those in (c), the substitution of $\mathrm{Si}$ for $\mathrm{C}$ at two sites closer to the ends, and the substitution of $\mathrm{F}$ for $\mathrm{H}$ at two sites. Bracket ( $f$ ) has its top rotated with respect to the bottom because of three substitutions as in (c) and three substitutions of $\mathrm{HC}-\mathrm{CH}$ for $\mathrm{C}$. If brackets are anchored to a diamond structure with a choice of locations, the range of end displacements need only span a diamond lattice cell. (MM2/CSC)
 
@@ -6112,11 +6112,11 @@ In building rotating machinery, components having high-order rotational symmetry
 
 Figure 9.8 illustrates a relatively small strained shell having two distinct layers of cyclic structure. The thickness-to-radius ratio $(t / r)$ of strained shells is constrained by the net hoop stress and the permissible bond tensile strain at the outer surface. For diamondoid structures with negligible net hoop stress, permissible bond strains may be as large as $0.035 \mathrm{~nm}\left(\sim 1.23 r_{0} \approx 0.187 \mathrm{~nm}\right)$; assuming a Morse potential (Section 3.3.3a), a C-C bond with smaller strain has positive stiffness, tending to stabilize its length. In the presence of a strain gradient perpendicular to the axis of strain (as in a strained shell), even a layer somewhat beyond the positive-stiffness limit can be stabilized by restoring forces imposed by the less-strained layers closer to the shell axis (the layers are coupled by shear stiffness). Note that this situation differs from the single-bond, pure-tensile-
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-36.jpg?height=437&width=865&top_left_y=1726&top_left_x=301)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-36.jpg?height=437&width=865&top_left_y=1726&top_left_x=301)
 
 Figure 9.8. A strained shell structure with a relatively thin wall and small diameter.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-37.jpg?height=700&width=1206&top_left_y=195&top_left_x=222)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-37.jpg?height=700&width=1206&top_left_y=195&top_left_x=222)
 
 Figure 9.9. A strained shell structure with a thin wall and small diameter (a); structure (b) adds a nonbonded polyyne chain along the axis.
 
@@ -6132,7 +6132,7 @@ Figure 9.9 illustrates an example of a strained-shell structure with little bond
 
 Thick cylindrical structures have many applications. They can be made from diamondlike structures, relieving strain with arrays of dislocations. Merkle notes that the Lomer dislocation is stable and has useful geometrical properties for
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-38.jpg?height=555&width=1203&top_left_y=210&top_left_x=127)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-38.jpg?height=555&width=1203&top_left_y=210&top_left_x=127)
 
 Figure 9.10. A curved shell structure containing an array of Lomer dislocations (structure courtesy of R. Merkle, Xerox PARC, and L. Balasubramaniam, MIT).
 
@@ -6141,7 +6141,7 @@ this purpose. Figure 9.10 illustrates a cylindrical structure incorporating seve
 ### 9.6.3. Special-case structures
 
 Some cylindrical structures are not members of scalable families. The rods illustrated in Figures 9.5 and 9.6 are examples of small-radius structures having significant rotational symmetry. The cylindrical structure of Figure 9.11 provides
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-38.jpg?height=552&width=756&top_left_y=1574&top_left_x=360)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-38.jpg?height=552&width=756&top_left_y=1574&top_left_x=360)
 
 Figure 9.11. A cylindrical structure with $s p^{3}$ surface structure and an $s p^{2}$ inner structure (the ten-membered conjugated rings will exhibit ${ }^{\circ}$ aromatic stabilization).
 
@@ -6207,7 +6207,7 @@ $$
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-44.jpg?height=707&width=1092&top_left_y=163&top_left_x=168)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-44.jpg?height=707&width=1092&top_left_y=163&top_left_x=168)
 
 Figure 10.1. Nonbonded potentials, Eq. (3.8), as a function of $x$-axis displacement for two $s p^{2}$ carbon atoms moving in straight lines of differing closest-approach distance $d$.
 
@@ -6223,19 +6223,19 @@ $$
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-45.jpg?height=442&width=510&top_left_y=174&top_left_x=282)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-45.jpg?height=442&width=510&top_left_y=174&top_left_x=282)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-45.jpg?height=207&width=506&top_left_y=287&top_left_x=883)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-45.jpg?height=207&width=506&top_left_y=287&top_left_x=883)
 
 Figure 10.2. A nonbonded potential (as in Figure 10.1) sampled at regular intervals (a), and sampled with a shift in phase (b). The difference in the sum of the sample energies as the phase shifts is the energy of a sum of samples with positive and negative weights $(a-b)$; this observation can be used to relate spatial Fourier transforms of pairwise potentials to energy barriers in sliding motion.
 
 From the results plotted in Figures 10.3 and 10.4, it can be seen that with reasonable values of $d$ (e.g., $\geq 0.2 \mathrm{~nm}$ ) and with a moderately high spatial frequency (e.g., $f_{x} \geq 3.0$ cycles $/ \mathrm{nm}$ ), the first term in Eq. (10.2) dominates the rest by multiple orders of magnitude because contributions from spatial frequencies $\geq 9.0$ cycles $/ \mathrm{nm}$ are quite small. For a diamond (111) surface in the high- $f_{x}$ direction, $f_{x} \approx 4.0$ cycles $/ \mathrm{nm}$; for graphite, $f_{x} \approx 4.1$ cycles $/ \mathrm{nm}$. As a consequence, the potential of a component sliding over such a surface can be accurately approximated as a sum of sinusoidal contributions from interactions between the atoms of the component and each of the component rows of the surface, all of spatial frequency $f_{x}$, but of varying amplitudes and phases.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-45.jpg?height=690&width=1085&top_left_y=1387&top_left_x=285)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-45.jpg?height=690&width=1085&top_left_y=1387&top_left_x=285)
 
 Figure 10.3. Amplitude spectral densities derived from spatial Fourier transforms of nonbonded $\mathrm{C} \mid \mathrm{C}\left(s p^{2}\right)$ potentials like those in Figure 10.1, for a range of closestapproach distances $d$. For relatively large values of $d$, the Fourier transform changes sign, resulting in a zero at some spatial frequency $f_{x, 0}$.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-46.jpg?height=699&width=1085&top_left_y=174&top_left_x=191)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-46.jpg?height=699&width=1085&top_left_y=174&top_left_x=191)
 
 Figure 10.4. Amplitude spectral densities as in Figure 10.3, but for nonbonded $\mathrm{H} \mid \mathrm{H}$ potentials. Note that these graphs would be identical (within a constant energy factor) if all distances were measured in units scaled to the equilibrium nonbonded separation.
 
@@ -6249,7 +6249,7 @@ Consider an atom sliding over a regular surface with spatial frequency $f_{x}$ a
 
 Consider an irregular object sliding over a surface with $N$ such atoms in contact. In the approximation just described, the interaction energy of each is dominated by a sinusoid of the same $f_{x}$, but with differing values of $\Delta \mathcal{V}$ and $\phi$. In the vector representation (Figure 10.5), the summing of these sinusoids can be visualized as a walk over a plane. For a set of irregular objects with randomly distributed values of $\phi$ and bounded values of $\Delta \mathcal{V}$, the resulting random walk has familiar properties: in the limit of many steps, the probability density for the end
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-47.jpg?height=304&width=468&top_left_y=193&top_left_x=265)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-47.jpg?height=304&width=468&top_left_y=193&top_left_x=265)
 
 Figure 10.5. Sinusoidal energy terms (defined by magnitude and phase) represented as vectors, illustrating the magnitude and phase of the sum as the result of a random walk over the plane.
 
@@ -6302,7 +6302,7 @@ Families of structures can be modeled using a further set of assumptions and app
 
 b. Computational procedure. Based on the preceding assumptions, the computation proceeds by generating a set of sites characterized by locations and bond orientations ( 200 sites were used), constructing a set of site states for each site, filtering this set for stiffness $\geq k_{\mathrm{s}, \text { thresh }}$, and computing the energy of each remaining site state at a series of displacements (16) spanning one cycle of motion over the regular surface. A structural family is defined by randomly choosing $N$ sites from the final set, and a list of the acceptable members of that family is generated by forming all possible combinations consisting of one state from each site and discarding those with more than $N-3$ deletion states. The energy of each structure as a function of displacement is computed by summing the corresponding precomputed values for each of its constituent site states, and the barrier height for sliding motion of the structure is taken as the difference between the maximum and minimum energies in the resulting sum. Finally,
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-49.jpg?height=461&width=432&top_left_y=223&top_left_x=652)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-49.jpg?height=461&width=432&top_left_y=223&top_left_x=652)
 
 Figure 10.6. View across a nitrogen-terminated diamond (111) surface with lone pairs illustrated, indicating the direction of sliding assumed in the calculations summarized in Figures 10.7 and 10.8 (this direction is taken as the $x$ axis).
 
@@ -6310,11 +6310,11 @@ $\Delta \mathcal{V}_{\text {barrier }}$ for the structural family is taken as th
 
 c. Results. The results of a set of calculations based on the preceding model for sliding motion of irregular structures over a strip of nitrogen-substituted diamond (111) surface (as illustrated in Figure 10.6) are summarized in Figure 10.7, taking the initial sampling bounds for site generation as $h_{\min }=0.2 \mathrm{~nm}$ and $h_{\max }=0.5 \mathrm{~nm}$. The statistical distribution of values of $\Delta \mathscr{V}_{\text {barrier }}$ is presented as a
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-49.jpg?height=692&width=1088&top_left_y=1277&top_left_x=281)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-49.jpg?height=692&width=1088&top_left_y=1277&top_left_x=281)
 
 Figure 10.7. Cumulative distributions resulting from a Monte Carlo study of barrier heights encountered by irregular structures sliding over a regular surface, based on the model described in Section 10.3.2. Each curve is the result of 1000 trials, where each trial selects the best member of a particular family of structures (as described in the text); note that sampling statistics result in substantial scatter, particularly toward the left tail of the distributions. The surface modeled is nitrogen-substituted diamond (111), Figure 10.6.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-50.jpg?height=709&width=1090&top_left_y=174&top_left_x=186)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-50.jpg?height=709&width=1090&top_left_y=174&top_left_x=186)
 
 Figure 10.8. Cumulative distributions like those in Figure 10.7, but with minimum values of $z$-axis stiffness 10 times higher. The author thanks L. Zubkoff for his help with the computations used to acquire the data plotted in Figures 10.7 and 10.8.
 
@@ -6396,7 +6396,7 @@ then the same reasoning can be applied between pairs of regions of the sort just
 
 The results of the previous section indicate that irregular sleeve bearings with small energy barriers are feasible provided (1) that either the shaft or the sleeve has a rotational symmetry such that a rotation corresponding to a small tangential displacement is a symmetry operation, and (2) that the other component is sufficiently weakly constrained in its structure that a design can be selected from a large set of possible structures. Sleeve bearings, however, lend themselves to analysis and design that exploit symmetry in both components. This section extends a preliminary study (Drexler, 1987b) that indicated the promise of this
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-54.jpg?height=622&width=702&top_left_y=198&top_left_x=455)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-54.jpg?height=622&width=702&top_left_y=198&top_left_x=455)
 
 Figure 10.9. Coplanar ring model for a symmetrical sleeve bearing.
 
@@ -6453,17 +6453,17 @@ Unloaded bearings for which $\operatorname{lcm}(n, m) \gg n$ and $d_{\mathrm{a}}
 
 Anisotropies in the potential for displacements perpendicular to the axis (ideally characterized by a single stiffness $k_{\mathrm{s}}$ ) give an indication of how rapidly
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-56.jpg?height=700&width=1107&top_left_y=159&top_left_x=170)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-56.jpg?height=700&width=1107&top_left_y=159&top_left_x=170)
 
 Figure 10.10. Barrier heights for rotation in the coplanar-ring model, based on the MM2 exp-6 potential, Eq. (3.8), for the $\mathrm{H} \mid \mathrm{H}$ interaction, using parameters from Table 3.1. All rings were constructed with $d_{\mathrm{a}}=0.3 \mathrm{~nm}$ and $s_{\text {gap }}=0.2 \mathrm{~nm}$. (In the shaded region of this and similar graphs, barriers are negligible and roundoff errors dominate the calculation.)
 
 barrier heights increase with load. Where $k_{\mathrm{s}}$ is nearly isotropic, small loads perpendicular to the axis store nearly equal energies, independent of the angle of rotation; where $k_{\mathrm{s}}$ varies greatly, so will differences in stored energy. Where $n-2 \leq m \leq n+2$, problems of commensurability and anisotropic stiffness tend to be severe. For relatively isotropic ring systems with the parameters used in Figure $10.10, k_{\mathrm{s}} \approx 10 \mathrm{n} / \mathrm{m}$. Sleeves with multiple rings have correspondingly greater stiffnesses.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-56.jpg?height=697&width=1124&top_left_y=1465&top_left_x=169)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-56.jpg?height=697&width=1124&top_left_y=1465&top_left_x=169)
 
 Figure 10.11. Spatial frequencies (in units of $1 / d_{\mathrm{a}}$ ) for ring systems of the sort shown in Figure 10.9.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-57.jpg?height=680&width=1090&top_left_y=191&top_left_x=282)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-57.jpg?height=680&width=1090&top_left_y=191&top_left_x=282)
 
 Figure 10.12. Barrier heights as in Figure 10.10, for sleeve bearings with $\boldsymbol{n}=9$ and 19, $m=1$ to 30 , and values of $s_{\text {gap }}$ varying from 0.18 to $0.24 \mathrm{~nm}$. Lines for $n=9$ are solid, for $n=19$, dashed.
 
@@ -6471,11 +6471,11 @@ Figure 10.12. Barrier heights as in Figure 10.10, for sleeve bearings with $\bol
 
 The effects of load perpendicular to the bearing axis can be modeled by displacing the center of the inner ring by a distance $\Delta x$ perpendicular to its axis and examining the potential as a function of angular displacement of the inner ring about its new, offset axis. Figures 10.13 and 10.14 show the results of such an investigation for a series of ring systems with $n=9$ and 19 respectively. As can
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-57.jpg?height=678&width=1102&top_left_y=1441&top_left_x=286)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-57.jpg?height=678&width=1102&top_left_y=1441&top_left_x=286)
 
 Figure 10.13. Barrier heights as in Figure 10.10, for sleeve bearings with $n=9, s_{\text {gap }}=$ $0.2 \mathrm{~nm}$, and varying values of transverse offset.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-58.jpg?height=687&width=1110&top_left_y=187&top_left_x=188)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-58.jpg?height=687&width=1110&top_left_y=187&top_left_x=188)
 
 Figure 10.14. Barrier heights as in Figure 10.13, for sleeve bearings with $n=19$.
 
@@ -6632,46 +6632,46 @@ a. Bearing interfaces for strained-shell structures. Figures 10.15 and 10.16 ill
 Each of the interfaces shown exhibits substantial axial stiffness at suitably small values of $s_{\text {gap }}$. Along the axis, the surface atomic rows on opposite sides of each interface have identical spacings, hence the sinusoidal potentials for sliding
 
 (a)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=178&width=208&top_left_y=614&top_left_x=542)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=178&width=208&top_left_y=614&top_left_x=542)
 
 (b)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=205&width=213&top_left_y=862&top_left_x=540)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=205&width=213&top_left_y=862&top_left_x=540)
 
 (c)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=196&width=215&top_left_y=1132&top_left_x=534)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=196&width=215&top_left_y=1132&top_left_x=534)
 
 (d)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=220&width=200&top_left_y=1390&top_left_x=551)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=220&width=200&top_left_y=1390&top_left_x=551)
 
 (e)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=210&width=219&top_left_y=1668&top_left_x=532)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=210&width=219&top_left_y=1668&top_left_x=532)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=212&width=234&top_left_y=598&top_left_x=886)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=1056&width=256&top_left_y=842&top_left_x=866)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=212&width=234&top_left_y=598&top_left_x=886)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=1056&width=256&top_left_y=842&top_left_x=866)
 
 Figure 10.15. Several sliding interfaces based on diamond (111) surfaces, with nitrogen termination (a), hydrogen termination (b), alternating, interlocking rows with nitrogen and hydrogen termination (c), fluorine termination (d), and alternating, interlocking rows of nitrogen and fluorine termination (e). Note that pairs of surfaces from (a), (b), and (d) could be combined, as could a pair from (c) and (e). In each diagram the direction of sliding is nearly perpendicular to the page. Different terminations offer different functional relationships among spacing, shear stiffness, and compressive stiffness.
 
 (a)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=188&width=268&top_left_y=244&top_left_x=406)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=188&width=268&top_left_y=244&top_left_x=406)
 
 (b)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=171&width=202&top_left_y=484&top_left_x=437)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=171&width=202&top_left_y=484&top_left_x=437)
 
 (c)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=164&width=200&top_left_y=731&top_left_x=440)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=164&width=200&top_left_y=731&top_left_x=440)
 
 (d)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=178&width=205&top_left_y=958&top_left_x=443)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=178&width=205&top_left_y=958&top_left_x=443)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=208&width=287&top_left_y=229&top_left_x=773)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=700&width=254&top_left_y=457&top_left_x=788)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=208&width=287&top_left_y=229&top_left_x=773)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=700&width=254&top_left_y=457&top_left_x=788)
 
 Figure 10.16. Several sliding interfaces based on diamond (100) surfaces, with oxygen termination and aligned rows (a); oxygen termination and crossed rows (b); oxygen termination with alternating deleted rows, providing an interlocking surface (c); and surfaces like (c), but with the exposed terminating rows on one surface consisting of sulfur rather than oxygen (d). In each diagram the direction of sliding is nearly perpendicular to the page. Different terminations offer different functional relationships among spacing, shear stiffness, and compressive stiffness.
 
@@ -6681,17 +6681,17 @@ Interfaces 10.15(c), 10.15(e), and 10.16(a-d) exhibit values of $d_{\mathrm{a}} 
 
 b. Interfacial stability. Each of the interfaces in Figures 10.15 and 10.16 (and that shown in Figures 10.17 and 10.18) appears stable enough for practical use under the baseline conditions assumed in this volume (i.e., no extreme temperatures, no UV exposure, no extraneous reactive molecules, no extreme mechanical loads); further, the symmetrical and low-polarity interfaces should guarantee the absence of contact charging (Section 6.4.7). The low-valence atoms used to terminate each surface form strong bonds to carbon and (usually) weaker bonds to one another. A reaction between one surface and the other typically must form a bond between two low-valence atoms at the expense of cleaving two bonds to carbon. Since this would be a strongly endoergic process, the energy barrier is large ( $>500 \mathrm{maJ}$ ) and the rate of occurrence negligible
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-65.jpg?height=354&width=586&top_left_y=795&top_left_x=532)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-65.jpg?height=354&width=586&top_left_y=795&top_left_x=532)
 
 exploded view
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-65.jpg?height=321&width=728&top_left_y=1176&top_left_x=456)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-65.jpg?height=321&width=728&top_left_y=1176&top_left_x=456)
 
 (a)
 
 $1 \mathrm{~nm}$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-65.jpg?height=314&width=741&top_left_y=1563&top_left_x=440)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-65.jpg?height=314&width=741&top_left_y=1563&top_left_x=440)
 
 (b)
 
@@ -6699,7 +6699,7 @@ $1 \mathrm{~nm}$
 
 Figure 10.17. A 2808-atom strained-shell sleeve bearing with an interlocking-groove interface derived by modifying a diamond (100) surface; (b) shows the shaft within the sleeve, (a) shows an exploded view. This design was developed in collaboration with $\mathbf{R}$. Merkle at the Xerox Palo Alto Research Center, using an automated structuregeneration package (Merkle, 1991). It was then energy minimized and analyzed using the Polygraf molecular modeling software (Polygen Molecular Simulations, Inc., Waltham, MA).
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-66.jpg?height=398&width=1207&top_left_y=187&top_left_x=130)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-66.jpg?height=398&width=1207&top_left_y=187&top_left_x=130)
 
 Figure 10.18. A section through the interface of the bearing shown in Figure 10.17. The view roughly parallels the planar diagrams shown in Figure 10.16, differing in the presence of curvature and in the use of a different (100)-based surface modification for the interface structure. The use of sulfur bridges on the outer shaft surface rather than oxygen both reduces strain (via longer bonds) and increases interfacial stiffness (via larger steric radii).
 
@@ -6714,7 +6714,7 @@ Energy minimization of this structure yielded no rotation of the shaft with resp
 d. Small sleeve-bearing structures. In small sleeve bearings, the pursuit of high-order rotational symmetry dramatically limits the set of acceptable structures, although this set remains large enough to make enumeration challenging. A segment of any of the structures shown in Figures 9.5 and 9.6 could serve as a shaft, given a suitable sleeve. Thin strained shells, backed up by layers with regular dislocation-like structures, could serve as shafts or sleeves, as could less-regular, special-case structures.
 
 e. A specific small sleeve-bearing structure. An example combining a special shaft with a special sleeve is shown in Figure 10.19. This structure makes use of chains of $s p^{3}$ nitrogen atoms to form ridges (having high stiffness and spatial frequency) on both the shaft and the sleeve. These features require attention because $\mathrm{N}-\mathrm{N}$ bonds are known to be weak, and isolated chains of this sort are apparently unstable (a search of the chemical literature failed to identify a wellcharacterized example). In the present instance, however, these chains are not isolated. Each $\mathbf{N}$ atom is also bonded to carbon and subject to the familiar constraints of a diamondoid structure: momentary thermal cleavage of an $\mathrm{N}-\mathrm{N}$ bond is resisted (and usually reversed) by elastic restoring forces from the surrounding structure. The most accessible failure mode in this system is appar-
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-67.jpg?height=750&width=988&top_left_y=1404&top_left_x=327)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-67.jpg?height=750&width=988&top_left_y=1404&top_left_x=327)
 
 exploded view
 
@@ -6723,10 +6723,10 @@ exploded view
 Figure 10.19. Views of a small sleeve-bearing structure: (a) end, (b) exploded.
 
 (a)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-68.jpg?height=190&width=630&top_left_y=204&top_left_x=400)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-68.jpg?height=190&width=630&top_left_y=204&top_left_x=400)
 
 (b)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-68.jpg?height=238&width=646&top_left_y=380&top_left_x=396)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-68.jpg?height=238&width=646&top_left_y=380&top_left_x=396)
 
 Figure 10.20. The shaft of the bearing shown in Figure 10.19 (a), showing a hypothetical failure mode (b).
 
@@ -6746,7 +6746,7 @@ In small loaded bearings, $\Delta \mathcal{V}_{\text {barrier }}$ can be large (
 
 b. Asymmetries to simplify construction. Bearings having interfaces with shallow grooves or relatively large $s_{\text {gap }}$ often can be assembled from separate shafts and sleeves in the obvious manner, by pressing the shaft into the sleeve. Large loads often can be applied, and the final energy minimum with respect to axial displacement can be deep and stiff.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-69.jpg?height=617&width=700&top_left_y=1561&top_left_x=417)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-69.jpg?height=617&width=700&top_left_y=1561&top_left_x=417)
 
 Figure 10.21. Schematic diagram of a loaded bearing, with compensating asymmetric van der Waals attractions.
 
@@ -6768,17 +6768,17 @@ $$
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-70.jpg?height=270&width=412&top_left_y=1988&top_left_x=146)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-70.jpg?height=270&width=412&top_left_y=1988&top_left_x=146)
 
 Figure 10.22. Vector representation of interatomic potentials (see Figure 10.5) for a row of regularly spaced atoms in one surface sliding over regularly spaced atoms in another. Each atom experiences an approximately sinusoidal potential, and the phase difference between the sinusoid experienced by one atom and that experienced by its successor in the row corresponds to a constant difference in the angle between their vectors.
 
 (a)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-71.jpg?height=150&width=579&top_left_y=195&top_left_x=576)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-71.jpg?height=150&width=579&top_left_y=195&top_left_x=576)
 
 (b)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-71.jpg?height=152&width=719&top_left_y=404&top_left_x=514)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-71.jpg?height=152&width=719&top_left_y=404&top_left_x=514)
 
 Figure 10.23. Linear representation of the sliding of two finite but otherwise regular surfaces over one another. In (a), the range of motion of one surface places it within the width of the other surface at all times; this corresponds (for example) to a nut turning on the middle of a long screw. In (b), the range of motion of the surfaces enables each to extend beyond one limit of the other at all times; this corresponds (for example) to a screw partially inserted into a deep threaded hole. In (a), the irregularities corresponding to both ends of the overlap region move together over a surface of a single spatial frequency; tuned irregularities at one end can keep $\Delta \mathcal{V}_{\text {barrier }}$ low. In (b), the irregularities move in opposite directions over surfaces of differing spatial frequency, and tuned irregularities are usually needed at both ends (that is, on both sides of the interface) if the two sinusoidal components of the potential are both to be cancelled.
 
@@ -6803,11 +6803,11 @@ potential energy is proportional to the overlap, with a positive or negative con
 
 Sigma bonds permit rotation, in the absence of mechanical interference between the bonded moieties. Barriers for rotation vary. Two model systems are cubylcubane $\mathbf{1 0 . 1}$ and phenylcubane $\mathbf{1 0 . 2}$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-72.jpg?height=179&width=280&top_left_y=962&top_left_x=417)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-72.jpg?height=179&width=280&top_left_y=962&top_left_x=417)
 
 10.1
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-72.jpg?height=181&width=294&top_left_y=961&top_left_x=750)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-72.jpg?height=181&width=294&top_left_y=961&top_left_x=750)
 
 10.2
 
@@ -6833,7 +6833,7 @@ Small nanomechanical gears of this class use single atoms or rows of atoms as st
 
 a. A relaxation-free model of meshing gear teeth. Figure 10.24 illustrates a model of steric gears as rigid, coplanar rings of atoms. The calculations described in this section, like those in the discussion of bearings, assume the MM2 exp-6 nonbonded potential, Eq. (3.8), with $\mathrm{H}$ atoms separated by $d_{\mathrm{a}}=$ $0.3 \mathrm{~nm}$. Again, the general nature of the results is insensitive to the choice of potential, atom type, and interatomic spacing.Figure 10.25 plots barrier heights as a function of the number of teeth $n$ (here, equal for both gears) and the separation $s_{\text {gap }}$ (see Figure 10.24). The lower family of curves shows barriers for corotation at a uniform angular velocity without slippage. The upper family of curves shows barriers for slipping of one ring with respect to another, based on a search for minimum-energy pathways at a range of rotational angles. As can be seen, with small values of $s_{\text {gap }}(<0.12 \mathrm{~nm})$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-74.jpg?height=417&width=659&top_left_y=182&top_left_x=423)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-74.jpg?height=417&width=659&top_left_y=182&top_left_x=423)
 
 Figure 10.24. Coplanar ring model for a steric gear.
 
@@ -6843,17 +6843,17 @@ Under interfacial shear loads (required, for example, to transmit power), the sy
 
 A prominent feature of Figures 10.25 and 10.26 is the presence of sharp dips in the barrier height at locations that depend both on $n$ and $s_{\text {gap }}$. Sharp dips in barrier height are a robust feature of a broad class of nanomechanical systems,
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-74.jpg?height=685&width=1109&top_left_y=1399&top_left_x=169)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-74.jpg?height=685&width=1109&top_left_y=1399&top_left_x=169)
 
 Figure 10.25. Barriers for gear corotation (solid lines) and slippage (dashed lines) in the rigid coplanar ring model (Section 10.7.1a), for a range of between-ring separations $s_{\text {gap }}$ and several tooth-numbers $n$. Energies increase as matching rings are added.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-75.jpg?height=697&width=1107&top_left_y=168&top_left_x=267)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-75.jpg?height=697&width=1107&top_left_y=168&top_left_x=267)
 
 Figure 10.26. Barriers for gear corotation as in Figure 10.25, for $n=10$ and 50, modeling various torsional loads with varying values of between-ring rotational offset.
 
 for reasons illustrated by the diagrams in Figure 10.27. For a single tooth, the energy is low (and nearly constant) before and passing through the meshing zone, and is high (and nearly constant) as it passes directly between the two gears (as in the potential energy curves shown in Figure 10.27). The potential energy of a gear (in the present model) is simply the sum of the nonbonded interaction energies of its teeth, occupying evenly spaced points along a suitable potential curve. When a single tooth, or a gap between a pair of teeth, is precisely between the two gears, the slope of the potential energy function is zero by symmetry [see (a) and (b) in Figure 10.27]. The potential is periodic (again by symmetry); in the sinusoidal approximation, the slope of the potential is maximal at position (c), halfway between (a) and (b). The slope of the bearing potential energy function at position (c) can be represented as the sum of the slopes at the points in diagram (d), folding points from the left side to the right, and giving them negative weights in the sum.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-75.jpg?height=357&width=801&top_left_y=1672&top_left_x=453)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-75.jpg?height=357&width=801&top_left_y=1672&top_left_x=453)
 
 Figure 10.27. Schematic illustration of the potential energies of gear teeth as a function of rotational angles (shoulders exaggerated). Diagrams (a) and (b) represent symmetrical positions, and (c) an intermediate position. Diagram (d) represents (c) with the left-hand points folded over and reversed in sign, to illustrate certain properties of the slope of the potential function with respect to gear rotation angle.
 
@@ -6865,11 +6865,11 @@ b. Energy dissipation in gear contacts. The energy dissipation mechanisms in gea
 
 c. Integrated bearings and gears. Gears of the sort discussed in this section require substantial compressive loads at the interface to ensure good meshing and stiff contact between teeth. In macroscale gearing this would be achieved (were it necessary) by means of loads transmitted through bearing surfaces on adjacent shafts. In nanomechanical gearing, however, the distinction between a gear interface and a bearing interface is chiefly a matter of relative interatomic spacings and curvatures of the opposing surfaces. The computational examples of bearings and gears in this chapter have used the same spacings and atom types on the convex surface of each interface, differing only in the nature of the opposed surfaces. Thus, a single surface can serve both roles, as in Figure 10.28,
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-76.jpg?height=506&width=564&top_left_y=1766&top_left_x=152)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-76.jpg?height=506&width=564&top_left_y=1766&top_left_x=152)
 
 Figure 10.28. Schematic diagram of two gears supported by bearing surfaces.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_ec553d027506296c17dbg-77.jpg?height=362&width=769&top_left_y=193&top_left_x=443)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-77.jpg?height=362&width=769&top_left_y=193&top_left_x=443)
 
 Figure 10.29. Schematic illustration of a roller between two race surfaces (one omitted), showing gearlike meshing of atomic rows.
 
@@ -6887,7 +6887,7 @@ The principles of spur and helical gears are equally applicable when one of the 
 
 Where the axes of two coplanar shafts intersect at an angle, power can be transmitted from one to another by means of bevel gears (essentially, rolling cones). In nanomechanical systems, the soft interactions of atomic teeth permit two noncoplanar rings of teeth to mesh essentially as well as coplanar rings; bevel gears with single-atom teeth thus present no special problem.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-01.jpg?height=386&width=688&top_left_y=193&top_left_x=375)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-01.jpg?height=386&width=688&top_left_y=193&top_left_x=375)
 
 Figure 10.30. Surfaces for a matched pair of small bevel gears; light and dark circles represent protruding atoms (e.g., $\mathrm{F}$ ) and hollows (e.g., $\mathbf{N}$ termination sites) on a modified (111) surface.
 
@@ -6940,20 +6940,20 @@ $$
 
 Where the number of teeth per planet is small, a large value of $m$ is desirable. In the mechanism illustrated in Figure 10.32, $n_{\text {inner }}=16, n_{\text {planets }}=9$, and $n_{\text {outer }}=29 ; m$ has its maximal value, $m=n_{\text {planets }}=9$. The planet gears have 6
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-03.jpg?height=521&width=704&top_left_y=1503&top_left_x=384)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-03.jpg?height=521&width=704&top_left_y=1503&top_left_x=384)
 
 Figure 10.31. Schematic diagram of a planetary gear (end view). Fast rotation of the sun gear drives slower rotation of the planet carrier, if the ring gear is held fixed. In general, either the sun gear, the ring gear, or the planet carrier can be held fixed, imposing a constraint on the relative motion of the other two components.
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=498&width=1022&top_left_y=216&top_left_x=328)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=498&width=1022&top_left_y=216&top_left_x=328)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=451&width=388&top_left_y=768&top_left_x=327)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=451&width=388&top_left_y=768&top_left_x=327)
 
 (c)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=495&width=179&top_left_y=756&top_left_x=750)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=495&width=179&top_left_y=756&top_left_x=750)
 
 ring gear $1 \mathrm{~nm}$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=202&width=371&top_left_y=905&top_left_x=965)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=202&width=371&top_left_y=905&top_left_x=965)
 
 sun gear
 
@@ -6976,7 +6976,7 @@ One class of tuning component could be used to smooth the potential associated w
 
 This design task is feasible if each strip of the fixed surface of the tuning component interacts with only one moving atom. Each such moving atom can interact strongly with several stationary atoms at each point, and $\mathcal{V}^{\prime}(q)$ can be generated as a sum of the interactions of an indefinitely large number of moving atoms. Multiple strips of interacting atoms in a system of this sort suffice to provide (1) an indefinitely large energy range for ${ }^{\prime}{ }^{\prime}(q),(2)$ multiple, independent contributions to $V^{\prime}(q)$ in each atomic-scale range of $q$, permitting fine control of its magnitude, and (3) control of $\mathscr{V}^{\prime}(q)$ with a spatial resolution comparable to that of the features in $\mathscr{V}(q)$. This provides sufficient freedom to design systems with $\mathscr{V}^{\prime}(q) \approx-\mathscr{V}(q)$.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-05.jpg?height=215&width=663&top_left_y=1943&top_left_x=397)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-05.jpg?height=215&width=663&top_left_y=1943&top_left_x=397)
 
 Figure 10.33. Linear representation of irregular surfaces sliding over one another.
 
@@ -6996,7 +6996,7 @@ Violations of the design principles for bearings result in devices with relative
 
 The depth of the potential wells encountered as one surface moves past another depends on their relative positions and the magnitude of the interfacial load. Where two complementary, gearlike surfaces can be pressed together or separated under the control of one subsystem, while one of them moves in an orthogonal degree of freedom under the control of another subsystem, the result is a clutch. As in standard engineering practice, clutches can be used to couple and decouple mechanisms and power sources. The design of such devices is constrained by the potential for excessive stresses or energy dissipation during coupling.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-07.jpg?height=258&width=640&top_left_y=182&top_left_x=404)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-07.jpg?height=258&width=640&top_left_y=182&top_left_x=404)
 
 Figure 10.34. Schematic diagram of a ratchet-and-pawl mechanism able to move more easily to the right than to the left under the influence of applied force. Thermal excitation does not constitute an applied force, and the asymmetry of the interface does not bias the direction of thermal hopping.
 
@@ -7081,7 +7081,7 @@ In the logic rod systems described in Section 12.3, each rod can be regarded as 
 
 At high speeds $\left(\sim 10^{-9} \mathrm{~s}\right.$ per operation) the energy cost of well partitioning is likely to be dominated by nonisothermal compression losses (Section 7.5). When the wells are later merged, further losses can occur if the input signal has changed (well merging losses are treated in Section 7.6.2). If the input has not
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-13.jpg?height=275&width=910&top_left_y=1742&top_left_x=290)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-13.jpg?height=275&width=910&top_left_y=1742&top_left_x=290)
 
 Figure 11.1. Well partitioning in a measurement system. Each curve represents the potential energy of the indicator as a function of its sliding displacement; the shading represents the probability density over that range of motion. In (1), the potential is flat, and the PDF is uniform. In (2) an applied force has skewed the potential and the PDF. In (3), a barrier has been introduced, trapping the indicator on the right hand side with high probability as a direct consequence of the presence of the applied force.
 
@@ -7112,7 +7112,7 @@ A typical small difference in surface position is $\sim 0.1 \mathrm{~nm}$; a typ
 
 For weak forces and small displacements, and for small differences in shape and position, thermal excitation can render individual measurements unreliable. Iterated measurement processes can be devised, however, that correspond to incrementing a counter by one with each positive measurement, while decrementing it by one with each negative measurement. A series of these operations, followed by a measurement of the state of the counter, provides a measurement procedure that can reduce overall error rates to any desired level.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-15.jpg?height=396&width=779&top_left_y=241&top_left_x=339)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-15.jpg?height=396&width=779&top_left_y=241&top_left_x=339)
 
 Figure 11.2. Cross sectional diagram of a harmonic drive. One revolution of the wave generator in the indicated direction causes the flexspline to turn in the opposite direction with respect to the stiff circular spline, moving it by a two-tooth increment.
 
@@ -7132,7 +7132,7 @@ Another class of stiff, high gear-ratio mechanism is the toroidal worm drive. Si
 
 A toroidal worm drive is built around a triply-threaded torus (illustrated in Figures 11.3 and 11.4). The torus would, if cut and allowed to relax, take the form of a straight rod. The inverting rotational motion shown in Figure 11.3 can occur essentially without energy barriers, since a small displacement in this mode is (in a good structure) a symmetry operation for the potential energy function. A structure of this sort is more practical here than in conventional engineering,
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-16.jpg?height=389&width=854&top_left_y=201&top_left_x=403)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-16.jpg?height=389&width=854&top_left_y=201&top_left_x=403)
 
 Figure 11.3. Overall geometry of the triply-threaded torus of a toroidal worm drive, showing one set of threads and the inverting rotation (resembling that of a smoke ring) imposed on the torus. With a suitable choice of major and minor radii, the substantial strains occurring during this motion fall well within the elastic limit of diamondlike structures; cyclic strains will not cause fatigue (Section 6.7.1a). A similar design with conventional materials on a macroscopic scale would present serious difficulties.
 
@@ -7140,17 +7140,17 @@ owing both to the availability of strong, stiff materials having high elastic li
 
 The energy barriers to the inverting rotation of a torus in an intersegment groove can be analyzed using the symmetry and spatial-frequency principles of Sections 10.4 and 10.5. Each segment of the torus is an object of low symmetry, and turns in an environment of low symmetry. Good design practice can readily avoid large, abrupt energy barriers by avoiding bad steric contacts in the sliding interfaces, but the resulting potential energy function will almost inevitably
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-16.jpg?height=478&width=686&top_left_y=1611&top_left_x=494)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-16.jpg?height=478&width=686&top_left_y=1611&top_left_x=494)
 
 Figure 11.4. Geometry of the driven and driving threads of the triply-threaded torus of a toroidal worm drive. The angles chosen for these threads are purely illustrative; in practice, angles can be chosen to provide the desired mechanical advantage for the drive system. The retaining grooves (not shown; see Figure 11.3) cut across this pattern.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-17.jpg?height=446&width=777&top_left_y=192&top_left_x=340)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-17.jpg?height=446&width=777&top_left_y=192&top_left_x=340)
 
 Figure 11.5. A more detailed (but still schematic) illustration of two segments of a triply-threaded torus. The driving threads are formed by rows of atoms alternating with grooves; interfacial structures might resemble Figure 10.18. The driven threads are shallower, formed by the alignment of rows of atoms and shallow interatomic gaps in a direction roughly perpendicular to that of the driving threads. These features can be formed from a helical variant of one of the structures discussed in Section 10.4.7a; the angle of the driven threads can be determined by a suitable choice of the locked-in torsional strain of the torus. The final set of threads, forming the retaining grooves, fall at an angle to the natural lattice orientation of the structures just described, and hence have (at best) low-order symmetry with respect to the inverting rotation.
 
 exhibit substantial residual fluctuations, which are periodic in the invertingrotation coordinate. A series of segments, however, forms a coupled system that can readily meet the conditions described in Section 10.3 .6 for treating the energy barriers using the rigid-coupling approximation. With a favorable choice of structural parameters, each segment has a different phase angle with respect to the inverting-rotation coordinate, giving the overall potential energy function
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-17.jpg?height=248&width=769&top_left_y=1410&top_left_x=349)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-17.jpg?height=248&width=769&top_left_y=1410&top_left_x=349)
 
 Figure 11.6. A cross-sectional diagram of a toroidal worm drive. Power (and positional control) are provided via the threaded drive ring, the inner surface of which can be geared to a drive gear in the arm's core structure (see Figure 13.11). The outer surface of the drive ring bears a helically threaded band consisting of ridges like those on the surfaces in Figure 10.18; this surface interlocks with the driven threads of the triply-threaded torus. The outer surface of the drive also bears a circularly threaded band forming an interlocking bearing surface with the lower, stationary tube ("stationary" only in the present frame of reference). Rotation of the threaded drive ring about its axis thus drives the inverting rotational motion of the triply-threaded torus within the groove formed by the junction of the stationary and driven tube segments (which in turn are held together by an additional interlocking bearing surface). Within this groove, the stationary tube bears ridges which interlock with the retaining rings of the torus, and the driven tube bears ridges which interlock with the driving threads of the torus. Thus, as the torus undergoes its inverting rotation, the driven tube segment is forced to turn.
 
@@ -7243,7 +7243,7 @@ In macroscale systems, the performance of vacuum pumps frequently is limited by 
 
 The high strength to density ratio of graphitic and diamondoid materials lends itself to the construction of turbomolecular pumps (Figure 11.7): their
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-22.jpg?height=704&width=1049&top_left_y=205&top_left_x=358)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-22.jpg?height=704&width=1049&top_left_y=205&top_left_x=358)
 
 Figure 11.7. Schematic diagram of a pair of blade disks in a turbomolecular pump; the illustrated rotor direction corresponds to downward pumping. (Axle, bearings, casing not shown; disks not of minimal size.)
 
@@ -7290,7 +7290,7 @@ carrier, the viscosity of the resulting suspension is $\sim 8 \times 10^{-4} \ma
 A preliminary design exercise has been performed based on the coolant suspension described in Section 11.5.2 and a 4-level system of tubing of the sort illustrated in Figure 11.8, but with a higher branching ratio. This calculation (which takes account of turbulent flow in the largest tubes) indicates that $\sim 10^{5} \mathrm{~W}$ of thermal power can be extracted at $\sim 273 \mathrm{~K}$ (the melting point of ice) from a cube a centimeter on a side (or, more generally, $\sim 10^{5} \mathrm{~W} / \mathrm{cm}^{3}$ from a slab not more than $1 \mathrm{~cm}$ thick). The thinnest tubes are $<1 \mu$ in diameter and pass within $<5 \mu$ of each point in the volume that is not itself inside a tube. The volume fraction of the tubing system is 0.25 , and the overall pressure drop is $20 \mathrm{MPa}$. A more nearly optimal design should yield better results.
 
 The desirability of minimizing communications delays between processors favors the construction of macroscale systems full of high-speed, closely-packed computational devices; this encourages the design of high-capacity cooling systems. The large manufacturing systems described in Chapter 14 must be convectively cooled, but the required capacity is orders of magnitude smaller than that just described. The microscopic systems described elsewhere can (in small numbers) be cooled adequately by conduction to a surrounding environment.
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-24.jpg?height=782&width=1050&top_left_y=1265&top_left_x=356)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-24.jpg?height=782&width=1050&top_left_y=1265&top_left_x=356)
 
 Figure 11.8. Series of four panels illustrating hypothetical stages in the construction of a nearly fractal system of cooling tubes. After this pattern has been extended to a sufficiently fine scale, it would be broken by introducing connections between the light (inflow) and dark (outflow) tubes.
 
@@ -7321,7 +7321,7 @@ As a result of electron tunneling and field emission, current can flow between c
 
 At small separations, tunneling currents can provide a mechanism for electrical contact without the complications of a conventional mechanical contact. Experiment shows that tunneling currents crossing a vacuum gap in an STM apparatus can exceed $300 \mathrm{nA}$ at $20 \mathrm{mV}$ (Gimzewski, 1988), implying a resistance near zero voltage of $<10^{5} \Omega$; resistance falls with increasing field strength (for comparison, the resistance attributed by classical continuum models to an interatomic spacing in bulk aluminum is $\sim 100 \Omega$ ). In the STM, most of the current is transmitted through a single atom at the tip, hence devices with parallel surfaces of several square nanometers should exhibit resistances of $\sim 10^{4} \Omega$. The design of good tunneling contacts will be complex, requiring attention to surface stability, stability of pairs of surfaces at small separations, and factors (such as work functions) affecting the gap resistance; surfaces of negative electron affinity may be useful [e.g., hydrogenated diamond (111) surfaces (Himpsel et al., 1979) with suitable doping of the underlying material].
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-27.jpg?height=396&width=702&top_left_y=205&top_left_x=435)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-27.jpg?height=396&width=702&top_left_y=205&top_left_x=435)
 
 Figure 11.9. Schematic diagram of a modulated tunneling junction for interfacing mechanical inputs to electrical outputs (moving parts and electrical components only).
 
@@ -7335,7 +7335,7 @@ Section 11.6.2 concludes that tunneling junction resistances as low as $10^{4} \
 
 Electrostatic actuators (Figure 11.10) can produce substantial mechanical forces. In this mechanism, one plate of a small capacitor is fixed and connected to a signal source; the other plate is grounded via a tunneling junction, leaving it free to
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-27.jpg?height=509&width=707&top_left_y=1646&top_left_x=438)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-27.jpg?height=509&width=707&top_left_y=1646&top_left_x=438)
 
 Figure 11.10. Schematic diagram of an electrostatic actuator for interfacing electrical inputs to mechanical outputs (moving parts and electrical components only).
 
@@ -7355,7 +7355,7 @@ Electrostatic DC motors provide a straightforward means of supplying power to na
 
 The rim of a rotor can be made of insulating material with embedded conductive electrodes (Figure 11.11) that serve as charge carriers. If the rim electrodes are separated by $3 \mathrm{~nm}$ and no large voltages are imposed between them, then interelectrode charge transfer can be neglected. Neglecting the beneficial effects of insulator polarization, the surface charge density of the rim electrodes corresponding to a (modest) field of $0.2 \mathrm{~V} / \mathrm{nm}$ is $\sim 0.0018 \mathrm{C} / \mathrm{m}^{2}$. Assuming an electrode diameter of $3 \mathrm{~nm}$ and length of $20 \mathrm{~nm}$, the charge per electrode is $\sim 3.3 \times 10^{-19} \mathrm{C}$, or $\sim 2$ electronic charge units; the corresponding charge per unit rotor circumference is $\sim 5.5 \times 10^{-11} \mathrm{C} / \mathrm{m}$. A vacuum gap of several nanometers can insulate the rim electrodes from a nearby dee electrode surface.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-29.jpg?height=623&width=927&top_left_y=195&top_left_x=306)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-29.jpg?height=623&width=927&top_left_y=195&top_left_x=306)
 
 Figure 11.11. Schematic diagram of an electrostatic motor (not to scale). The dee electrodes and rotor-rim electrodes are conducting, the rotor structural material is insulating. Rotation and torque are in the direction shown.
 
@@ -7453,15 +7453,15 @@ Analogously, logic gates in nanomechanical computers can be built using interloc
 
 Again, the parallels are not exact. In particular, CMOS transistor gates have a large capacitance relative to a comparable length of simple conducting path, causing substantial propagation delays; interlock gates, in contrast, only slightly delay signal propagation along a logic rod. Accordingly, fan-out has less effect on speed in rod logic than in CMOS logic.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=364&width=316&top_left_y=228&top_left_x=339)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=364&width=316&top_left_y=228&top_left_x=339)
 
 (a)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=380&width=330&top_left_y=233&top_left_x=674)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=380&width=330&top_left_y=233&top_left_x=674)
 
 (b)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=386&width=449&top_left_y=227&top_left_x=996)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=386&width=449&top_left_y=227&top_left_x=996)
 
 Figure 12.1. Components of an interlock: an input rod with a gate knob and an output rod with a probe knob, shown separated (a), in their working positions (b), and constrained by a housing structure (c).
 
@@ -7469,10 +7469,10 @@ Figure 12.1. Components of an interlock: an input rod with a gate knob and an ou
 
 Figure 12.1 schematically illustrates the components of an interlock, including two rods, two knobs, and a housing structure. Figure 12.2 uses a more abstract graphical notation to represent the structure and kinematics of a small logic rod system (some components are included only for compatibility with descriptions of rods having greater fan-out). In the following, the term logic rod will refer to a particular rod under consideration, and the otherwise-similar rods that interact with it will be termed input and output rods.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=619&width=787&top_left_y=1210&top_left_x=412)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=619&width=787&top_left_y=1210&top_left_x=412)
 
 (a)
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=752&width=170&top_left_y=1190&top_left_x=1203)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=752&width=170&top_left_y=1190&top_left_x=1203)
 
 (c)
 
@@ -7503,7 +7503,7 @@ To explore how system performance parameters such as gate density, speed, error 
 
 a. Geometric assumptions and parameters. For simplicity, it will be assumed that probe knob segments and gate knob segments are perpendicular, and that rods and knobs can be approximated as rectangular solids (Figure 12.3). Probe knobs can be spaced at regular intervals $d_{\text {knob }}$. The position of each gate knob depends on its logical function, but the spacing between knobs of the same kind
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-38.jpg?height=422&width=1121&top_left_y=1854&top_left_x=308)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-38.jpg?height=422&width=1121&top_left_y=1854&top_left_x=308)
 (blocking on 1 or blocking on 0 ) is here assumed to be the same as the spacing of probe knobs, $d_{\text {knob }}$. Accordingly, each interlock in a grid of intersecting probe segments and gate segments (as in a programmable logic array, Section 12.5) occupies a square region with sides of length $d_{\text {knob }}$. Gate knobs and probe knobs are assumed to have the same dimensions.
 
 The geometry of a rod can in some regions be described in terms of hypothetical sliding-contact surfaces (with no overlap and no gap between objects). This description implies a choice of atomic radii, which can (for uniformity) also be applied where surfaces do not make a sliding contact. For atoms in the carbon row of the periodic table, typical radii of this kind are $\sim 0.14$ to $0.17 \mathrm{~nm}$. Rod dimensions can then be described by a set of widths $w_{\text {rod }}$ and $w_{\text {knob }}$ and heights $h_{\text {rod }}$ and $h_{\text {knob }}$ defined as shown in Figure 12.3. The total height of the moving parts in an interlock is then $h_{\text {knob }}+2 h_{\text {rod }}$.
@@ -7804,11 +7804,11 @@ Figures 12.4 and 12.5 illustrate the structure and kinematics of an efficient cl
 3. The spring rod provides a clocked bias force, helping to set the state of the register without determining the result.
 4. The latching rod provides a clocked latching force, blocking movement of the state rod after the input rod is reset.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-48.jpg?height=526&width=1032&top_left_y=75&top_left_x=381)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-48.jpg?height=526&width=1032&top_left_y=75&top_left_x=381)
 
 Figure 12.4. An exploded diagram of the moving parts of a thermodynamically efficient class of register, with molecular detail suppressed in accord with the bounded continuum approximation and the housing structure omitted for clarity. Rod widths are $\sim 1 \mathrm{~nm}$; sensing and latching knobs are assumed to be single protruding atoms (to minimize van der Waals interaction energies in sensing, and to minimize knob length in latching). The rod ends marked with dots represent truncated surfaces of longer structures. See Section 12.4 for a description.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-48.jpg?height=1203&width=897&top_left_y=923&top_left_x=437)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-48.jpg?height=1203&width=897&top_left_y=923&top_left_x=437)
 
 Figure 12.5. Steps in the write-erase cycle of a thermodynamically efficient register, illustrated as in Figure 12.4. A housing structure (not shown) constrains rods to move along their axes. Black arrows show motion; white arrows show displacement.
 
@@ -7869,14 +7869,14 @@ Computation proceeds as follows: First, the vertical rods to the left, set 1 of 
 
 a. Two-register systems. The upper panel of Figure 12.7 presents a timing diagram for a two-stage finite state machine. Note that the time for a cycle (including two register-to-register transfers with intervening combinational logic)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-52.jpg?height=1021&width=1071&top_left_y=177&top_left_x=340)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-52.jpg?height=1021&width=1071&top_left_y=177&top_left_x=340)
 
 Figure 12.6. A PLA-based finite state machine translated from an NMOS design (Mead and Conway, 1980) to nanomechanical logic, shown in the notation of Figure 12.1, but omitting several drive and spring systems owing to the constraints of a flat representation. Rod labels correspond to those in the source. PLA (a) is above the L rods; a smaller PLA, (b), is below. Rows of circled Rs represent cells in two registers.
 
 is $10 t_{\text {switch }}$, or $1 \mathrm{~ns}$ for the parameters used in the exemplar system. In this timing sequence, both the register compression processes (driven by the spring rod) and the latching processes (driven by the latching rod) take $t_{\text {switch }}$, as assumed in Section 12.4.3. Motion of the first set of rods in the postregister PLA, however, does not immediately follow the displacement of the last set of rods in the preregister PLA (as it could, based on purely local constraints); it is instead delayed by $2 t_{\text {switch }}$ in order to satisfy global timing constraints involving the requirement that a PLA and its input register be reset when the other PLA output is ready to be written. In the overall cycle, $4 t_{\text {switch }}$ out of the cycle time of $10 t_{\text {switch }}$ is consumed in these delays.
 
 b. Four-register systems. These delays can be eliminated by moving to a different architecture. The lower panel of Figure 12.7 shows a timing diagram for a four-stage finite state machine, in which a cycle involves four register-to-register transfers with intervening combinational logic. If PLA (a) and (c) are the same as (a) in the above example, and if (b) and (d) are the same as (b) in the two-register example, then (aside from an alternation in which register contains the most current bit vector) the systems are equivalent, with one full four-stage cycle corresponding to two cycles of the two-stage system. If (a) $\neq$ (c) and
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-53.jpg?height=1040&width=856&top_left_y=188&top_left_x=342)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-53.jpg?height=1040&width=856&top_left_y=188&top_left_x=342)
 
 Figure 12.7. Timing diagrams for two PLA-based systems, with time measured in units of the logic rod switching delay $t_{\text {switch }}$, and driver displacement represented on an arbitrary scale (tensioned is high, de-tensioned is low). Upper panel: with two PLAs, (a) and (b), two registers, (ab) and (ba). Lines (a1), (a2), (a3) represent the driver displacements for the sets of rods in PLA (a); lines (ab-S) and (ab-L) graph the displacements of the spring rod and the latching rod drivers (respectively); other labels are analogous. Lower panel: with four PLAs and registers, otherwise analogous to the upper panel.
 
@@ -7915,7 +7915,7 @@ b. Energy recovery. The energy of a wave of this sort is $\sim 3.6 \mathrm{aJ}$.
 
 Although registers and PLA-based combinational logic in principle suffice to implement general-purpose computational systems, devices of several further classes are of considerable practical importance. The following sections briefly survey gates suitable for non-PLA combinational logic, carry chains for efficient implementation of arithmetic logic units (ALUs), and both random-access and tape-based memory systems; it closes with a discussion of devices for interfacing to macroscale systems.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-56.jpg?height=477&width=975&top_left_y=198&top_left_x=417)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-56.jpg?height=477&width=975&top_left_y=198&top_left_x=417)
 
 Figure 12.8. Schematic diagram of an OR gate operating within a single rod displacement cycle.
 
@@ -7926,7 +7926,7 @@ A PLA system requires three successive rod displacement cycles to compute a set 
 The direct logical OR of a set of inputs can be computed by a linkage in which any input rod can displace the output rod without displacing any other input rod. This can be done by a mechanism like that in Figure 12.8. The direct logical AND of a pair of inputs can be computed by a mechanism like that in Figure 12.9 (note that the inputs need not be synchronous). If 1 and 0 states are defined by the direction of rod displacement, then a direct logical NOT can be computed by a lever having input and output rods attached on opposite sides of the fulcrum.
 
 Direct gates add length and compliance, thereby increasing the minimal switching time relative to a connection not passing through a gate. This effect is small, however: several layers of direct combinational logic can be performed within the $0.1 \mathrm{~ns}$ switching time of a rod with the exemplar parameters. Regular recourse to clocked, interlock-based logic can provide the power and logic-level restoration required for complex computations.
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-56.jpg?height=516&width=1016&top_left_y=1604&top_left_x=417)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-56.jpg?height=516&width=1016&top_left_y=1604&top_left_x=417)
 
 Figure 12.9. Schematic diagram of an AND gate operating within a single rod displacement cycle.
 
@@ -7977,7 +7977,7 @@ As illustrated in Figure 12.10, a sinusoidally oscillating cam surface on a driv
 
 A drive system requires a mechanism for linking drive rods so that different sets have the correct relative phases, a mechanism for buffering energy to compensate for fluctuations in the energy stored in the logic system in different logic states, and a source of motive power to compensate for energy losses. The source
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-60.jpg?height=550&width=1110&top_left_y=180&top_left_x=340)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-60.jpg?height=550&width=1110&top_left_y=180&top_left_x=340)
 
 Figure 12.10. Diagrams and text illustrating the generation of clocked drive-system impulses of varying intervals from the sinusoidal motion of a cam surface (only one ramp and one follower are shown).
 
@@ -8090,7 +8090,7 @@ P_{\text {occupied }}=\frac{c_{\text {ligand }}}{K_{\mathrm{d}}} P_{\text {unocc
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-66.jpg?height=461&width=1123&top_left_y=1398&top_left_x=307)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-66.jpg?height=461&width=1123&top_left_y=1398&top_left_x=307)
 
 Figure 13.1. A sorting rotor based on modulated receptors. In this approach (illustrated schematically), a cam surface modulates the position of a set of radial rods. In the binding position (mapping the illustration onto a 12-hour clock dial, 10:00), the rods form the bottom of a site adapted to bind molecules of the desired type. Between 10:00 and 2:00, the receptors undergo transport to the interior, driven by shaft power (coupling not shown). Between 2:00 and 4:00, the molecules are forcibly ejected by the rods, which are thrust outward by the cam surface. Between 4:00 and 8:00, the sites, now blocked and incapable of transporting molecules, undergo transport to the exterior. Between 8:00 and 10:00, the rods retract, regenerating an active receptor. Section 13.2.1c discusses receptor properties; Section 13.2.1e discusses energy dissipation.
 
@@ -8134,7 +8134,7 @@ d. A class of tight-receptor mechanism. A tight-receptor mechanism can be implem
 
 The paired-rotor, tight-receptor mechanism requires a compliant drive mechanism to operate properly. With an excessively stiff drive mechanism, even bulky competing ligands would routinely be forced through the gap (which must permit their passage in order to avoid failure by mechanical obstruction, regardless of drive stiffness). With a sufficiently compliant drive mechanism, however, the rotor moves (on short time scales) as if in free rotational diffusion. The rotational relaxation time for a rotor this size is $<10^{-7} \mathrm{~s}$, assuming a mean viscosity
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-70.jpg?height=526&width=1109&top_left_y=217&top_left_x=338)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-70.jpg?height=526&width=1109&top_left_y=217&top_left_x=338)
 
 Figure 13.2. A sorting rotor as in Figure 13.1, but with an auxiliary rotor that forces bound molecules to pass through a totally enclosed state, effectively excluding molecular species that are unable to fit within a volume of defined size and shape (for discussion, see Section 13.2.1d). The alignment of the primary and auxiliary rotors can be ensured by means of a geared interface (not shown).
 
@@ -8187,7 +8187,7 @@ R=\left(f_{\text {rat }} \alpha_{\text {rat }}\right)^{-1} \tag{13.5}
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-73.jpg?height=458&width=1148&top_left_y=198&top_left_x=205)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-73.jpg?height=458&width=1148&top_left_y=198&top_left_x=205)
 
 Figure 13.3. Schematic diagram of a portion of a staged-cascade process (Section 13.2.2a).
 
@@ -8203,7 +8203,7 @@ which for $\mathrm{R} \ll 1$ can be extremely small for modest values of $N$. Al
 
 b. Purification using staged cascades of modulated receptors. For concreteness, consider a system that must deliver a stream of product molecules with a contaminant fraction $\leq 10^{-15}$, starting with a feedstock mixture containing
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-73.jpg?height=789&width=1161&top_left_y=1352&top_left_x=189)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-73.jpg?height=789&width=1161&top_left_y=1352&top_left_x=189)
 
 Figure 13.4. Schematic diagram of a staged-cascade process based on sorting rotors like those of Figure 13.1. (Note the inversion of the cams in the lower rotors.)
 
@@ -8244,10 +8244,10 @@ Figure 13.6 shows a model receptor for a small nonpolar molecule, ethyne; molecu
 
 Many fluids of small organic molecules remain liquid at pressures of $\sim 1$ to $2 \mathrm{GPa}$ at $300 \mathrm{~K}$ (e.g., methanol, $>3 \mathrm{GPa}$; ethanol, $>2 \mathrm{GPa}$; acetone and carbon
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-76.jpg?height=694&width=837&top_left_y=1257&top_left_x=517)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-76.jpg?height=694&width=837&top_left_y=1257&top_left_x=517)
 
 Figure 13.5. Schematic diagram of a mechanism for removing molecules from a liquid phase and covalently binding them to a moving belt (of the sort described in Section 13.3). This diagram omits mechanisms for modulating the properties of the receptor; these would be necessary in order to approach thermodynamic reversibility (exposure of an empty receptor as shown would be inherently dissipative). Generalized mechanisms for modulating the receptor can also relax constraints on reaction geometry and conditions (for example) by forcing compression and motion of the confined molecule.
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-77.jpg?height=760&width=914&top_left_y=224&top_left_x=362)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-77.jpg?height=760&width=914&top_left_y=224&top_left_x=362)
 
 Figure 13.6. MM2 model of an ethyne receptor.
 
@@ -8280,17 +8280,17 @@ $$
 For $v=0.005 \mathrm{~m} / \mathrm{s}, r_{1}=r_{2}=10 \mathrm{~nm}$, and $\delta=0.01 \mathrm{~nm}, t_{\text {trans }} \approx 1.8 \times 10^{-7} \mathrm{~s}$, moderately greater than the typical value assumed in Chapter 8. Fast, simple-encounter reactions could be performed with higher speeds and smaller mechanisms. Reaction times can be indefinitely prolonged by placing belts in contact and passing them between a pair of backing surfaces, as in Figure 13.7(b).
 
 b. Complex encounters. In complex reactions (e.g., exploiting pi-bond torsion, Section 8.5.6), a device must drive several coordinated, properly sequenced
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-79.jpg?height=372&width=970&top_left_y=1212&top_left_x=230)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-79.jpg?height=372&width=970&top_left_y=1212&top_left_x=230)
 
 (b)
 
 $\sim 50 \mathrm{~nm}$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-79.jpg?height=372&width=376&top_left_y=1654&top_left_x=224)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-79.jpg?height=372&width=376&top_left_y=1654&top_left_x=224)
 
 (c) three outputs ( $1 / 3$ frequency)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-79.jpg?height=312&width=508&top_left_y=1636&top_left_x=805)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-79.jpg?height=312&width=508&top_left_y=1636&top_left_x=805)
 
 (d)
 
@@ -8313,19 +8313,19 @@ Figure 13.9 illustrates the use of a reagent device like that in Figure 13.8 to 
 When the cam follower passes through a location where two cam grooves merge, it undergoes a well merging process of the sort analyzed in Section 7.6. In any particular mechanism, the wells being merged have fixed probabilities of
 (a)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=477&width=410&top_left_y=121&top_left_x=166)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=477&width=410&top_left_y=121&top_left_x=166)
 
 (b)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=386&width=162&top_left_y=125&top_left_x=609)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=386&width=162&top_left_y=125&top_left_x=609)
 
 steric probe blocked (c)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=386&width=176&top_left_y=125&top_left_x=809)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=386&width=176&top_left_y=125&top_left_x=809)
 
 steric probe retracted, group transferred (d)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=383&width=161&top_left_y=127&top_left_x=1034)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=383&width=161&top_left_y=127&top_left_x=1034)
 
 steric probe unblocked
 
@@ -8333,7 +8333,7 @@ $\sim 10000$ atoms
 
 Figure 13.8. Schematic diagram of a reagent device for implementing a conditionalrepetition strategy to increase reaction reliability. In (a), the reagent moiety with its transferable group is exposed; the steric probe can be placed at any desired distance at this time. In (b), the probe is blocked by the transferable group and prevented from moving past it by a large (e.g., $150 \mathrm{maJ}$ ) energy barrier; the bias force need not be large. In (c), a successful reaction has transferred the group, removing the barrier. In (d), the bias force has driven the probe past its previous stopping point.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=564&width=1129&top_left_y=1134&top_left_x=227)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=564&width=1129&top_left_y=1134&top_left_x=227)
 
 Figure 13.9. Schematic diagram of a conditional-repetition system. Each small diagram below (numbered 1 to 10) represents the state of a mechanism like that illustrated in Figure 13.8 at a different time as it moves along one of the five possible paths through the system. The block above represents a structure with a network of cam grooves, shown from behind (with supporting material cut away). The cam-follower protrusions on the sliding mechanisms are (in the assembled configuration) constrained to follow the grooves. When a groove branches, the path taken is determined by the presence or absence of the transferable group at times $2,4,6,8$, and 10 (see Figure 13.8). So long as the group is present, the cam follower remains in the upper groove. Once it is absent (in the illustrated sequence, at time 6), the bias force moves the follower to the lower groove. The position of the probe then prevents further reactive encounters, as discussed in Section 13.3.1c. Several reactive devices can simultaneously be in transit through a cam mechanism of this sort, following different paths.
 
@@ -8471,11 +8471,11 @@ b. Power supply and control. The power supply and control system is outside the 
 
 Drive shafts undergo longitudinal displacements as the arm moves (most obviously, when the telescoping joint $\mathrm{J} 4$ is actuated). A coupling that permits these motions while applying torque (e.g., a drive nut engaging longitudinal
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-10.jpg?height=845&width=782&top_left_y=962&top_left_x=494)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-10.jpg?height=845&width=782&top_left_y=962&top_left_x=494)
 
 Figure 13.10. External shape and range of motion of a stiff arm design compatible with implementation on a $100 \mathrm{~nm}$ scale (internal mechanisms are described in Section 13.4.1 and Figures 13.11-13.). System compliance is analyzed in Section 13.4.1e.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-11.jpg?height=1126&width=1068&top_left_y=199&top_left_x=204)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-11.jpg?height=1126&width=1068&top_left_y=199&top_left_x=204)
 
 Figure 13.11. Cross section of a stiff manipulator arm and identification of parts (schematic); see also Figure 13.12.
 
@@ -8483,7 +8483,7 @@ grooves on a shaft segment) can interface these shafts to drive and control mech
 
 c. Drive shafts, gears, and the core structure. Figure 13.11 shows a cross section of an arm, including all the moving parts required for arm motion save for three drive shafts (and gears) not in the plane of the section. As shown, the shafts have diameters of $1.5 \mathrm{~nm}$; the compliance analysis of Section 13.4.1e assumes the use of a material with a modulus $\sim 0.1$ that of diamond, lowering the
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-11.jpg?height=372&width=817&top_left_y=1828&top_left_x=320)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-11.jpg?height=372&width=817&top_left_y=1828&top_left_x=320)
 
 Figure 13.12. Cross section A-A of arm in Figure 13.11, perpendicular to the axis.
 
@@ -8501,7 +8501,7 @@ d. Joints and joint drive mechanisms. The internal structure of the arm design i
 
 The other rotary joints, $\mathrm{J} 1, \mathrm{~J} 2, \mathrm{~J} 3$, and $\mathrm{J} 5$ are implemented as toroidal worm drives (Section 11.3.2). Harmonic drives (Section 11.3.1) offer an alternative to the toroidal worm drive, but if repulsive interactions are used to implement their teeth, the large and time-varying radial forces applied by the wave generator are likely to result in larger energy dissipation at the interface between the wave generator and the flexspline than at the corresponding interface between the threaded drive tube and the triple-threaded torus. Further, the large asymmetrical loads would require additional structural analysis. The speed ratios and stiffnesses of these joints are examined in Section 11.3.2.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-13.jpg?height=533&width=898&top_left_y=182&top_left_x=376)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-13.jpg?height=533&width=898&top_left_y=182&top_left_x=376)
 
 Figure 13.13. Structure and kinematics of a stiff telescoping joint. The drive shaft and attached drive gear rotate about their shared axis, forcing rotation of the drive ring about the shared axis of the core plate and the other illustrated components. The drive ring engages several transmission gears mounted in the torsional-stiffening sleeve. This sleeve shares longitudinally grooved interfaces with the upper and lower tube segments, preventing these segments and the torsional-stiffening sleeve from rotating with respect to one another, while permitting longitudinal displacements. The transmission gears engage an extension of the telescoping screw-sleeve, thereby coupling its rotational motion to that of the drive shaft. Rotation of the screw-sleeve drives longitudinal, telescoping motions of the tube segments via left- and right-handed helically threaded interfaces. The complexity of this scheme results from the placement of the screw sleeve outside the tube, which in turn is motivated by space limitations inside the tube and by advantages in bending stiffness resulting from a greater radius.
 
@@ -8519,7 +8519,7 @@ $$
 
 where $C_{\mathrm{s}, 1}$ and $C_{\mathrm{s}, 2}$ are the compliance of the system measured with respect to displacements at points 1 and 2 , and $v_{1}$ and $v_{2}$ are the speeds of those points as
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-14.jpg?height=717&width=1042&top_left_y=254&top_left_x=367)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-14.jpg?height=717&width=1042&top_left_y=254&top_left_x=367)
 
 Figure 13.14. Cross section of a stiff manipulator arm, showing its range of motion (schematic).
 
@@ -8576,7 +8576,7 @@ f. Speed, productivity, and magnitude of power dissipation. To estimate the powe
 
 To limit shear displacements of a threaded drive ring with respect to the triple-threaded torus of the worm drive, an interfacial shear stiffness of $\sim 100 \mathrm{~N} / \mathrm{m}$ is ample; the interfacial compressive stiffness can be several times this value. The corresponding values of the phonon transmission coefficient, $T_{\text {trans }}$ are $\sim 10^{-4}$ [from Eq. (7.41), assuming diamondlike materials]. Applying assumptions like those used in the bearing analyses of Section 10.4.6 to a sliding-interface area of $\sim 200 \mathrm{~nm}^{2}$ yields an estimated energy dissipation per motion of $\sim 10 \mathrm{maJ}$. An estimate of $\sim 100 \mathrm{maJ}$ per motion for the arm as a whole therefore
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-17.jpg?height=407&width=523&top_left_y=192&top_left_x=170)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-17.jpg?height=407&width=523&top_left_y=192&top_left_x=170)
 
 Figure 13.15. A stiffer set of base joints for a manipulator arm.
 
@@ -8598,17 +8598,17 @@ A stiff manipulator can be used to apply small, simple reagent devices to workpi
 
 The intermediate states in the construction of a diamondoid structure can be limited to surface irregularities of atomic height on a nanometer length scale in the vicinity of each reaction site. To perform a reaction at such a site, a tip can be
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-18.jpg?height=380&width=475&top_left_y=208&top_left_x=378)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-18.jpg?height=380&width=475&top_left_y=208&top_left_x=378)
 
 1
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-18.jpg?height=287&width=311&top_left_y=686&top_left_x=462)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-18.jpg?height=287&width=311&top_left_y=686&top_left_x=462)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-18.jpg?height=268&width=330&top_left_y=310&top_left_x=1022)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-18.jpg?height=268&width=330&top_left_y=310&top_left_x=1022)
 
 2
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-18.jpg?height=311&width=376&top_left_y=684&top_left_x=1001)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-18.jpg?height=311&width=376&top_left_y=684&top_left_x=1001)
 
 Figure 13.16. Schematic diagram showing alignment of a reagent moiety with respect to a workpiece aided by sterically complementary probes. The diagrams illustrate (1) a reagent device approaching the workpiece, (2) probes in contact with distinctive features (bumps and hollows) of the workpiece, bringing the reagent device into alignment before contact, (3) the reactive encounter, and (4) separation after reaction and transfer of a moiety. Note that the number of probes can be indefinitely multiplied, and that each complementary contact can increase alignment stiffness and specificity.
 
@@ -8683,7 +8683,7 @@ a. Vibration and alignment. Under a fixed acceleration, inertial loads cause ela
 Various combinations of (1) assembly tolerances, (2) measurement and control, and (3) precomputed corrections can compensate for static deformation. Various combinations of (1), (2), and mechanical isolation can correct for vibration, under ordinary circumstances. A surprise in the development of scanning tunneling microscope technology was the feasibility of achieving atomic-scale positional stability in centimeter-scale mechanisms mounted on ordinary laboratory tables, using $10-\mathrm{cm}$-scale vibration isolation systems consisting of ordinary elastomers and metal plates. Engineering molecular manufacturing systems for isolation from external vibrations and for control of internal vibrations should be feasible.
 
 At larger scales, assembly tolerances can be increased without sacrificing precise control of the structure and alignment of the resulting interfaces. Figure 14.1 illustrates an adhesive interface structure in which nonbonded contacts occur as tapered pegs are inserted into matching holes. Tapering can provide substantial tolerance for initial misalignment, yet as the adhesive surfaces themselves approach contact, a stiff alignment can be achieved. As shown in the
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-24.jpg?height=598&width=1084&top_left_y=193&top_left_x=326)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-24.jpg?height=598&width=1084&top_left_y=193&top_left_x=326)
 
 Figure 14.1. An adhesive interface with tapered alignment pegs and a geometry that prevents residual nonbonded interfaces from serving as crack initiation sites.
 
@@ -8720,17 +8720,17 @@ The architecture described in Section 14.4 uses a convergent assembly sequence i
 A system of the sort suggested by Figure 14.4 must operate all assembly stations at the same frequency, thereby slowing the smallest mechanisms to the frequencies of the largest. Varying the number of assembly operations per level in the hierarchy can alleviate this problem, as can allowing a small number of highfrequency processes to supply parts to a larger number of low-frequency processes. Both of these strategies are incorporated into the exemplar architecture summarized in Section 14.4.
 
 The boundary between high-frequency and low-frequency processes in the exemplar architecture corresponds to a boundary between mill-style and manipulator-style assembly mechanisms. This, in turn, marks the boundary between purely repetitive operations producing standard building blocks and programmable operations that can stack these building blocks to make a wide variety of products. Although manipulators can handle blocks of $\sim 10 \mathrm{~nm}$ scale with good energy efficiency, the exemplar architecture uses mill-style mechanisms up to a $1 \mu$ scale. This sacrifices flexibility, but the number of distinct kinds
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-27.jpg?height=620&width=1044&top_left_y=206&top_left_x=248)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-27.jpg?height=620&width=1044&top_left_y=206&top_left_x=248)
 
 Figure 14.2. Expansion of a eutactic environment by construction mechanisms operating inside it (ports for transfer of materials across the boundary not shown). In three dimensions, the arrangement of folds at the corners where three edges meet is more complex than suggested in steps 2 or 3 .
 
 of $1 \mu$ blocks can be quite large. A $1 \mathrm{~kg}$ structure contains $\sim 10^{15}$ blocks. To manufacture them, the exemplar architecture uses $\sim 10^{6}$ separate systems, each capable of producing a different structure. The demand for large numbers of a few kinds tends to reduce diversity, but the option of running some lines at low capacity (or only for producing certain products) substantially offsets this. The
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-27.jpg?height=656&width=987&top_left_y=1351&top_left_x=269)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-27.jpg?height=656&width=987&top_left_y=1351&top_left_x=269)
 
 Figure 14.3. Expansion of a eutactic environment as in Figure 14.2, using sliding blocks rather than flexible pleats. This approach is based on the presumption that adequate seals can be maintained at all the junctions among the sliding blocks. Again, geometries become more complex with expansion in three dimensions, but local blocksliding relationships are unaltered. Note that the "blocks" could in principle be atoms of a metallic material, with sliding occurring by dislocation movement.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-28.jpg?height=822&width=1107&top_left_y=197&top_left_x=339)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-28.jpg?height=822&width=1107&top_left_y=197&top_left_x=339)
 
 Figure 14.4. A simple model of a spatial arrangement for a hierarchical, convergent assembly process; panels (a), (b), (c), and (d) provide successively more detailed diagrams. In (a), a primary assembly line consisting of a series of 8 assembly stations (drawn as cubes) performs the final 8 assembly operations in a hypothetical manufacturing process. In (b), 8 secondary assembly lines provide parts to the final lines; (c) and (d) illustrate tertiary and quaternary assembly lines. Since each level of lines contains an equal volume, this pattern cannot be indefinitely extended without self-intersection (the maximum radius of expansion is bounded). With local rearrangements to postpone self-intersection until the available volume is nearly full, a branching pattern of this sort can be extended though $>30$ generations, enabling the assembly of objects from $>10^{27}$ pieces. This structure demonstrates that certain geometrical constraints can be met, but does not represent a proposed system.
 
@@ -8742,11 +8742,11 @@ In typical applications, the products of molecular manufacturing must be deliver
 
 For example, a product object can be placed in a box bearing multiple external sealing rings and followed by a similarly ringed piston. The rings can provide a tight seal against the inside of an exit tube, and the piston can block the exit until another product-bearing box is ready for departure. Moderate failures in the seals could be rendered harmless by scavenging pumps operating on the spaces between them. Schemes that lack discardable boxes, pistons, and the like
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-29.jpg?height=427&width=603&top_left_y=211&top_left_x=191)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-29.jpg?height=427&width=603&top_left_y=211&top_left_x=191)
 
 (a)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-29.jpg?height=465&width=521&top_left_y=245&top_left_x=808)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-29.jpg?height=465&width=521&top_left_y=245&top_left_x=808)
 
 Figure 14.5. Schematic illustration of a gas-tight, expandable, doubly pleated enclosure for a eutactic environment (a). In three dimensions, a structure like that illustrated could undergo a volumetric expansion by a factor of $\sim 27$, unrolling one band of pleats at a time. Note that each face must have pleats running in two perpendicular directions, as shown in (b), an angled view of the surface of a doubly pleated enclosure. To satisfy constraints on elastic strain, the minimum radius of curvature in the first set of pleats must be several times the thickness of the gas-tight wall, and the radius of curvature in the second, superimposed set of pleats must be a further multiple of the radius of the first. Accordingly, the enclosure size must be orders of magnitude greater than the wall thickness, making this approach inapplicable to very small enclosures. Note that the wall system can include structural members and sturdy barriers both inside and outside of the comparatively delicate gas-tight wall.
 
@@ -8758,7 +8758,7 @@ A system of macroscopic scale and significant lifetime must tolerate localized, 
 
 With a judicious choice of structures and reactions, damage to a molecular manufacturing system at ordinary temperatures is dominated by damage caused
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-29.jpg?height=458&width=533&top_left_y=1819&top_left_x=165)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-29.jpg?height=458&width=533&top_left_y=1819&top_left_x=165)
 
 Figure 14.6. Schematic illustration of a geometry (suggested by R. Merkle) permitting the manufacture and delivery of objects of a size equaling or exceeding (in all dimensions) that of the manufacturing system.
 
@@ -8766,7 +8766,7 @@ by ionizing radiation. Accordingly, Eq. (6.54) can be taken as a damage model. U
 
 Section 13.3.6b shows that mechanosynthetic units can be built to exhibit fail-stop behavior, reliably ceasing operation rather than delivering damaged products. Section 13.3.2b outlines the characteristics of transportation components capable of transferring structures from belts to pallets, moving pallets along tracks through fair, nonblocking merging and distribution junctions, and transferring structures back to belts again. Figure 14.7 shows how fail-stop units
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-30.jpg?height=806&width=1001&top_left_y=914&top_left_x=358)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-30.jpg?height=806&width=1001&top_left_y=914&top_left_x=358)
 
 Figure 14.7. Schematic diagram of a portion of a redundant, fault-tolerant manufacturing architecture. The upper set of identical, fail-stop producers transforms inputs into intermediate products that become inputs to a set of identical, fail-stop consumers. The intermediate transportation network incorporates fair, nonblocking merging junctions (m) and distribution junctions (d). A system with this structure can continue to operate despite the failure of any component, including the failure of all but one producer and all but one consumer. Within the pattern illustrated, the degree of redundancy of producers, consumers, and transportation elements can be increased arbitrarily. 
 
@@ -8798,7 +8798,7 @@ This section and Table 14.1 outline an architecture for a system capable of manu
 
 This section focuses on mechanosynthesis and assembly, omitting the details of supporting systems. For example, although they would be essential in a detailed design, the specifics of a $\sim 1 \mathrm{~kW}$ cooling system, $a \sim 0.001 \mathrm{~kg} / \mathrm{s}$ feedstock solution supply system, transportation and sealing mechanisms for product delivery, and so forth are peripheral to the central issues of molecular manufacturing. Figure 14.4 shows that convergent assembly processes can be performed without undue geometrical problems in material flow; accordingly, a reasonable estimate of overall system volume can be had by summing the volumes of the assembly workspaces without describing a particular three-dimensional layout. Maintenance of vacuum integrity has been discussed in Sections 11.4.2, 11.4.3, and 14.3.2. Compressive structures made of diamondlike materials can support terrestrial atmospheric pressures with masses of $\ll 1 \mathrm{~kg} / \mathrm{m}^{3}$, and can be designed in many ways. Power conversion between mechanical and electrical forms can be performed with high efficiency and (for reasonable power levels) with negligible mass and volume (Section 11.7), imposing few constraints in this context.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-32.jpg?height=1841&width=1201&top_left_y=247&top_left_x=285)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-32.jpg?height=1841&width=1201&top_left_y=247&top_left_x=285)
 
 The key issues in a manufacturing architecture of this sort center around the assembly mechanisms themselves: their numbers, kinds, reliabilities, operating frequencies, masses, volumes, and so forth. These issues are addressed in the next section; many parameters are summarized and explained in Table 14.1.
 
@@ -8870,7 +8870,7 @@ With the use of programmable manipulators to build a diverse set of structures f
 
 The design of machines able to construct copies of themselves was described in von Neumann and Burks (1966), and many variations on this theme have been reviewed in Freitas and Gilbreath (1982) and the included references. It may seem somehow paradoxical that a machine can contain all the instructions needed to make a copy of itself, including those selfsame complex instructions, but this is easily resolved. In the simplest approach (as implicitly adopted here), the machine reads the instructions twice: first as commands to be obeyed, and then as data to be copied. Adding more data does not increase the complexity of the data-copying process, hence the set of instructions can be made as complex as is necessary to specify the rest of the system. By the same token, the instructions transmitted in a replication cycle can specify the construction of an indefinitely large number of other artifacts.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-38.jpg?height=422&width=1016&top_left_y=199&top_left_x=399)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-38.jpg?height=422&width=1016&top_left_y=199&top_left_x=399)
 
 Figure 14.8. The inputs and outputs of the exemplar manufacturing system discussed in Section 14.4.
 
@@ -9173,7 +9173,7 @@ when a single-site substitution (cyclization, etc.) introduces no adverse intera
 a. Backbone rigidity. Decreasing the conformational freedom of the backbone decreases the entropy of unfolding, thus stabilizing a compatible folded state. (In the configuration space picture of Section 4.3.3, folding is equivalent to compression; less-flexible molecules expand into a smaller region of configuration space when unfolded, hence the work of compression required to fold them is reduced). In accord with theoretical predictions, the compatible replacement of Gly with Ala (or, it is expected, with any amino acid having a $\beta$ carbon) or of Ala with Pro each increase stability by $\sim 7$ maJ[^41] (Matthews et al., 1987); placing Pro in an $\alpha$ helix, however, would illustrate an incompatible replacement. In augmented proteins, various cyclic amino and imino acids (Figure 15.1) could be used to constrain conformations in a similar manner, but with varied geometries.
 
 Structures 15.1-15.4 suggest how cyclic moieties can alter and constrain backbone conformation. Cubane derivatives (suggested by J. Bottaro) are examples of rigid, saturated polycyclic structures. Structure $\mathbf{1 5 . 5}$ and derivatives can strongly constrain backbone $\phi$ and $\psi$ angles (Toniolo, 1989). Structure 15.6 is
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-62.jpg?height=992&width=1086&top_left_y=1042&top_left_x=321)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-62.jpg?height=992&width=1086&top_left_y=1042&top_left_x=321)
 
 Figure 15.1. Structures illustrating rigidity and steric diversity; BB represents the backbone of a polypeptide
 
@@ -9234,23 +9234,23 @@ In this sequential annealing process, early-forming bonds can sterically constra
 g. Metal complexation. Suitable R-groups can form constraining cross-links when metal ions are introduced into solution. In standard proteins, these constraints can force folding of structures as small as 30-residues [e.g., zinc fingers (Párraga et al., 1988)]. Engineering of metal binding sites has increased the stability of subtilisin (Pantoliano et al., 1988). Work in supramolecular chemistry suggests that single $\mathrm{R}$-groups (e.g., based on $\alpha, \alpha^{\prime}$ bipyridine) can serve as preformed halves of metal binding sites, undergoing pairwise matching when metal
 (a)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=409&width=829&top_left_y=186&top_left_x=490)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=409&width=829&top_left_y=186&top_left_x=490)
 
 (a2)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=164&width=282&top_left_y=564&top_left_x=493)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=164&width=282&top_left_y=564&top_left_x=493)
 
 (a3)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=138&width=171&top_left_y=732&top_left_x=551)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=138&width=171&top_left_y=732&top_left_x=551)
 
 (b2)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=140&width=263&top_left_y=610&top_left_x=1070)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=140&width=263&top_left_y=610&top_left_x=1070)
 
 (b3)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=113&width=116&top_left_y=749&top_left_x=1136)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=113&width=116&top_left_y=749&top_left_x=1136)
 
 Figure 15.2. Staged crosslinking and cyclic backbone segments.
 
@@ -9301,17 +9301,17 @@ Molecular tip arrays as proposed here can permit screening and interchange of ti
 ### 15.4.2. Tip-array geometry and forces
 
 a. Tip-array geometry. The geometry of a tip-array system is illustrated in Figures 15.3 and 15.4. On a large scale, Figure 15.3(d), a primary bead can be viewed as an AFM tip, imaging an array of flat-side beads. On a small scale, Figure 15.3(a), a single molecular tip on the flat-side secondary bead images the primary bead. The terms substrate and tip are thus ambiguous, but under the conditions of greatest interest, the primary bead acts as the substrate and a molecule on the secondary bead acts as the tip. Key geometrical parameters are defined by Figure 15.4. Reasonable dimensions for a device with this geometry
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-69.jpg?height=792&width=1166&top_left_y=1329&top_left_x=185)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-69.jpg?height=792&width=1166&top_left_y=1329&top_left_x=185)
 
 (b)
 
 $100 \mathrm{~nm}$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-69.jpg?height=340&width=567&top_left_y=1813&top_left_x=783)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-69.jpg?height=340&width=567&top_left_y=1813&top_left_x=783)
 
 Figure 15.3. Views of a tip-array geometry using tip support structures and multiple substrate beads on an AFM cantilever. Each view differs from the next by a factor of ten in scale.
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-70.jpg?height=567&width=1119&top_left_y=189&top_left_x=309)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-70.jpg?height=567&width=1119&top_left_y=189&top_left_x=309)
 
 Figure 15.4. Sketch illustrating the relationships among the bead, flat, and molecular tips, including basic geometric parameters.
 
@@ -9391,7 +9391,7 @@ Tips can be polar, nonpolar, hydrogen bonding, positively charged, or negatively
 
 Tips with specific biochemical affinities (e.g., enzyme substrate analogues, candidate drug molecule analogs, etc.) can yield data of special biological interest. A tip can be moved along a trajectory aligned with the flexure direction of the AFM cantilever, carrying it from solution to (for example) a protein surface and back again. Integrating the force curve (with suitable corrections for beadbead interactions) then yields an intermolecular mean-force potential, that is, a
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-75.jpg?height=405&width=1103&top_left_y=169&top_left_x=153)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-75.jpg?height=405&width=1103&top_left_y=169&top_left_x=153)
 
 Figure 15.5. A candidate ligand framework with a sharp tip.
 
@@ -9554,7 +9554,7 @@ F_{\text {extend }}=-\left(p-p_{\text {thresh }}\right) \Delta V / \Delta \ell \
 \end{equation*}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-83.jpg?height=434&width=506&top_left_y=1761&top_left_x=227)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-83.jpg?height=434&width=506&top_left_y=1761&top_left_x=227)
 
 below threshold pressure above threshold pressure
 Figure 16.1. Schematic diagram of a pressure-threshold actuator, here illustrated with a constant-force spring (Section 10.5.3) and a piston moving between two limit stops. Actuators of this abstract class can be constructed with widely varying structures.
@@ -9573,7 +9573,7 @@ d. Control via acoustic signals. Two actuators with different thresholds could p
 A more direct approach can reduce complexity. Figure 16.2 illustrates how pressure-threshold actuators can drive a ratchet mechanism that moves a rod. When the latching pawl is engaged, the rod will not move left or right spontaneously, but can readily be driven to the right by an applied force. The driving pawl provides this force: every downward pressure transition from $p_{\text {thresh }}$ to $p_{\text {thresh }}$ $-\Delta p$ pushes the rod one increment to the right. (A reasonable spacing for the ratchet teeth is $\sim 1 \mathrm{~nm}$.) When both ratchets are disengaged, a small bias force retracts the rod leftward to a fixed position. For a mechanism of this kind to work reliably, the ratchet barrier heights must be adequate (e.g., $250 \mathrm{maJ}$ ); actuators with $\Delta \mathscr{G}_{\text {extend }}$ on the order of $500 \mathrm{maJ}$ are more than adequate to surmount these barriers. Incrementing a ratchet dissipates substantial energy, but efficiency here is not a concern.
 
 A typical operational cycle (Figure 16.2) would begin at high pressure, with both ratchets disengaged and the rod to the left. Lowering the pressure through the first range engages the latching ratchet with a force that is essentially constant at all lower pressures, owing to the limit stop. After lowering the pressure further (possibly much further), the driving rachet extends and moves the rod to
-![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-02.jpg?height=1214&width=760&top_left_y=197&top_left_x=339)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-02.jpg?height=1214&width=760&top_left_y=197&top_left_x=339)
 
 non-bar mechanisms $\sim 100,000$ atoms
 
@@ -9583,7 +9583,7 @@ the right. The pressure then can be lowered further with no effect on this mecha
 
 Simple ratchet-driven rods of this sort would, however, provide inadequate positional resolution ( $\sim 1 \mathrm{~nm}$ ) for mechanosynthesis of diamondoid structures, if
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-03.jpg?height=560&width=869&top_left_y=193&top_left_x=441)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-03.jpg?height=560&width=869&top_left_y=193&top_left_x=441)
 
 Figure 16.3. A vernier ratchet mechanism driven by four pressure-threshold actuators. Ratchets with differing tooth spacings can provide positional resolution equal to the difference in spacing (Section 16.3.2d). This schematic illustration places both sets of actuators in the same plane, suggesting a mechanical interference that need not occur in a noncoplanar geometry. Note that the two latching pawls can be driven by actuators of the same pressure threshold.
 
@@ -9597,14 +9597,14 @@ In systems of the sort considered here, control and power supply are inseparable
 
 The manipulator described in Section 13.4 requires stiff materials and intricate parts, making it difficult to implement. An alternative design (Figure 16.4) uses a Stewart platform, widely used in aircraft flight simulators and occasionally in robotics (its use in this context was suggested by Professor D. Taylor of Cornell). The Stewart platform has a roughly octahedral geometry, with a fixed triangular base linked to a mobile triangular platform by six struts of adjustable length. Figure 16.5 shows a two-dimensional analogue with three struts and indicates a portion of the available range of motion. Strut lengths can be altered with
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-04.jpg?height=741&width=899&top_left_y=199&top_left_x=303)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-04.jpg?height=741&width=899&top_left_y=199&top_left_x=303)
 
 Figure 16.4. A positioning mechanism based on the Stewart platform (schematic). Each strut has a joint at each end, shown for simplicity as ball-and-socket joints at the base and as flexible point attachments at the top. Each strut has a set of actuators able to adjust its length. See Figure 16.5.
 
 $\sim 0.1 \mathrm{~nm}$ accuracy by means of pressure-actuated vernier ratchet mechanisms like those described in Section 16.3.2d.
 
 A manipulator can replace many other control mechanisms. With a "hand" in the workspace, various devices can be "hand operated"-for example, a manipulator could push any one of a dozen levers to select and move a particular transport mechanism, or it could move a partially finished part from a clamp to a
-![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-04.jpg?height=572&width=1128&top_left_y=1475&top_left_x=192)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-04.jpg?height=572&width=1128&top_left_y=1475&top_left_x=192)
 
 Figure 16.5. A two-dimensional schematic of a positioning mechanism based on the Stewart platform (a); the kinematics of this structure correspond to three of the six degrees of freedom of a three-dimensional platform (Figure 16.4). Panel (b) illustrates a portion of the available range of motion. Note that the lateral range exceeds the length of the arm in a retracted position.
 
@@ -9858,8 +9858,8 @@ Table A.1. Engineering, theoretical applied science, and theoretical physics.
 | Characteristic | Engineering | Theoretical <br/> applied science | Theoretical <br/> physics |
 | :---: | :---: | :---: | :---: |
 | Sound <br/> analysis | - Not necessary: <br/> can demonstrate | - Necessary: is itself <br/> the product | - Necessary: is itself <br/> the product |
-| Direct <br/> experiment | ![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-22.jpg?height=119&width=299&top_left_y=448&top_left_x=371) | ![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-22.jpg?height=119&width=335&top_left_y=448&top_left_x=669) | ![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-22.jpg?height=119&width=336&top_left_y=448&top_left_x=1009) |
-| Accurate <br/> modeling | ![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-22.jpg?height=112&width=299&top_left_y=563&top_left_x=371) | - Margin for error <br/> often can <br/> compensate | - Ideally, complete <br/> and precise |
+| Direct <br/> experiment | ![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-22.jpg?height=119&width=299&top_left_y=448&top_left_x=371) | ![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-22.jpg?height=119&width=335&top_left_y=448&top_left_x=669) | ![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-22.jpg?height=119&width=336&top_left_y=448&top_left_x=1009) |
+| Accurate <br/> modeling | ![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-22.jpg?height=112&width=299&top_left_y=563&top_left_x=371) | - Margin for error <br/> often can <br/> compensate | - Ideally, complete <br/> and precise |
 | Physical <br/> specification | - Thorough, <br/> to enable <br/> manufacture | - Partial <br/> specification <br/> often can suffice | - Ideally, complete <br/> and precise |
 | Product <br/> manufacture | - Must be possible <br/> in the present <br/> or near future | - Must be possible, <br/> but no time limit | - Not relevant |
 | Product <br/> performance | - Must compete <br/> with current <br/> systems | - Must (easily) <br/> surpass <br/> current systems | - Not relevant |
@@ -9955,7 +9955,7 @@ a. Uncertainties in different areas. Uncertainties play different roles in scien
 
 In the imaginary theory, each of the five constituents is a hypothesis regarding a distinct question. For example, a theory regarding a geological structure might comprise $N=5$ hypotheses regarding (1) the interpretation of a seismogram, (2) the cause of bands in certain mineral grains, (3) the species identification of associated microfossils, (4) the origin of carbonaceous material, and (5) the source of a particular trace element. For each question, only one hypothesis can be true, and the stated assumption of $M$ equally plausible possibilities implies than any given hypothesis will have (at best) a $1 / M$ probability. If $M=10$, the probability of making 5 correct choices is $.1^{5}=.00001$ (assuming independent probabilities). For a theory to be true, each part must be true, and this becomes unlikely as low-confidence assumptions multiply. (Figure A. 2 provides a graphical representation of this situation.)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-28.jpg?height=427&width=859&top_left_y=1673&top_left_x=321)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-28.jpg?height=427&width=859&top_left_y=1673&top_left_x=321)
 
 Figure A.2. One path through an array of many choices: if only one choice is correct at each step, then only one of the $10^{5}$ possible paths can be correct. If none of the known choices for some step is correct, then no path can be correct.
 
@@ -9966,7 +9966,7 @@ Assuming (for the moment) independent probabilities, the probability that all te
 In this example, a near certainty emerges from a combination of possibilities, each of which is as likely to fail as to succeed. Real examples can yield still more confidence for at least two reasons: First, one or more options may be essentially sure bets. Second, the probabilities of the various options may not be independent. For example, a set of options taken together may encompass a range that is guaranteed to contain a workable solution, even though any individual option, taken alone, is improbable. (A lack of independence caused by all options sharing a dubious assumption would have an adverse effect.)
 
 Thus, uncertainties in theoretical applied science need not combine adversely, as do the superficially similar uncertainties of science. Engineering, however, has a somewhat closer resemblance to science: one must propose a single, specific design, build it, and live with the consequences. Time and budgets are limited, and the failure of a large system may leave no resources for another try. In an adaptation of the preceding model, this would mean making five choices with a .5 probability of success in each, yielding an overall probability of success $\sim .03$. Concerns of this sort motivate engineers to analyze and test components with care before building complex, expensive systems.
-![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-29.jpg?height=424&width=854&top_left_y=1703&top_left_x=441)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-29.jpg?height=424&width=854&top_left_y=1703&top_left_x=441)
 
 Figure A.3. Many paths through an array of many choices: if many choices are likely to be correct at each step, then many (though perhaps a small fraction) of the $10^{5}$ possible paths are likely to be correct.
 
@@ -10547,15 +10547,15 @@ $k T_{300}=$ thermal vibrational energy at $300 \mathrm{~K}=4.142 \times 10^{-21
 
 $1 \mathrm{maJ}=0.2414 k T_{300}$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-44.jpg?height=371&width=1221&top_left_y=1908&top_left_x=135)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-44.jpg?height=371&width=1221&top_left_y=1908&top_left_x=135)
 
 ## Comparison of chemical symbols:
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-45.jpg?height=198&width=1105&top_left_y=523&top_left_x=345)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-45.jpg?height=198&width=1105&top_left_y=523&top_left_x=345)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-45.jpg?height=196&width=1177&top_left_y=756&top_left_x=287)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-45.jpg?height=196&width=1177&top_left_y=756&top_left_x=287)
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-45.jpg?height=249&width=1013&top_left_y=985&top_left_x=456)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-45.jpg?height=249&width=1013&top_left_y=985&top_left_x=456)
 
 $$
 \begin{aligned}
@@ -10565,7 +10565,7 @@ $$
 \end{aligned}
 $$
 
-![](https://nanosystems.contact.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-45.jpg?height=178&width=299&top_left_y=1754&top_left_x=943)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-45.jpg?height=178&width=299&top_left_y=1754&top_left_x=943)
 
 ## Glossary
 
