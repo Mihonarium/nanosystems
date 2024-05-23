@@ -6,9 +6,7 @@ image: https://nanosyste.ms/img/Nanosystems_og_image.png
 description: "Written by a leading researcher in the field and one of its founders, Nanosystems is the first technical introduction to molecular nanotechnology. 'Devices enormously smaller than before will remodel engineering, chemistry, medicine, and computer technology. How can we understand machines that are so small? Nanosystems covers it all: power and strength, friction and wear, thermal noise and quantum uncertainty. This is the book for starting the next century of engineering.' - Marvin Minsky"
 ---
 
-<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/preface"><div class="pagination-nav__label">Preface »</div></a></div></nav>
-
-<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/introduction_and_overview"><div class="pagination-nav__sublabel">Skip Preface</div><div class="pagination-nav__label">Introduction and Overview »</div></a></div></nav>
+<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/preface"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Preface »</div></a></div></nav>
 
 
 $$
@@ -94,8 +92,6 @@ To experimentalists, engineers, and software builders:
 they do the hard parts
 
 ## Preface
-
-<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/introduction_and_overview"><div class="pagination-nav__sublabel">Skip Preface</div><div class="pagination-nav__label">Introduction and Overview »</div></a></div></nav>
 
 Manufactured products are made from atoms, and their properties depend on how those atoms are arranged. This volume summarizes 15 years of research in molecular manufacturing, the use of nanoscale mechanical systems to guide the placement of reactive molecules, building complex structures with atom-byatom control. This degree of control is a natural goal for technology: Microtechnology strives to build smaller devices; materials science strives to make more useful solids; chemistry strives to synthesize more complex molecules; manufacturing strives to make better products. Each of these fields requires precise, molecular control of complex structures to reach its natural limit, a goal that has been termed *molecular nanotechnology*.
 
