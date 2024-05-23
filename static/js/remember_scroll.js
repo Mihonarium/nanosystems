@@ -103,7 +103,7 @@ function onDocumentReady() {
 			
 			question = document.getElementById('continue_reading');
 			buttons = document.getElementById('continue_reading_buttons');
-			if(question.parentNode != null) {
+			if(question != null && question.parentNode != null) {
 				question.parentNode.removeChild(question);
 				brand.style.display = 'flex';
 				// remove the buttons
