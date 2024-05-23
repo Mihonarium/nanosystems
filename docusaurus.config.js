@@ -78,7 +78,7 @@ const config = {
     }),
 	  scripts: [
 	  {
-	  	src: 'https://nanosyste.ms/interface/js/remember_scroll.js',
+	  	src: 'https://nanosyste.ms/js/remember_scroll.js',
 		async: true,
 	  },
   ],
