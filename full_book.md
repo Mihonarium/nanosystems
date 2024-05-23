@@ -2,7 +2,7 @@
 id: "index"
 slug: "/"
 title: "Nanosystems"
-image: https://nanosyste.ms/img/nanosystems_og_image.png
+image: https://nanosyste.ms/img/Nanosystems_og_image.png
 description: "Written by a leading researcher in the field and one of its founders, Nanosystems is the first technical introduction to molecular nanotechnology. 'Devices enormously smaller than before will remodel engineering,chemistry, medicine, and computer technology. How can we understandmachines that are so small? Nanosystems covers it all: powerand strength, friction and wear, thermal noise and quantumuncertainty. This is the book for starting the next century ofengineering.' - Marvin Minsky"
 ---
 
