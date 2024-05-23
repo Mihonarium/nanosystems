@@ -13900,7 +13900,7 @@ Bringing together physics, chemistry, mechanical engineering, and computer scien
 
 
 
-[^0]:    Words appearing in the Glossary are sometimes prefixed with a small circle, e.g., ${ }^{\circ}$ steric.
+[^0]:    Words appearing in the [Glossary](/glossary) are sometimes prefixed with a small circle, e.g., ${ }^{\circ}$ steric.
 
 [^52]: Considering the words in isolation, the terms molecular nanotechnology and molecular manufacturing could instead be interpreted to include much of chemistry, and mechanosynthesis could be interpreted to include substantial portions of enzymology and molecular biology. These established fields, however, are already named; the above terms will serve best if reserved for the fields they have been coined to describe, or for borderline cases that emerge as these fields are developed.
 
