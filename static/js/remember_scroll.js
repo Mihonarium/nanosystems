@@ -54,7 +54,7 @@ function getCurrentPage() {
 
 function onDocumentReady() {
     // on load, ask the user whether they want to scroll to the last position
-    if(document.URL.includes("/")) { // the subdir with the book
+    if(document.URL != 'https://nanosyste.ms/') { // the subdir with the book
         let currentPage = getCurrentPage();
         let lastScroll = localStorage.getItem("nanosystems-scroll-page_"+currentPage);
         if(document.URL.includes("#continue")) {
@@ -95,6 +95,25 @@ function onDocumentReady() {
             });
         }
     }
+	// if the location changes without page reloading via react, call onDocumentReady
+	var oldHref = window.location.href;
+	setInterval(function() {
+		if(oldHref != window.location.href) {
+			oldHref = window.location.href;
+			
+			question = document.getElementById('continue_reading');
+			buttons = document.getElementById('continue_reading_buttons');
+			if(question.parentNode != null) {
+				question.parentNode.removeChild(question);
+				brand.style.display = 'flex';
+				// remove the buttons
+				buttons.parentNode.removeChild(buttons);
+				clearInterval(this);
+			}
+			
+			onDocumentReady();
+		}
+	}, 100);
 }
 
 if (document.readyState !== 'loading') {
@@ -104,23 +123,3 @@ if (document.readyState !== 'loading') {
         setTimeout(onDocumentReady, 200);
     });
 }
-
-// if the location changes without page reloading via react, call onDocumentReady
-var oldHref = window.location.href;
-setInterval(function() {
-    if(oldHref != window.location.href) {
-        oldHref = window.location.href;
-        
-        question = document.getElementById('continue_reading');
-        buttons = document.getElementById('continue_reading_buttons');
-        if(question.parentNode != null) {
-            question.parentNode.removeChild(question);
-            brand.style.display = 'flex';
-            // remove the buttons
-            buttons.parentNode.removeChild(buttons);
-            clearInterval(this);
-        }
-        
-        onDocumentReady();
-    }
-}, 100);
