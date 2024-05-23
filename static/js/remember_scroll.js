@@ -80,7 +80,7 @@ function onDocumentReady() {
 
     /*
 	// On homepage, ask about returning to the last read chapter
-	if(document.URL == 'https://nanosystems.../') {
+	if(document.URL == 'https://nanosyste.ms/') {
         let lastPage = localStorage.getItem("nanosystems-last-page");
         if(lastPage && lastPage !== 'undefined') {
             confirm("Continue reading?", function(continueReading) {
@@ -89,7 +89,7 @@ function onDocumentReady() {
                         lastPage = localStorage.getItem("nanosystems-last-page");
                     }
                     if (lastPage != 'undefined') {
-                        window.location.href = 'https://nanosystems.../book/'+lastPage + '#continue';
+                        window.location.href = 'https://nanosyste.ms/'+lastPage + '#continue';
                     }
                 }
             });

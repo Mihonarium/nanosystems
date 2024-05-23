@@ -280,3 +280,7 @@ tr .katex .katex-mathml {
 th .katex .katex-mathml {
     display: none;
 }
+
+.centered {
+	text-align: center;
+}

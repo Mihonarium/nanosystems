@@ -6,9 +6,10 @@ image: https://nanosyste.ms/img/Nanosystems_og_image.png
 description: "Written by a leading researcher in the field and one of its founders, Nanosystems is the first technical introduction to molecular nanotechnology. 'Devices enormously smaller than before will remodel engineering, chemistry, medicine, and computer technology. How can we understand machines that are so small? Nanosystems covers it all: power and strength, friction and wear, thermal noise and quantum uncertainty. This is the book for starting the next century of engineering.' - Marvin Minsky"
 ---
 
-<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="preface"><div class="pagination-nav__label">Preface »</div></a></div></nav>
+<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/preface"><div class="pagination-nav__label">Preface »</div></a></div></nav>
 
-<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/introduction_and_overview/"><div class="pagination-nav__sublabel">Skip Preface</div><div class="pagination-nav__label">Introduction and Overview »</div></a></div></nav>
+<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/introduction_and_overview"><div class="pagination-nav__sublabel">Skip Preface</div><div class="pagination-nav__label">Introduction and Overview »</div></a></div></nav>
+
 
 $$
 \begin{aligned}
@@ -21,21 +22,20 @@ $$
 \end{aligned}
 $$
 
-![](/img/book_cover.png)
+<p class="centered"> ![](/img/book_cover.png) </p>
 
 # Nanosystems 
-
 > The most talked about technical book of the year.
 
 -Bob Schwabach<br/>United Press International
 
 > With this book, Drexler has established the field of molecular nanotechnology. The detailed analyses show quantum chemists and synthetic chemists how to build upon their knowledge of bonds and molecules to develop the manufacturing systems of nanotechnology, and show physicists and engineers how to scale down their concepts of macroscopic systems to the level of molecules.
 
--William A. Goddard III<br/>Professor of Chemistry and Applied Physics<br/>Director, Materials and<br/>Molecular Simulation Center<br/>California Institute of Technology
+-William A. Goddard III<br/>Professor of Chemistry and Applied Physics<br/>Director, Materials and Molecular Simulation Center<br/>California Institute of Technology
 
 > Devices enormously smaller than before will remodel engineering, chemistry, medicine, and computer technology. How can we understand machines that are so small? Nanosystems covers it all: power and strength, friction and wear, thermal noise and quantum uncertainty. This is the book for starting the next century of engineering.
 
--Marvin Minsky<br/>Professor of Electrical Engineering<br/>and Computer Science<br/>Toshiba Professor of Media Arts and Sciences<br/>Massachusetts Institute of Technology
+-Marvin Minsky<br/>Professor of Electrical Engineering and Computer Science<br/>Toshiba Professor of Media Arts and Sciences<br/>Massachusetts Institute of Technology
 
 > What the computer revolution did for manipulating data, the nanotechnology revolution will do for manipulating matter, juggling atoms like bits... This multidisciplinary synthesis opens the door to the new field of molecular manufacturing.
 
