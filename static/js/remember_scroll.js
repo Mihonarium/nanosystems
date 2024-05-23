@@ -44,7 +44,7 @@ function confirm(text, callback) {
 var loadedScroll = false;
 
 function getCurrentPage() {
-    let currentPage = document.URL.split("/")[1].split("#")[0]; // the subdir with the book
+    let currentPage = document.URL.split("https://nanosyste.ms/")[1].split("#")[0]; // the subdir with the book
     // if currentPage ends with a slash, remove it
     if(currentPage.endsWith("/")) {
         currentPage = currentPage.slice(0, -1);
