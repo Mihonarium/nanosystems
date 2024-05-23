@@ -2,6 +2,7 @@
 id: "index"
 slug: "/"
 title: "Nanosystems"
+image: https://audd.tech/docs-img.png
 ---
 
 $$
