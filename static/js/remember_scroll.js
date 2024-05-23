@@ -78,7 +78,7 @@ function onDocumentReady() {
         }
     }
 
-    /*
+    
 	// On homepage, ask about returning to the last read chapter
 	if(document.URL == 'https://nanosyste.ms/') {
         let lastPage = localStorage.getItem("nanosystems-last-page");
@@ -94,7 +94,7 @@ function onDocumentReady() {
                 }
             });
         }
-    } */
+    }
 }
 
 if (document.readyState !== 'loading') {
