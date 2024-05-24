@@ -70,8 +70,8 @@ function onDocumentReady() {
         if(!loadedScroll) {
             // loadedScroll = true;
             window.addEventListener('scroll', function() {
-                if(!document.URL.includes("/")) return; // the subdir with the book
                 let currentPage = getCurrentPage();
+                if(currentPage == '')) return;
                 localStorage.setItem("nanosystems-scroll-page_"+currentPage, document.documentElement.scrollTop);
                 localStorage.setItem("nanosystems-last-page", currentPage);
             });
