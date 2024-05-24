@@ -130,7 +130,7 @@ function onDocumentReady(og = true) {
 }
 
 if (document.readyState === 'loading' || document.readyState === 'interactive') {
-    document.addEventListener('load', function() {
+    window.addEventListener('load', function() {
         setTimeout(onDocumentReady, 200);
     });
 } else {
