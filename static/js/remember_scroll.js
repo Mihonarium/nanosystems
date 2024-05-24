@@ -52,7 +52,7 @@ function getCurrentPage() {
     return currentPage;
 }
 
-function onDocumentReady() {
+function onDocumentReady(og=true) {
     // on load, ask the user whether they want to scroll to the last position
     if(document.URL != 'https://nanosyste.ms/') { // the subdir with the book
         let currentPage = getCurrentPage();
@@ -96,21 +96,26 @@ function onDocumentReady() {
         }
     }
 	// if the location changes without page reloading via react, call onDocumentReady
-	var oldHref = window.location.href;
-	setInterval(function() {
-		if(oldHref != window.location.href) {
-			oldHref = window.location.href;
-			
-			onDocumentReady();
-			clearInterval(this);
-		}
-	}, 100);
+	if(og) {
+		var oldHref = window.location.href;
+		setInterval(function() {
+			if(oldHref != window.location.href) {
+				oldHref = window.location.href;
+				
+				onDocumentReady(false);
+				clearInterval(this);
+			}
+		}, 100);
+	}
 }
 
-if (document.readyState !== 'loading') {
+if (document.readyState !== 'loading' && document.readyState !== 'interactive') {
     setTimeout(onDocumentReady, 200);
 } else {
     document.addEventListener('DOMContentLoaded', function() {
         setTimeout(onDocumentReady, 200);
     });
+	if (document.readyState !== 'loading' && document.readyState !== 'interactive') {
+		setTimeout(onDocumentReady, 200);
+	}
 }
