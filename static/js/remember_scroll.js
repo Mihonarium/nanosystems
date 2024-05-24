@@ -71,7 +71,7 @@ function onDocumentReady() {
             // loadedScroll = true;
             window.addEventListener('scroll', function() {
                 let currentPage = getCurrentPage();
-                if(currentPage == '')) return;
+                if(currentPage == '') return;
                 localStorage.setItem("nanosystems-scroll-page_"+currentPage, document.documentElement.scrollTop);
                 localStorage.setItem("nanosystems-last-page", currentPage);
             });
