@@ -63,6 +63,8 @@ function onDocumentReady(og=true) {
         else if(lastScroll && lastScroll > 150) {
             confirm("Continue reading?", function(continueReading) {
                 if(continueReading) {
+					currentPage = getCurrentPage();
+					lastScroll = localStorage.getItem("nanosystems-scroll-page_"+currentPage);
                     document.documentElement.scrollTop = lastScroll;
                 }
             });
