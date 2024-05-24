@@ -109,13 +109,10 @@ function onDocumentReady(og=true) {
 	}
 }
 
-if (document.readyState !== 'loading' && document.readyState !== 'interactive') {
-    setTimeout(onDocumentReady, 200);
-} else {
-    document.addEventListener('DOMContentLoaded', function() {
+if (document.readyState === 'loading' || document.readyState === 'interactive') {
+    document.addEventListener('load', function() {
         setTimeout(onDocumentReady, 200);
     });
-	if (document.readyState !== 'loading' && document.readyState !== 'interactive') {
-		setTimeout(onDocumentReady, 200);
-	}
+} else {
+    setTimeout(onDocumentReady, 200);
 }
