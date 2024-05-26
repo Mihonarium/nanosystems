@@ -5522,17 +5522,8 @@ A process of this sort could employ a weakly bonding moiety (or one with modulab
 As noted in Section 8.4.5a, the standard carbene addition and insertion reactions have low barriers. The changes in geometry resulting from these reactions show that mechanical loads can be directly coupled to the reaction coordinate, producing strong piezochemical effects; the increase in bond number points to the same conclusion. The insertion of carbenes into $\mathrm{C}-\mathrm{C}$ bonds, although analogous to metal insertion reactions such as Eq. (8.35), has not been observed in solution-phase chemistry; the ubiquitous presence of alternative reaction pathways with less steric hindrance, lower energy barriers, or greater exoergicity is presumably responsible, since this reaction is exoergic and permitted by orbital symmetry. Section $8.6 .4 \mathrm{c}$ presents a reaction step which assumes that positional control and mechanical forces can effect carbene insertion into a strained, sterically exposed $\mathrm{C}-\mathrm{C}$ bond.
 
 Since bond-forming carbene reactions are highly exoergic, single-step reactions can be highly reliable (assuming, as always, that conditions and mechanical constraints are chosen to exclude access to transition states leading to unwanted products). Fast, reliable reactions involving triplet carbenes can require fast
-(a)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-02.jpg?height=706&width=908&top_left_y=188&top_left_x=290)
 
-(c)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-02.jpg?height=522&width=916&top_left_y=786&top_left_x=298)
-
-(d)
-
-(b)
-
-(e)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-02.jpg?height=1170&width=956&top_left_y=188&top_left_x=250)
 
 Figure 8.14. Removal of a tightly bound alkynyl hydrogen atom, facilitated by the addition of a radical. A supporting structure provides nonbonded contacts to one side of the alkyne; this enables the application of force to accelerate the radical addition step, $(a) \rightarrow(b)$. See Section 8.5.7 for discussion.
 
@@ -5570,12 +5561,7 @@ All illustrated states and transformations in each sequence have been observed, 
 
 The complexes in Eqs. (8.33)-(8.35) have single bonds between metal and carbon, but double-bonded species (metal carbene complexes and alkylidenes 8.34) and triple-bonded species (metal alkylidynes 8.35) are also known (Nugent and Mayer, 1988).
 
-| $\mathrm{L}_{\mathrm{n}} \mathrm{M}=\mathrm{C}^{\prime}{ }^{\mathrm{R}}$ | $\mathrm{L}_{\mathrm{n}} \mathrm{M} \equiv \mathrm{C}-\mathrm{R}$ |
-| :---: | :---: |
-| $\mathbf{8 . 3 4}$ | $\mathrm{R}$ |
-| $\mathrm{L}_{\mathrm{n}} \mathrm{M}=\mathrm{C}:$ | $\mathbf{8 . 3 5}$ |
-| $\mathbf{8 . 3 6}$ | $\mathrm{L}_{\mathrm{n}} \mathrm{M} \equiv \mathrm{C} \cdot$ |
-|  | $\mathbf{8 . 3 7}$ |
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-03.jpg?height=300&width=485&top_left_y=2000&top_left_x=581)
 
 Species such as metal alkylidene carbenes, 8.36, and metal alkylidyne radicals, 8.37, can presumably exist (given stable ligands and a suitable eutactic environment) and may be of considerable use in synthesis. (Note that high- $Z$ transition metals can accelerate intersystem crossing in reactions in which they participate.)
 
@@ -5593,33 +5579,7 @@ The stability and manipulability of ligand structures in a mechanochemical conte
 
 Ligand supporting structures can maintain substantial strength and stiffness while occupying a reasonably small solid angle. This enables several ligands to be subjected to simultaneous, independent mechanochemical manipulation. The following structures provide one family of examples:
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=249&width=280&top_left_y=382&top_left_x=552)
-
-8.38
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=200&width=217&top_left_y=672&top_left_x=425)
-
-$\mathbf{8 . 4 0}$
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=198&width=205&top_left_y=673&top_left_x=684)
-
-8.41
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=180&width=142&top_left_y=419&top_left_x=942)
-
-8.39
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=203&width=256&top_left_y=673&top_left_x=943)
-
-8.42
-
-The MM2/CSC stiffness of the following diamondoid support structure (shown in two views):
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=176&width=198&top_left_y=1094&top_left_x=552)
-
-8.43
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=215&width=238&top_left_y=1079&top_left_x=870)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=549&width=810&top_left_y=382&top_left_x=407)
 
 is $\sim 115 \mathrm{~N} / \mathrm{m}$ for extension and $\sim 20 \mathrm{~N} / \mathrm{m}$ for bending, both measured for displacements of the carbon atom at the tip relative to the bounding hydrogen atoms at the base.
 
