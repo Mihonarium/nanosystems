@@ -5,7 +5,7 @@ def preprocess_content(content):
     content = re.sub(r'<!--.*?-->', '', content, flags=re.DOTALL)
     content = re.sub(r'/img/book_cover.png', 'static/img/book_cover.png', content)
     content = re.sub(
-        r'<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '\''10px'\''}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="\/preface"><div class="pagination-nav__sublabel">Next<\/div><div class="pagination-nav__label">Preface »<\/div><\/a><\/div><\/nav>',
+        r'''<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/preface"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Preface »</div></a></div></nav>''',
         '',
         content
     )
