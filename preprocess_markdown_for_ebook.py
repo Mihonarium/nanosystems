@@ -19,6 +19,20 @@ def replace_tags_in_latex(content):
 
     return content
 
+def update_internal_links(content):
+    # Regex to find Markdown links but exclude image links
+    link_pattern = re.compile(r'(?<!\!)\[([^\]]+)\]\((/[^)]+)\)')
+    
+    def link_replacer(match):
+        text = match.group(1)
+        url = match.group(2).lstrip('/')
+        return f'[{text}](#{url})'
+    
+    # Replace only the internal links
+    content = re.sub(link_pattern, link_replacer, content)
+    
+    return content
+
 # Read the Markdown file
 with open('full_book.md', 'r', encoding='utf-8') as file:
     content = file.read()
@@ -27,7 +41,10 @@ with open('full_book.md', 'r', encoding='utf-8') as file:
 content = preprocess_content(content)
 
 # Replace tags and fix LaTeX issues
-new_content = replace_tags_in_latex(content)
+content = replace_tags_in_latex(content)
+
+# Update internal links
+new_content = update_internal_links(content)
 
 # Write the new Markdown back to a file
 with open('full_book_preprocessed.md', 'w', encoding='utf-8') as file:
