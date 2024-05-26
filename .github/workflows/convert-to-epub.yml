@@ -20,27 +20,22 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y pandoc texlive texlive-latex-extra gladtex python3-pip
-        pip3 install panflute
 
     - name: Preprocess Markdown
       run: |
-        # Remove HTML comments from the Markdown file and update image paths
-        sed -e '/<!--/,/-->/d' \
-            -e 's@/img/book_cover.png@static/img/book_cover.png@g' \
-            -e '/<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '\''10px'\''}}><div class="pagination-nav__item"><\/div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="\/preface"><div class="pagination-nav__sublabel">Next<\/div><div class="pagination-nav__label">Preface »<\/div><\/a><\/div><\/nav>/d' \
-            full_book.md > full_book_preprocessed.md
+        python3 preprocess_markdown.py
 
     - name: Convert to EPUB2
       run: |
-        pandoc full_book_preprocessed.md -o full_book_epub2.epub --to epub2 --filter=multiline_equation_filter.py
+        pandoc full_book_preprocessed.md -o full_book_epub2.epub --to epub2
 
     - name: Convert to EPUB3
       run: |
-        pandoc full_book_preprocessed.md -o full_book_epub3.epub --to epub3 --filter=multiline_equation_filter.py
+        pandoc full_book_preprocessed.md -o full_book_epub3.epub --to epub3
 
     - name: Convert to EPUB3 with GladTeX
       run: |
-        pandoc full_book_preprocessed.md -o full_book_epub3_gladtex.epub --to epub3 --gladtex --filter=multiline_equation_filter.py
+        pandoc full_book_preprocessed.md -o full_book_epub3_gladtex.epub --to epub3 --gladtex
 
     - name: Upload EPUB2
       uses: actions/upload-artifact@v3
