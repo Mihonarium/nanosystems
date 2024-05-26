@@ -23,7 +23,7 @@ jobs:
 
     - name: Preprocess Markdown
       run: |
-        python3 preprocess_markdown.py
+        python3 preprocess_markdown_for_ebook.py
 
     - name: Convert to EPUB2
       run: |
