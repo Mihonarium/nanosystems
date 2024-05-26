@@ -27,20 +27,10 @@ jobs:
 
     - name: Convert to EPUB3
       run: |
-        pandoc full_book_preprocessed.md -o full_book.epub --to epub3
-
-    - name: Convert to EPUB3 with GladTeX
-      run: |
-        pandoc full_book_preprocessed.md -o full_book_gladtex.epub --to epub3 --gladtex
+        pandoc full_book_preprocessed.md -o nanosystems.epub --to epub3
 
     - name: Upload EPUB3
       uses: actions/upload-artifact@v3
       with:
-        name: full_book
-        path: full_book.epub
-
-    - name: Upload EPUB3 with GladTeX
-      uses: actions/upload-artifact@v3
-      with:
-        name: full_book_gladtex
-        path: full_book_gladtex.epub
+        name: nanosystems_epub
+        path: nanosystems.epub
