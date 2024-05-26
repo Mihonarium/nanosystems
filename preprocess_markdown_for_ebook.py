@@ -3,35 +3,20 @@ import re
 def preprocess_content(content):
     # Remove HTML comments and update image paths
     content = re.sub(r'<!--.*?-->', '', content, flags=re.DOTALL)
-    content = re.sub(r'/img/book_cover.png', 'static/img/book_cover.png', content)
-    content = re.sub(
-        r'''<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/preface"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Preface »</div></a></div></nav>''',
-        '',
-        content
+    content = content.replace('/img/book_cover.png', 'static/img/book_cover.png')
+    content = content.replace(
+        '''<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/preface"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Preface »</div></a></div></nav>''',
+        ''
     )
     return content
 
 def replace_tags_in_latex(content):
     # Replace \tag{number} with \quad \text{(number)}
-    tagged_eq_pattern = re.compile(r'\\tag\{([^\}]+)\}')
-    def replacer(match):
-        tag = match.group(1).strip()
-        return f' \\quad \\text{{({tag})}}'
-    content = re.sub(tagged_eq_pattern, replacer, content)
+    content = re.sub(r'\\tag\{([^\}]+)\}', r' \\quad \\text{(\1)}', content)
 
-    # Replace \textdollar with $
-    content = re.sub(r'\\textdollar', r'\$', content)
+    # Replace \textdollar with \$
+    content = content.replace('\\textdollar', '\\$')
 
-    # Ensure proper LaTeX math mode for fractions and other expressions
-    # This regex handles / within math mode and replaces it with \frac{}{}
-    def fraction_replacer(match):
-        numerator = match.group(1).strip()
-        denominator = match.group(2).strip()
-        return f'\\frac{{{numerator}}}{{{denominator}}}'
-    
-    # Apply fraction replacer within math mode
-    content = re.sub(r'\$([^$]*)\s*/\s*([^$]*)\$', fraction_replacer, content)
-    
     return content
 
 # Read the Markdown file
