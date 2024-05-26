@@ -3,6 +3,8 @@ import panflute as pf
 
 def action(elem, doc):
     if isinstance(elem, pf.Math) and elem.format == 'DisplayMath':
+        # Debugging output
+        pf.debug(f'Processing DisplayMath: {elem.text}')
         # Ensure multi-line equations are correctly handled
         if '\\begin' in elem.text and '\\end' in elem.text:
             elem.text = elem.text.replace('\\begin{equation*}', '\\[').replace('\\end{equation*}', '\\]')
