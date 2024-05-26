@@ -7,6 +7,7 @@
 # Generated files
 .docusaurus
 .cache-loader
+full_book_preprocessed.md
 
 # Misc
 .DS_Store
