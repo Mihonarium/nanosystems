@@ -1,22 +1,34 @@
 function restoreOriginalNavbarBrand() {
-	var originalBrandContent = '';
-	document.querySelectorAll('.navbar__brand').forEach(function(element) {
-		if (element.hasAttribute('data-original-brand')) {
-			originalBrandContent = element.getAttribute('data-original-brand');
-		}
-	});
+    // Attempt to retrieve the original navbar brand by its ID
+    var originalBrand = document.getElementById('original_navbar_brand');
+    if (originalBrand) {
+        // Change visibility to flex to show the original navbar brand
+        originalBrand.style.display = 'flex';
+        // Remove other elements
+        document.querySelectorAll('.navbar__brand').forEach(function(element) {
+            if (element.id !== 'original_navbar_brand') {
+                element.parentNode.removeChild(element);
+            }
+        });
+    } else {
+        // Fallback if no element with the ID exists
+        var originalBrandContent = '';
+        document.querySelectorAll('.navbar__brand').forEach(function(element) {
+            if (element.hasAttribute('data-original-brand')) {
+                originalBrandContent = element.getAttribute('data-original-brand');
+                element.parentNode.removeChild(element);
+            }
+        });
 
-	if (originalBrandContent) {
-		document.querySelectorAll('.navbar__brand').forEach(function(element) {
-			element.parentNode.removeChild(element);
-		});
-		var restoredBrand = document.createElement('a');
-		restoredBrand.classList.add('navbar__brand');
-		restoredBrand.innerHTML = originalBrandContent;
-		restoredBrand.setAttribute('href', '/');
-		var navbarItems = document.querySelector('.navbar__items');
-		navbarItems.insertBefore(restoredBrand, navbarItems.firstChild);
-	}
+        if (originalBrandContent) {
+            var restoredBrand = document.createElement('a');
+            restoredBrand.classList.add('navbar__brand');
+            restoredBrand.innerHTML = originalBrandContent;
+            restoredBrand.setAttribute('href', '/');
+            var navbarItems = document.querySelector('.navbar__items');
+            navbarItems.insertBefore(restoredBrand, navbarItems.firstChild);
+        }
+    }
 }
 
 function checkNavbarBrandValid() {
@@ -27,37 +39,41 @@ function checkNavbarBrandValid() {
 
 function confirm(text, callback) {
     restoreOriginalNavbarBrand();  // Ensure any existing added elements are removed before adding new ones
-	
     var brand = document.querySelector('.navbar__brand');
+    if (brand) {
+        var question = document.createElement('div');
+        question.classList.add('navbar__brand');
+        question.setAttribute('data-original-brand', brand.innerHTML);
+        question.setAttribute('id', "continue_reading");
+        question.innerHTML = text;
+        brand.parentNode.insertBefore(question, brand);
+        brand.style.display = 'none';
 
-    var question = document.createElement('div');
-    question.classList.add('navbar__brand');
-    question.setAttribute('data-original-brand', brand.innerHTML);
-    question.setAttribute('id', "continue_reading");
-    question.innerHTML = text;
-    brand.parentNode.insertBefore(question, brand);
-    brand.style.display = 'none';
+        // Assign an ID to the original brand when hiding it
+        brand.id = 'original_navbar_brand';
 
-    var buttons = document.createElement('div');
-    buttons.classList.add('navbar__brand');
-    buttons.setAttribute('id', "continue_reading_buttons");
-    buttons.setAttribute('data-original-brand', brand.innerHTML);
-    buttons.innerHTML = '<button class="button button--primary" style="margin-right:5px;">Yes</button><button class="button button--secondary">No</button>';
-    brand.parentNode.insertBefore(buttons, brand);
-    buttons.querySelector('button').addEventListener('click', function() {
-        restoreOriginalNavbarBrand();
-        callback(true);
-    });
-    buttons.querySelector('button:last-child').addEventListener('click', function() {
-        restoreOriginalNavbarBrand();
-        callback(false);
-    });
+        var buttons = document.createElement('div');
+        buttons.classList.add('navbar__brand');
+        buttons.setAttribute('id', "continue_reading_buttons");
+        buttons.setAttribute('data-original-brand', brand.innerHTML);
+        buttons.innerHTML = '<button class="button button--primary" style="margin-right:5px;">Yes</button><button class="button button--secondary">No</button>';
+        brand.parentNode.insertBefore(buttons, brand);
+        buttons.querySelector('button').addEventListener('click', function() {
+            restoreOriginalNavbarBrand();
+            callback(true);
+        });
+        buttons.querySelector('button:last-child').addEventListener('click', function() {
+            restoreOriginalNavbarBrand();
+            callback(false);
+        });
+    }
 
+    // Monitor for changes in the URL to handle navbar restoration
     var oldHref = window.location.href;
     setInterval(function() {
         if (oldHref !== window.location.href) {
             oldHref = window.location.href;
-			checkNavbarBrandValid();
+            checkNavbarBrandValid();
         }
     }, 100);
 }
