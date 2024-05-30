@@ -75,6 +75,19 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+		algolia: {
+		  // The application ID provided by Algolia
+		  appId: 'Z72L4M9T7U',
+		  // Public API key: it is safe to commit it
+		  apiKey: '5c1cabebb542a4a41fcaaf9ee93e22cd',
+		  indexName: 'nanosyste',
+		  contextualSearch: true,
+		  //searchParameters: {},
+		  searchPagePath: false,
+
+		  // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+		  insights: false,
+		},
     }),
 	  scripts: [
 	  {
