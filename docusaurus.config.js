@@ -79,7 +79,7 @@ const config = {
 		  // The application ID provided by Algolia
 		  appId: 'Z72L4M9T7U',
 		  // Public API key: it is safe to commit it
-		  apiKey: '5c1cabebb542a4a41fcaaf9ee93e22cd',
+		  apiKey: '6ab56fbff7fc1d08c833aee48500f0f5',
 		  indexName: 'nanosyste',
 		  contextualSearch: true,
 		  //searchParameters: {},
