@@ -171,7 +171,7 @@ The following devices and capabilities appear to be both physically possible and
 - Compact $10^{15}$ MIPS parallel computing systems
 - Mechanochemical power conversion at $>10^{9} \mathrm{~W} / \mathrm{m}^{3}$
 - Electromechanical power conversion at $>10^{15} \mathrm{~W} / \mathrm{m}^{3}$
-- Macroscopic components with tensile strengths $>5 \times 10^{10} \mathrm{~GPa}$
+- Macroscopic components with tensile strengths $>5 \times 10^{10} \mathrm{~Pa}$
 - Production systems that can double capital stocks in $<10^{4} \mathrm{~s}$
 
 Of these capabilities, several are qualitatively novel and others improve on present engineering practice by one or more orders of magnitude. Each is an aspect or a consequence of molecular manufacturing.
