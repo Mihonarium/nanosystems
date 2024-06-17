@@ -81,6 +81,7 @@ const config = {
 		  // Public API key: it is safe to commit it
 		  apiKey: '5c1cabebb542a4a41fcaaf9ee93e22cd',
 		  indexName: 'nanosystems',
+		  placeholder: 'Search',
 		  contextualSearch: true,
 		  //searchParameters: {},
 		  searchPagePath: false,
