@@ -9,7 +9,7 @@ abstract: "Written by a leading researcher in the field and one of its founders,
 cover-image: static/img/ebook_cover.jpg
 ---
 
-<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/contents"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Table of Contents »</div></a></div></nav>
+<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/table_of_contents"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Table of Contents »</div></a></div></nav>
 
 
 $$
