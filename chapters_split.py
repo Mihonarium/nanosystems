@@ -1,6 +1,28 @@
 import os
 import re
 
+def adjust_header_levels(content):
+    # First pass: Add an extra # for x.y.z patterns (e.g., 3.15.6)
+    def header_replacer(match):
+        header_marks, title = match.groups()
+        # Check if the title starts with a number pattern like x.y.z
+        if re.match(r'\d+\.\d+\.\d+', title.strip()):
+            return f'{header_marks}#' + title
+        return match.group(0)
+    
+    content = re.sub(r'^(#{2,3})(.*?)$', header_replacer, content, flags=re.MULTILINE)
+    
+    # Second pass: Reduce all header levels by one #
+    def reduce_header_level(match):
+        header_marks = match.group(1)
+        if len(header_marks) > 1:  # Don't modify single # headers
+            return header_marks[1:] + match.group(2)
+        return match.group(0)
+    
+    content = re.sub(r'^(#{2,})(.*?)$', reduce_header_level, content, flags=re.MULTILINE)
+    
+    return content
+
 def split_markdown_file(file_path, output_folder):
     with open(file_path, 'r') as file:
         content = file.read()
@@ -9,7 +31,7 @@ def split_markdown_file(file_path, output_folder):
     index_content = chapters[0].strip()
     chapters = chapters[1:]
 
-    sidebar = [{'type': 'doc', 'id': 'index'}]  # Add index to the sidebar
+    sidebar = [{'type': 'doc', 'id': 'index'}]
     current_part = None
     footnotes = {}
 
@@ -44,9 +66,12 @@ def split_markdown_file(file_path, output_folder):
             if chapter_footnotes:
                 chapter_content += '\n\n' + '\n'.join(chapter_footnotes)
 
+            # Apply header level adjustments after chapter splits
+            adjusted_content = adjust_header_levels(chapter_content)
+            
             output_path = os.path.join(output_folder, chapter_filename)
             with open(output_path, 'w') as chapter_file:
-                chapter_file.write(f'# {chapter_title}\n\n{chapter_content}')
+                chapter_file.write(f'# {chapter_title}\n\n{adjusted_content}')
 
     # Write the index.md file
     with open(os.path.join(output_folder, 'index.md'), 'w') as index_file:
