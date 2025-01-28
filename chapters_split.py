@@ -55,20 +55,22 @@ def adjust_header_levels(content):
 def create_table_of_contents(content):
     """
     Generate a table of contents with the following hierarchy:
-    - Main chapters (## non-numbered, like "Preface", "Introduction and Overview")
-    - Sections: 
+    - Main chapters (# non-numbered)
+    - Sections:
         - In preface: ## non-numbered
         - In other chapters: ## with x.y. numbering
-    - Subsections: ### with x.y.z. numbering (shown without numbers)
+    - Subsections: ### with x.y.z. numbering (shown inline, without numbers)
     """
     lines = content.split('\n')
     toc = []
     
-    header_pattern = re.compile(r'^## ([^{]+)(?:\s+{#([^}]+)})?$')
-    subsection_pattern = re.compile(r'^### (\d+\.\d+\.\d+\.)([^{]+)(?:\s+{#([^}]+)})?$')
+    header_pattern = re.compile(r'^# ([^{]+)(?:\s+{#([^}]+)})?$')
+    section_pattern = re.compile(r'^## ([^{]+)(?:\s+{#([^}]+)})?$')
+    subsection_pattern = re.compile(r'^### (\d+\.\d+\.\d+\.) *([^{]+)(?:\s+{#([^}]+)})?$')
     
     current_chapter = None
     current_chapter_filename = None
+    current_section_subsections = []
     in_preface = False
     preface_sections = [
         "The intended readership",
@@ -88,46 +90,57 @@ def create_table_of_contents(content):
             link += f"#{fragment}"
         return f"[{title}]({link})"
 
+    def flush_subsections():
+        """Add accumulated subsections to the last section if any exist"""
+        if current_section_subsections:
+            # Add subsections inline with fancy separator
+            subsection_links = " ⭑ ".join(current_section_subsections)
+            toc[-1] += f"\n    {subsection_links}"
+            current_section_subsections.clear()
+
     for line in lines:
+        # Check for chapter headers
         header_match = header_pattern.match(line)
         if header_match:
+            flush_subsections()  # Handle any pending subsections
             title = header_match.group(1).strip()
-            id = header_match.group(2)
+            current_chapter = title
+            current_chapter_filename = clean_filename(title)
+            in_preface = title.lower() == 'preface'
+            toc.append(f"- {create_link(title, current_chapter_filename)}")
+            continue
+
+        # Check for section headers
+        section_match = section_pattern.match(line)
+        if section_match:
+            flush_subsections()  # Handle any pending subsections
+            title = section_match.group(1).strip()
+            id = section_match.group(2)
             
             # Check if this is a numbered section (x.y.)
-            section_match = re.match(r'^(\d+\.\d+\.)(.+)$', title)
+            numbered_match = re.match(r'^(\d+\.\d+\.) *(.+)$', title)
             
-            if section_match:
+            if numbered_match and not in_preface:
                 # This is a numbered section - add it under current chapter
-                number = section_match.group(1)
-                section_title = section_match.group(2).strip()
-                toc.append(f"  - {create_link(f'{number}{section_title}', current_chapter_filename, id)}")
-            else:
-                # Not a numbered section
-                if title.lower() == 'preface':
-                    # Start of Preface chapter
-                    current_chapter = title
-                    current_chapter_filename = clean_filename(title)
-                    in_preface = True
-                    toc.append(f"- {create_link(title, current_chapter_filename)}")
-                elif title in preface_sections and in_preface:
-                    # Section within Preface
-                    toc.append(f"  - {create_link(title, current_chapter_filename, id)}")
-                else:
-                    # New chapter (like "Introduction and Overview")
-                    current_chapter = title
-                    current_chapter_filename = clean_filename(title)
-                    in_preface = False
-                    toc.append(f"- {create_link(title, current_chapter_filename)}")
+                number = numbered_match.group(1)
+                section_title = numbered_match.group(2).strip()
+                toc.append(f"  - {create_link(f'{number} {section_title}', current_chapter_filename, id)}")
+            elif title in preface_sections and in_preface:
+                # Section within Preface
+                toc.append(f"  - {create_link(title, current_chapter_filename, id)}")
             continue
             
         # Handle subsections (### with x.y.z.)
         subsection_match = subsection_pattern.match(line)
-        if subsection_match and not in_preface:  # Only process subsections outside of Preface
-            number = subsection_match.group(1)
+        if subsection_match and not in_preface:
             title = subsection_match.group(2).strip()
             id = subsection_match.group(3)
-            toc.append(f"    - {create_link(title, current_chapter_filename, id)}")
+            current_section_subsections.append(
+                create_link(title, current_chapter_filename, id)
+            )
+    
+    # Handle any remaining subsections
+    flush_subsections()
     
     return '\n'.join(toc)
 
@@ -145,7 +158,7 @@ def split_markdown_file(file_path, output_folder):
         chapter_title = lines[0].strip()
         chapter_content = '\n'.join(lines[1:])
         adjusted_content = adjust_header_levels(chapter_content)
-        processed_chapters.append(f"## {chapter_title}\n\n{adjusted_content}")
+        processed_chapters.append(f"# {chapter_title}\n\n{adjusted_content}")
 
     # Reconstruct the full content with processed chapters
     full_processed_content = index_content + "\n\n" + "\n\n".join(processed_chapters)
