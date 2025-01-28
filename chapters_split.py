@@ -170,7 +170,7 @@ class TocGenerator:
             header_result = self.process_header(line)
             if header_result:
                 if current_section_subsections:
-                    toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ⭑ '.join(current_section_subsections)}"
+                    toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ● '.join(current_section_subsections)}"
                     current_section_subsections.clear()
                 toc.extend(header_result)
                 continue
