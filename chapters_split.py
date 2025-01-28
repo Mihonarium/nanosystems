@@ -58,7 +58,6 @@ def create_table_of_contents(content):
     header_pattern = re.compile(r'^# ([^{]+)(?:\s+{#([^}]+)})?$')
     section_pattern = re.compile(r'^## ([^{]+)(?:\s+{#([^}]+)})?$')
     subsection_pattern = re.compile(r'^### ([^{]+)(?:\s+{#([^}]+)})?$')
-    reference_pattern = re.compile(r'\[\^[0-9]+\]')
     
     current_chapter = None
     current_chapter_filename = None
@@ -67,25 +66,20 @@ def create_table_of_contents(content):
     in_appendix = False
     
     def clean_filename(title):
-        # Clean references before converting to filename
-        title = clean_title(title)
         return re.sub(r'[^a-zA-Z0-9]+', '_', title.lower()).strip('_')
     
     def create_link(title, filename, fragment=None):
-        """Create a markdown link with cleaned title and fragment"""
         link = f"/{filename}"
-        # Only use the fragment if it's provided from the Markdown header ID
         if fragment:
             link += f"#{fragment}"
-        cleaned_title = clean_title(title)
-        return f"[{cleaned_title}]({link})"
+        return f"[{title}]({link})"
 
-    def clean_title(title):
-        """Remove reference markers and extra whitespace from title"""
-        return reference_pattern.sub('', title).strip()
+    def clean_references(title):
+        """Remove reference markers like [^42] from title"""
+        return re.sub(r'\[\^[0-9]+\]', '', title).strip()
 
     def format_title(title):
-        """Add space after numbers if title starts with x.y. or x.y.z."""
+        # Handle both letter-based and number-based patterns
         number_match = re.match(r'^([A-Z]?\.\d+\.(?:\d+\.)?) *(.+)$', title)
         if number_match:
             return f"{number_match.group(1)} {number_match.group(2)}"
@@ -94,9 +88,9 @@ def create_table_of_contents(content):
     def clean_subsection_title(title):
         """Remove both appendix (A.1.1.) and regular (1.1.1.) subsection numbers"""
         # Try appendix pattern first
-        clean = re.sub(r'^[A-Z]\.\d+\.\d+\.\s*', '', title)
-        if clean != title:
-            return clean
+        clean_title = re.sub(r'^[A-Z]\.\d+\.\d+\.\s*', '', title)
+        if clean_title != title:
+            return clean_title
         # Try regular pattern
         return re.sub(r'^\d+\.\d+\.\d+\.\s*', '', title)
 
@@ -116,20 +110,20 @@ def create_table_of_contents(content):
         header_match = header_pattern.match(line)
         if header_match:
             flush_subsections()
-            title = header_match.group(1).strip()
+            title = clean_references(header_match.group(1).strip())
             
-            if is_part_header(clean_title(title)):
+            if is_part_header(title):
                 toc.append("")
-                toc.append(f"### {clean_title(title)}")
+                toc.append(f"### {title}")
                 toc.append("")
                 current_chapter = None
                 current_chapter_filename = None
                 in_book_index = False
-                in_appendix = clean_title(title).startswith('Appendices')
+                in_appendix = title.startswith('Appendices')
             else:
-                current_chapter = clean_title(title)
+                current_chapter = title
                 current_chapter_filename = clean_filename(title)
-                in_book_index = (clean_title(title) == 'Book Index')
+                in_book_index = (title == 'Book Index')
                 toc.append(f"- {create_link(title, current_chapter_filename)}")
             continue
 
@@ -137,20 +131,18 @@ def create_table_of_contents(content):
         section_match = section_pattern.match(line)
         if section_match and current_chapter and not in_book_index:
             flush_subsections()
-            title = section_match.group(1).strip()
-            id = section_match.group(2) if section_match.group(2) else None
-            # Format title after cleaning references
-            formatted_title = format_title(clean_title(title))
+            title = clean_references(section_match.group(1).strip())
+            id = section_match.group(2)
+            formatted_title = format_title(title)
             toc.append(f"  - {create_link(formatted_title, current_chapter_filename, id)}")
             continue
             
         # Subsections - collect to show inline
         subsection_match = subsection_pattern.match(line)
         if subsection_match and current_chapter and not in_book_index:
-            title = subsection_match.group(1).strip()
-            id = subsection_match.group(2) if subsection_match.group(2) else None
-            # Clean references before cleaning subsection numbers
-            clean_title = clean_subsection_title(clean_title(title))
+            title = clean_references(subsection_match.group(1).strip())
+            id = subsection_match.group(2)
+            clean_title = clean_subsection_title(title)
             current_section_subsections.append(
                 create_link(clean_title, current_chapter_filename, id)
             )
