@@ -51,115 +51,154 @@ def adjust_header_levels(content):
     
     return content
 
-def create_table_of_contents(content):
-    lines = content.split('\n')
-    toc = []
-    
-    header_pattern = re.compile(r'^# ([^{]+)(?:\s+{#([^}]+)})?$')
-    section_pattern = re.compile(r'^## ([^{]+)(?:\s+{#([^}]+)})?$')
-    subsection_pattern = re.compile(r'^### ([^{]+)(?:\s+{#([^}]+)})?$')
-    
-    current_chapter = None
-    current_chapter_filename = None
-    current_section_subsections = []
-    in_book_index = False
-    in_appendix = False
-    started_content = False  # Flag to track if we've reached Preface
-    
-    def clean_filename(title):
+class TocEntry:
+    """Represents a section in the table of contents"""
+    def __init__(self, title, depth=0, id=None, filename=None):
+        self.title = title
+        self.depth = depth
+        self.id = id
+        self.filename = filename
+        self.subsections = []
+
+class TocGenerator:
+    """Generates a table of contents from markdown content"""
+    def __init__(self):
+        self.patterns = {
+            'header': re.compile(r'^# ([^{]+)(?:\s+{#([^}]+)})?$'),
+            'section': re.compile(r'^## ([^{]+)(?:\s+{#([^}]+)})?$'),
+            'subsection': re.compile(r'^### ([^{]+)(?:\s+{#([^}]+)})?$'),
+            'reference': re.compile(r'\[\^[0-9]+\]'),
+            'appendix_subsection': re.compile(r'^[A-Z]\.\d+\.\d+\.\s*'),
+            'regular_subsection': re.compile(r'^\d+\.\d+\.\d+\.\s*')
+        }
+        self.current_chapter = None
+        self.current_section = None
+        self.started_content = False
+        self.in_book_index = False
+
+    def clean_filename(self, title):
+        """Convert title to a valid filename"""
         return re.sub(r'[^a-zA-Z0-9]+', '_', title.lower()).strip('_')
-    
-    def create_link(title, filename, fragment=None):
-        link = f"/{filename}"
-        if fragment:
-            link += f"#{fragment}"
-        return f"[{title}]({link})"
 
-    def clean_references(title):
-        """Remove reference markers like [^42] from title"""
-        return re.sub(r'\[\^[0-9]+\]', '', title).strip()
+    def clean_title(self, title):
+        """Remove reference markers and cleanup whitespace"""
+        return self.patterns['reference'].sub('', title).strip()
 
-    def format_title(title):
-        # Handle both letter-based and number-based patterns
+    def format_section_title(self, title):
+        """Format section title with proper spacing after numbers"""
         number_match = re.match(r'^([A-Z]?\.\d+\.(?:\d+\.)?) *(.+)$', title)
-        if number_match:
-            return f"{number_match.group(1)} {number_match.group(2)}"
+        return f"{number_match.group(1)} {number_match.group(2)}" if number_match else title
+
+    def clean_subsection_title(self, title):
+        """Remove numbering from subsection titles"""
+        for pattern in [self.patterns['appendix_subsection'], 
+                       self.patterns['regular_subsection']]:
+            clean = pattern.sub('', title)
+            if clean != title:
+                return clean
         return title
 
-    def clean_subsection_title(title):
-        """Remove both appendix (A.1.1.) and regular (1.1.1.) subsection numbers"""
-        # Try appendix pattern first
-        clean_title = re.sub(r'^[A-Z]\.\d+\.\d+\.\s*', '', title)
-        if clean_title != title:
-            return clean_title
-        # Try regular pattern
-        return re.sub(r'^\d+\.\d+\.\d+\.\s*', '', title)
-
-    def is_part_header(title):
+    def is_part_header(self, title):
+        """Check if the title is a structural part header"""
         return (title.startswith('Part ') or 
                 title.startswith('Appendices') or 
                 title == 'Appendices and Supplementary Materials')
 
-    def flush_subsections():
+    def create_link(self, title, filename, fragment=None):
+        """Create a markdown link"""
+        link = f"/{filename}"
+        return f"[{title}]({link}#{fragment})" if fragment else f"[{title}]({link})"
+
+    def process_header(self, line):
+        """Process chapter-level headers"""
+        match = self.patterns['header'].match(line)
+        if not match:
+            return None
+
+        title = self.clean_title(match.group(1).strip())
+        
+        # Start including content at Preface
+        if title == 'Preface':
+            self.started_content = True
+
+        if not (self.started_content or self.is_part_header(title)):
+            return None
+
+        if self.is_part_header(title):
+            return ["", f"### {title}", ""]
+
+        self.current_chapter = self.clean_filename(title)
+        self.in_book_index = (title == 'Book Index')
+        return [f"- {self.create_link(title, self.current_chapter)}"]
+
+    def process_section(self, line):
+        """Process section-level headers"""
+        if not (self.started_content and self.current_chapter and not self.in_book_index):
+            return None
+
+        match = self.patterns['section'].match(line)
+        if not match:
+            return None
+
+        title = self.clean_title(match.group(1).strip())
+        id = match.group(2)
+        formatted_title = self.format_section_title(title)
+        return [f"  - {self.create_link(formatted_title, self.current_chapter, id)}"]
+
+    def process_subsection(self, line):
+        """Process subsection-level headers"""
+        if not (self.started_content and self.current_chapter and not self.in_book_index):
+            return None
+
+        match = self.patterns['subsection'].match(line)
+        if not match:
+            return None
+
+        title = self.clean_title(match.group(1).strip())
+        id = match.group(2)
+        clean_title = self.clean_subsection_title(title)
+        return self.create_link(clean_title, self.current_chapter, id)
+
+    def create_toc(self, content):
+        """Generate table of contents from markdown content"""
+        lines = content.split('\n')
+        toc = []
+        current_section_subsections = []
+
+        for line in lines:
+            # Process headers
+            header_result = self.process_header(line)
+            if header_result:
+                if current_section_subsections:
+                    toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ⭑ '.join(current_section_subsections)}"
+                    current_section_subsections.clear()
+                toc.extend(header_result)
+                continue
+
+            # Process sections
+            section_result = self.process_section(line)
+            if section_result:
+                if current_section_subsections:
+                    toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ⭑ '.join(current_section_subsections)}"
+                    current_section_subsections.clear()
+                toc.extend(section_result)
+                continue
+
+            # Process subsections
+            subsection_result = self.process_subsection(line)
+            if subsection_result:
+                current_section_subsections.append(subsection_result)
+
+        # Handle any remaining subsections
         if current_section_subsections:
-            subsection_links = " ⭑ ".join(current_section_subsections)
-            toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{subsection_links}"
-            current_section_subsections.clear()
+            toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ⭑ '.join(current_section_subsections)}"
 
-    for line in lines:
-        # Chapter headers
-        header_match = header_pattern.match(line)
-        if header_match:
-            flush_subsections()
-            title = clean_references(header_match.group(1).strip())
-            
-            # Start including content when we reach Preface
-            if title == 'Preface':
-                started_content = True
-            
-            # Only process if we've started content or it's a part header
-            if started_content or is_part_header(title):
-                if is_part_header(title):
-                    toc.append("")
-                    toc.append(f"### {title}")
-                    toc.append("")
-                    current_chapter = None
-                    current_chapter_filename = None
-                    in_book_index = False
-                    in_appendix = title.startswith('Appendices')
-                else:
-                    current_chapter = title
-                    current_chapter_filename = clean_filename(title)
-                    in_book_index = (title == 'Book Index')
-                    toc.append(f"- {create_link(title, current_chapter_filename)}")
-            continue
+        return '\n'.join(toc)
 
-        # Only process sections and subsections if we've started content
-        if not started_content:
-            continue
-
-        # Section headers - skip if in Book Index
-        section_match = section_pattern.match(line)
-        if section_match and current_chapter and not in_book_index:
-            flush_subsections()
-            title = clean_references(section_match.group(1).strip())
-            id = section_match.group(2)
-            formatted_title = format_title(title)
-            toc.append(f"  - {create_link(formatted_title, current_chapter_filename, id)}")
-            continue
-            
-        # Subsections - collect to show inline
-        subsection_match = subsection_pattern.match(line)
-        if subsection_match and current_chapter and not in_book_index:
-            title = clean_references(subsection_match.group(1).strip())
-            id = subsection_match.group(2)
-            clean_title = clean_subsection_title(title)
-            current_section_subsections.append(
-                create_link(clean_title, current_chapter_filename, id)
-            )
-    
-    flush_subsections()
-    return '\n'.join(toc)
+def create_table_of_contents(content):
+    """Entry point function that creates the table of contents"""
+    generator = TocGenerator()
+    return generator.create_toc(content)
 
 def split_markdown_file(file_path, output_folder):
     with open(file_path, 'r') as file:
