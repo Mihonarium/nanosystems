@@ -52,6 +52,52 @@ def adjust_header_levels(content):
     
     return content
 
+def create_table_of_contents(content):
+    lines = content.split('\n')
+    toc = []
+    
+    chapter_pattern = re.compile(r'^## (.+?) {#(.+?)}$')
+    section_pattern = re.compile(r'^### (\d+\.\d+\.\s+.+?) {#(.+?)}$')
+    subsection_pattern = re.compile(r'^### (\d+\.\d+\.\d+\.\s+.+?) {#(.+?)}$')
+    
+    def create_link(title, id):
+        filename = re.sub(r'[^a-zA-Z0-9]+', '_', title.split(' {#')[0].lower())
+        return f"[{title}]({filename}#{id})"
+    
+    current_chapter = None
+    current_chapter_filename = None
+    
+    for line in lines:
+        # Match chapter headers
+        chapter_match = chapter_pattern.match(line)
+        if chapter_match:
+            title, id = chapter_match.groups()
+            if not (title.startswith('Part ') or title.startswith('Appendices')):
+                current_chapter = title
+                current_chapter_filename = re.sub(r'[^a-zA-Z0-9]+', '_', title.lower())
+                toc.append(f"- [{title}]({current_chapter_filename})")
+            else:
+                toc.append(f"\n**{title}**\n")
+                current_chapter = None
+            continue
+            
+        # Match section headers
+        section_match = section_pattern.match(line)
+        if section_match and current_chapter:
+            title, id = section_match.groups()
+            toc.append(f"  - [{title}]({current_chapter_filename}#{id})")
+            continue
+            
+        # Match subsection headers
+        subsection_match = subsection_pattern.match(line)
+        if subsection_match and current_chapter:
+            full_title, id = subsection_match.groups()
+            # Remove the x.y.z. prefix but keep the ID
+            clean_title = re.sub(r'^\d+\.\d+\.\d+\.\s*', '', full_title)
+            toc.append(f"    - [{clean_title}]({current_chapter_filename}#{id})")
+    
+    return '\n'.join(toc)
+
 def split_markdown_file(file_path, output_folder):
     with open(file_path, 'r') as file:
         content = file.read()
@@ -59,6 +105,14 @@ def split_markdown_file(file_path, output_folder):
     chapters = re.split(r'(?m)^## ', content)
     index_content = chapters[0].strip()
     chapters = chapters[1:]
+
+    toc = create_table_of_contents(content)
+
+    # Create a new chapter for the table of contents
+    toc_chapter = f"Contents\n\n{toc}"
+
+    # Insert the TOC chapter after the first chapter
+    chapters.insert(1, toc_chapter)  # Insert at index 1 (after first chapter)
 
     sidebar = [{'type': 'doc', 'id': 'index'}]
     current_part = None
