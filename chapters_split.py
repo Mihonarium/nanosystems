@@ -14,9 +14,12 @@ def process_headers(content):
         # If it has three numbers (e.g., 1.2.1) and currently uses ###,
         # add another # to make it ####
         if len(number_parts) == 3 and header_marks == '###':
-            return f'#### {numbers}. {title}'
+            header_marks = '####'
         
-        return match.group(0)  # Return unchanged if conditions aren't met
+        # Reduce heading level by one #
+        header_marks = header_marks[1:]
+        
+        return f'{header_marks} {numbers}. {title}'
 
     # Process all headers in the content
     pattern = r'^(#{2,4})\s+(\d+(?:\.\d+)*)\.\s+(.+)$'
