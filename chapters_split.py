@@ -223,7 +223,7 @@ def split_markdown_file(file_path, output_folder):
     toc = create_table_of_contents(full_processed_content)
 
     # Create a new chapter for the table of contents
-    toc_chapter = f"Contents\n\n{toc}"
+    toc_chapter = f"Table of Contents\n\n{toc}"
 
     # Insert the TOC chapter after the first chapter
     chapters.insert(0, toc_chapter)  # Insert at index 1 (after first chapter)
