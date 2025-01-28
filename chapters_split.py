@@ -106,13 +106,25 @@ def split_markdown_file(file_path, output_folder):
     index_content = chapters[0].strip()
     chapters = chapters[1:]
 
-    toc = create_table_of_contents(content)
+    processed_chapters = []
+    for chapter in chapters:
+        lines = chapter.strip().split('\n')
+        chapter_title = lines[0].strip()
+        chapter_content = '\n'.join(lines[1:])
+        adjusted_content = adjust_header_levels(chapter_content)
+        processed_chapters.append(f"## {chapter_title}\n\n{adjusted_content}")
+
+    # Reconstruct the full content with processed chapters
+    full_processed_content = index_content + "\n\n" + "\n\n".join(processed_chapters)
+
+    # Now generate the table of contents from the processed content
+    toc = create_table_of_contents(full_processed_content)
 
     # Create a new chapter for the table of contents
     toc_chapter = f"Contents\n\n{toc}"
 
     # Insert the TOC chapter after the first chapter
-    chapters.insert(1, toc_chapter)  # Insert at index 1 (after first chapter)
+    chapters.insert(0, toc_chapter)  # Insert at index 1 (after first chapter)
 
     sidebar = [{'type': 'doc', 'id': 'index'}]
     current_part = None
