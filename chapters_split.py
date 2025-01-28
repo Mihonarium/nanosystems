@@ -56,13 +56,9 @@ def create_table_of_contents(content):
     lines = content.split('\n')
     toc = []
     
-    chapter_pattern = re.compile(r'^## (.+?) {#(.+?)}$')
-    section_pattern = re.compile(r'^### (\d+\.\d+\.\s+.+?) {#(.+?)}$')
-    subsection_pattern = re.compile(r'^### (\d+\.\d+\.\d+\.\s+.+?) {#(.+?)}$')
-    
-    def create_link(title, id):
-        filename = re.sub(r'[^a-zA-Z0-9]+', '_', title.split(' {#')[0].lower())
-        return f"[{title}]({filename}#{id})"
+    chapter_pattern = re.compile(r'^## (.+?)(?:\s+{#.+?})?$')
+    section_pattern = re.compile(r'^### (\d+\.\d+\.\s+.+?)\s+{#(.+?)}$')
+    subsection_pattern = re.compile(r'^### (\d+\.\d+\.\d+\.\s+.+?)\s+{#(.+?)}$')
     
     current_chapter = None
     current_chapter_filename = None
@@ -71,7 +67,7 @@ def create_table_of_contents(content):
         # Match chapter headers
         chapter_match = chapter_pattern.match(line)
         if chapter_match:
-            title, id = chapter_match.groups()
+            title = chapter_match.group(1)
             if not (title.startswith('Part ') or title.startswith('Appendices')):
                 current_chapter = title
                 current_chapter_filename = re.sub(r'[^a-zA-Z0-9]+', '_', title.lower())
@@ -79,18 +75,19 @@ def create_table_of_contents(content):
             else:
                 toc.append(f"\n**{title}**\n")
                 current_chapter = None
+                current_chapter_filename = None
             continue
             
         # Match section headers
         section_match = section_pattern.match(line)
-        if section_match and current_chapter:
+        if section_match and current_chapter_filename:
             title, id = section_match.groups()
             toc.append(f"  - [{title}]({current_chapter_filename}#{id})")
             continue
             
         # Match subsection headers
         subsection_match = subsection_pattern.match(line)
-        if subsection_match and current_chapter:
+        if subsection_match and current_chapter_filename:
             full_title, id = subsection_match.groups()
             # Remove the x.y.z. prefix but keep the ID
             clean_title = re.sub(r'^\d+\.\d+\.\d+\.\s*', '', full_title)
