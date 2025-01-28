@@ -1,16 +1,42 @@
 import os
 import re
 
+def create_unique_id(title):
+    # Keep the dots for section numbers but replace other special chars with hyphens
+    # First, handle the section number part (if it exists)
+    match = re.match(r'^(\d+\.\d+(?:\.\d+)?\.?\s*)?(.+)$', title)
+    if match:
+        number_part, text_part = match.groups()
+        if number_part:
+            number_part = number_part.strip()
+            # Convert remaining text to ID format
+            text_id = re.sub(r'[^a-zA-Z0-9]+', '-', text_part.lower()).strip('-')
+            return f"{number_part}-{text_id}"
+    
+    # If no section number, just convert the whole thing
+    return re.sub(r'[^a-zA-Z0-9]+', '-', title.lower()).strip('-')
+
 def adjust_header_levels(content):
-    # First pass: Add an extra # for x.y.z patterns (e.g., 3.15.6)
+    # Keep track of used IDs to ensure uniqueness
+    used_ids = set()
+    
     def header_replacer(match):
         header_marks, title = match.groups()
-        # Check if the title starts with a number pattern like x.y.z
-        if re.match(r'\d+\.\d+\.\d+', title.strip()):
-            return f'{header_marks}#' + title
-        return match.group(0)
+        base_id = create_unique_id(title.strip())
+        
+        # Ensure ID uniqueness by adding a number if needed
+        final_id = base_id
+        counter = 1
+        while final_id in used_ids:
+            final_id = f"{base_id}-{counter}"
+            counter += 1
+        used_ids.add(final_id)
+        
+        # Add the explicit ID to the header
+        return f'{header_marks}{title} {{#{final_id}}}'
     
-    content = re.sub(r'^(#{2,3})(.*?)$', header_replacer, content, flags=re.MULTILINE)
+    # First pass: Add explicit IDs to headers
+    content = re.sub(r'^(#{2,})(.*?)$', header_replacer, content, flags=re.MULTILINE)
     
     # Second pass: Reduce all header levels by one #
     def reduce_header_level(match):
