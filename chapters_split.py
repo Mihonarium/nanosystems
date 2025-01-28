@@ -22,9 +22,12 @@ def adjust_header_levels(content):
     
     def header_replacer(match):
         header_marks, title = match.groups()
-        base_id = create_unique_id(title.strip())
+        # Check if the title starts with a number pattern like x.y.z
+        if re.match(r'\d+\.\d+\.\d+', title.strip()):
+            header_marks = header_marks + '#'
         
-        # Ensure ID uniqueness by adding a number if needed
+        # Create and ensure unique ID
+        base_id = create_unique_id(title.strip())
         final_id = base_id
         counter = 1
         while final_id in used_ids:
@@ -35,8 +38,8 @@ def adjust_header_levels(content):
         # Add the explicit ID to the header
         return f'{header_marks}{title} {{#{final_id}}}'
     
-    # First pass: Add explicit IDs to headers
-    content = re.sub(r'^(#{2,})(.*?)$', header_replacer, content, flags=re.MULTILINE)
+    # First pass: Add an extra # for x.y.z patterns and add IDs
+    content = re.sub(r'^(#{2,3})(.*?)$', header_replacer, content, flags=re.MULTILINE)
     
     # Second pass: Reduce all header levels by one #
     def reduce_header_level(match):
