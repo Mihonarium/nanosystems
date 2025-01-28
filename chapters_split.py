@@ -76,10 +76,19 @@ def create_table_of_contents(content):
 
     def format_title(title):
         # Handle both letter-based and number-based patterns
-        number_match = re.match(r'^([A-Z]?\d+\.\d+\.(?:\d+\.)?) *(.+)$', title)
+        number_match = re.match(r'^([A-Z]?\.\d+\.(?:\d+\.)?) *(.+)$', title)
         if number_match:
             return f"{number_match.group(1)} {number_match.group(2)}"
         return title
+
+    def clean_subsection_title(title):
+        """Remove both appendix (A.1.1.) and regular (1.1.1.) subsection numbers"""
+        # Try appendix pattern first
+        clean_title = re.sub(r'^[A-Z]\.\d+\.\d+\.\s*', '', title)
+        if clean_title != title:
+            return clean_title
+        # Try regular pattern
+        return re.sub(r'^\d+\.\d+\.\d+\.\s*', '', title)
 
     def is_part_header(title):
         return (title.startswith('Part ') or 
@@ -129,15 +138,13 @@ def create_table_of_contents(content):
         if subsection_match and current_chapter and not in_book_index:
             title = subsection_match.group(1).strip()
             id = subsection_match.group(2)
-            # Strip both letter-based and number-based patterns
-            clean_title = re.sub(r'^[A-Z]?\d+\.\d+\.\d+\. *', '', title)
+            clean_title = clean_subsection_title(title)
             current_section_subsections.append(
                 create_link(clean_title, current_chapter_filename, id)
             )
     
     flush_subsections()
     return '\n'.join(toc)
-
 
 def split_markdown_file(file_path, output_folder):
     with open(file_path, 'r') as file:
