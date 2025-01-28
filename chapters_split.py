@@ -56,15 +56,12 @@ def create_table_of_contents(content):
     lines = content.split('\n')
     toc = []
     
-    # Updated patterns to handle both ## and ### section headers
     chapter_pattern = re.compile(r'^## (.+?)(?:\s+{#.+?})?$')
-    section_pattern = re.compile(r'^(#{2,3}) (\d+\.\d+\.\s+.+?)\s+{#(.+?)}$')
-    subsection_pattern = re.compile(r'^(#{2,3}) (\d+\.\d+\.\d+\.\s+.+?)\s+{#(.+?)}$')
+    section_pattern = re.compile(r'^(#{2,3}) (.+?)\s+{#(.+?)}$')
     
     current_chapter = None
     current_chapter_filename = None
     
-    # Helper function to create link
     def create_link(title, filename, fragment=None):
         link = f"/{filename}"
         if fragment:
@@ -72,36 +69,31 @@ def create_table_of_contents(content):
         return f"[{title}]({link})"
     
     for line in lines:
-        # Match chapter headers (non-numbered headers)
         chapter_match = chapter_pattern.match(line)
         if chapter_match:
             title = chapter_match.group(1)
-            if not (title.startswith('Part ') or title.startswith('Appendices')):
+            # Only match non-numbered titles as chapters
+            if not (title.startswith('Part ') or title.startswith('Appendices')) and not re.match(r'^\d+\.', title):
                 current_chapter = title
                 current_chapter_filename = re.sub(r'[^a-zA-Z0-9]+', '_', title.lower())
                 toc.append(f"- {create_link(title, current_chapter_filename)}")
-            else:
+            elif title.startswith('Part ') or title.startswith('Appendices'):
                 toc.append(f"\n**{title}**\n")
                 current_chapter = None
                 current_chapter_filename = None
             continue
-            
-        # Match regular sections (1.1, 1.2, etc)
+        
         section_match = section_pattern.match(line)
         if section_match and current_chapter_filename:
             _, title, id = section_match.groups()
-            if re.match(r'\d+\.\d+\.', title):  # Make sure it's a numbered section
-                toc.append(f"  - {create_link(title, current_chapter_filename, id)}")
-            continue
             
-        # Match subsections (1.1.1, 1.2.1, etc)
-        subsection_match = subsection_pattern.match(line)
-        if subsection_match and current_chapter_filename:
-            _, full_title, id = subsection_match.groups()
-            if re.match(r'\d+\.\d+\.\d+\.', full_title):  # Make sure it's a numbered subsection
-                # Remove the x.y.z. prefix but keep the ID
-                clean_title = re.sub(r'^\d+\.\d+\.\d+\.\s*', '', full_title)
-                toc.append(f"    - {create_link(clean_title, current_chapter_filename, id)}")
+            # Check for x.y.z pattern (subsection)
+            if re.match(r'^\d+\.\d+\.\d+\.', title):
+                toc.append(f"    - {create_link(title, current_chapter_filename, id)}")
+            # Check for x.y pattern (section)
+            elif re.match(r'^\d+\.\d+\.', title):
+                toc.append(f"  - {create_link(title, current_chapter_filename, id)}")
+            # Everything else is skipped as it should be part of a chapter
     
     return '\n'.join(toc)
 
