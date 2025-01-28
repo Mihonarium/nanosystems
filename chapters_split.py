@@ -2,31 +2,31 @@ import os
 import re
 
 def create_unique_id(title):
-    # Keep the dots for section numbers but replace other special chars with hyphens
-    # First, handle the section number part (if it exists)
-    match = re.match(r'^(\d+\.\d+(?:\.\d+)?\.?\s*)?(.+)$', title)
+    # Handle both letter-based (A.1.2) and number-based (1.2.3) section numbers
+    match = re.match(r'^([A-Z]?\.\d+(?:\.\d+)?\.?\s*)?(.+)$', title)
     if match:
         number_part, text_part = match.groups()
         if number_part:
             number_part = number_part.strip()
-            # Convert remaining text to ID format
             text_id = re.sub(r'[^a-zA-Z0-9]+', '-', text_part.lower()).strip('-')
             return f"{number_part}-{text_id}"
     
-    # If no section number, just convert the whole thing
     return re.sub(r'[^a-zA-Z0-9]+', '-', title.lower()).strip('-')
 
 def adjust_header_levels(content):
-    # Keep track of used IDs to ensure uniqueness
     used_ids = set()
     
     def header_replacer(match):
         header_marks, title = match.groups()
-        # Check if the title starts with a number pattern like x.y.z
-        if re.match(r'\d+\.\d+\.\d+', title.strip()):
+        # Check for both letter-based and number-based patterns
+        # This pattern matches A.1.2, B.2.1, etc.
+        is_appendix_subsection = bool(re.match(r'^[A-Z]\.\d+\.\d+\.', title.strip()))
+        # This pattern matches 1.2.3, etc.
+        is_regular_subsection = bool(re.match(r'^\d+\.\d+\.\d+\.', title.strip()))
+        
+        if is_appendix_subsection or is_regular_subsection:
             header_marks = header_marks + '#'
         
-        # Create and ensure unique ID
         base_id = create_unique_id(title.strip())
         final_id = base_id
         counter = 1
@@ -35,22 +35,170 @@ def adjust_header_levels(content):
             counter += 1
         used_ids.add(final_id)
         
-        # Add the explicit ID to the header
         return f'{header_marks}{title} {{#{final_id}}}'
     
-    # First pass: Add an extra # for x.y.z patterns and add IDs
+    # First pass: Add extra # for x.y.z patterns and add IDs
     content = re.sub(r'^(#{2,3})(.*?)$', header_replacer, content, flags=re.MULTILINE)
     
-    # Second pass: Reduce all header levels by one #
+    # Second pass: Reduce header levels
     def reduce_header_level(match):
         header_marks = match.group(1)
-        if len(header_marks) > 1:  # Don't modify single # headers
+        if len(header_marks) > 1:
             return header_marks[1:] + match.group(2)
         return match.group(0)
     
     content = re.sub(r'^(#{2,})(.*?)$', reduce_header_level, content, flags=re.MULTILINE)
     
     return content
+
+class TocEntry:
+    """Represents a section in the table of contents"""
+    def __init__(self, title, depth=0, id=None, filename=None):
+        self.title = title
+        self.depth = depth
+        self.id = id
+        self.filename = filename
+        self.subsections = []
+
+class TocGenerator:
+    """Generates a table of contents from markdown content"""
+    def __init__(self):
+        self.patterns = {
+            'header': re.compile(r'^# ([^{]+)(?:\s+{#([^}]+)})?$'),
+            'section': re.compile(r'^## ([^{]+)(?:\s+{#([^}]+)})?$'),
+            'subsection': re.compile(r'^### ([^{]+)(?:\s+{#([^}]+)})?$'),
+            'reference': re.compile(r'\[\^[0-9]+\]'),
+            'appendix_subsection': re.compile(r'^[A-Z]\.\d+\.\d+\.\s*'),
+            'regular_subsection': re.compile(r'^\d+\.\d+\.\d+\.\s*')
+        }
+        self.current_chapter = None
+        self.current_section = None
+        self.started_content = False
+        self.in_book_index = False
+
+    def clean_filename(self, title):
+        """Convert title to a valid filename"""
+        return re.sub(r'[^a-zA-Z0-9]+', '_', title.lower()).strip('_')
+
+    def clean_title(self, title):
+        """Remove reference markers and cleanup whitespace"""
+        return self.patterns['reference'].sub('', title).strip()
+
+    def format_section_title(self, title):
+        """Format section title with proper spacing after numbers"""
+        number_match = re.match(r'^([A-Z]?\.\d+\.(?:\d+\.)?) *(.+)$', title)
+        return f"{number_match.group(1)} {number_match.group(2)}" if number_match else title
+
+    def clean_subsection_title(self, title):
+        """Remove numbering from subsection titles"""
+        for pattern in [self.patterns['appendix_subsection'], 
+                       self.patterns['regular_subsection']]:
+            clean = pattern.sub('', title)
+            if clean != title:
+                return clean
+        return title
+
+    def is_part_header(self, title):
+        """Check if the title is a structural part header"""
+        return (title.startswith('Part ') or 
+                title.startswith('Appendices') or 
+                title == 'Appendices and Supplementary Materials')
+
+    def create_link(self, title, filename, fragment=None):
+        """Create a markdown link"""
+        link = f"/{filename}"
+        return f"[{title}]({link}#{fragment})" if fragment else f"[{title}]({link})"
+
+    def process_header(self, line):
+        """Process chapter-level headers"""
+        match = self.patterns['header'].match(line)
+        if not match:
+            return None
+
+        title = self.clean_title(match.group(1).strip())
+        
+        # Start including content at Preface
+        if title == 'Preface':
+            self.started_content = True
+
+        if not (self.started_content or self.is_part_header(title)):
+            return None
+
+        if self.is_part_header(title):
+            return ["", f"### {title}", ""]
+
+        self.current_chapter = self.clean_filename(title)
+        self.in_book_index = (title == 'Book Index')
+        return [f"- {self.create_link(title, self.current_chapter)}"]
+
+    def process_section(self, line):
+        """Process section-level headers"""
+        if not (self.started_content and self.current_chapter and not self.in_book_index):
+            return None
+
+        match = self.patterns['section'].match(line)
+        if not match:
+            return None
+
+        title = self.clean_title(match.group(1).strip())
+        id = match.group(2)
+        formatted_title = self.format_section_title(title)
+        return [f"  - {self.create_link(formatted_title, self.current_chapter, id)}"]
+
+    def process_subsection(self, line):
+        """Process subsection-level headers"""
+        if not (self.started_content and self.current_chapter and not self.in_book_index):
+            return None
+
+        match = self.patterns['subsection'].match(line)
+        if not match:
+            return None
+
+        title = self.clean_title(match.group(1).strip())
+        id = match.group(2)
+        clean_title = self.clean_subsection_title(title)
+        return self.create_link(clean_title, self.current_chapter, id)
+
+    def create_toc(self, content):
+        """Generate table of contents from markdown content"""
+        lines = content.split('\n')
+        toc = []
+        current_section_subsections = []
+
+        for line in lines:
+            # Process headers
+            header_result = self.process_header(line)
+            if header_result:
+                if current_section_subsections:
+                    toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ⭑ '.join(current_section_subsections)}"
+                    current_section_subsections.clear()
+                toc.extend(header_result)
+                continue
+
+            # Process sections
+            section_result = self.process_section(line)
+            if section_result:
+                if current_section_subsections:
+                    toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ⭑ '.join(current_section_subsections)}"
+                    current_section_subsections.clear()
+                toc.extend(section_result)
+                continue
+
+            # Process subsections
+            subsection_result = self.process_subsection(line)
+            if subsection_result:
+                current_section_subsections.append(subsection_result)
+
+        # Handle any remaining subsections
+        if current_section_subsections:
+            toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ⭑ '.join(current_section_subsections)}"
+
+        return '\n'.join(toc)
+
+def create_table_of_contents(content):
+    """Entry point function that creates the table of contents"""
+    generator = TocGenerator()
+    return generator.create_toc(content)
 
 def split_markdown_file(file_path, output_folder):
     with open(file_path, 'r') as file:
@@ -59,6 +207,26 @@ def split_markdown_file(file_path, output_folder):
     chapters = re.split(r'(?m)^## ', content)
     index_content = chapters[0].strip()
     chapters = chapters[1:]
+
+    processed_chapters = []
+    for chapter in chapters:
+        lines = chapter.strip().split('\n')
+        chapter_title = lines[0].strip()
+        chapter_content = '\n'.join(lines[1:])
+        adjusted_content = adjust_header_levels(chapter_content)
+        processed_chapters.append(f"# {chapter_title}\n\n{adjusted_content}")
+
+    # Reconstruct the full content with processed chapters
+    full_processed_content = index_content + "\n\n" + "\n\n".join(processed_chapters)
+
+    # Now generate the table of contents from the processed content
+    toc = create_table_of_contents(full_processed_content)
+
+    # Create a new chapter for the table of contents
+    toc_chapter = f"Contents\n\n{toc}"
+
+    # Insert the TOC chapter after the first chapter
+    chapters.insert(0, toc_chapter)  # Insert at index 1 (after first chapter)
 
     sidebar = [{'type': 'doc', 'id': 'index'}]
     current_part = None
