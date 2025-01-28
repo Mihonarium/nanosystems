@@ -3,7 +3,7 @@ import re
 
 def create_unique_id(title):
     # Handle both letter-based (A.1.2) and number-based (1.2.3) section numbers
-    match = re.match(r'^([A-Z]?\d+\.\d+(?:\.\d+)?\.?\s*)?(.+)$', title)
+    match = re.match(r'^([A-Z]?\.\d+(?:\.\d+)?\.?\s*)?(.+)$', title)
     if match:
         number_part, text_part = match.groups()
         if number_part:
@@ -19,7 +19,12 @@ def adjust_header_levels(content):
     def header_replacer(match):
         header_marks, title = match.groups()
         # Check for both letter-based and number-based patterns
-        if re.match(r'[A-Z]?\d+\.\d+\.\d+', title.strip()):
+        # This pattern matches A.1.2, B.2.1, etc.
+        is_appendix_subsection = bool(re.match(r'^[A-Z]\.\d+\.\d+\.', title.strip()))
+        # This pattern matches 1.2.3, etc.
+        is_regular_subsection = bool(re.match(r'^\d+\.\d+\.\d+\.', title.strip()))
+        
+        if is_appendix_subsection or is_regular_subsection:
             header_marks = header_marks + '#'
         
         base_id = create_unique_id(title.strip())
