@@ -53,47 +53,84 @@ def adjust_header_levels(content):
     return content
 
 def create_table_of_contents(content):
+    """
+    Generate a table of contents with the following hierarchy:
+    - Chapters (## level)
+    - Numbered sections (###) except in Preface
+    - Numbered subsections (####) with numbers removed
+    
+    Returns the TOC as a string with proper Markdown formatting
+    """
     lines = content.split('\n')
     toc = []
     
-    chapter_pattern = re.compile(r'^## (.+?)(?:\s+{#.+?})?$')
-    section_pattern = re.compile(r'^(#{2,3}) (.+?)\s+{#(.+?)}$')
+    # Patterns for different header types
+    chapter_pattern = re.compile(r'^## ([^{]+)(?:\s+{#([^}]+)})?$')
+    section_pattern = re.compile(r'^### ([^{]+)(?:\s+{#([^}]+)})?$')
+    subsection_pattern = re.compile(r'^#### (\d+\.\d+\.\d+\.)?\s*([^{]+)(?:\s+{#([^}]+)})?$')
     
     current_chapter = None
     current_chapter_filename = None
+    in_preface = False
     
     def create_link(title, filename, fragment=None):
+        """Create a Markdown link with the proper path"""
         link = f"/{filename}"
         if fragment:
             link += f"#{fragment}"
         return f"[{title}]({link})"
     
+    def clean_filename(title):
+        """Create a clean filename from a title"""
+        return re.sub(r'[^a-zA-Z0-9]+', '_', title.lower()).strip('_')
+    
     for line in lines:
+        # Check for chapter headers
         chapter_match = chapter_pattern.match(line)
         if chapter_match:
-            title = chapter_match.group(1)
-            # Only match non-numbered titles as chapters
-            if not (title.startswith('Part ') or title.startswith('Appendices')) and not re.match(r'^\d+\.', title):
-                current_chapter = title
-                current_chapter_filename = re.sub(r'[^a-zA-Z0-9]+', '_', title.lower())
-                toc.append(f"- {create_link(title, current_chapter_filename)}")
-            elif title.startswith('Part ') or title.startswith('Appendices'):
+            title = chapter_match.group(1).strip()
+            current_chapter = title
+            current_chapter_filename = clean_filename(title)
+            in_preface = title.lower() == 'preface'
+            
+            if title.startswith('Part ') or title.startswith('Appendices'):
                 toc.append(f"\n**{title}**\n")
                 current_chapter = None
                 current_chapter_filename = None
+            else:
+                toc.append(f"- {create_link(title, current_chapter_filename)}")
             continue
         
-        section_match = section_pattern.match(line)
-        if section_match and current_chapter_filename:
-            _, title, id = section_match.groups()
+        # Only process sections if we're in a chapter
+        if not current_chapter_filename:
+            continue
             
-            # Check for x.y.z pattern (subsection)
-            if re.match(r'^\d+\.\d+\.\d+\.', title):
+        # Check for section headers
+        section_match = section_pattern.match(line)
+        if section_match:
+            title = section_match.group(1).strip()
+            id = section_match.group(2)
+            
+            # Handle Preface sections differently (no numbers)
+            if in_preface:
+                if not title.startswith(('Part ', 'Appendices')):
+                    toc.append(f"  - {create_link(title, current_chapter_filename, id)}")
+            else:
+                # Only include numbered sections (x.y.)
+                if re.match(r'^\d+\.\d+\.', title):
+                    toc.append(f"  - {create_link(title, current_chapter_filename, id)}")
+            continue
+        
+        # Check for subsection headers
+        subsection_match = subsection_pattern.match(line)
+        if subsection_match:
+            number = subsection_match.group(1)
+            title = subsection_match.group(2).strip()
+            id = subsection_match.group(3)
+            
+            if number:  # Only include numbered subsections
+                # Remove the section number from the display title but keep it in the ID
                 toc.append(f"    - {create_link(title, current_chapter_filename, id)}")
-            # Check for x.y pattern (section)
-            elif re.match(r'^\d+\.\d+\.', title):
-                toc.append(f"  - {create_link(title, current_chapter_filename, id)}")
-            # Everything else is skipped as it should be part of a chapter
     
     return '\n'.join(toc)
 
