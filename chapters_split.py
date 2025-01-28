@@ -2,31 +2,26 @@ import os
 import re
 
 def create_unique_id(title):
-    # Keep the dots for section numbers but replace other special chars with hyphens
-    # First, handle the section number part (if it exists)
-    match = re.match(r'^(\d+\.\d+(?:\.\d+)?\.?\s*)?(.+)$', title)
+    # Handle both letter-based (A.1.2) and number-based (1.2.3) section numbers
+    match = re.match(r'^([A-Z]?\d+\.\d+(?:\.\d+)?\.?\s*)?(.+)$', title)
     if match:
         number_part, text_part = match.groups()
         if number_part:
             number_part = number_part.strip()
-            # Convert remaining text to ID format
             text_id = re.sub(r'[^a-zA-Z0-9]+', '-', text_part.lower()).strip('-')
             return f"{number_part}-{text_id}"
     
-    # If no section number, just convert the whole thing
     return re.sub(r'[^a-zA-Z0-9]+', '-', title.lower()).strip('-')
 
 def adjust_header_levels(content):
-    # Keep track of used IDs to ensure uniqueness
     used_ids = set()
     
     def header_replacer(match):
         header_marks, title = match.groups()
-        # Check if the title starts with a number pattern like x.y.z
-        if re.match(r'\d+\.\d+\.\d+', title.strip()):
+        # Check for both letter-based and number-based patterns
+        if re.match(r'[A-Z]?\d+\.\d+\.\d+', title.strip()):
             header_marks = header_marks + '#'
         
-        # Create and ensure unique ID
         base_id = create_unique_id(title.strip())
         final_id = base_id
         counter = 1
@@ -35,16 +30,15 @@ def adjust_header_levels(content):
             counter += 1
         used_ids.add(final_id)
         
-        # Add the explicit ID to the header
         return f'{header_marks}{title} {{#{final_id}}}'
     
-    # First pass: Add an extra # for x.y.z patterns and add IDs
+    # First pass: Add extra # for x.y.z patterns and add IDs
     content = re.sub(r'^(#{2,3})(.*?)$', header_replacer, content, flags=re.MULTILINE)
     
-    # Second pass: Reduce all header levels by one #
+    # Second pass: Reduce header levels
     def reduce_header_level(match):
         header_marks = match.group(1)
-        if len(header_marks) > 1:  # Don't modify single # headers
+        if len(header_marks) > 1:
             return header_marks[1:] + match.group(2)
         return match.group(0)
     
@@ -53,13 +47,6 @@ def adjust_header_levels(content):
     return content
 
 def create_table_of_contents(content):
-    """
-    Generate a table of contents with the following hierarchy:
-    - Parts and Appendices (appear as ### headers)
-    - Chapters (# level)
-    - Sections (## level, can be numbered x.y. or non-numbered) - except for Book Index
-    - Subsections (### level, can be numbered x.y.z. or non-numbered, shown on next line)
-    """
     lines = content.split('\n')
     toc = []
     
@@ -71,6 +58,7 @@ def create_table_of_contents(content):
     current_chapter_filename = None
     current_section_subsections = []
     in_book_index = False
+    in_appendix = False
     
     def clean_filename(title):
         return re.sub(r'[^a-zA-Z0-9]+', '_', title.lower()).strip('_')
@@ -82,20 +70,18 @@ def create_table_of_contents(content):
         return f"[{title}]({link})"
 
     def format_title(title):
-        """Add space after numbers if title starts with x.y. or x.y.z."""
-        number_match = re.match(r'^(\d+\.\d+\.(?:\d+\.)?) *(.+)$', title)
+        # Handle both letter-based and number-based patterns
+        number_match = re.match(r'^([A-Z]?\d+\.\d+\.(?:\d+\.)?) *(.+)$', title)
         if number_match:
             return f"{number_match.group(1)} {number_match.group(2)}"
         return title
 
     def is_part_header(title):
-        """Check if the title is a Part or Appendices header"""
         return (title.startswith('Part ') or 
                 title.startswith('Appendices') or 
                 title == 'Appendices and Supplementary Materials')
 
     def flush_subsections():
-        """Add accumulated subsections to the last section if any exist"""
         if current_section_subsections:
             subsection_links = " ⭑ ".join(current_section_subsections)
             toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{subsection_links}"
@@ -109,15 +95,14 @@ def create_table_of_contents(content):
             title = header_match.group(1).strip()
             
             if is_part_header(title):
-                # Parts and Appendices get ### heading format
-                toc.append("")  # Add blank line before
+                toc.append("")
                 toc.append(f"### {title}")
-                toc.append("")  # Add blank line after
+                toc.append("")
                 current_chapter = None
                 current_chapter_filename = None
                 in_book_index = False
+                in_appendix = title.startswith('Appendices')
             else:
-                # Regular chapter
                 current_chapter = title
                 current_chapter_filename = clean_filename(title)
                 in_book_index = (title == 'Book Index')
@@ -134,21 +119,20 @@ def create_table_of_contents(content):
             toc.append(f"  - {create_link(formatted_title, current_chapter_filename, id)}")
             continue
             
-        # Subsections - collect to show inline, skip if in Book Index
+        # Subsections - collect to show inline
         subsection_match = subsection_pattern.match(line)
         if subsection_match and current_chapter and not in_book_index:
             title = subsection_match.group(1).strip()
             id = subsection_match.group(2)
-            # For subsections, we strip any x.y.z. numbers if present
-            clean_title = re.sub(r'^\d+\.\d+\.\d+\. *', '', title)
+            # Strip both letter-based and number-based patterns
+            clean_title = re.sub(r'^[A-Z]?\d+\.\d+\.\d+\. *', '', title)
             current_section_subsections.append(
                 create_link(clean_title, current_chapter_filename, id)
             )
     
-    # Handle any remaining subsections
     flush_subsections()
-    
     return '\n'.join(toc)
+
 
 def split_markdown_file(file_path, output_folder):
     with open(file_path, 'r') as file:
