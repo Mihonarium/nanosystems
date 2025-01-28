@@ -55,31 +55,20 @@ def adjust_header_levels(content):
 def create_table_of_contents(content):
     """
     Generate a table of contents with the following hierarchy:
-    - Main chapters (# non-numbered)
-    - Sections:
-        - In preface: ## non-numbered
-        - In other chapters: ## with x.y. numbering
-    - Subsections: ### with x.y.z. numbering (shown inline, without numbers)
+    - Chapters (# level)
+    - Sections (## level, can be numbered x.y. or non-numbered)
+    - Subsections (### level, can be numbered x.y.z. or non-numbered, shown on next line)
     """
     lines = content.split('\n')
     toc = []
     
     header_pattern = re.compile(r'^# ([^{]+)(?:\s+{#([^}]+)})?$')
     section_pattern = re.compile(r'^## ([^{]+)(?:\s+{#([^}]+)})?$')
-    subsection_pattern = re.compile(r'^### (\d+\.\d+\.\d+\.) *([^{]+)(?:\s+{#([^}]+)})?$')
+    subsection_pattern = re.compile(r'^### ([^{]+)(?:\s+{#([^}]+)})?$')
     
     current_chapter = None
     current_chapter_filename = None
     current_section_subsections = []
-    in_preface = False
-    preface_sections = [
-        "The intended readership",
-        "The nature of the subject",
-        "Criticism of criticism",
-        "Use of tenses",
-        "Citations and apologies",
-        "Acknowledgments"
-    ]
     
     def clean_filename(title):
         return re.sub(r'[^a-zA-Z0-9]+', '_', title.lower()).strip('_')
@@ -90,53 +79,50 @@ def create_table_of_contents(content):
             link += f"#{fragment}"
         return f"[{title}]({link})"
 
+    def format_title(title):
+        """Add space after numbers if title starts with x.y. or x.y.z."""
+        number_match = re.match(r'^(\d+\.\d+\.(?:\d+\.)?) *(.+)$', title)
+        if number_match:
+            return f"{number_match.group(1)} {number_match.group(2)}"
+        return title
+
     def flush_subsections():
         """Add accumulated subsections to the last section if any exist"""
         if current_section_subsections:
-            # Add subsections inline with fancy separator
             subsection_links = " ⭑ ".join(current_section_subsections)
-            toc[-1] += f"\n    {subsection_links}"
+            toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{subsection_links}"
             current_section_subsections.clear()
 
     for line in lines:
-        # Check for chapter headers
+        # Chapter headers
         header_match = header_pattern.match(line)
         if header_match:
-            flush_subsections()  # Handle any pending subsections
+            flush_subsections()
             title = header_match.group(1).strip()
             current_chapter = title
             current_chapter_filename = clean_filename(title)
-            in_preface = title.lower() == 'preface'
             toc.append(f"- {create_link(title, current_chapter_filename)}")
             continue
 
-        # Check for section headers
+        # Section headers
         section_match = section_pattern.match(line)
-        if section_match:
-            flush_subsections()  # Handle any pending subsections
+        if section_match and current_chapter:
+            flush_subsections()
             title = section_match.group(1).strip()
             id = section_match.group(2)
-            
-            # Check if this is a numbered section (x.y.)
-            numbered_match = re.match(r'^(\d+\.\d+\.) *(.+)$', title)
-            
-            if numbered_match and not in_preface:
-                # This is a numbered section - add it under current chapter
-                number = numbered_match.group(1)
-                section_title = numbered_match.group(2).strip()
-                toc.append(f"  - {create_link(f'{number} {section_title}', current_chapter_filename, id)}")
-            elif title in preface_sections and in_preface:
-                # Section within Preface
-                toc.append(f"  - {create_link(title, current_chapter_filename, id)}")
+            formatted_title = format_title(title)
+            toc.append(f"  - {create_link(formatted_title, current_chapter_filename, id)}")
             continue
             
-        # Handle subsections (### with x.y.z.)
+        # Subsections - collect to show inline
         subsection_match = subsection_pattern.match(line)
-        if subsection_match and not in_preface:
-            title = subsection_match.group(2).strip()
-            id = subsection_match.group(3)
+        if subsection_match and current_chapter:
+            title = subsection_match.group(1).strip()
+            id = subsection_match.group(2)
+            # For subsections, we strip any x.y.z. numbers if present
+            clean_title = re.sub(r'^\d+\.\d+\.\d+\. *', '', title)
             current_section_subsections.append(
-                create_link(title, current_chapter_filename, id)
+                create_link(clean_title, current_chapter_filename, id)
             )
     
     # Handle any remaining subsections
