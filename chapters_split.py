@@ -56,42 +56,44 @@ def create_table_of_contents(content):
     lines = content.split('\n')
     toc = []
     
+    # Updated patterns to handle both ## and ### section headers
     chapter_pattern = re.compile(r'^## (.+?)(?:\s+{#.+?})?$')
-    section_pattern = re.compile(r'^### (\d+\.\d+\.\s+.+?)\s+{#(.+?)}$')
-    subsection_pattern = re.compile(r'^### (\d+\.\d+\.\d+\.\s+.+?)\s+{#(.+?)}$')
+    section_pattern = re.compile(r'^(#{2,3}) (\d+\.\d+\.\s+.+?)\s+{#(.+?)}$')
+    subsection_pattern = re.compile(r'^(#{2,3}) (\d+\.\d+\.\d+\.\s+.+?)\s+{#(.+?)}$')
     
     current_chapter = None
     current_chapter_filename = None
     
     for line in lines:
-        # Match chapter headers
+        # Match chapter headers (non-numbered headers)
         chapter_match = chapter_pattern.match(line)
         if chapter_match:
             title = chapter_match.group(1)
             if not (title.startswith('Part ') or title.startswith('Appendices')):
-                current_chapter = title
-                current_chapter_filename = re.sub(r'[^a-zA-Z0-9]+', '_', title.lower())
-                toc.append(f"- [{title}]({current_chapter_filename})")
+                if not any(char.isdigit() for char in title.split()[0]):  # Check if first word contains no numbers
+                    current_chapter = title
+                    current_chapter_filename = re.sub(r'[^a-zA-Z0-9]+', '_', title.lower())
+                    toc.append(f"- [{title}](content/{current_chapter_filename})")
             else:
                 toc.append(f"\n**{title}**\n")
                 current_chapter = None
                 current_chapter_filename = None
             continue
             
-        # Match section headers
+        # Match section headers (both ## and ###)
         section_match = section_pattern.match(line)
         if section_match and current_chapter_filename:
-            title, id = section_match.groups()
-            toc.append(f"  - [{title}]({current_chapter_filename}#{id})")
+            _, title, id = section_match.groups()
+            toc.append(f"  - [{title}](content/{current_chapter_filename}#{id})")
             continue
             
-        # Match subsection headers
+        # Match subsection headers (both ## and ###)
         subsection_match = subsection_pattern.match(line)
         if subsection_match and current_chapter_filename:
-            full_title, id = subsection_match.groups()
+            _, full_title, id = subsection_match.groups()
             # Remove the x.y.z. prefix but keep the ID
             clean_title = re.sub(r'^\d+\.\d+\.\d+\.\s*', '', full_title)
-            toc.append(f"    - [{clean_title}]({current_chapter_filename}#{id})")
+            toc.append(f"    - [{clean_title}](content/{current_chapter_filename}#{id})")
     
     return '\n'.join(toc)
 
