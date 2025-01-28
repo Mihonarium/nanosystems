@@ -58,6 +58,7 @@ def create_table_of_contents(content):
     header_pattern = re.compile(r'^# ([^{]+)(?:\s+{#([^}]+)})?$')
     section_pattern = re.compile(r'^## ([^{]+)(?:\s+{#([^}]+)})?$')
     subsection_pattern = re.compile(r'^### ([^{]+)(?:\s+{#([^}]+)})?$')
+    reference_pattern = re.compile(r'\[\^[0-9]+\]')
     
     current_chapter = None
     current_chapter_filename = None
@@ -74,7 +75,13 @@ def create_table_of_contents(content):
             link += f"#{fragment}"
         return f"[{title}]({link})"
 
+    def clean_title(title):
+        """Remove reference markers from title"""
+        return reference_pattern.sub('', title).strip()
+
     def format_title(title):
+        # Remove references first
+        title = clean_title(title)
         # Handle both letter-based and number-based patterns
         number_match = re.match(r'^([A-Z]?\.\d+\.(?:\d+\.)?) *(.+)$', title)
         if number_match:
@@ -83,6 +90,8 @@ def create_table_of_contents(content):
 
     def clean_subsection_title(title):
         """Remove both appendix (A.1.1.) and regular (1.1.1.) subsection numbers"""
+        # Remove references first
+        title = clean_title(title)
         # Try appendix pattern first
         clean_title = re.sub(r'^[A-Z]\.\d+\.\d+\.\s*', '', title)
         if clean_title != title:
@@ -117,10 +126,10 @@ def create_table_of_contents(content):
                 in_book_index = False
                 in_appendix = title.startswith('Appendices')
             else:
-                current_chapter = title
+                current_chapter = clean_title(title)
                 current_chapter_filename = clean_filename(title)
                 in_book_index = (title == 'Book Index')
-                toc.append(f"- {create_link(title, current_chapter_filename)}")
+                toc.append(f"- {create_link(clean_title(title), current_chapter_filename)}")
             continue
 
         # Section headers - skip if in Book Index
