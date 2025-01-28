@@ -32,7 +32,7 @@ def split_markdown_file(file_path, output_folder):
     
     content = process_headers(content)
 
-    chapters = re.split(r'(?m)^## ', content)
+    chapters = re.split(r'(?m)^# ', content)
     index_content = chapters[0].strip()
     chapters = chapters[1:]
 
