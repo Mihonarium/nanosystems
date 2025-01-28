@@ -179,7 +179,7 @@ class TocGenerator:
             section_result = self.process_section(line)
             if section_result:
                 if current_section_subsections:
-                    toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ⭑ '.join(current_section_subsections)}"
+                    toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ● '.join(current_section_subsections)}"
                     current_section_subsections.clear()
                 toc.extend(section_result)
                 continue
@@ -191,7 +191,7 @@ class TocGenerator:
 
         # Handle any remaining subsections
         if current_section_subsections:
-            toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ⭑ '.join(current_section_subsections)}"
+            toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ● '.join(current_section_subsections)}"
 
         return '\n'.join(toc)
 
