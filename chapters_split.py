@@ -25,13 +25,14 @@ def process_headers(content):
     pattern = r'^(#{2,4})\s+(\d+(?:\.\d+)*)\.\s+(.+)$'
     return re.sub(pattern, process_header_line, content, flags=re.MULTILINE)
 
-
 def split_markdown_file(file_path, output_folder):
     with open(file_path, 'r') as file:
         content = file.read()
-    
+
+    # Process headers before splitting chapters
     content = process_headers(content)
 
+    # Modified to split on single # since chapter headers are now #
     chapters = re.split(r'(?m)^# ', content)
     index_content = chapters[0].strip()
     chapters = chapters[1:]
@@ -73,6 +74,7 @@ def split_markdown_file(file_path, output_folder):
 
             output_path = os.path.join(output_folder, chapter_filename)
             with open(output_path, 'w') as chapter_file:
+                # Changed to use single # for chapter titles
                 chapter_file.write(f'# {chapter_title}\n\n{chapter_content}')
 
     # Write the index.md file
