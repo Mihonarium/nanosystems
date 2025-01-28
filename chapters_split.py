@@ -1,43 +1,37 @@
 import os
 import re
 
-def process_headers(content):
-    # Function to process a single header line
-    def process_header_line(match):
-        header_marks = match.group(1)  # The ### part
-        numbers = match.group(2)       # The numbers part
-        title = match.group(3)         # The rest of the title
-        
-        # Count the number of dot-separated numbers
-        number_parts = numbers.split('.')
-        
-        # If it has three numbers (e.g., 1.2.1) and currently uses ###,
-        # add another # to make it ####
-        if len(number_parts) == 3 and header_marks == '###':
-            header_marks = '####'
-        
-        # Reduce heading level by one #
-        header_marks = header_marks[1:]
-        
-        return f'{header_marks} {numbers}. {title}'
-
-    # Process all headers in the content
-    pattern = r'^(#{2,4})\s+(\d+(?:\.\d+)*)\.\s+(.+)$'
-    return re.sub(pattern, process_header_line, content, flags=re.MULTILINE)
+def adjust_header_levels(content):
+    # First pass: Add an extra # for x.y.z patterns (e.g., 3.15.6)
+    def header_replacer(match):
+        header_marks, title = match.groups()
+        # Check if the title starts with a number pattern like x.y.z
+        if re.match(r'\d+\.\d+\.\d+', title.strip()):
+            return f'{header_marks}#' + title
+        return match.group(0)
+    
+    content = re.sub(r'^(#{2,3})(.*?)$', header_replacer, content, flags=re.MULTILINE)
+    
+    # Second pass: Reduce all header levels by one #
+    def reduce_header_level(match):
+        header_marks = match.group(1)
+        if len(header_marks) > 1:  # Don't modify single # headers
+            return header_marks[1:] + match.group(2)
+        return match.group(0)
+    
+    content = re.sub(r'^(#{2,})(.*?)$', reduce_header_level, content, flags=re.MULTILINE)
+    
+    return content
 
 def split_markdown_file(file_path, output_folder):
     with open(file_path, 'r') as file:
         content = file.read()
 
-    # Process headers before splitting chapters
-    content = process_headers(content)
-
-    # Modified to split on single # since chapter headers are now #
-    chapters = re.split(r'(?m)^# ', content)
+    chapters = re.split(r'(?m)^## ', content)
     index_content = chapters[0].strip()
     chapters = chapters[1:]
 
-    sidebar = [{'type': 'doc', 'id': 'index'}]  # Add index to the sidebar
+    sidebar = [{'type': 'doc', 'id': 'index'}]
     current_part = None
     footnotes = {}
 
@@ -72,10 +66,12 @@ def split_markdown_file(file_path, output_folder):
             if chapter_footnotes:
                 chapter_content += '\n\n' + '\n'.join(chapter_footnotes)
 
+            # Apply header level adjustments after chapter splits
+            adjusted_content = adjust_header_levels(chapter_content)
+            
             output_path = os.path.join(output_folder, chapter_filename)
             with open(output_path, 'w') as chapter_file:
-                # Changed to use single # for chapter titles
-                chapter_file.write(f'# {chapter_title}\n\n{chapter_content}')
+                chapter_file.write(f'# {chapter_title}\n\n{adjusted_content}')
 
     # Write the index.md file
     with open(os.path.join(output_folder, 'index.md'), 'w') as index_file:
