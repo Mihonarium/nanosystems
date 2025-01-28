@@ -55,6 +55,7 @@ def adjust_header_levels(content):
 def create_table_of_contents(content):
     """
     Generate a table of contents with the following hierarchy:
+    - Parts and Appendices (appear as ### headers)
     - Chapters (# level)
     - Sections (## level, can be numbered x.y. or non-numbered)
     - Subsections (### level, can be numbered x.y.z. or non-numbered, shown on next line)
@@ -86,6 +87,12 @@ def create_table_of_contents(content):
             return f"{number_match.group(1)} {number_match.group(2)}"
         return title
 
+    def is_part_header(title):
+        """Check if the title is a Part or Appendices header"""
+        return (title.startswith('Part ') or 
+                title.startswith('Appendices') or 
+                title == 'Appendices and Supplementary Materials')
+
     def flush_subsections():
         """Add accumulated subsections to the last section if any exist"""
         if current_section_subsections:
@@ -99,9 +106,19 @@ def create_table_of_contents(content):
         if header_match:
             flush_subsections()
             title = header_match.group(1).strip()
-            current_chapter = title
-            current_chapter_filename = clean_filename(title)
-            toc.append(f"- {create_link(title, current_chapter_filename)}")
+            
+            if is_part_header(title):
+                # Parts and Appendices get ### heading format
+                toc.append("")  # Add blank line before
+                toc.append(f"### {title}")
+                toc.append("")  # Add blank line after
+                current_chapter = None
+                current_chapter_filename = None
+            else:
+                # Regular chapter
+                current_chapter = title
+                current_chapter_filename = clean_filename(title)
+                toc.append(f"- {create_link(title, current_chapter_filename)}")
             continue
 
         # Section headers
