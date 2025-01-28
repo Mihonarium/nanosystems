@@ -1,9 +1,33 @@
 import os
 import re
 
+def process_headers(content):
+    # Function to process a single header line
+    def process_header_line(match):
+        header_marks = match.group(1)  # The ### part
+        numbers = match.group(2)       # The numbers part
+        title = match.group(3)         # The rest of the title
+        
+        # Count the number of dot-separated numbers
+        number_parts = numbers.split('.')
+        
+        # If it has three numbers (e.g., 1.2.1) and currently uses ###,
+        # add another # to make it ####
+        if len(number_parts) == 3 and header_marks == '###':
+            return f'#### {numbers}. {title}'
+        
+        return match.group(0)  # Return unchanged if conditions aren't met
+
+    # Process all headers in the content
+    pattern = r'^(#{2,4})\s+(\d+(?:\.\d+)*)\.\s+(.+)$'
+    return re.sub(pattern, process_header_line, content, flags=re.MULTILINE)
+
+
 def split_markdown_file(file_path, output_folder):
     with open(file_path, 'r') as file:
         content = file.read()
+    
+    content = process_headers(content)
 
     chapters = re.split(r'(?m)^## ', content)
     index_content = chapters[0].strip()
