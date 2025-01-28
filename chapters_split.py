@@ -64,6 +64,7 @@ def create_table_of_contents(content):
     current_section_subsections = []
     in_book_index = False
     in_appendix = False
+    started_content = False  # Flag to track if we've reached Preface
     
     def clean_filename(title):
         return re.sub(r'[^a-zA-Z0-9]+', '_', title.lower()).strip('_')
@@ -112,19 +113,29 @@ def create_table_of_contents(content):
             flush_subsections()
             title = clean_references(header_match.group(1).strip())
             
-            if is_part_header(title):
-                toc.append("")
-                toc.append(f"### {title}")
-                toc.append("")
-                current_chapter = None
-                current_chapter_filename = None
-                in_book_index = False
-                in_appendix = title.startswith('Appendices')
-            else:
-                current_chapter = title
-                current_chapter_filename = clean_filename(title)
-                in_book_index = (title == 'Book Index')
-                toc.append(f"- {create_link(title, current_chapter_filename)}")
+            # Start including content when we reach Preface
+            if title == 'Preface':
+                started_content = True
+            
+            # Only process if we've started content or it's a part header
+            if started_content or is_part_header(title):
+                if is_part_header(title):
+                    toc.append("")
+                    toc.append(f"### {title}")
+                    toc.append("")
+                    current_chapter = None
+                    current_chapter_filename = None
+                    in_book_index = False
+                    in_appendix = title.startswith('Appendices')
+                else:
+                    current_chapter = title
+                    current_chapter_filename = clean_filename(title)
+                    in_book_index = (title == 'Book Index')
+                    toc.append(f"- {create_link(title, current_chapter_filename)}")
+            continue
+
+        # Only process sections and subsections if we've started content
+        if not started_content:
             continue
 
         # Section headers - skip if in Book Index
