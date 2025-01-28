@@ -57,7 +57,7 @@ def create_table_of_contents(content):
     Generate a table of contents with the following hierarchy:
     - Parts and Appendices (appear as ### headers)
     - Chapters (# level)
-    - Sections (## level, can be numbered x.y. or non-numbered)
+    - Sections (## level, can be numbered x.y. or non-numbered) - except for Book Index
     - Subsections (### level, can be numbered x.y.z. or non-numbered, shown on next line)
     """
     lines = content.split('\n')
@@ -70,6 +70,7 @@ def create_table_of_contents(content):
     current_chapter = None
     current_chapter_filename = None
     current_section_subsections = []
+    in_book_index = False
     
     def clean_filename(title):
         return re.sub(r'[^a-zA-Z0-9]+', '_', title.lower()).strip('_')
@@ -114,16 +115,18 @@ def create_table_of_contents(content):
                 toc.append("")  # Add blank line after
                 current_chapter = None
                 current_chapter_filename = None
+                in_book_index = False
             else:
                 # Regular chapter
                 current_chapter = title
                 current_chapter_filename = clean_filename(title)
+                in_book_index = (title == 'Book Index')
                 toc.append(f"- {create_link(title, current_chapter_filename)}")
             continue
 
-        # Section headers
+        # Section headers - skip if in Book Index
         section_match = section_pattern.match(line)
-        if section_match and current_chapter:
+        if section_match and current_chapter and not in_book_index:
             flush_subsections()
             title = section_match.group(1).strip()
             id = section_match.group(2)
@@ -131,9 +134,9 @@ def create_table_of_contents(content):
             toc.append(f"  - {create_link(formatted_title, current_chapter_filename, id)}")
             continue
             
-        # Subsections - collect to show inline
+        # Subsections - collect to show inline, skip if in Book Index
         subsection_match = subsection_pattern.match(line)
-        if subsection_match and current_chapter:
+        if subsection_match and current_chapter and not in_book_index:
             title = subsection_match.group(1).strip()
             id = subsection_match.group(2)
             # For subsections, we strip any x.y.z. numbers if present
