@@ -3450,19 +3450,7 @@ With regard to reading the chemical literature, a possible source of cognitive b
 
 Direct cleavage of a bond by thermal excitation, forming a pair of ${ }^{\circ}$radicals, is usually slow at ordinary temperatures. Among the major exceptions are organic peroxides, diacyl peroxides, and azo compounds, which find use as initiators of radical reactions:
 
-$$
-\begin{aligned}
-& \mathrm{R}^{\prime}{ }^{\mathrm{O}-\mathrm{O}_{\mathrm{R}^{\prime}}} \longrightarrow \mathrm{R}^{\prime}{ }^{\mathrm{O} \bullet}+{ }^{\bullet \mathrm{O}_{\mathrm{R}^{\prime}}}
-\end{aligned}
-$$
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-75.jpg?height=108&width=560&top_left_y=1415&top_left_x=579)
-
-$$
-\begin{aligned}
-& \mathbf{R}^{\prime} \mathbf{N}=\mathrm{N}_{\mathbf{R}^{\prime}} \longrightarrow \mathrm{R} \bullet+\mathrm{N}_{2}+\cdot \mathrm{R}^{\prime}
-\end{aligned}
-$$
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-75.jpg?top_left_x=579&top_left_y=1331&width=892&height=279)
 
 a. Thermal bond cleavage rates. The rate of bond cleavage $k_{\mathrm{cl}}$ cannot be estimated using standard transition state theory when molecules separate into gas-phase radicals: the effective transition state is at infinity, and the transitionstate frequencies are zero. Variational theories can give sensible answers, but a rough approximation, good in a wide range of circumstances (and low by a small factor in this instance), is provided by a one-dimensional theory. In this,
 
@@ -3498,7 +3486,7 @@ b. Rate modifications in liquid and solid media. In liquids, the observed rate o
 
 Attachment to a ${ }^{\circ}$rigid structure can have dramatic effects even for surface moieties. For example, while an ordinary organic peroxide, Eq. (6.31), is subject to irreversible cleavage in solution (once separated, the two radicals are unlikely to recombine), an analogous peroxide structure attached to a rigid structure will (in the absence of neighboring reactive moieties) reliably recombine on a $10^{-13} \mathrm{~s}$ time scale Eq. (6.32).
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-77.jpg?height=330&width=729&top_left_y=901&top_left_x=494)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-77.jpg?top_left_x=494&top_left_y=901&width=993&height=330)
 
 At interior sites, a physical model for thermally activated structural damage is self-diffusion in diamondlike crystals of germanium and silicon, believed to occur largely through a vacancy-hopping mechanism (Reiss and Fuller, 1959). This process requires bond cleavage, as would a damage mechanism in a diamondoid solid; unlike an atom in the interior of a well-designed diamondoid solid, however, an atom adjacent to a vacancy has available to it both room into which to move and unsatisfied valencies with which to bond. Despite these facilitating structural features, the activation energies (which approximate the barrier energies discussed above) for vacancy diffusion in germanium and silicon (Lide, 1990) have been estimated to be 503 and 745 maJ, about 1.6 and 2.0 times their respective bond energies.
 
@@ -3621,17 +3609,17 @@ These empirical observations can also be criticized for being sensitive to the c
 d. Unimolecular elimination, fragmentation, and rearrangement. The rapid pyrolysis of small organic molecules in the gas phase provides a useful model for long-term damage to machine-phase systems at room temperature. These processes can provide a guide to the relationship between stability and local molecular structure. This section offers examples of reactions and sketches some imperfect generalizations regarding molecular stability.
 
 Many structures suffer elimination reactions that proceed at unacceptably high rates at room temperature. In reactions such as
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-83.jpg?height=310&width=824&top_left_y=696&top_left_x=434)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-83.jpg?top_left_x=434&top_left_y=696&width=1038&height=310)
 
 bonds rearrange to make the extremely stable $\mathrm{N}_{2}$ molecule. Reaction (6.42) proceeds quickly at $200 \mathrm{~K}$, but reaction (6.43) does so only at $\geq 370 \mathrm{~K}$ (Carey and Sundberg, 1983b); the difference in reaction mechanism stems from differences in orbital symmetry. Other processes of this sort yield $\mathrm{CO}, \mathrm{CO}_{2}$ and $\mathrm{H}_{2}$. Under pyrolytic conditions, hydrogen halides can be eliminated from alkyl halides [possibly as shown in Eq. (6.44), or in a surface reaction].
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-83.jpg?height=444&width=812&top_left_y=1324&top_left_x=440)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-83.jpg?top_left_x=440&top_left_y=1324&width=1035&height=444)
 
 An extensive review of eliminations under gas-phase pyrolytic conditions appears in Brown (1980), from which reactions (6.44) through (6.46) are taken. Chapter 7 of Carey and Sundberg (1983b) provides a brief overview of elimination reactions and discusses some classes of unimolecular rearrangements of chemical interest. Examples include Cope rearrangements
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-83.jpg?height=152&width=743&top_left_y=2047&top_left_x=492)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-83.jpg?top_left_x=492&top_left_y=2047&width=979&height=152)
 and unimolecular ene reactions
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-84.jpg?height=193&width=697&top_left_y=234&top_left_x=423)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-84.jpg?top_left_x=423&top_left_y=234&width=974&height=193)
 
 Brown (1980) surveys reactions occurring during gas-phase pyrolysis, describing hundreds of examples of reactions from numerous classes. It is possible to draw some conclusions from this body of data (though without formulating generalizations that neatly categorize molecules according to stability). Brown's stated selection criteria favor the inclusion of reactions that are (1) useful in organic synthesis and (2) proceed at temperatures $>350^{\circ} \mathrm{C}$. The criterion of usefulness favors the inclusion of molecules having a specific reactivity, that is, a specific weakness relative to more inert molecular structures (such as aliphatic hydrocarbons of low strain). Further, the objective of maximizing reaction specificity tends to favor use of the lowest temperatures at which reaction rates are adequate for practical work. Of the structures in Brown (1980), selected for exhibiting useful pyrolytic reactions, the fraction having listed reaction temperatures $>500{ }^{\circ} \mathrm{C}$ (suggesting adequate stability for nanomechanical use at room temperature) is roughly half.
 
@@ -3645,7 +3633,7 @@ The study of pyrolytic reactions in small molecules provides useful indications 
 
 The second difference is that potentially unstable substructures found in nanomechanical systems commonly are constrained by diamondoid matrices. As we have seen, thermal bond cleavage can be strongly inhibited by the solidcage effect. Likewise, many rearrangements involve atomic displacements that are feasible in flexible structures, but not in more diamondlike structures. An example is the conrotary thermal ring opening of cyclobutene, Eq. (6.49) [with orbitals and transition geometry shown in Eq. (6.50)] contrasted with the expected behavior of a constrained analogue, Eq. (6.51).
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-01.jpg?height=562&width=794&top_left_y=747&top_left_x=457)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-01.jpg?top_left_x=457&top_left_y=747&width=1024&height=562)
 
 A useful exercise is to examine a list of rearrangement reactions and observe how few could occur if most bonds to hydrogen atoms on a molecular surface were instead bonds to carbon atoms in a surrounding matrix of diamondlike rigidity. Diamond itself is stable to $1800 \mathrm{~K}$ in an inert atmosphere $\left(\tau_{\text {trans }}>10^{85} \mathrm{~s}\right.$ at $300 \mathrm{~K}$ ), despite the well-known energetic advantage of rearrangement to graphite.
 
