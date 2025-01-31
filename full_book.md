@@ -6594,47 +6594,11 @@ a. Bearing interfaces for strained-shell structures. Figures 10.15 and 10.16 ill
 
 Each of the interfaces shown exhibits substantial axial stiffness at suitably small values of $s_{\text {gap }}$. Along the axis, the surface atomic rows on opposite sides of each interface have identical spacings, hence the sinusoidal potentials for sliding
 
-(a)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=178&width=208&top_left_y=614&top_left_x=542)
-
-(b)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=205&width=213&top_left_y=862&top_left_x=540)
-
-(c)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=196&width=215&top_left_y=1132&top_left_x=534)
-
-(d)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=220&width=200&top_left_y=1390&top_left_x=551)
-
-(e)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=210&width=219&top_left_y=1668&top_left_x=532)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=212&width=234&top_left_y=598&top_left_x=886)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=1056&width=256&top_left_y=842&top_left_x=866)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-63.jpg?height=1306&width=824&top_left_y=595&top_left_x=390)
 
 Figure 10.15. Several sliding interfaces based on diamond (111) surfaces, with nitrogen termination (a), hydrogen termination (b), alternating, interlocking rows with nitrogen and hydrogen termination (c), fluorine termination (d), and alternating, interlocking rows of nitrogen and fluorine termination (e). Note that pairs of surfaces from (a), (b), and (d) could be combined, as could a pair from (c) and (e). In each diagram the direction of sliding is nearly perpendicular to the page. Different terminations offer different functional relationships among spacing, shear stiffness, and compressive stiffness.
 
-(a)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=188&width=268&top_left_y=244&top_left_x=406)
-
-(b)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=171&width=202&top_left_y=484&top_left_x=437)
-
-(c)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=164&width=200&top_left_y=731&top_left_x=440)
-
-(d)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=178&width=205&top_left_y=958&top_left_x=443)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=208&width=287&top_left_y=229&top_left_x=773)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=700&width=254&top_left_y=457&top_left_x=788)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-64.jpg?height=925&width=756&top_left_y=224&top_left_x=306)
 
 Figure 10.16. Several sliding interfaces based on diamond (100) surfaces, with oxygen termination and aligned rows (a); oxygen termination and crossed rows (b); oxygen termination with alternating deleted rows, providing an interlocking surface (c); and surfaces like (c), but with the exposed terminating rows on one surface consisting of sulfur rather than oxygen (d). In each diagram the direction of sliding is nearly perpendicular to the page. Different terminations offer different functional relationships among spacing, shear stiffness, and compressive stiffness.
 
@@ -6644,21 +6608,7 @@ Interfaces 10.15(c), 10.15(e), and 10.16(a-d) exhibit values of $d_{\mathrm{a}} 
 
 b. Interfacial stability. Each of the interfaces in Figures 10.15 and 10.16 (and that shown in Figures 10.17 and 10.18) appears stable enough for practical use under the baseline conditions assumed in this volume (i.e., no extreme temperatures, no UV exposure, no extraneous reactive molecules, no extreme mechanical loads); further, the symmetrical and low-polarity interfaces should guarantee the absence of contact charging (Section 6.4.7). The low-valence atoms used to terminate each surface form strong bonds to carbon and (usually) weaker bonds to one another. A reaction between one surface and the other typically must form a bond between two low-valence atoms at the expense of cleaving two bonds to carbon. Since this would be a strongly endoergic process, the energy barrier is large ( $>500 \mathrm{maJ}$ ) and the rate of occurrence negligible
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-65.jpg?height=354&width=586&top_left_y=795&top_left_x=532)
-
-exploded view
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-65.jpg?height=321&width=728&top_left_y=1176&top_left_x=456)
-
-(a)
-
-$1 \mathrm{~nm}$
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-65.jpg?height=314&width=741&top_left_y=1563&top_left_x=440)
-
-(b)
-
-2808 atoms
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-65.jpg?height=1174&width=901&top_left_y=763&top_left_x=420)
 
 Figure 10.17. A 2808-atom strained-shell sleeve bearing with an interlocking-groove interface derived by modifying a diamond (100) surface; (b) shows the shaft within the sleeve, (a) shows an exploded view. This design was developed in collaboration with $\mathbf{R}$. Merkle at the Xerox Palo Alto Research Center, using an automated structuregeneration package (Merkle, 1991). It was then energy minimized and analyzed using the Polygraf molecular modeling software (Polygen Molecular Simulations, Inc., Waltham, MA).
 
@@ -6678,10 +6628,6 @@ d. Small sleeve-bearing structures. In small sleeve bearings, the pursuit of hig
 
 e. A specific small sleeve-bearing structure. An example combining a special shaft with a special sleeve is shown in Figure 10.19. This structure makes use of chains of $s p^{3}$ nitrogen atoms to form ridges (having high stiffness and spatial frequency) on both the shaft and the sleeve. These features require attention because $\mathrm{N}-\mathrm{N}$ bonds are known to be weak, and isolated chains of this sort are apparently unstable (a search of the chemical literature failed to identify a wellcharacterized example). In the present instance, however, these chains are not isolated. Each $\mathbf{N}$ atom is also bonded to carbon and subject to the familiar constraints of a diamondoid structure: momentary thermal cleavage of an $\mathrm{N}-\mathrm{N}$ bond is resisted (and usually reversed) by elastic restoring forces from the surrounding structure. The most accessible failure mode in this system is appar-
 ![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-67.jpg?height=750&width=988&top_left_y=1404&top_left_x=327)
-
-exploded view
-
-258 atoms
 
 Figure 10.19. Views of a small sleeve-bearing structure: (a) end, (b) exploded.
 
@@ -6908,19 +6854,7 @@ Where the number of teeth per planet is small, a large value of $m$ is desirable
 Figure 10.31. Schematic diagram of a planetary gear (end view). Fast rotation of the sun gear drives slower rotation of the planet carrier, if the ring gear is held fixed. In general, either the sun gear, the ring gear, or the planet carrier can be held fixed, imposing a constraint on the relative motion of the other two components.
 ![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=498&width=1022&top_left_y=216&top_left_x=328)
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=451&width=388&top_left_y=768&top_left_x=327)
-
-(c)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=495&width=179&top_left_y=756&top_left_x=750)
-
-ring gear $1 \mathrm{~nm}$
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=202&width=371&top_left_y=905&top_left_x=965)
-
-sun gear
-
-3,557 atoms
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=1098&width=1022&top_left_y=216&top_left_x=328)
 
 Figure 10.32. A planetary gear, (a) end view, (b) side view, (c) exploded view. The ring gear structure is a strained $\mathrm{Si}$ shell with $\mathrm{S}$ termination; the sun gear is a special-case structure related to an O-terminated (100) diamond surface; the planet gears resemble multiple hexaasterane structures with $\mathrm{O}$ (rather than $\mathrm{CH}_{2}$ ) bridges between the parallel rings; view (c) retains elastic deformations occurring in (a), hence gears are bowed. The planet carrier is adapted from the structure shown in Figure 9.10, and linked to the planet gears using $\mathrm{C}-\mathrm{C}$ bonded bearings (Section 10.6.1). These bonded linkages are visible in (b). This design results from a collaboration with R. Merkle at the Xerox Palo Alto Research Center; energy minimization was performed using the Polygraf molecular modeling software (Polygen Molecular Simulations, Inc., Waltham, MA).
 
