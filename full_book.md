@@ -1892,11 +1892,7 @@ In statistical mechanics, the principle of detailed balancing asserts that, at e
 
 b. States in configuration space. The configuration space picture suggests one natural way to define what is meant by "distinct states" of a solid or liquid system (Stillinger and Weber, 1984).[^55] From each point on the energy landscape, there exists a path of steepest descent, and that path always ends in a point or
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-15.jpg?height=482&width=603&top_left_y=1334&top_left_x=285)
-
-(b)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-15.jpg?height=482&width=492&top_left_y=1346&top_left_x=943)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_6d376e07030ca6d2df72g-15.jpg?top_left_x=267&top_left_y=1334&width=1190&height=508)
 
 Figure 4.2. Definition of states in terms of potential energy minima. Panel (a) shows a potential energy surface defined over a two-dimensional configuration space; Panel (b) shows the same surface as a contour map partitioned into regions corresponding to local potential energy minima (marked by minus signs).
 
@@ -4903,12 +4899,12 @@ No simple first-principles analysis leads from elementary facts regarding molecu
 
 8.4
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=260&width=275&top_left_y=1158&top_left_x=786)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?top_left_x=778&top_left_y=1158&width=291&height=279)
 
 8.5
 
 - Molecules that spontaneously decompose to free highly reactive species, such as carbenes (species containing divalent carbon), Eq. (8.1), and even free carbon atoms (Shevlin and Wolf, 1970), Eq. (8.2). (These species ordinarily exist only briefly before reacting.)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?height=418&width=934&top_left_y=1662&top_left_x=280)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-48.jpg?top_left_x=280&top_left_y=1662&width=1067&height=418)
 - Some six hundred organic structures, containing a few tens to a few hundred atoms, identical to molecules synthesized by molecular machinery in living systems (Corey and Cheng, 1989). Some examples include 8.6 [anno-
 tinine (Wiesner et al., 1969)], 8.7 [bleomycin $\mathrm{A}_{2}$ (Aoyagi et al., 1982)], and 8.8 [endiandric acid C (Nicolaou et al., 1982)]
 
@@ -5047,21 +5043,8 @@ A typical mechanosynthetic step involves the mechanically guided approach of a r
 Considering the approach of a reagent moiety to a target structure in threedimensional space, a reaction pathway can be characterized by the trajectory of some atom in the moiety (such as an atom that participates in the formation of a bond to the surface). Inspection of familiar chemical reactions concurs with elementary expectations in suggesting that reaction pathways leading to alternative products commonly are characterized by trajectories that differ by a bond length $\left(d_{\mathrm{t}} \approx 0.15 \mathrm{~nm}\right)$ or more at the competing transition states (for example, see Section 8.5.5a). This is not universally true, but it is the norm; accordingly, avoidance of the exceptional situations imposes only modest limitations on the available sequences of chemical reactions. Where reagents are selective, or have reactivities with a strong orientational dependence, alternative trajectories usually are separated by far greater distances.
 
 A reasonable stiffness for the displacement of an atom in a mechanically guided reagent moiety (measured with respect to a reasonably rigid or wellsupported target structure) is $20 \mathrm{~N} / \mathrm{m}$ (comparable to the $\sim 30 \mathrm{~N} / \mathrm{m}$ transverse stiffness of a carbon atom with respect to an $s p^{3}$ carbon, Section 3.3.2b). Note that the mechanical constraints on a reactive moiety can in many instances include not only the stiffness of its covalent framework, but forces resulting from an unreactive, closely packed surrounding structure that substantially blocks motion in undesired directions (see Figure 8.2). Using the sinusoidal worst-case decoupling model of Section 6.3.3d to estimate error rates with nonsinusoidal potentials, the condition $P_{\mathrm{err}} \leq 10^{-15}$ requires that the elastic energy difference between the two locations be $\geq \sim 180 \mathrm{maJ}$ at $300 \mathrm{~K}$. With $k_{\mathrm{s}}=20 \mathrm{~N} / \mathrm{m}$, this condition is satisfied at transition-state separations $d_{\mathrm{t}} \geq 0.135 \mathrm{~nm}$. Accordingly, with modest constraints on the chemistry of the reacting species, suppression of
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=408&width=146&top_left_y=229&top_left_x=322)
 
-(a)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=414&width=198&top_left_y=229&top_left_x=502)
-
-(b)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=412&width=210&top_left_y=228&top_left_x=715)
-
-(c)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=412&width=198&top_left_y=230&top_left_x=926)
-
-(d)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?height=410&width=216&top_left_y=232&top_left_x=1136)
-
-(e)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-59.jpg?top_left_x=262&top_left_y=218&width=1156&height=489)
 
 Figure 8.2. Models of a reagent moiety of low intrinsic stiffness with varying degrees of support from surrounding nonbonded contacts (MM2/CSC potential). Each model includes an ${ }^{\circ}$alkyne moiety representing (for example) an alkynyl radical of the sort that might be used as a hydrogen ${ }^{\circ}$abstraction tool (Section 8.5.4c). In (a), the moiety is supported by an adamantyl group; the bending stiffness of the moiety at its most remote carbon atom, taking the hydrogen atoms attached to the six-membered ring opposite the moiety as fixed, is $\sim 6 \mathrm{~N} / \mathrm{m}$. In (b), a more crowded environment increases the stiffness to $\sim 11 \mathrm{~N} / \mathrm{m}$ (relative to those hydrogen atoms not either bonded to or in contact with the alkyne moiety); (c) replaces $\mathrm{H}$ atoms with $\mathrm{Cl}$, increasing the stiffness to $\sim 20 \mathrm{~N} / \mathrm{m}$; greater stiffness could be achieved by adding structures outside the $\mathrm{Cl}$ ring that press its atoms inward. Structure (d) surrounds the alkyne with a ring of oxygenlinked carbon atoms, yielding a calculated stiffness of $\sim 65 \mathrm{~N} / \mathrm{m}$. Structure (e), however, represents a possible failure mode of (d) in which a rearrangement has cleaved six $\mathrm{C}-\mathrm{O}$ bonds, yielding six aldehyde groups. Although this process is quite exoergic, the transition state may be effectively inaccessible at room temperature.
 
@@ -5293,17 +5276,17 @@ Carbenes are divalent carbon species, formally the result of breaking two covale
 
 a. Carbene reactions. Carbenes are of broad synthetic utility.[^22] They can undergo addition to double bonds, yielding cyclopropanes
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-70.jpg?height=140&width=511&top_left_y=1729&top_left_x=478)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-70.jpg?top_left_x=478&top_left_y=1729&width=872&height=140)
 
 insertion into $\mathrm{C}-\mathrm{H}$ bonds,
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-70.jpg?height=191&width=504&top_left_y=1950&top_left_x=481) and coupling (Neidlein et al., 1986)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-70.jpg?top_left_x=481&top_left_y=1950&width=864&height=191) and coupling (Neidlein et al., 1986)
 
 ![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-71.jpg?height=211&width=1000&top_left_y=221&top_left_x=441)
 
 These reactions frequently proceed with energy barriers of $\leq 20 \mathrm{maJ}$; many have a barrier of zero (Eisenthal et al., 1984; Moss, 1989). Coupling of a singlet carbene and a radical
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-71.jpg?height=198&width=531&top_left_y=591&top_left_x=552)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-71.jpg?top_left_x=552&top_left_y=591&width=878&height=198)
 
 should likewise proceed with little or no barrier.
 
@@ -5317,7 +5300,7 @@ c. Carbene rearrangements. Carbenes have a substantial tendency to rearrange; al
 ![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-71.jpg?height=140&width=850&top_left_y=2140&top_left_x=601)
 
 Among unsaturated carbenes, alkadienylidenecarbenes and cumulenylidenecarbenes have no available local rearrangements at the carbene center, and although vinylidene itself readily transforms to ethyne [indeed, it may not be a potential energy minimum (Hehre et al., 1986)], reaction (8.24) is not observed (Sasaki et al., 1983), and related cyclic species, as in reaction (8.25), may also be stable against this process.
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-72.jpg?height=244&width=484&top_left_y=458&top_left_x=498)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_3ef2075ad7697743cc5cg-72.jpg?top_left_x=498&top_left_y=458&width=864&height=244)
 
 ### 8.4.6. Organometallic reagents
 
@@ -5538,11 +5521,11 @@ ${ }^{\circ}$Cycloaddition reactions can find broad use in mechanosynthesis, as 
 
 Cycloaddition reactions are subject to strong orbital-symmetry effects. The $[2+2]$ cycloaddition reaction
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-03.jpg?height=68&width=372&top_left_y=270&top_left_x=634)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-03.jpg?top_left_x=634&top_left_y=270&width=807&height=68)
 
 is termed thermally forbidden (according to the Woodward-Hoffmann rules), because the highest-energy occupied orbital on one molecule fails to mesh properly with the lowest-energy unoccupied orbital on the other (the unoccupied orbital presents two lobes of opposite sign, divided by a node; the occupied orbital has no such node, and creating the required node is akin to breaking a bond). But, as with well-observed "forbidden" spectral lines, the ban is not complete. Piezochemical techniques (including pi-bond torsion and direct compression) can force the formation of one of the new sigma bonds, even at the expense of breaking both pi bonds, thereby creating a pair of radicals that can then combine to form the second sigma bond:
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-03.jpg?height=75&width=560&top_left_y=802&top_left_x=540)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-03.jpg?top_left_x=540&top_left_y=802&width=892&height=75)
 
 This reaction can also proceed through a polar, asymmetric intermediate, which is likewise subject to strong piezochemical effects. For the dimerization of ethene, the activation energy is $\sim 305 \mathrm{maJ}$ (Huisgen, 1977).
 
@@ -5570,7 +5553,7 @@ Species such as metal alkylidene carbenes, 8.36, and metal alkylidyne radicals, 
 
 Among the reactions of metal carbene complexes are the following (Dötz et al., 1983; Hehre et al., 1986; Masters, 1981):
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-04.jpg?height=263&width=685&top_left_y=520&top_left_x=381)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-04.jpg?top_left_x=381&top_left_y=520&width=967&height=263)
 
 (Again, all illustrated states and transformations in each sequence have been observed, though not necessarily in a single complex.) Transition metals can also serve as radical leaving groups in $\mathrm{S}_{\mathrm{H}} 2$ reactions at $s p^{3}$ carbon atoms, transferring alkyl groups to radicals (Johnson, 1983).
 
@@ -5584,15 +5567,15 @@ Ligand supporting structures can maintain substantial strength and stiffness whi
 
 ![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=549&width=810&top_left_y=382&top_left_x=407)
 
+The MM2/CSC stiffness of the following diamondoid support structure (shown in two views):
+
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?top_left_x=548&top_left_y=1077&width=565&height=233)
+
 is $\sim 115 \mathrm{~N} / \mathrm{m}$ for extension and $\sim 20 \mathrm{~N} / \mathrm{m}$ for bending, both measured for displacements of the carbon atom at the tip relative to the bounding hydrogen atoms at the base.
 
 Alternatively, several ligand moieties can be integral parts of a diamondoid structure, as in the following two views of a bound metal atom with two of six octahedral coordination sites exposed:
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=203&width=215&top_left_y=1652&top_left_x=534)
-
-$\mathbf{8 . 4 4}$
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?height=234&width=258&top_left_y=1639&top_left_x=850)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-05.jpg?top_left_x=534&top_left_y=1632&width=585&height=256)
 
 The metal-nitrogen bond lengths shown in this structure are appropriate for octahedrally coordinated cobalt.
 
@@ -5639,15 +5622,11 @@ a. The (111) surface. When prepared by standard grinding procedures, a closely p
 
 It is not presently known whether a bare diamond (111) surface, Figure 8.16(a), spontaneously transforms to the $(2 \times 1)$ structure at room temperature. Calculations for the similar reconstruction of a silicon (111) surface (Northrup and Cohen, 1982) suggest an energy barrier of $\leq 5 \mathrm{maJ}$ per surface atom. This energy barrier, however, cannot be equated with an energy barrier for the
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-08.jpg?height=214&width=589&top_left_y=1924&top_left_x=147)
-
-(a)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-08.jpg?height=200&width=389&top_left_y=1936&top_left_x=751)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-08.jpg?top_left_x=351&top_left_y=1936&width=789&height=209)
 
 Figure 8.16. A bare, unreconstructed diamond (111) surface (a) and the Pandey $(2 \times 1)$ reconstruction $(b)$.
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-09.jpg?height=208&width=760&top_left_y=195&top_left_x=228)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-09.jpg?top_left_x=644&top_left_y=195&width=379&height=208)
 
 Figure 8.17. An unreconstructed diamond (110) surface.
 
@@ -5663,11 +5642,7 @@ d. Some chemical observations. The diversity of surface structures possible on a
 
 Section 8.6.5 describes synthesis strategies that exploit the regular structure of diamond by laying down reactive molecular strands. Synthesis based on the mechanical placement of small molecular fragments, in contrast, suggests how
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-09.jpg?height=145&width=337&top_left_y=2019&top_left_x=473)
-
-(b)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-09.jpg?height=130&width=330&top_left_y=2031&top_left_x=865)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-09.jpg?top_left_x=441&top_left_y=2024&width=754&height=152)
 
 Figure 8.18. A diamond (100) surface, without (a) and with (b) reconstruction.
 
@@ -5706,6 +5681,8 @@ Step 4 illustrates the use of torsion to break a pi bond, thereby facilitating t
 d. Mechanosynthesis on (100). Figure 8.22 illustrates a synthetic cycle on diamond (100) in which reactions occur on a series of relatively independent rows of pairs of dimers. In step 1 of Figure 8.22, a strained cycloalkyne reagent moiety such as 8.47
 
 ![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-12.jpg?height=171&width=234&top_left_y=2047&top_left_x=631)
+8.47
+
 ![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-13.jpg?height=930&width=734&top_left_y=250&top_left_x=460)
 
 Figure 8.22. A sequence of reaction steps for the addition of pairs of carbon atoms from a strained alkyne moiety to a row of dimers on a diamond (100) surface (see Section 8.6.4d).
@@ -5907,23 +5884,7 @@ the structure when each is assigned a summable $0.1 \mathrm{nN}$ radius (Section
 
 Figures 9.2 and 9.3 suggest why this size estimate must be corrected when estimating stiffness. The polycyclic framework structure accounts for most of the stiffness, but the excluded volume extends well beyond this framework, because of both the separation between nonbonded atoms and (in some structures) the presence of monovalent surface atoms. To maximize stiffness for a given component size, it is best to avoid monovalent surface atoms, instead favoring structures like the one in Figure 9.3. The size correction $\delta_{\text {surf }}$ required to describe the structural volume is then approximately the difference between the covalent and nonbonded radii; using the $0.1 \mathrm{nN}$ nonbonded radii, $\delta_{\text {surf }} \approx 0.07 \mathrm{~nm}$ for both first- and second-row atoms. A larger correction ( $\delta_{\text {surf }}=0.1 \mathrm{~nm}$ is used in Chapter 11) yields a more conservative estimate of stiffness for a component of a given excluded-volume size. (For H-terminated diamond, a comparable correction is $\delta_{\text {surf }} \approx 0.14 \mathrm{~nm}$.)
 
-(a)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=82&width=502&top_left_y=1006&top_left_x=481)
-
-(b)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=100&width=502&top_left_y=1122&top_left_x=481)
-
-(c)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=106&width=500&top_left_y=1257&top_left_x=481)
-
-(d)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=136&width=504&top_left_y=1410&top_left_x=480)
-
-(e)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=168&width=506&top_left_y=1578&top_left_x=478)
-
-(f)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?height=200&width=524&top_left_y=1777&top_left_x=461)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-28.jpg?top_left_x=393&top_left_y=993&width=592&height=984)
 
 Figure 9.2. A series of rod structures, most consisting of a hydrogen-terminated region of the diamond lattice. Rod (a) is a polyethylene chain;(b)-(f) can be described as additional chains linked side by side (the digits to the right indicate the number of such chains in the corresponding rod). The structure of rod (c) departs from the diamond pattern, adding bonds perpendicular to the rod axis to replace nonbonded $\mathrm{H} / \mathrm{H}$ contacts. Moduli are graphed in Figure 9.4(c).
 ![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-29.jpg?height=298&width=562&top_left_y=222&top_left_x=537)
@@ -5962,45 +5923,11 @@ Figure 9.4 summarizes the results of computational experiments on the structures
 
 Figure 9.4. Results of computational experiments measuring rod moduli in the MM2/CSC approximation. Structure (a) is the $\mathrm{N}$ - and O-terminated rod in Figure 9.3; set (b) consists of the structures in Figure 9.5; set (c), Figure 9.2; set (d), Figure 9.6. The dashed line labeled (e) passes through the origin and a point corresponding to a column of hexagonal diamond structure (with a compact cross-section) having $n_{\text {bonds }}=16$; as can be seen, it almost exactly corresponds to an extrapolation from a similar column with $n_{\text {bonds }}=3$. The dashed line (f) is analogous to (e), but for a structure like family (c) with $n_{\text {bonds }}=18$. The upper dashed line bounding the shaded region corresponds to the modulus of diamond rods oriented along the $<111>$ axis, extrapolating from the properties of bulk diamond; the lower dashed line corresponds to a similar extrapolation with the modulus halved.
 
-(a)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=130&width=618&top_left_y=1524&top_left_x=422)
-
-(b)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=128&width=239&top_left_y=1673&top_left_x=421)
-3
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=145&width=278&top_left_y=1664&top_left_x=763)
-
-(c)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=145&width=243&top_left_y=1833&top_left_x=419)
-4
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?height=166&width=297&top_left_y=1818&top_left_x=749)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-30.jpg?top_left_x=360&top_left_y=1524&width=681&height=461)
 
 Figure 9.5. A series of rods forming a family of structures suffering increasing strain per bond with increasing diameter; instances with $n_{\text {bond }}=2,3$, and 4 are shown. Moduli are graphed in Figure 9.4(b).
 
-(a)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=94&width=280&top_left_y=238&top_left_x=516)
-
-(b)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=98&width=280&top_left_y=390&top_left_x=516)
-
-(c)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=111&width=299&top_left_y=545&top_left_x=499)
-
-(d)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=133&width=243&top_left_y=715&top_left_x=501)
-3
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=432&width=292&top_left_y=240&top_left_x=864)
-6
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?height=150&width=280&top_left_y=709&top_left_x=861)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-31.jpg?top_left_x=447&top_left_y=217&width=720&height=651)
 
 Figure 9.6. A second series of rods forming a family of structures suffering increasing strain per bond with increasing diameter; instances with $n_{\text {bonds }}=3,4,5$, and 6 are shown. Moduli are graphed in Figure 9.4(d).
 
@@ -6186,9 +6113,7 @@ $$
 \end{equation*}
 $$
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-45.jpg?height=442&width=510&top_left_y=174&top_left_x=282)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-45.jpg?height=207&width=506&top_left_y=287&top_left_x=883)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_ec553d027506296c17dbg-45.jpg?top_left_x=282&top_left_y=174&width=1103&height=442)
 
 Figure 10.2. A nonbonded potential (as in Figure 10.1) sampled at regular intervals (a), and sampled with a shift in phase (b). The difference in the sum of the sample energies as the phase shifts is the energy of a sum of samples with positive and negative weights $(a-b)$; this observation can be used to relate spatial Fourier transforms of pairwise potentials to energy barriers in sliding motion.
 
@@ -6852,7 +6777,6 @@ Where the number of teeth per planet is small, a large value of $m$ is desirable
 ![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-03.jpg?height=521&width=704&top_left_y=1503&top_left_x=384)
 
 Figure 10.31. Schematic diagram of a planetary gear (end view). Fast rotation of the sun gear drives slower rotation of the planet carrier, if the ring gear is held fixed. In general, either the sun gear, the ring gear, or the planet carrier can be held fixed, imposing a constraint on the relative motion of the other two components.
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=498&width=1022&top_left_y=216&top_left_x=328)
 
 ![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-04.jpg?height=1098&width=1022&top_left_y=216&top_left_x=328)
 
@@ -8589,11 +8513,7 @@ In typical applications, the products of molecular manufacturing must be deliver
 
 For example, a product object can be placed in a box bearing multiple external sealing rings and followed by a similarly ringed piston. The rings can provide a tight seal against the inside of an exit tube, and the piston can block the exit until another product-bearing box is ready for departure. Moderate failures in the seals could be rendered harmless by scavenging pumps operating on the spaces between them. Schemes that lack discardable boxes, pistons, and the like
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-29.jpg?height=427&width=603&top_left_y=211&top_left_x=191)
-
-(a)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-29.jpg?height=465&width=521&top_left_y=245&top_left_x=808)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-29.jpg?top_left_x=191&top_left_y=211&width=1141&height=499)
 
 Figure 14.5. Schematic illustration of a gas-tight, expandable, doubly pleated enclosure for a eutactic environment (a). In three dimensions, a structure like that illustrated could undergo a volumetric expansion by a factor of $\sim 27$, unrolling one band of pleats at a time. Note that each face must have pleats running in two perpendicular directions, as shown in (b), an angled view of the surface of a doubly pleated enclosure. To satisfy constraints on elastic strain, the minimum radius of curvature in the first set of pleats must be several times the thickness of the gas-tight wall, and the radius of curvature in the second, superimposed set of pleats must be a further multiple of the radius of the first. Accordingly, the enclosure size must be orders of magnitude greater than the wall thickness, making this approach inapplicable to very small enclosures. Note that the wall system can include structural members and sturdy barriers both inside and outside of the comparatively delicate gas-tight wall.
 
@@ -9081,23 +9001,7 @@ In this sequential annealing process, early-forming bonds can sterically constra
 g. Metal complexation. Suitable R-groups can form constraining cross-links when metal ions are introduced into solution. In standard proteins, these constraints can force folding of structures as small as 30-residues [e.g., zinc fingers (Párraga et al., 1988)]. Engineering of metal binding sites has increased the stability of subtilisin (Pantoliano et al., 1988). Work in supramolecular chemistry suggests that single $\mathrm{R}$-groups (e.g., based on $\alpha, \alpha^{\prime}$ bipyridine) can serve as preformed halves of metal binding sites, undergoing pairwise matching when metal
 (a)
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=409&width=829&top_left_y=186&top_left_x=490)
-
-(a2)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=164&width=282&top_left_y=564&top_left_x=493)
-
-(a3)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=138&width=171&top_left_y=732&top_left_x=551)
-
-(b2)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=140&width=263&top_left_y=610&top_left_x=1070)
-
-(b3)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?height=113&width=116&top_left_y=749&top_left_x=1136)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-66.jpg?top_left_x=426&top_left_y=186&width=919&height=690)
 
 Figure 15.2. Staged crosslinking and cyclic backbone segments.
 
@@ -9148,13 +9052,7 @@ Molecular tip arrays as proposed here can permit screening and interchange of ti
 ### 15.4.2. Tip-array geometry and forces
 
 a. Tip-array geometry. The geometry of a tip-array system is illustrated in Figures 15.3 and 15.4. On a large scale, Figure 15.3(d), a primary bead can be viewed as an AFM tip, imaging an array of flat-side beads. On a small scale, Figure 15.3(a), a single molecular tip on the flat-side secondary bead images the primary bead. The terms substrate and tip are thus ambiguous, but under the conditions of greatest interest, the primary bead acts as the substrate and a molecule on the secondary bead acts as the tip. Key geometrical parameters are defined by Figure 15.4. Reasonable dimensions for a device with this geometry
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-69.jpg?height=792&width=1166&top_left_y=1329&top_left_x=185)
-
-(b)
-
-$100 \mathrm{~nm}$
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-69.jpg?height=340&width=567&top_left_y=1813&top_left_x=783)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-69.jpg?top_left_x=185&top_left_y=1329&width=1166&height=820)
 
 Figure 15.3. Views of a tip-array geometry using tip support structures and multiple substrate beads on an AFM cantilever. Each view differs from the next by a factor of ten in scale.
 
@@ -9704,16 +9602,16 @@ Table A.1. Engineering, theoretical applied science, and theoretical physics.
 
 | Characteristic | Engineering | Theoretical <br/> applied science | Theoretical <br/> physics |
 | :---: | :---: | :---: | :---: |
-| Sound <br/> analysis | - Not necessary: <br/> can demonstrate | - Necessary: is itself <br/> the product | - Necessary: is itself <br/> the product |
-| Direct <br/> experiment | ![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-22.jpg?height=119&width=299&top_left_y=448&top_left_x=371) | ![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-22.jpg?height=119&width=335&top_left_y=448&top_left_x=669) | ![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-22.jpg?height=119&width=336&top_left_y=448&top_left_x=1009) |
-| Accurate <br/> modeling | ![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-22.jpg?height=112&width=299&top_left_y=563&top_left_x=371) | - Margin for error <br/> often can <br/> compensate | - Ideally, complete <br/> and precise |
-| Physical <br/> specification | - Thorough, <br/> to enable <br/> manufacture | - Partial <br/> specification <br/> often can suffice | - Ideally, complete <br/> and precise |
-| Product <br/> manufacture | - Must be possible <br/> in the present <br/> or near future | - Must be possible, <br/> but no time limit | - Not relevant |
-| Product <br/> performance | - Must compete <br/> with current <br/> systems | - Must (easily) <br/> surpass <br/> current systems | - Not relevant |
-| Unique <br/> answers | - <br/> Competition <br/> promotes <br/> convergence | - Unimportant | - Goal is to <br/> formulate a uniquely <br/> true theory |
+| Sound <br/> analysis | ○ Not necessary: <br/> can demonstrate | ● Necessary: is itself <br/> the product | ● Necessary: is itself <br/> the product |
+| Direct <br/> experiment | ● Part of standard procedure | - Not possible (a central problen) | ● Part of standard procedure |
+| Accurate <br/> modeling | ○ Experiment often can substitute | ○ Margin for error <br/> often can <br/> compensate | - ● Ideally, complete <br/> and precise |
+| Physical <br/> specification | ● Thorough, <br/> to enable <br/> manufacture | ○ Partial <br/> specification <br/> often can suffice | ● Ideally, complete <br/> and precise |
+| Product <br/> manufacture | ● Must be possible <br/> in the present <br/> or near future | ○ Must be possible, <br/> but no time limit | - Not relevant |
+| Product <br/> performance | ● Must compete <br/> with current <br/> systems | ● Must (easily) <br/> surpass <br/> current systems | - Not relevant |
+| Unique <br/> answers | ○ <br/> Competition <br/> promotes <br/> convergence | - Unimportant | ● Goal is to <br/> formulate a uniquely <br/> true theory |
 
-- Denotes an issue or activity that is crucial in this area.
-- Denotes an issue or activity that is relatively unimportant.
+● Denotes an issue or activity that is crucial in this area.
+○ Denotes an issue or activity that is relatively unimportant.
 - Denotes an issue or activity that is irrelevant or impossible.
 
 construct instances of the class with possible tools. Molecular nanotechnology falls within the scope of theoretical applied science because it will require (and provide) manufacturing capabilities that do not yet exist.
@@ -10404,15 +10302,9 @@ $1 \mathrm{maJ}=0.2414 k T_{300}$
 
 ![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-45.jpg?height=249&width=1013&top_left_y=985&top_left_x=456)
 
-$$
-\begin{aligned}
-& \mathrm{CH}_{2} \mathrm{CIF}=\mathrm{Cl}_{\mathrm{H}}^{\mathrm{F}}= \\
-& \mathrm{C}_{6} \mathrm{H}_{5} \mathrm{CH}_{2} \mathrm{COOH}=\mathrm{COOH}^{-} \mathrm{COH} \\
-& =\overbrace{0}^{\mathrm{OH}}=\mathrm{C}^{2}
-\end{aligned}
-$$
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-45.jpg?top_left_x=360&top_left_y=1247&width=1105&height=189)
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-45.jpg?height=178&width=299&top_left_y=1754&top_left_x=943)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-45.jpg?top_left_x=283&top_left_y=1434&width=1010&height=506)
 
 ## Glossary
 
