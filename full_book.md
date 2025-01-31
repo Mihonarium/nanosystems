@@ -8553,7 +8553,30 @@ This section and Table 14.1 outline an architecture for a system capable of manu
 
 This section focuses on mechanosynthesis and assembly, omitting the details of supporting systems. For example, although they would be essential in a detailed design, the specifics of a $\sim 1 \mathrm{~kW}$ cooling system, $a \sim 0.001 \mathrm{~kg} / \mathrm{s}$ feedstock solution supply system, transportation and sealing mechanisms for product delivery, and so forth are peripheral to the central issues of molecular manufacturing. Figure 14.4 shows that convergent assembly processes can be performed without undue geometrical problems in material flow; accordingly, a reasonable estimate of overall system volume can be had by summing the volumes of the assembly workspaces without describing a particular three-dimensional layout. Maintenance of vacuum integrity has been discussed in Sections 11.4.2, 11.4.3, and 14.3.2. Compressive structures made of diamondlike materials can support terrestrial atmospheric pressures with masses of $\ll 1 \mathrm{~kg} / \mathrm{m}^{3}$, and can be designed in many ways. Power conversion between mechanical and electrical forms can be performed with high efficiency and (for reasonable power levels) with negligible mass and volume (Section 11.7), imposing few constraints in this context.
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-32.jpg?height=1841&width=1201&top_left_y=247&top_left_x=285&rotation=90)
+Table 14.1. Manufacturing system parameters. See Section 14.4 for description.
+
+| Level | Number of sets | Number of units per set ${ }^{\text {a }}$ | Number of inputs per product | Unit operating frequencies (Hz) | Product scale (nm) | Mechanism scale (nm) ${ }^{\text {b }}$ | Unit radiationsensitive mass $(\mathrm{fg})^{\mathrm{c}}$ | Total mass of mechanisms (kg) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Input ordering ${ }^{\text {d }}$ | 1 | $10^{17}$ | $\sim 1$ | $10^6$ | 0.5 | 20 | 0.02 | 0.002 |
+| Reagent prep. ${ }^{\text {e }}$ | 1 | $10^{17}$ | $\sim 1$ | $10^6$ | 0.5 | 20 | 0.06 | 0.006 |
+| Stage 1 mill ${}^{\text{f}}$ | $10^{15}$ | 100 | 100 | $\leq 10^6$ | 1 | 20 | 0.60 | 0.06 |
+| Stage 2 mill | $10^{13}$ | 100 | 100 | $\leq 10^6$ | 5 | 20 | 0.60 | <0.01 |
+| Stage 3 mill ${ }^{\text {g }}$ | $10^{11}$ | 100 | 100 | $\leq 10^6$ | 20 | 100 | 0.50 | <0.01 |
+| Stage 4 mill $^{\text {h }}$ | $10^9$ | 100 | 100 | $10^4$ | 100 | 500 | - | <0.001 |
+| Stage 5 mill | $10^6$ | 100 | 1000 | $10^4$ | 1000 | 5000 | - | <0.001 |
+| Stage 1 manip. ${ }^{\text {i }}$ | $10^9$ | 2 | $10^6$ | 500 | $10^5$ | $2 \times 10^5$ | - | <0.001 |
+| Stage 2 manip. | $10^4$ | 2 | $10^5$ | 50 | $5 \times 10^6$ | $10^7$ | - | <0.001 |
+| Stage 3 manip. | 1 | 2 | $10^4$ | 5 | $10^8$ | $2 \times 10^8$ | - | 0.020 |
+
+${ }^{\text {a }}$ All numbers and frequencies are compatible with a $\sim 1 \mathrm{gm} / \mathrm{s}$ throughput; within each stage, the combination of radiation-sensitive mass and number of units per redundant set is chosen to permit long operational lifetimes.
+${ }^{\mathrm{b}}$ Mechanism scale describes (e.g.) the size of a single rotor in a mechanosynthetic device, not of a multi-mechanism unit.
+c The radiation-sensitive masses of units of each kind are stated in femtograms ( $1 \mathrm{fg}=10^{-18} \mathrm{~kg}$ ).
+${ }^{\mathrm{d}}$ The mass of the input-ordering subsystem is estimated from Section 13.2.2.
+${ }^{\mathrm{e}}$ The mass of the reagent preparation subsystem is based on Section 13.3.5.
+${ }^{\text {f }}$ Stage 1,2 mill units: the mass per encounter mechanism is assumed to be the same as in reagent preparation.
+${ }^g$ Stage 3 mill units: the moving parts are assumed to be large enough to permit designs tolerant of radiation damage (Section 14.2.2b), and the radiation-sensitive mass is that of product structures in transit through the unit.
+${ }^{\mathrm{h}}$ Stage 4,5 mill units: the moving parts and product structures are assumed to be damage tolerant; the number of units per set is large chiefly to permit lower frequencies and speeds.
+${ }^i$ Manipulator units: the arm structural mass is chosen to permit designs with stiffness $>100 \mathrm{~N} / \mathrm{m}$, and with all bending-mode frequencies $>100$ times the unit operating frequency; the arm supporting structures are assumed to be 10 times more massive than the arms themselves.
 
 The key issues in a manufacturing architecture of this sort center around the assembly mechanisms themselves: their numbers, kinds, reliabilities, operating frequencies, masses, volumes, and so forth. These issues are addressed in the next section; many parameters are summarized and explained in Table 14.1.
 
