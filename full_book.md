@@ -10281,7 +10281,7 @@ $\omega_{\text {rc }}$ imaginary frequency of motion along reaction coordinate $
 
 \textdollar U.S. dollar, 1990
 
-## Energy conversion factors
+### Energy conversion factors
 
 $\mathrm{kJ} / \mathrm{mole}=$ kilojoule per mole $=1.661 \times 10^{-21} \mathrm{~J}=1.661 \mathrm{maJ}$
 
@@ -10305,7 +10305,7 @@ $1 \mathrm{maJ}=0.2414 k T_{300}$
 
 ![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-44.jpg?height=371&width=1221&top_left_y=1908&top_left_x=135)
 
-## Comparison of chemical symbols:
+### Comparison of chemical symbols
 
 ![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-45.jpg?height=198&width=1105&top_left_y=523&top_left_x=345)
 
