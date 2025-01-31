@@ -8560,12 +8560,12 @@ Table 14.1. Manufacturing system parameters. See Section 14.4 for description.
 | Input ordering ${ }^{\text {d }}$ | 1 | $10^{17}$ | $\sim 1$ | $10^6$ | 0.5 | 20 | 0.02 | 0.002 |
 | Reagent prep. ${ }^{\text {e }}$ | 1 | $10^{17}$ | $\sim 1$ | $10^6$ | 0.5 | 20 | 0.06 | 0.006 |
 | Stage 1 mill ${ }^{\text{f}}$ | $10^{15}$ | 100 | 100 | $\leq 10^6$ | 1 | 20 | 0.60 | 0.06 |
-| Stage 2 mill | $10^{13}$ | 100 | 100 | $\leq 10^6$ | 5 | 20 | 0.60 | <0.01 |
-| Stage 3 mill ${ }^{\text {g }}$ | $10^{11}$ | 100 | 100 | $\leq 10^6$ | 20 | 100 | 0.50 | <0.01 |
-| Stage 4 mill $^{\text {h }}$ | $10^9$ | 100 | 100 | $10^4$ | 100 | 500 | - | <0.001 |
-| Stage 5 mill | $10^6$ | 100 | 1000 | $10^4$ | 1000 | 5000 | - | <0.001 |
-| Stage 1 manip. ${ }^{\text {i }}$ | $10^9$ | 2 | $10^6$ | 500 | $10^5$ | $2 \times 10^5$ | - | <0.001 |
-| Stage 2 manip. | $10^4$ | 2 | $10^5$ | 50 | $5 \times 10^6$ | $10^7$ | - | <0.001 |
+| Stage 2 mill | $10^{13}$ | 100 | 100 | $\leq 10^6$ | 5 | 20 | 0.60 | $<0.01$ |
+| Stage 3 mill ${ }^{\text {g }}$ | $10^{11}$ | 100 | 100 | $\leq 10^6$ | 20 | 100 | 0.50 | $<0.01$ |
+| Stage 4 mill $^{\text {h }}$ | $10^9$ | 100 | 100 | $10^4$ | 100 | 500 | - | $<0.001$ |
+| Stage 5 mill | $10^6$ | 100 | 1000 | $10^4$ | 1000 | 5000 | - | $<0.001$ |
+| Stage 1 manip. ${ }^{\text {i }}$ | $10^9$ | 2 | $10^6$ | 500 | $10^5$ | $2 \times 10^5$ | - | $<0.001$ |
+| Stage 2 manip. | $10^4$ | 2 | $10^5$ | 50 | $5 \times 10^6$ | $10^7$ | - | $<0.001$ |
 | Stage 3 manip. | 1 | 2 | $10^4$ | 5 | $10^8$ | $2 \times 10^8$ | - | 0.020 |
 
 ${ }^{\text {a }}$ All numbers and frequencies are compatible with a $\sim 1 \mathrm{gm} / \mathrm{s}$ throughput; within each stage, the combination of radiation-sensitive mass and number of units per redundant set is chosen to permit long operational lifetimes.
