@@ -7350,15 +7350,7 @@ Analogously, logic gates in nanomechanical computers can be built using interloc
 
 Again, the parallels are not exact. In particular, CMOS transistor gates have a large capacitance relative to a comparable length of simple conducting path, causing substantial propagation delays; interlock gates, in contrast, only slightly delay signal propagation along a logic rod. Accordingly, fan-out has less effect on speed in rod logic than in CMOS logic.
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=364&width=316&top_left_y=228&top_left_x=339)
-
-(a)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=380&width=330&top_left_y=233&top_left_x=674)
-
-(b)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=386&width=449&top_left_y=227&top_left_x=996)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?top_left_x=328&top_left_y=228&width=1129&height=390)
 
 Figure 12.1. Components of an interlock: an input rod with a gate knob and an output rod with a probe knob, shown separated (a), in their working positions (b), and constrained by a housing structure (c).
 
@@ -7366,12 +7358,7 @@ Figure 12.1. Components of an interlock: an input rod with a gate knob and an ou
 
 Figure 12.1 schematically illustrates the components of an interlock, including two rods, two knobs, and a housing structure. Figure 12.2 uses a more abstract graphical notation to represent the structure and kinematics of a small logic rod system (some components are included only for compatibility with descriptions of rods having greater fan-out). In the following, the term logic rod will refer to a particular rod under consideration, and the otherwise-similar rods that interact with it will be termed input and output rods.
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=619&width=787&top_left_y=1210&top_left_x=412)
-
-(a)
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?height=752&width=170&top_left_y=1190&top_left_x=1203)
-
-(c)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-36.jpg?top_left_x=412&top_left_y=1200&width=984&height=785)
 
 Figure 12.2. Schematic diagram of a short logic rod with two inputs and one output. Diagram (a) shows the initial state, with both input rods in the blocking position. Diagram (b) shows a state in which both input rods have been moved to the unblocking position, enabling the driver to move the vertical rod and switch the output gate; diagram (c) shows a state in which one of the input rods has remained in the blocking position, forcing the drive spring to accommodate the motion of the driver and leaving the vertical rod unmoved.
 
@@ -7400,7 +7387,10 @@ To explore how system performance parameters such as gate density, speed, error 
 
 a. Geometric assumptions and parameters. For simplicity, it will be assumed that probe knob segments and gate knob segments are perpendicular, and that rods and knobs can be approximated as rectangular solids (Figure 12.3). Probe knobs can be spaced at regular intervals $d_{\text {knob }}$. The position of each gate knob depends on its logical function, but the spacing between knobs of the same kind
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-38.jpg?height=422&width=1121&top_left_y=1854&top_left_x=308)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-38.jpg?top_left_x=308&top_left_y=1854&width=604&height=426)
+
+Figure 12.3. Definition of rod dimensions used in the analysis in Section 12.3.3.
+
 (blocking on 1 or blocking on 0 ) is here assumed to be the same as the spacing of probe knobs, $d_{\text {knob }}$. Accordingly, each interlock in a grid of intersecting probe segments and gate segments (as in a programmable logic array, Section 12.5) occupies a square region with sides of length $d_{\text {knob }}$. Gate knobs and probe knobs are assumed to have the same dimensions.
 
 The geometry of a rod can in some regions be described in terms of hypothetical sliding-contact surfaces (with no overlap and no gap between objects). This description implies a choice of atomic radii, which can (for uniformity) also be applied where surfaces do not make a sliding contact. For atoms in the carbon row of the periodic table, typical radii of this kind are $\sim 0.14$ to $0.17 \mathrm{~nm}$. Rod dimensions can then be described by a set of widths $w_{\text {rod }}$ and $w_{\text {knob }}$ and heights $h_{\text {rod }}$ and $h_{\text {knob }}$ defined as shown in Figure 12.3. The total height of the moving parts in an interlock is then $h_{\text {knob }}+2 h_{\text {rod }}$.
@@ -8177,21 +8167,8 @@ $$
 For $v=0.005 \mathrm{~m} / \mathrm{s}, r_{1}=r_{2}=10 \mathrm{~nm}$, and $\delta=0.01 \mathrm{~nm}, t_{\text {trans }} \approx 1.8 \times 10^{-7} \mathrm{~s}$, moderately greater than the typical value assumed in Chapter 8. Fast, simple-encounter reactions could be performed with higher speeds and smaller mechanisms. Reaction times can be indefinitely prolonged by placing belts in contact and passing them between a pair of backing surfaces, as in Figure 13.7(b).
 
 b. Complex encounters. In complex reactions (e.g., exploiting pi-bond torsion, Section 8.5.6), a device must drive several coordinated, properly sequenced
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-79.jpg?height=372&width=970&top_left_y=1212&top_left_x=230)
 
-(b)
-
-$\sim 50 \mathrm{~nm}$
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-79.jpg?height=372&width=376&top_left_y=1654&top_left_x=224)
-
-(c) three outputs ( $1 / 3$ frequency)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-79.jpg?height=312&width=508&top_left_y=1636&top_left_x=805)
-
-(d)
-
-$\sim 100000$ atoms per roller assembly
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-79.jpg?top_left_x=215&top_left_y=1212&width=1113&height=873)
 
 Figure 13.7. Schematic diagrams of reactive encounter mechanisms, providing for simple contact and separation (a), prolonged contact with opportunity for substantial cam-driven manipulation (b), and transformations of moiety transit frequency (c) and speed (d).
 
@@ -8208,25 +8185,8 @@ Figure 13.8 schematically illustrates a reagent device incorporating a probe and
 Figure 13.9 illustrates the use of a reagent device like that in Figure 13.8 to perform a conditional-repetition process, the net effect of which is to attempt the transfer reaction if and only if the group has not yet been transferred. As illustrated, the blockage of further attempts after a successful transfer can be direct, by blocking the reactive site; the motion of the probe structure could equally well achieve the same result though indirect mechanical linkages. Note that analogous mechanisms can be devised that make reaction attempts contingent on the absence of a group, hence the probe assembly need not be on the source side of a reactive encounter system.
 
 When the cam follower passes through a location where two cam grooves merge, it undergoes a well merging process of the sort analyzed in Section 7.6. In any particular mechanism, the wells being merged have fixed probabilities of
-(a)
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=477&width=410&top_left_y=121&top_left_x=166)
-
-(b)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=386&width=162&top_left_y=125&top_left_x=609)
-
-steric probe blocked (c)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=386&width=176&top_left_y=125&top_left_x=809)
-
-steric probe retracted, group transferred (d)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?height=383&width=161&top_left_y=127&top_left_x=1034)
-
-steric probe unblocked
-
-$\sim 10000$ atoms
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_1c4538e301c65fe5bda2g-81.jpg?top_left_x=166&top_left_y=70&width=1067&height=595)
 
 Figure 13.8. Schematic diagram of a reagent device for implementing a conditionalrepetition strategy to increase reaction reliability. In (a), the reagent moiety with its transferable group is exposed; the steric probe can be placed at any desired distance at this time. In (b), the probe is blocked by the transferable group and prevented from moving past it by a large (e.g., $150 \mathrm{maJ}$ ) energy barrier; the bias force need not be large. In (c), a successful reaction has transferred the group, removing the barrier. In (d), the bias force has driven the probe past its previous stopping point.
 
@@ -8495,17 +8455,7 @@ A stiff manipulator can be used to apply small, simple reagent devices to workpi
 
 The intermediate states in the construction of a diamondoid structure can be limited to surface irregularities of atomic height on a nanometer length scale in the vicinity of each reaction site. To perform a reaction at such a site, a tip can be
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-18.jpg?height=380&width=475&top_left_y=208&top_left_x=378)
-
-1
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-18.jpg?height=287&width=311&top_left_y=686&top_left_x=462)
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-18.jpg?height=268&width=330&top_left_y=310&top_left_x=1022)
-
-2
-
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-18.jpg?height=311&width=376&top_left_y=684&top_left_x=1001)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-18.jpg?top_left_x=370&top_left_y=208&width=1036&height=803)
 
 Figure 13.16. Schematic diagram showing alignment of a reagent moiety with respect to a workpiece aided by sterically complementary probes. The diagrams illustrate (1) a reagent device approaching the workpiece, (2) probes in contact with distinctive features (bumps and hollows) of the workpiece, bringing the reagent device into alignment before contact, (3) the reactive encounter, and (4) separation after reaction and transfer of a moiety. Note that the number of probes can be indefinitely multiplied, and that each complementary contact can increase alignment stiffness and specificity.
 
