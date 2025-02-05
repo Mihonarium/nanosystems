@@ -159,49 +159,52 @@ class TocGenerator:
         clean_title = self.clean_subsection_title(title)
         return self.create_link(clean_title, self.current_chapter, id)
 
-    def create_toc(self, content):
-        """Generate table of contents from markdown content"""
-        lines = content.split('\n')
-        toc = []
-        current_section_subsections = []
+def create_toc(self, content):
+    """Generate table of contents from markdown content"""
+    lines = content.split('\n')
+    toc = []
+    current_section_subsections = []
+
+    # Start with a div wrapper using Docusaurus-specific syntax
+    toc.append(':::div{.book-toc}')
     
-        for line in lines:
-            # Process headers
-            header_result = self.process_header(line)
-            if header_result:
-                if current_section_subsections:
-                    # Convert subsections into nested markdown list items
-                    subsections_md = '\n    * ' + '\n    * '.join(current_section_subsections)
-                    toc[-1] += subsections_md
-                    current_section_subsections.clear()
-                toc.extend(header_result)
-                continue
+    for line in lines:
+        # Process headers
+        header_result = self.process_header(line)
+        if header_result:
+            if current_section_subsections:
+                # Convert subsections into nested markdown list items
+                subsections_md = '\n    * ' + '\n    * '.join(current_section_subsections)
+                toc[-1] += subsections_md + '\n'
+                current_section_subsections.clear()
+            toc.extend(header_result)
+            continue
+
+        # Process sections
+        section_result = self.process_section(line)
+        if section_result:
+            if current_section_subsections:
+                # Convert subsections into nested markdown list items
+                subsections_md = '\n    * ' + '\n    * '.join(current_section_subsections)
+                toc[-1] += subsections_md + '\n'
+                current_section_subsections.clear()
+            toc.extend(section_result)
+            continue
+
+        # Process subsections
+        subsection_result = self.process_subsection(line)
+        if subsection_result:
+            current_section_subsections.append(subsection_result)
+
+    # Handle any remaining subsections
+    if current_section_subsections:
+        subsections_md = '\n    * ' + '\n    * '.join(current_section_subsections)
+        toc[-1] += subsections_md + '\n'
+
+    # Close the div wrapper
+    toc.append(':::')
     
-            # Process sections
-            section_result = self.process_section(line)
-            if section_result:
-                if current_section_subsections:
-                    # Convert subsections into nested markdown list items
-                    subsections_md = '\n    * ' + '\n    * '.join(current_section_subsections)
-                    toc[-1] += subsections_md
-                    current_section_subsections.clear()
-                toc.extend(section_result)
-                continue
-    
-            # Process subsections
-            subsection_result = self.process_subsection(line)
-            if subsection_result:
-                current_section_subsections.append(subsection_result)
-    
-        # Handle any remaining subsections
-        if current_section_subsections:
-            subsections_md = '\n    * ' + '\n    * '.join(current_section_subsections)
-            toc[-1] += subsections_md
-    
-        # Wrap the TOC in a div for styling
-        final_toc = '{: .book-toc}\n\n' + '\n'.join(toc)
-        
-        return final_toc
+    return '\n'.join(toc)
 
 def create_table_of_contents(content):
     """Entry point function that creates the table of contents"""
