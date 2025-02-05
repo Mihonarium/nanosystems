@@ -353,7 +353,7 @@ th .katex .katex-mathml {
   font-weight: 600;
 }
 
-.book-toc > .markdown li>p {
+.book-toc .markdown li > p {
   margin: 0;
 }
 
