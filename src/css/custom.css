@@ -291,7 +291,6 @@ th .katex .katex-mathml {
   background: var(--ifm-background-surface-color);
   border-radius: 8px;
   margin-bottom: 2rem;
-  box-shadow: var(--ifm-global-shadow-lw);
 }
 
 .book-toc a {
