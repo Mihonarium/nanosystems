@@ -133,13 +133,14 @@ class TocGenerator:
         toc.append('<div className="book-toc">')
         
         for line in lines:
-            # Process headers (chapters)
+            # Process headers
             header_result = self.process_header(line)
             if header_result:
                 if current_section_subsections:
-                    # Join subsections with a small dot separator
-                    subsections_text = ' · '.join(current_section_subsections)
-                    toc[-1] += f'\n<div className="subsections-container">{subsections_text}</div>\n'
+                    # Join subsections with dot separator for inline display
+                    subsections_inline = ' · '.join(current_section_subsections)
+                    if subsections_inline:
+                        toc[-1] += f'\n<div className="subsection-container">{subsections_inline}</div>\n'
                     current_section_subsections.clear()
                 toc.extend(header_result)
                 continue
@@ -148,9 +149,10 @@ class TocGenerator:
             section_result = self.process_section(line)
             if section_result:
                 if current_section_subsections:
-                    # Join subsections with a small dot separator
-                    subsections_text = ' · '.join(current_section_subsections)
-                    toc[-1] += f'\n<div className="subsections-container">{subsections_text}</div>\n'
+                    # Join subsections with dot separator for inline display
+                    subsections_inline = ' · '.join(current_section_subsections)
+                    if subsections_inline:
+                        toc[-1] += f'\n<div className="subsection-container">{subsections_inline}</div>\n'
                     current_section_subsections.clear()
                 toc.extend(section_result)
                 continue
@@ -162,8 +164,9 @@ class TocGenerator:
     
         # Handle any remaining subsections
         if current_section_subsections:
-            subsections_text = ' · '.join(current_section_subsections)
-            toc[-1] += f'\n<div className="subsections-container">{subsections_text}</div>\n'
+            subsections_inline = ' · '.join(current_section_subsections)
+            if subsections_inline:
+                toc[-1] += f'\n<div className="subsection-container">{subsections_inline}</div>\n'
     
         # Close the div wrapper
         toc.append('</div>')
@@ -185,10 +188,11 @@ class TocGenerator:
             return None
     
         if self.is_part_header(title):
-            return ["", f"<h3>{title}</h3>", ""]
+            return ["", f"### {title}", ""]
     
-        chapter_link = self.create_link(title, self.current_chapter)
-        return [f'<div className="chapter">{chapter_link}</div>']
+        self.current_chapter = self.clean_filename(title)
+        self.in_book_index = (title == 'Book Index')
+        return [f"* {self.create_link(title, self.current_chapter)}"]
     
     def process_section(self, line):
         """Process section-level headers"""
@@ -202,8 +206,7 @@ class TocGenerator:
         title = self.clean_title(match.group(1).strip())
         id = match.group(2)
         formatted_title = self.format_section_title(title)
-        section_link = self.create_link(formatted_title, self.current_chapter, id)
-        return [f'<div className="section">{section_link}</div>']
+        return [f"  * {self.create_link(formatted_title, self.current_chapter, id)}"]
 
 def create_table_of_contents(content):
     """Entry point function that creates the table of contents"""
