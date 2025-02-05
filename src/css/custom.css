@@ -296,7 +296,7 @@ th .katex .katex-mathml {
 .book-toc a {
   color: var(--ifm-font-color-base);
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.1s;
 }
 
 .book-toc a:hover {
@@ -361,4 +361,7 @@ th .katex .katex-mathml {
 [data-theme='dark'] .subsection-container,
 [data-theme='dark'] .subsection-container a {
   color: var(--ifm-color-emphasis-600);
+}
+[data-theme='dark'] .subsection-container a:hover {
+  color: var(--ifm-color-primary);
 }
