@@ -165,18 +165,14 @@ class TocGenerator:
         toc = []
         current_section_subsections = []
     
-        # Create consistent indentation using ul/li structure
         for line in lines:
             # Process headers
             header_result = self.process_header(line)
             if header_result:
                 if current_section_subsections:
-                    # Convert subsections into a nested ul with proper indentation
-                    subsections_html = '<ul class="toc-subsections">\n'
-                    for subsection in current_section_subsections:
-                        subsections_html += f'  <li>{subsection}</li>\n'
-                    subsections_html += '</ul>'
-                    toc[-1] += subsections_html
+                    # Convert subsections into nested markdown list items
+                    subsections_md = '\n    * ' + '\n    * '.join(current_section_subsections)
+                    toc[-1] += subsections_md
                     current_section_subsections.clear()
                 toc.extend(header_result)
                 continue
@@ -185,12 +181,9 @@ class TocGenerator:
             section_result = self.process_section(line)
             if section_result:
                 if current_section_subsections:
-                    # Convert subsections into a nested ul with proper indentation
-                    subsections_html = '<ul class="toc-subsections">\n'
-                    for subsection in current_section_subsections:
-                        subsections_html += f'  <li>{subsection}</li>\n'
-                    subsections_html += '</ul>'
-                    toc[-1] += subsections_html
+                    # Convert subsections into nested markdown list items
+                    subsections_md = '\n    * ' + '\n    * '.join(current_section_subsections)
+                    toc[-1] += subsections_md
                     current_section_subsections.clear()
                 toc.extend(section_result)
                 continue
@@ -202,17 +195,12 @@ class TocGenerator:
     
         # Handle any remaining subsections
         if current_section_subsections:
-            subsections_html = '<ul class="toc-subsections">\n'
-            for subsection in current_section_subsections:
-                subsections_html += f'  <li>{subsection}</li>\n'
-            subsections_html += '</ul>'
-            toc[-1] += subsections_html
+            subsections_md = '\n    * ' + '\n    * '.join(current_section_subsections)
+            toc[-1] += subsections_md
     
-        # Wrap the entire TOC in a nav element with proper class
-        final_toc = '<nav class="book-toc">\n'
-        final_toc += '\n'.join(toc)
-        final_toc += '\n</nav>'
-    
+        # Wrap the TOC in a div for styling
+        final_toc = '{: .book-toc}\n\n' + '\n'.join(toc)
+        
         return final_toc
 
 def create_table_of_contents(content):
