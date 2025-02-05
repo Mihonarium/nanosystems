@@ -353,9 +353,10 @@ th .katex .katex-mathml {
   font-weight: 600;
 }
 
-.book-toc .markdown li > p {
-  margin: 0;
+.markdown .book-toc li > p {
+  margin: 0 !important;
 }
+
 
 /* Dark mode adjustments */
 [data-theme='dark'] .book-toc {
