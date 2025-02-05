@@ -294,7 +294,6 @@ th .katex .katex-mathml {
   box-shadow: var(--ifm-global-shadow-lw);
 }
 
-/* Links styling */
 .book-toc a {
   color: var(--ifm-font-color-base);
   text-decoration: none;
@@ -305,49 +304,54 @@ th .katex .katex-mathml {
   color: var(--ifm-color-primary);
 }
 
-/* Chapters */
-.book-toc .chapter {
-  margin: 1.5rem 0;
-  font-size: 1.1rem;
-  font-weight: 600;
+/* Main chapter links */
+.book-toc > ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
-/* Sections */
-.book-toc .section {
-  margin: 0.75rem 0;
-  padding-left: 1.5rem;
+.book-toc > ul > li {
+  margin-bottom: 1.5rem;
   font-weight: 500;
 }
 
-/* Subsections container */
-.book-toc .subsections-container {
-  padding-left: 3rem;
-  margin: 0.5rem 0;
-  font-size: 0.9rem;
+/* Section links */
+.book-toc > ul > li > ul {
+  list-style: none;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.book-toc > ul > li > ul > li {
+  margin-bottom: 0.75rem;
+  font-weight: normal;
+}
+
+/* Subsection container */
+.subsection-container {
+  padding-left: 1.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9em;
   color: var(--ifm-color-emphasis-700);
   line-height: 1.6;
 }
 
-/* Bullet separator styling */
-.book-toc .subsections-container a:not(:last-child)::after {
-  content: "·";
-  display: inline-block;
-  margin: 0 0.5rem;
-  color: var(--ifm-color-emphasis-500);
+.subsection-container a {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.subsection-container a:hover {
+  color: var(--ifm-color-primary);
 }
 
 /* Part headers */
 .book-toc h3 {
-  margin: 2rem 0 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   color: var(--ifm-color-emphasis-900);
-  font-weight: 700;
-  font-size: 1.2rem;
-}
-
-/* First chapter/section shouldn't have top margin */
-.book-toc .chapter:first-of-type,
-.book-toc .section:first-of-type {
-  margin-top: 0;
+  font-weight: 600;
 }
 
 /* Dark mode adjustments */
@@ -355,6 +359,7 @@ th .katex .katex-mathml {
   background: var(--ifm-background-surface-color);
 }
 
-[data-theme='dark'] .book-toc .subsections-container {
+[data-theme='dark'] .subsection-container,
+[data-theme='dark'] .subsection-container a {
   color: var(--ifm-color-emphasis-600);
 }
