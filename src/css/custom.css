@@ -291,8 +291,10 @@ th .katex .katex-mathml {
   background: var(--ifm-background-surface-color);
   border-radius: 8px;
   margin-bottom: 2rem;
+  box-shadow: var(--ifm-global-shadow-lw);
 }
 
+/* Links styling */
 .book-toc a {
   color: var(--ifm-font-color-base);
   text-decoration: none;
@@ -303,57 +305,49 @@ th .katex .katex-mathml {
   color: var(--ifm-color-primary);
 }
 
-/* Main chapter links */
-.book-toc > ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
+/* Chapters */
+.book-toc .chapter {
+  margin: 1.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
-.book-toc > ul > li {
-  margin-bottom: 1rem;
+/* Sections */
+.book-toc .section {
+  margin: 0.75rem 0;
+  padding-left: 1.5rem;
   font-weight: 500;
 }
 
-/* Section links */
-.book-toc > ul > li > ul {
-  list-style: none;
-  padding-left: 1.5rem;
-  margin-top: 0.5rem;
-}
-
-.book-toc > ul > li > ul > li {
-  margin-bottom: 0.5rem;
-  font-weight: normal;
-}
-
-/* Subsection links */
-.toc-subsections {
-  list-style: none;
-  padding-left: 1.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.toc-subsections li {
-  margin-bottom: 0.25rem;
-  font-size: 0.95em;
+/* Subsections container */
+.book-toc .subsections-container {
+  padding-left: 3rem;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
   color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+}
+
+/* Bullet separator styling */
+.book-toc .subsections-container a:not(:last-child)::after {
+  content: "·";
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: var(--ifm-color-emphasis-500);
 }
 
 /* Part headers */
 .book-toc h3 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin: 2rem 0 1rem;
   color: var(--ifm-color-emphasis-900);
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 
-/* Separator between subsections */
-.toc-subsections li:not(:last-child)::after {
-  content: '•';
-  margin: 0 0.5rem;
-  color: var(--ifm-color-emphasis-400);
+/* First chapter/section shouldn't have top margin */
+.book-toc .chapter:first-of-type,
+.book-toc .section:first-of-type {
+  margin-top: 0;
 }
 
 /* Dark mode adjustments */
@@ -361,6 +355,6 @@ th .katex .katex-mathml {
   background: var(--ifm-background-surface-color);
 }
 
-[data-theme='dark'] .toc-subsections li {
+[data-theme='dark'] .book-toc .subsections-container {
   color: var(--ifm-color-emphasis-600);
 }
