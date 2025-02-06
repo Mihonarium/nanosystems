@@ -393,7 +393,7 @@ article:has(.book-toc) + .pagination-nav {
 }
 
 
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
   .book-toc {
     background: none !important;
     padding: 0;
