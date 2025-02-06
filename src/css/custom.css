@@ -305,11 +305,11 @@ th .katex .katex-mathml {
 }
 
 /* Main chapter links */
-.book-toc > ul {
+/*.book-toc > ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
-}
+}*/
 
 .book-toc > ul > li {
   margin-bottom: 0.75rem;
@@ -317,14 +317,14 @@ th .katex .katex-mathml {
 }
 
 /* Section links */
-.book-toc > ul > li > ul {
+/*.book-toc > ul > li > ul {
   list-style: none;
   padding-left: 1.5rem;
   margin-top: 0.25rem;
-}
+}*/
 
 .book-toc > ul > li > ul > li {
-  margin-bottom: 0.375rem;
+  /*margin-bottom: 0.375rem;*/
   font-weight: normal;
 }
 
