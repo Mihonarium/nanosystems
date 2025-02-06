@@ -270,7 +270,7 @@ footer .form-input {
 .katex-display>.katex>.katex-html>.tag { 
   position: relative !important;
   float: right; 
-  margin-left: 0.25rem;
+  margin-left: 0.375rem;
 }
 
 /* The following fixes the scroll bug on mobile. Hopefully, this doesn't break the math on some browsers. Possibly todo? figure out when mathml is displayed instead of HTML. */
@@ -357,6 +357,10 @@ th .katex .katex-mathml {
 
 .markdown .book-toc li > p {
   margin: 0 !important;
+}
+
+.book-toc > :last-child {
+    margin-bottom: 0 !important;
 }
 
 /* Dark mode adjustments */
