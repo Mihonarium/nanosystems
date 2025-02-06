@@ -291,6 +291,8 @@ th .katex .katex-mathml {
   background: var(--ifm-color-gray-100);
   border-radius: 8px;
   margin-bottom: 2rem;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 article:has(.book-toc) + .pagination-nav {
