@@ -295,13 +295,13 @@ th .katex .katex-mathml {
 
 .book-toc a {
   color: var(--ifm-font-color-base);
-  text-decoration: none;
-  transition: color 0.1s;
+  /*text-decoration: none;*/
+  /*transition: color 0.1s;*/
 }
 
 .book-toc a:hover {
-  color: var(--ifm-color-primary);
-  text-decoration: var(--ifm-link-hover-decoration);
+  /*color: var(--ifm-color-primary);*/
+  /*text-decoration: var(--ifm-link-hover-decoration);*/
 }
 
 /* Main chapter links */
@@ -343,8 +343,8 @@ th .katex .katex-mathml {
 }
 
 .subsection-container a:hover {
-  color: var(--ifm-color-primary);
-  text-decoration: var(--ifm-link-hover-decoration);
+  /*color: var(--ifm-color-primary);*/
+  /*text-decoration: var(--ifm-link-hover-decoration);*/
 }
 
 /* Part headers */
@@ -370,5 +370,5 @@ th .katex .katex-mathml {
   color: var(--ifm-color-emphasis-600);
 }
 [data-theme='dark'] .subsection-container a:hover {
-  color: var(--ifm-color-primary);
+  /*color: var(--ifm-color-primary);*/
 }
