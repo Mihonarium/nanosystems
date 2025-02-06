@@ -109,42 +109,6 @@ class TocGenerator:
         link = f"/{filename}"
         return f"[{title}]({link}#{fragment})" if fragment else f"[{title}]({link})"
 
-    def process_header(self, line):
-        """Process chapter-level headers"""
-        match = self.patterns['header'].match(line)
-        if not match:
-            return None
-
-        title = self.clean_title(match.group(1).strip())
-        
-        # Start including content at Preface
-        if title == 'Preface':
-            self.started_content = True
-
-        if not (self.started_content or self.is_part_header(title)):
-            return None
-
-        if self.is_part_header(title):
-            return ["", f"### {title}", ""]
-
-        self.current_chapter = self.clean_filename(title)
-        self.in_book_index = (title == 'Book Index')
-        return [f"- {self.create_link(title, self.current_chapter)}"]
-
-    def process_section(self, line):
-        """Process section-level headers"""
-        if not (self.started_content and self.current_chapter and not self.in_book_index):
-            return None
-
-        match = self.patterns['section'].match(line)
-        if not match:
-            return None
-
-        title = self.clean_title(match.group(1).strip())
-        id = match.group(2)
-        formatted_title = self.format_section_title(title)
-        return [f"  - {self.create_link(formatted_title, self.current_chapter, id)}"]
-
     def process_subsection(self, line):
         """Process subsection-level headers"""
         if not (self.started_content and self.current_chapter and not self.in_book_index):
@@ -164,36 +128,85 @@ class TocGenerator:
         lines = content.split('\n')
         toc = []
         current_section_subsections = []
-
+    
+        # Start with React-style div
+        toc.append('<div className="book-toc">')
+        
         for line in lines:
             # Process headers
             header_result = self.process_header(line)
             if header_result:
                 if current_section_subsections:
-                    toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ⭑ '.join(current_section_subsections)}"
+                    # Join subsections with dot separator for inline display
+                    subsections_inline = ' · '.join(current_section_subsections)
+                    if subsections_inline:
+                        toc[-1] += f'\n<div className="subsection-container">{subsections_inline}</div>\n'
                     current_section_subsections.clear()
                 toc.extend(header_result)
                 continue
-
+    
             # Process sections
             section_result = self.process_section(line)
             if section_result:
                 if current_section_subsections:
-                    toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ⭑ '.join(current_section_subsections)}"
+                    # Join subsections with dot separator for inline display
+                    subsections_inline = ' · '.join(current_section_subsections)
+                    if subsections_inline:
+                        toc[-1] += f'\n<div className="subsection-container">{subsections_inline}</div>\n'
                     current_section_subsections.clear()
                 toc.extend(section_result)
                 continue
-
+    
             # Process subsections
             subsection_result = self.process_subsection(line)
             if subsection_result:
                 current_section_subsections.append(subsection_result)
-
+    
         # Handle any remaining subsections
         if current_section_subsections:
-            toc[-1] += f"<br />&nbsp;&nbsp;&nbsp;&nbsp;{' ⭑ '.join(current_section_subsections)}"
-
+            subsections_inline = ' · '.join(current_section_subsections)
+            if subsections_inline:
+                toc[-1] += f'\n<div className="subsection-container">{subsections_inline}</div>\n'
+    
+        # Close the div wrapper
+        toc.append('</div>')
+        
         return '\n'.join(toc)
+    
+    def process_header(self, line):
+        """Process chapter-level headers"""
+        match = self.patterns['header'].match(line)
+        if not match:
+            return None
+    
+        title = self.clean_title(match.group(1).strip())
+        
+        if title == 'Preface':
+            self.started_content = True
+    
+        if not (self.started_content or self.is_part_header(title)):
+            return None
+    
+        if self.is_part_header(title):
+            return ["", f"### {title}", ""]
+    
+        self.current_chapter = self.clean_filename(title)
+        self.in_book_index = (title == 'Book Index')
+        return [f"* {self.create_link(title, self.current_chapter)}"]
+    
+    def process_section(self, line):
+        """Process section-level headers"""
+        if not (self.started_content and self.current_chapter and not self.in_book_index):
+            return None
+    
+        match = self.patterns['section'].match(line)
+        if not match:
+            return None
+    
+        title = self.clean_title(match.group(1).strip())
+        id = match.group(2)
+        formatted_title = self.format_section_title(title)
+        return [f"  * {self.create_link(formatted_title, self.current_chapter, id)}"]
 
 def create_table_of_contents(content):
     """Entry point function that creates the table of contents"""
