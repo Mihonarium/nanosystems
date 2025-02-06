@@ -301,6 +301,7 @@ th .katex .katex-mathml {
 
 .book-toc a:hover {
   color: var(--ifm-color-primary);
+  text-decoration: var(--ifm-link-hover-decoration);
 }
 
 /* Main chapter links */
@@ -343,6 +344,7 @@ th .katex .katex-mathml {
 
 .subsection-container a:hover {
   color: var(--ifm-color-primary);
+  text-decoration: var(--ifm-link-hover-decoration);
 }
 
 /* Part headers */
