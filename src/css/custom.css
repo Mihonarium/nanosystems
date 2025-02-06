@@ -296,7 +296,7 @@ th .katex .katex-mathml {
 .book-toc a {
   color: var(--ifm-font-color-base);
   /*text-decoration: none;*/
-  /*transition: color 0.1s;*/
+  transition: color 0.1s;
 }
 
 .book-toc a:hover {
