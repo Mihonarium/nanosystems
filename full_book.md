@@ -9302,9 +9302,8 @@ F_{\text {extend }}=-\left(p-p_{\text {thresh }}\right) \Delta V / \Delta \ell \
 \end{equation*}
 $$
 
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-83.jpg?height=434&width=506&top_left_y=1761&top_left_x=227)
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_927bccd89a95a64e68a3g-83.jpg?top_left_x=155&top_left_y=1761&width=578&height=521)
 
-below threshold pressure above threshold pressure
 Figure 16.1. Schematic diagram of a pressure-threshold actuator, here illustrated with a constant-force spring (Section 10.5.3) and a piston moving between two limit stops. Actuators of this abstract class can be constructed with widely varying structures.
 
 neglecting the effects of compliance. By adding a mechanism such as a lever, the effective value of $\Delta \ell$ can be changed without varying other parameters. The discussions that follow will use one of two sample sets of parameters:
@@ -9321,9 +9320,7 @@ d. Control via acoustic signals. Two actuators with different thresholds could p
 A more direct approach can reduce complexity. Figure 16.2 illustrates how pressure-threshold actuators can drive a ratchet mechanism that moves a rod. When the latching pawl is engaged, the rod will not move left or right spontaneously, but can readily be driven to the right by an applied force. The driving pawl provides this force: every downward pressure transition from $p_{\text {thresh }}$ to $p_{\text {thresh }}$ $-\Delta p$ pushes the rod one increment to the right. (A reasonable spacing for the ratchet teeth is $\sim 1 \mathrm{~nm}$.) When both ratchets are disengaged, a small bias force retracts the rod leftward to a fixed position. For a mechanism of this kind to work reliably, the ratchet barrier heights must be adequate (e.g., $250 \mathrm{maJ}$ ); actuators with $\Delta \mathscr{G}_{\text {extend }}$ on the order of $500 \mathrm{maJ}$ are more than adequate to surmount these barriers. Incrementing a ratchet dissipates substantial energy, but efficiency here is not a concern.
 
 A typical operational cycle (Figure 16.2) would begin at high pressure, with both ratchets disengaged and the rod to the left. Lowering the pressure through the first range engages the latching ratchet with a force that is essentially constant at all lower pressures, owing to the limit stop. After lowering the pressure further (possibly much further), the driving rachet extends and moves the rod to
-![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-02.jpg?height=1214&width=760&top_left_y=197&top_left_x=339)
-
-non-bar mechanisms $\sim 100,000$ atoms
+![](https://cdn.nanosyste.ms/cropped/2024_03_29_0e0656d74dae9ab2ac34g-02.jpg?top_left_x=339&top_left_y=197&width=760&height=1259)
 
 Figure 16.2. A ratchet mechanism driven by a pair of pressure-threshold actuators. At high pressures (1), both pawls are retracted. As the pressure falls, the latching pawl and the driving pawl extend and engage (2). As the pressure drops through the active range of the driving pawl, it extends, forcing the rod to the right and momentarily lifting the latching pawl against the force of a spring, leading to state (3). An increase in pressure crossing the active range of the driving pawl resets it, preparing to move the rod a further step during the next downward pressure transition. Raising the pressure to the level in state (1) retracts both pawls again, allowing a bias force to reset the rod position to the left. Springs outside the two actuator cylinders represent mechanical compliances not directly involved in actuation.
 
