@@ -364,11 +364,15 @@ th .katex .katex-mathml {
 [data-theme='dark'] .book-toc {
   background: var(--ifm-background-surface-color);
 }
+[data-theme='dark'] .book-toc a:hover {
+  color: var(--ifm-color-emphasis-600);
+}
 
 [data-theme='dark'] .subsection-container,
 [data-theme='dark'] .subsection-container a {
   color: var(--ifm-color-emphasis-600);
 }
 [data-theme='dark'] .subsection-container a:hover {
-  /*color: var(--ifm-color-primary);*/
+  color: var(--ifm-color-primary);
+  text-decoration: none;
 }
