@@ -332,13 +332,13 @@ th .katex .katex-mathml {
   padding-left: 1.5rem;
   margin-top: 0.125rem;
   margin-bottom: 0.25rem;
-  font-size: 0.9em;
-  color: var(--ifm-color-emphasis-700);
-  line-height: 1.6;
+  /*font-size: 0.9em;*/
+  color: var(--ifm-color-emphasis-800);
+  /*line-height: 1.6;*/
 }
 
 .subsection-container a {
-  color: var(--ifm-color-emphasis-700);
+  color: var(--ifm-color-emphasis-800);
 }
 
 .subsection-container a:hover {
