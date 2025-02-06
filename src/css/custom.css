@@ -293,6 +293,11 @@ th .katex .katex-mathml {
   margin-bottom: 2rem;
 }
 
+article:has(.book-toc) + .pagination-nav {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
 .book-toc a {
   color: var(--ifm-font-color-base);
   /*text-decoration: none;*/
@@ -385,3 +390,17 @@ th .katex .katex-mathml {
   background: var(--ifm-background-surface-color);
 }
 
+
+@media (max-width: 1600px) {
+  .book-toc {
+    background: none !important;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  article:has(.book-toc) + .pagination-nav {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
