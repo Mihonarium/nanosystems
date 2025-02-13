@@ -10268,7 +10268,7 @@ $\omega_{0}$ reference torsion angle (rad)
 
 $\omega_{\text {rc }}$ imaginary frequency of motion along reaction coordinate $\left(\mathrm{s}^{-1}\right.$ )
 
-\textdollar U.S. dollar, 1990
+$\textdollar$ U.S. dollar, 1990
 
 ### Energy conversion factors
 
