@@ -35,7 +35,7 @@ const config = {
       ({
         docs: {
           sidebarPath: 'sidebars.js',
-          routeBasePath: '/docs',
+          routeBasePath: '/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
