@@ -253,6 +253,31 @@ footer .form-input {
     color: #d93025;
 }
 
+/* Dark mode: soft-invert the scanned book figures (black line art on paper)
+   so they sit on the dark background instead of glaring white rectangles.
+   Scoped to the figure CDN so covers/og art are untouched. */
+[data-theme='dark'] .markdown img[src*="cdn.nanosyste.ms"] {
+    filter: invert(0.88) hue-rotate(180deg) contrast(0.95) brightness(1.02);
+}
+
+.eq-anchor {
+    display: block;
+    scroll-margin-top: calc(var(--ifm-navbar-height, 60px) + 1rem);
+}
+
+.katex .tag a.eq-permalink {
+    color: inherit;
+    text-decoration: none;
+}
+.katex .tag a.eq-permalink:hover {
+    color: var(--ifm-link-color);
+}
+
+:target ~ .katex-display .katex,
+.eq-anchor:target + .katex-display {
+    scroll-margin-top: calc(var(--ifm-navbar-height, 60px) + 1rem);
+}
+
 .katex-html {
     overflow-x: auto;
     overflow-y: hidden;

@@ -26,7 +26,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.10.2",
-    "@docusaurus/types": "^3.10.2"
+    "@docusaurus/types": "^3.10.2",
+    "mathjax-full": "^3.2.1"
   },
   "browserslist": {
     "production": [

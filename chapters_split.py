@@ -244,6 +244,7 @@ def split_markdown_file(file_path, output_folder):
     sidebar = [{'type': 'doc', 'id': 'index'}]
     current_part = None
     footnotes = {}
+    pending_chapters = []
 
     for chapter in chapters:
         lines = chapter.strip().split('\n')
@@ -278,10 +279,90 @@ def split_markdown_file(file_path, output_folder):
 
             # Apply header level adjustments after chapter splits
             adjusted_content = adjust_header_levels(chapter_content)
-            
-            output_path = os.path.join(output_folder, chapter_filename)
-            with open(output_path, 'w') as chapter_file:
-                chapter_file.write(f'# {chapter_title}\n\n{adjusted_content}')
+
+            pending_chapters.append((chapter_filename, chapter_title, adjusted_content))
+
+    # ---- Cross-reference maps (built across all chapters) ----
+    eq_map = {}       # "7.10"  -> chapter slug
+    sec_map = {}      # "7.4.1" -> (chapter slug, heading id)
+    chapter_map = {}  # "7"     -> chapter slug
+    for chapter_filename, _title, body in pending_chapters:
+        slug = chapter_filename[:-3]
+        for m in re.finditer(r'\\tag\{(\d+\.\d+[a-z]?)\}', body):
+            eq_map.setdefault(m.group(1), slug)
+        for m in re.finditer(r'^#+\s*((?:[A-Z]\.)?\d+(?:\.\d+)*)\.\s[^\n]*\{#([^}]+)\}', body, re.M):
+            sec_map.setdefault(m.group(1), (slug, m.group(2)))
+            chapter_map.setdefault(m.group(1).split('.')[0], slug)
+
+    def add_equation_anchors(body):
+        lines = body.split('\n')
+        out = []
+        block_start = None
+        for i, line in enumerate(lines):
+            if line.strip() == '$$':
+                if block_start is None:
+                    block_start = len(out)
+                else:
+                    block = '\n'.join(out[block_start:] + [line])
+                    anchors = [f'<a className="eq-anchor" id="eq-{t.replace(".", "-")}"></a>'
+                               for t in re.findall(r'\\tag\{(\d+\.\d+[a-z]?)\}', block)]
+                    if anchors:
+                        out[block_start:block_start] = anchors + ['']
+                    block_start = None
+            out.append(line)
+        return '\n'.join(out)
+
+    def linkify_refs(body, self_slug):
+        def eq_ref(m):
+            num = m.group(2)
+            slug = eq_map.get(num)
+            if not slug:
+                return m.group(0)
+            return f'[{m.group(0)}](/{slug}#eq-{num.replace(".", "-")})'
+
+        def sec_ref(m):
+            num = m.group(2)
+            hit = sec_map.get(num)
+            if not hit:
+                return m.group(0)
+            slug, frag = hit
+            return f'[{m.group(0)}](/{slug}#{frag})'
+
+        def ch_ref(m):
+            slug = chapter_map.get(m.group(2))
+            if not slug:
+                return m.group(0)
+            return f'[{m.group(0)}](/{slug})'
+
+        lines = body.split('\n')
+        out = []
+        in_math = False
+        for line in lines:
+            if line.strip() == '$$':
+                in_math = not in_math
+                out.append(line)
+                continue
+            if in_math or line.lstrip().startswith('#') or '](' in line:
+                out.append(line)
+                continue
+            line = re.sub(r'\b(Eqs?\.|Equations?)\s*\((\d+\.\d+[a-z]?)\)', eq_ref, line)
+            line = re.sub(r'\b(Sections?)\s+((?:[A-Z]\.)?\d+(?:\.\d+)+)(?!\.\d)', sec_ref, line)
+            line = re.sub(r'\b(Chapters?)\s+(\d+)\b(?!\.\d)', ch_ref, line)
+            out.append(line)
+        return '\n'.join(out)
+
+    for chapter_filename, chapter_title, adjusted_content in pending_chapters:
+        slug = chapter_filename[:-3]
+        adjusted_content = add_equation_anchors(adjusted_content)
+        adjusted_content = linkify_refs(adjusted_content, slug)
+
+        output_path = os.path.join(output_folder, chapter_filename)
+        front_matter = ''
+        og_image = os.path.join('static', 'img', 'og', slug + '.png')
+        if os.path.exists(og_image):
+            front_matter = f'---\nimage: /img/og/{slug}.png\n---\n\n'
+        with open(output_path, 'w') as chapter_file:
+            chapter_file.write(front_matter + f'# {chapter_title}\n\n{adjusted_content}')
 
     # Write the index.md file
     with open(os.path.join(output_folder, 'index.md'), 'w') as index_file:
