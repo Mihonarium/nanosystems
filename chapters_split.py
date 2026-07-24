@@ -360,7 +360,7 @@ def split_markdown_file(file_path, output_folder):
         front_matter = ''
         og_image = os.path.join('static', 'img', 'og', slug + '.png')
         if os.path.exists(og_image):
-            front_matter = f'---\nimage: /img/og/{slug}.png?2\n---\n\n'
+            front_matter = f'---\nimage: /img/og/{slug}.png?3\n---\n\n'
         with open(output_path, 'w') as chapter_file:
             chapter_file.write(front_matter + f'# {chapter_title}\n\n{adjusted_content}')
 
