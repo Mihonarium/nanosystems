@@ -329,7 +329,8 @@ footer .form-input {
     filter: invert(0.88) hue-rotate(180deg) contrast(0.95) brightness(1.02);
 }
 
-.eq-anchor {
+.eq-anchor,
+.fig-anchor {
     display: block;
     scroll-margin-top: calc(var(--ifm-navbar-height, 60px) + 1rem);
 }

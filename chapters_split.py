@@ -286,6 +286,7 @@ def split_markdown_file(file_path, output_folder):
     eq_map = {}       # "7.10"  -> chapter slug
     sec_map = {}      # "7.4.1" -> (chapter slug, heading id)
     chapter_map = {}  # "7"     -> chapter slug
+    fig_map = {}      # "10.32" -> chapter slug
     for chapter_filename, _title, body in pending_chapters:
         slug = chapter_filename[:-3]
         for m in re.finditer(r'\\tag\{(\d+\.\d+[a-z]?)\}', body):
@@ -293,6 +294,25 @@ def split_markdown_file(file_path, output_folder):
         for m in re.finditer(r'^#+\s*((?:[A-Z]\.)?\d+(?:\.\d+)*)\.\s[^\n]*\{#([^}]+)\}', body, re.M):
             sec_map.setdefault(m.group(1), (slug, m.group(2)))
             chapter_map.setdefault(m.group(1).split('.')[0], slug)
+        for m in re.finditer(r'^Figure (\d+\.\d+)\.', body, re.M):
+            fig_map.setdefault(m.group(1), slug)
+
+    def add_figure_anchors(body):
+        lines = body.split('\n')
+        inserts = []
+        for i, line in enumerate(lines):
+            m = re.match(r'Figure (\d+\.\d+)\.', line)
+            if not m:
+                continue
+            target = i
+            for j in range(i - 1, max(-1, i - 5), -1):
+                if lines[j].startswith('!['):
+                    target = j
+                    break
+            inserts.append((target, f'<a className="fig-anchor" id="fig-{m.group(1).replace(".", "-")}"></a>'))
+        for target, anchor in sorted(inserts, reverse=True):
+            lines[target:target] = [anchor, '']
+        return '\n'.join(lines)
 
     def add_equation_anchors(body):
         lines = body.split('\n')
@@ -335,6 +355,14 @@ def split_markdown_file(file_path, output_folder):
                 return m.group(0)
             return f'[{m.group(0)}](/{slug})'
 
+        def fig_ref(m):
+            num = m.group(2)
+            key = num[:-1] if num[-1:].isalpha() else num
+            slug = fig_map.get(key)
+            if not slug:
+                return m.group(0)
+            return f'[{m.group(0)}](/{slug}#fig-{key.replace(".", "-")})'
+
         lines = body.split('\n')
         out = []
         in_math = False
@@ -349,12 +377,20 @@ def split_markdown_file(file_path, output_folder):
             line = re.sub(r'\b(Eqs?\.|Equations?)\s*\((\d+\.\d+[a-z]?)\)', eq_ref, line)
             line = re.sub(r'\b(Sections?)\s+((?:[A-Z]\.)?\d+(?:\.\d+)+[a-z]?)(?!\.\d)', sec_ref, line)
             line = re.sub(r'\b(Chapters?)\s+(\d+)\b(?!\.\d)', ch_ref, line)
+            # skip a caption's own leading "Figure N.M." (dot after number)
+            fig_line = re.sub(r'\b(Figures?)\s+(\d+\.\d+[a-z]?)\b(?!\.)', fig_ref, line)
+            if re.match(r'Figure \d+\.\d+\.', line):
+                head = line.split('.', 2)
+                rest = re.sub(r'\b(Figures?)\s+(\d+\.\d+[a-z]?)\b(?!\.)', fig_ref, line[len(head[0]) + len(head[1]) + 2:])
+                fig_line = line[:len(head[0]) + len(head[1]) + 2] + rest
+            line = fig_line
             out.append(line)
         return '\n'.join(out)
 
     for chapter_filename, chapter_title, adjusted_content in pending_chapters:
         slug = chapter_filename[:-3]
         adjusted_content = add_equation_anchors(adjusted_content)
+        adjusted_content = add_figure_anchors(adjusted_content)
         adjusted_content = linkify_refs(adjusted_content, slug)
 
         output_path = os.path.join(output_folder, chapter_filename)

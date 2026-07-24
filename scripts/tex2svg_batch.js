@@ -38,14 +38,24 @@ process.stdin.on('end', () => {
            .replace(/ d(\s+[a-zA-Z-]+=)/g, ' d="M0 0"$1')
            .replace(/ d(\s*>)/g, ' d="M0 0"$1')
            .replace(/ d=""/g, ' d="M0 0"');
-      // scale-to-fit: keep the intrinsic ex-based width as a max, never
-      // overflow. NB: must merge into any existing style attribute — a
+      // Display equations: block-centered, scale-to-fit, and with vertical
+      // breathing room. MathJax's viewBox hugs the glyphs exactly, and some
+      // readers (iOS Books) shave the bottom edge via ex->px rounding and
+      // the UA's overflow:hidden — so pad the viewBox and allow overflow.
+      // NB: styles must merge into any existing style attribute — a
       // duplicate attribute is a fatal XML error in XHTML/EPUB.
       if (job.display) {
+        const PAD = 100; // MathJax internal units (1ex = 442); ~0.23ex each side
+        s = s.replace(/viewBox="([-\d.]+) ([-\d.]+) ([-\d.]+) ([-\d.]+)"/,
+          (mm, x, y, w, h) =>
+            `viewBox="${x} ${Number(y) - PAD} ${w} ${Number(h) + 2 * PAD}"`);
+        s = s.replace(/height="([\d.]+)ex"/,
+          (mm, h) => `height="${(Number(h) + (2 * PAD) / 442).toFixed(3)}ex"`);
+        const css = 'display:block;margin:0.6em auto;max-width:100%;height:auto;overflow:visible;';
         if (/<svg[^>]*style="/.test(s)) {
-          s = s.replace(/(<svg[^>]*style=")/, '$1max-width:100%;height:auto;');
+          s = s.replace(/(<svg[^>]*style=")/, `$1${css}`);
         } else {
-          s = s.replace('<svg', '<svg style="max-width:100%;height:auto;"');
+          s = s.replace('<svg', `<svg style="${css}"`);
         }
       }
       out[job.id] = s;
