@@ -322,7 +322,8 @@ def split_markdown_file(file_path, output_folder):
 
         def sec_ref(m):
             num = m.group(2)
-            hit = sec_map.get(num)
+            # letter-suffixed refs like "Section 3.3.2e" target section 3.3.2
+            hit = sec_map.get(num) or (sec_map.get(num[:-1]) if num[-1:].isalpha() else None)
             if not hit:
                 return m.group(0)
             slug, frag = hit
@@ -346,7 +347,7 @@ def split_markdown_file(file_path, output_folder):
                 out.append(line)
                 continue
             line = re.sub(r'\b(Eqs?\.|Equations?)\s*\((\d+\.\d+[a-z]?)\)', eq_ref, line)
-            line = re.sub(r'\b(Sections?)\s+((?:[A-Z]\.)?\d+(?:\.\d+)+)(?!\.\d)', sec_ref, line)
+            line = re.sub(r'\b(Sections?)\s+((?:[A-Z]\.)?\d+(?:\.\d+)+[a-z]?)(?!\.\d)', sec_ref, line)
             line = re.sub(r'\b(Chapters?)\s+(\d+)\b(?!\.\d)', ch_ref, line)
             out.append(line)
         return '\n'.join(out)
