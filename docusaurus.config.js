@@ -17,6 +17,12 @@ const config = {
   url: 'https://nanosyste.ms',
   baseUrl: '/',
 
+  favicon: 'img/favicon.ico',
+  headTags: [
+    {tagName: 'link', attributes: {rel: 'icon', type: 'image/svg+xml', href: '/img/favicon.svg'}},
+    {tagName: 'link', attributes: {rel: 'apple-touch-icon', sizes: '180x180', href: '/img/apple-touch-icon.png'}},
+  ],
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -58,8 +64,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      //image: 'img/docusaurus-social-card.jpg',
+      image: 'img/og/index.png',
       navbar: {
 		hideOnScroll: true,
         title: 'Eric Drexler - Nanosystems',
@@ -92,6 +97,10 @@ const config = {
 	  {
 	  	src: 'https://nanosyste.ms/js/remember_scroll.js',
 		async: true,
+	  },
+	  {
+	  	src: '/js/eqlinks.js',
+		defer: true,
 	  },
   ],
 };

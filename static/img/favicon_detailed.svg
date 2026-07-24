@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<circle cx="32" cy="32" r="32" fill="#0b0c0e"/>
+<circle cx="32.0" cy="32.0" r="29.0" fill="none" stroke="#fff" stroke-width="3.6"/>
+<path d="M56.50 32.00L53.30 32.00 M53.22 44.25L50.45 42.65 M44.25 53.22L42.65 50.45 M32.00 56.50L32.00 53.30 M19.75 53.22L21.35 50.45 M10.78 44.25L13.55 42.65 M7.50 32.00L10.70 32.00 M10.78 19.75L13.55 21.35 M19.75 10.78L21.35 13.55 M32.00 7.50L32.00 10.70 M44.25 10.78L42.65 13.55 M53.22 19.75L50.45 21.35" stroke="#fff" stroke-width="3.0"/>
+<circle cx="44.99" cy="39.50" r="4.6" fill="none" stroke="#fff" stroke-width="2.6"/>
+<circle cx="32.00" cy="47.00" r="4.6" fill="none" stroke="#fff" stroke-width="2.6"/>
+<circle cx="19.01" cy="39.50" r="4.6" fill="none" stroke="#fff" stroke-width="2.6"/>
+<circle cx="19.01" cy="24.50" r="4.6" fill="none" stroke="#fff" stroke-width="2.6"/>
+<circle cx="32.00" cy="17.00" r="4.6" fill="none" stroke="#fff" stroke-width="2.6"/>
+<circle cx="44.99" cy="24.50" r="4.6" fill="none" stroke="#fff" stroke-width="2.6"/>
+<circle cx="32" cy="32" r="5.2" fill="#fff"/>
+</svg>

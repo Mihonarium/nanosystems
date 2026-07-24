@@ -16,18 +16,42 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Set up Pandoc, LaTeX, and Python
+    - name: Set up Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 22
+
+    - name: Install pandoc and mathjax
       run: |
         sudo apt-get update
-        sudo apt-get install -y pandoc texlive texlive-latex-extra gladtex python3-pip
+        sudo apt-get install -y pandoc
+        npm install --no-save mathjax-full@3
 
     - name: Preprocess Markdown
-      run: |
-        python3 preprocess_markdown_for_ebook.py
+      run: python3 preprocess_markdown_for_ebook.py
 
-    - name: Convert to EPUB3
+    - name: Convert to EPUB3 (display math as SVG)
       run: |
-        pandoc full_book_preprocessed.md -o nanosystems.epub --to epub3
+        pandoc full_book_preprocessed.md -o nanosystems.epub \
+          --to epub3 --split-level=2 \
+          --filter scripts/epub_math_filter.py \
+          --metadata title="Nanosystems"
+
+    - name: Validate XHTML well-formedness
+      run: |
+        python3 - <<'EOF'
+        import zipfile, sys, xml.etree.ElementTree as ET
+        z = zipfile.ZipFile('nanosystems.epub')
+        bad = 0
+        for n in z.namelist():
+            if n.endswith('.xhtml'):
+                try:
+                    ET.fromstring(z.read(n))
+                except ET.ParseError as e:
+                    bad += 1
+                    print('BROKEN', n, e)
+        sys.exit(1 if bad else 0)
+        EOF
 
     - name: Upload EPUB3
       uses: actions/upload-artifact@v4

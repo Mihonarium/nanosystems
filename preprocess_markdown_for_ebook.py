@@ -4,10 +4,9 @@ def preprocess_content(content):
     # Remove HTML comments and update image paths
     content = re.sub(r'<!--.*?-->', '', content, flags=re.DOTALL)
     content = content.replace('/img/book_cover.png', 'static/img/book_cover.png')
-    content = content.replace(
-        '''<nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/preface"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Preface »</div></a></div></nav>''',
-        ''
-    )
+    # Remove any Docusaurus pagination nav (its JSX-style attribute is fatal
+    # in XHTML and the exact markup drifts over time)
+    content = re.sub(r'<nav class="pagination-nav".*?</nav>', '', content, flags=re.DOTALL)
     return content
 
 def replace_tags_in_latex(content):
@@ -16,6 +15,12 @@ def replace_tags_in_latex(content):
 
     # Replace \textdollar with \$
     content = content.replace('\\textdollar', '\\$')
+
+    # pandoc's MathML writer chokes on \underset here (single occurrence)
+    content = content.replace(
+        '\\underset{\\text { conveyance }}{\\operatorname{minimal}}',
+        '\\operatorname{minimal}_{\\text{conveyance}}'
+    )
 
     return content
 
