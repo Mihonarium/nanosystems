@@ -68,13 +68,6 @@ const config = {
       navbar: {
 		hideOnScroll: true,
         title: 'Eric Drexler - Nanosystems',
-        items: [
-          {
-            href: 'https://github.com/Mihonarium/nanosystems/releases/download/ebook/nanosystems.epub',
-            label: 'Download EPUB',
-            position: 'right',
-          },
-        ],
       },
       footer: {
         style: 'dark',
