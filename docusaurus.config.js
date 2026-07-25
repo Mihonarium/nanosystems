@@ -102,6 +102,10 @@ const config = {
 	  	src: '/js/eqlinks.js',
 		defer: true,
 	  },
+	  {
+	  	src: '/js/fontsize.js',
+		defer: true,
+	  },
   ],
 };
 

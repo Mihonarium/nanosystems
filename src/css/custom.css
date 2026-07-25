@@ -50,10 +50,50 @@
 /* --- Body typography (evidence-based pass, 2026-07): Literata for long-form
    reading; ~68ch measure; KaTeX rescaled so Computer Modern's x-height
    matches Literata's (0.507 vs 0.442 em => 1.15em). --- */
+:root {
+  --reader-base: 1.125rem;       /* 18px desktop */
+}
+@media (max-width: 496px) {
+  :root {
+    --reader-base: 1.0625rem;    /* 17px on phones: parity with Books/Kindle/HIG
+                                    defaults; buys ~2 chars/line (Atilgan 2020:
+                                    cpl is the binding constraint on phones) */
+  }
+  article .markdown {
+    line-height: 1.5;            /* shorter lines need slightly less lead; WCAG floor */
+  }
+  main .container {
+    --ifm-spacing-horizontal: 1.125rem;   /* 18px book-margin air */
+  }
+}
+
 article .markdown {
   font-family: 'Literata', Georgia, 'Times New Roman', serif;
-  font-size: 1.125rem;           /* 18px */
+  font-size: calc(var(--reader-base) * var(--reader-scale, 1));
   line-height: 1.55;
+}
+
+/* A-/A+ reader size control (injected by /js/fontsize.js) */
+.fontsize-ctl {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.fontsize-ctl button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--ifm-navbar-link-color);
+  font-family: 'Literata', Georgia, serif;
+  padding: 4px 6px;
+  line-height: 1;
+}
+.fontsize-ctl button:hover { color: var(--ifm-navbar-link-hover-color); }
+.fontsize-ctl .fs-minus { font-size: 0.8rem; }
+.fontsize-ctl .fs-plus { font-size: 1.15rem; }
+@media (max-width: 996px) {
+  /* the mobile search button is absolutely positioned at the right edge */
+  .fontsize-ctl { margin-right: 46px; }
 }
 article .markdown > * {
   max-width: 68ch;
