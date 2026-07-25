@@ -333,35 +333,46 @@ def split_markdown_file(file_path, output_folder):
         return '\n'.join(out)
 
     def linkify_refs(body, self_slug):
-        def eq_ref(m):
-            num = m.group(2)
+        # target resolvers: number -> markdown link target, or None
+        def eq_target(num):
             slug = eq_map.get(num)
-            if not slug:
-                return m.group(0)
-            return f'[{m.group(0)}](/{slug}#eq-{num.replace(".", "-")})'
+            return f'/{slug}#eq-{num.replace(".", "-")}' if slug else None
 
-        def sec_ref(m):
-            num = m.group(2)
+        def sec_target(num):
             # letter-suffixed refs like "Section 3.3.2e" target section 3.3.2
             hit = sec_map.get(num) or (sec_map.get(num[:-1]) if num[-1:].isalpha() else None)
             if not hit:
-                return m.group(0)
+                return None
             slug, frag = hit
-            return f'[{m.group(0)}](/{slug}#{frag})'
+            return f'/{slug}#{frag}'
 
-        def ch_ref(m):
-            slug = chapter_map.get(m.group(2))
-            if not slug:
-                return m.group(0)
-            return f'[{m.group(0)}](/{slug})'
+        def ch_target(num):
+            slug = chapter_map.get(num)
+            return f'/{slug}' if slug else None
 
-        def fig_ref(m):
-            num = m.group(2)
+        def fig_target(num):
             key = num[:-1] if num[-1:].isalpha() else num
             slug = fig_map.get(key)
-            if not slug:
-                return m.group(0)
-            return f'[{m.group(0)}](/{slug}#fig-{key.replace(".", "-")})'
+            return f'/{slug}#fig-{key.replace(".", "-")}' if slug else None
+
+        # list-aware handlers: link the word + first ref, then every further
+        # ref in "X and Y" / "X, Y, and Z" tails
+        def list_ref(target_of, item_pat, wrap):
+            def handler(m):
+                word, first, tail = m.group(1), m.group(2), m.group(3) or ''
+                t = target_of(first)
+                lead = f'{word} {wrap(first)}'
+                head = f'[{lead}]({t})' if t else lead
+                def one(mm):
+                    tt = target_of(mm.group(1))
+                    return f'[{mm.group(0)}]({tt})' if tt else mm.group(0)
+                return head + re.sub(item_pat, one, tail)
+            return handler
+
+        eq_ref = list_ref(eq_target, r'\((\d+\.\d+[a-z]?)\)', lambda n: f'({n})')
+        sec_ref = list_ref(sec_target, r'((?:[A-Z]\.)?\d+(?:\.\d+)+[a-z]?)', lambda n: n)
+        ch_ref = list_ref(ch_target, r'(\d+)', lambda n: n)
+        fig_ref = list_ref(fig_target, r'(\d+\.\d+[a-z]?)', lambda n: n)
 
         lines = body.split('\n')
         out = []
@@ -374,14 +385,15 @@ def split_markdown_file(file_path, output_folder):
             if in_math or line.lstrip().startswith('#') or '](' in line:
                 out.append(line)
                 continue
-            line = re.sub(r'\b(Eqs?\.|Equations?)\s*\((\d+\.\d+[a-z]?)\)', eq_ref, line)
-            line = re.sub(r'\b(Sections?)\s+((?:[A-Z]\.)?\d+(?:\.\d+)+[a-z]?)(?!\.\d)', sec_ref, line)
-            line = re.sub(r'\b(Chapters?)\s+(\d+)\b(?!\.\d)', ch_ref, line)
+            line = re.sub(r'\b(Eqs?\.|Equations?)\s*\((\d+\.\d+[a-z]?)\)((?:(?:\s*,\s*(?:and\s+)?|\s+and\s+)\(\d+\.\d+[a-z]?\))*)', eq_ref, line)
+            line = re.sub(r'\b(Sections?)\s+((?:[A-Z]\.)?\d+(?:\.\d+)+[a-z]?)(?!\.\d)((?:(?:\s*,\s*(?:and\s+)?|\s+and\s+)(?:[A-Z]\.)?\d+(?:\.\d+)+[a-z]?(?!\.\d))*)', sec_ref, line)
+            line = re.sub(r'\b(Chapters?)\s+(\d+)\b(?!\.\d)((?:(?:\s*,\s*(?:and\s+)?|\s+and\s+)\d+\b(?!\.\d))*)', ch_ref, line)
             # skip a caption's own leading "Figure N.M." (dot after number)
-            fig_line = re.sub(r'\b(Figures?)\s+(\d+\.\d+[a-z]?)\b(?!\.)', fig_ref, line)
+            FIG_PAT = r'\b(Figures?)\s+(\d+\.\d+[a-z]?)\b(?!\.)((?:(?:\s*,\s*(?:and\s+)?|\s+and\s+)\d+\.\d+[a-z]?\b(?!\.))*)'
+            fig_line = re.sub(FIG_PAT, fig_ref, line)
             if re.match(r'Figure \d+\.\d+\.', line):
                 head = line.split('.', 2)
-                rest = re.sub(r'\b(Figures?)\s+(\d+\.\d+[a-z]?)\b(?!\.)', fig_ref, line[len(head[0]) + len(head[1]) + 2:])
+                rest = re.sub(FIG_PAT, fig_ref, line[len(head[0]) + len(head[1]) + 2:])
                 fig_line = line[:len(head[0]) + len(head[1]) + 2] + rest
             line = fig_line
             out.append(line)

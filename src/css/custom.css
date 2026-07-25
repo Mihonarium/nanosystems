@@ -95,6 +95,14 @@ article .markdown {
   /* the mobile search button is absolutely positioned at the right edge */
   .fontsize-ctl { margin-right: 46px; }
 }
+
+/* remember_scroll.js swaps the brand for a "Continue reading?" prompt;
+   keep it on one line and clear navbar space for it on small screens */
+#continue_reading { white-space: nowrap; }
+@media (max-width: 996px) {
+  #continue_reading { font-size: 0.95rem; }
+  .navbar:has(#continue_reading) .fontsize-ctl { display: none; }
+}
 article .markdown > * {
   max-width: 68ch;
   margin-left: auto;
