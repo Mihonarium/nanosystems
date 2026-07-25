@@ -241,11 +241,7 @@ def split_markdown_file(file_path, output_folder):
     # Insert the TOC chapter after the first chapter
     chapters.insert(0, toc_chapter)  # Insert at index 1 (after first chapter)
 
-    sidebar = [
-        {'type': 'link', 'label': 'Download EPUB',
-         'href': 'https://github.com/Mihonarium/nanosystems/releases/download/ebook/nanosystems.epub'},
-        {'type': 'doc', 'id': 'index'},
-    ]
+    sidebar = [{'type': 'doc', 'id': 'index'}]
     current_part = None
     footnotes = {}
     pending_chapters = []
@@ -409,6 +405,8 @@ def split_markdown_file(file_path, output_folder):
     with open(os.path.join(output_folder, 'index.md'), 'w') as index_file:
         index_file.write(index_content)
 
+    sidebar.append({'type': 'link', 'label': 'Download EPUB',
+                    'href': 'https://github.com/Mihonarium/nanosystems/releases/download/ebook/nanosystems.epub'})
     return sidebar
 
 output_folder = 'docs'
