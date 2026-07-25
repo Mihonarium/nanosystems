@@ -104,7 +104,9 @@ article .markdown {
   .navbar:has(#continue_reading) .fontsize-ctl { display: none; }
 }
 article .markdown {
-  max-width: 68ch;
+  /* divide out the reader scale so the column keeps its physical width:
+     smaller font -> more characters per line, not a narrower column */
+  max-width: calc(68ch / var(--reader-scale, 1));
   margin-left: auto;
   margin-right: auto;
 }
