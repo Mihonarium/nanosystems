@@ -103,7 +103,7 @@ article .markdown {
   #continue_reading { font-size: 0.95rem; }
   .navbar:has(#continue_reading) .fontsize-ctl { display: none; }
 }
-article .markdown > * {
+article .markdown {
   max-width: 68ch;
   margin-left: auto;
   margin-right: auto;

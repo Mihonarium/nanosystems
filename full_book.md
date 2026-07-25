@@ -12,16 +12,7 @@ cover-image: static/img/ebook_cover.jpg
 <nav class="pagination-nav" aria-label="Book chapters navigation" style={{marginBottom: '10px'}}><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="./table_of_contents"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Table of Contents »</div></a></div></nav>
 
 
-$$
-\begin{aligned}
-& \text { K. Eric Drexler } \\
-& \text { Nanosystems } \\
-& \text { Molecular } \\
-& \text { Machinery, } \\
-& \text { Manufacturing, } \\
-& \text { and Computation }
-\end{aligned}
-$$
+<p class="centered">K. Eric Drexler<br/><strong>Nanosystems</strong><br/><em>Molecular Machinery, Manufacturing, and Computation</em></p>
 
 <p class="centered"> ![](/img/book_cover.png) </p>
 
