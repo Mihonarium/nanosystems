@@ -1,0 +1,68 @@
+name: Convert Markdown to PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - full_book.md
+      - preprocess_markdown_for_pdf.py
+      - scripts/**
+      - .github/workflows/convert-to-pdf.yml
+  pull_request:
+    branches:
+      - main
+    paths:
+      - full_book.md
+      - preprocess_markdown_for_pdf.py
+      - scripts/**
+      - .github/workflows/convert-to-pdf.yml
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install pandoc and XeLaTeX
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-xetex texlive-latex-recommended \
+          texlive-fonts-recommended tex-gyre fonts-texgyre-math poppler-utils
+
+    - name: Preprocess Markdown
+      run: python3 preprocess_markdown_for_pdf.py
+
+    - name: Convert to PDF (XeLaTeX)
+      run: pandoc -d scripts/pdf_defaults.yaml full_book_pdf.md -o nanosystems.pdf
+
+    - name: Sanity-check the PDF
+      run: |
+        pdfinfo nanosystems.pdf
+        pages=$(pdfinfo nanosystems.pdf | awk '/^Pages:/ {print $2}')
+        if [ "$pages" -lt 400 ]; then
+          echo "PDF has only $pages pages; expected the full book" >&2
+          exit 1
+        fi
+
+    - name: Upload PDF
+      uses: actions/upload-artifact@v4
+      with:
+        name: nanosystems_pdf
+        path: nanosystems.pdf
+
+    - name: Publish to the "ebook" release (stable download URL)
+      if: github.event_name == 'push'
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        gh release view ebook --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
+          gh release create ebook --repo "$GITHUB_REPOSITORY" \
+            --title "Nanosystems (EPUB)" \
+            --notes "Auto-built ebook versions of the book. Direct links: https://github.com/${GITHUB_REPOSITORY}/releases/download/ebook/nanosystems.epub and https://github.com/${GITHUB_REPOSITORY}/releases/download/ebook/nanosystems.pdf"
+        gh release upload ebook nanosystems.pdf --repo "$GITHUB_REPOSITORY" --clobber

@@ -419,6 +419,8 @@ def split_markdown_file(file_path, output_folder):
 
     sidebar.append({'type': 'link', 'label': 'Download EPUB',
                     'href': 'https://github.com/Mihonarium/nanosystems/releases/download/ebook/nanosystems.epub'})
+    sidebar.append({'type': 'link', 'label': 'Download PDF',
+                    'href': 'https://github.com/Mihonarium/nanosystems/releases/download/ebook/nanosystems.pdf'})
     return sidebar
 
 output_folder = 'docs'

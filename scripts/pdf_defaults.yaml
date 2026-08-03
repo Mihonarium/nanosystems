@@ -1,0 +1,29 @@
+# Pandoc defaults for the PDF build:
+#   pandoc -d scripts/pdf_defaults.yaml full_book_pdf.md -o nanosystems.pdf
+# implicit_figures is disabled so images stay in reading order next to
+# their "Figure N.N." caption paragraphs instead of floating.
+from: markdown-implicit_figures
+pdf-engine: xelatex
+filters:
+  - scripts/pdf_latex_filter.lua
+table-of-contents: true
+toc-depth: 2
+metadata:
+  title: Nanosystems
+  subtitle: Molecular Machinery, Manufacturing, and Computation
+  author: K. Eric Drexler
+  lang: en-US
+variables:
+  documentclass: book
+  classoption:
+    - oneside
+    - openany
+  fontsize: 11pt
+  geometry:
+    - letterpaper
+    - margin=1.1in
+  mainfont: TeX Gyre Pagella
+  mathfont: TeX Gyre Pagella Math
+  colorlinks: true
+  linkcolor: NavyBlue
+  urlcolor: NavyBlue

@@ -10926,7 +10926,7 @@ Drexler, K. E., and M. S. Miller. (1988) Incentive Engineering for Computational
 
 Drexler, K. E., C. Peterson, and G. Pergamit. (1991) Unbounding the Future: The Nanotechnology Revolution. New York: William Morrow.
 
-Dürig, U., O. Züger, and D. W. Pohl. (1988) Force sensing in scanning tunnelling microscopy: observation of adhesion forces on clean metal surfaces. J. Microsсору. 152:259-267.
+Dürig, U., O. Züger, and D. W. Pohl. (1988) Force sensing in scanning tunnelling microscopy: observation of adhesion forces on clean metal surfaces. J. Microscopy. 152:259-267.
 
 Eaton, P. E., and G. Castaldi. (1985) Systematic Substitution on the Cubane Nucleus. Amide Activation for Metalation of "Saturated" Systems. J. Am. Chem. Soc. 107:724-726.
 
