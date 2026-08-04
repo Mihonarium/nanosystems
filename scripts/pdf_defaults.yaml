@@ -4,6 +4,8 @@
 # their "Figure N.N." caption paragraphs instead of floating.
 from: markdown-implicit_figures
 pdf-engine: xelatex
+# a failed figure download must fail the build, not silently drop the figure
+fail-if-warnings: true
 filters:
   - scripts/pdf_latex_filter.lua
 table-of-contents: true
