@@ -1,0 +1,35 @@
+% Inline, unpaged subsection lists in the table of contents.
+%
+% Chapters and sections keep the standard dotted lines with page numbers;
+% the subsections of each section flow beneath it as a compact
+% "a . b . c" list without page numbers, matching the website's TOC.
+% A subsection list is an open paragraph (and TeX group) that spans
+% consecutive \contentsline calls, so the chapter/section/part macros are
+% wrapped to close any list still open before they typeset their entry.
+\makeatletter
+\newif\ifnano@insubsec
+\newcommand*{\nano@endsubsec}{%
+  \ifnano@insubsec \par\endgroup \nano@insubsecfalse \fi}
+\let\nano@l@part\l@part
+\renewcommand*{\l@part}[2]{\nano@endsubsec\nano@l@part{#1}{#2}}
+\let\nano@l@chapter\l@chapter
+\renewcommand*{\l@chapter}[2]{\nano@endsubsec\nano@l@chapter{#1}{#2}}
+\let\nano@l@section\l@section
+\renewcommand*{\l@section}[2]{\nano@endsubsec\nano@l@section{#1}{#2}}
+\renewcommand*{\l@subsection}[2]{%
+  \ifnum \c@tocdepth>\@ne
+    \ifnano@insubsec
+      \space\textperiodcentered\space
+    \else
+      \nano@insubsectrue
+      \vskip 1\p@
+      \begingroup
+        \footnotesize
+        \parindent \z@
+        \leftskip 3.8em
+        \rightskip \@tocrmarg \@plus 1fil
+        \noindent\leavevmode
+    \fi
+    #1\ignorespaces
+  \fi}
+\makeatother
