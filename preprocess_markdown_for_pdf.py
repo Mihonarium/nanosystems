@@ -53,6 +53,17 @@ def fix_latex_for_pdf(content):
                   flags=re.DOTALL | re.MULTILINE)
 
 
+def demote_title_page_headings(content):
+    # The interior title page repeats the book title as ### headings; as
+    # sections they would clutter the TOC, so typeset them directly.
+    return content.replace(
+        '### Nanosystems \n\n'
+        '### Molecular Machinery, Manufacturing, and Computation\n',
+        '\\section*{Nanosystems}\n\n'
+        '\\section*{Molecular Machinery, Manufacturing, and Computation}\n',
+        1)
+
+
 def adjust_headings(content):
     """Shift chapters to level 1 (LaTeX \\chapter) and sections to level 2,
     matching what chapters_split.py does for the site; numbered x.y.z
@@ -86,6 +97,7 @@ with open('full_book.md', 'r', encoding='utf-8') as file:
 
 content = strip_site_chrome(content)
 content = fix_latex_for_pdf(content)
+content = demote_title_page_headings(content)
 content = adjust_headings(content)
 content = update_internal_links(content)
 

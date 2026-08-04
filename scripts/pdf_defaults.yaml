@@ -7,7 +7,10 @@ pdf-engine: xelatex
 filters:
   - scripts/pdf_latex_filter.lua
 table-of-contents: true
-toc-depth: 2
+# depth 3 = subsections; pdf_toc.tex renders them as inline unpaged lists
+toc-depth: 3
+include-in-header:
+  - scripts/pdf_toc.tex
 metadata:
   title: Nanosystems
   subtitle: Molecular Machinery, Manufacturing, and Computation
